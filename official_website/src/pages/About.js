@@ -1,6 +1,7 @@
 import React from "react";
-import {base16,base32, base24, base8, base4, base10} from "../constants.js";
+import {base16,base32, base24, base8, base4, base10, base2} from "../constants.js";
 import Member from '../components/MemberTiles'
+import Navbar from '../components/Navbar';
 
 const headingStyle={
     marginLeft: base16, 
@@ -27,6 +28,7 @@ class About extends React.Component{
     const parent  = { width: `60em`, height: `100%`}
         return(
             <div>
+                <Navbar style={{marginTop: base8, color: "#000000"}} overlays={{marginLeft: base4, color: "#000000"}} />
                 <div className="heading" style={headingStyle}>
                     We started in a tiny classroom in 2012.
                     Now we're a growing community of over 200 designers. 
@@ -38,11 +40,11 @@ class About extends React.Component{
                     Meet the team
                 </div>
                 <div style={membersStyle}>
-                    <div style={{float: "left", marginRight: "1rem"}}>
+                    <div style={{float: "left"}}>
                         <Member imageLink={require('../images/team/katya.png')} name="Katya Noble" 
                         position="Director of Growth + Strategy" year="CLASS OF 2019" portfolio="https://www.katyanoble.design"/>
                          <Member imageLink={require('../images/team/emily.png')} name="Emily Nguyen" 
-                        position="Co-Creative Director" year="CLASS OF 2019" portfolio="http://emilynguyen.co" style={{marginTop: base16, marginLeft: base10}}/>
+                        position="Co-Creative Director" year="CLASS OF 2019" portfolio="http://emilynguyen.co" style={{marginTop: base10, marginLeft: base16}}/>
                         <Member imageLink={require('../images/team/steven.png')} name="Steven Chen" 
                         position="Director of Industry Relations" year="CLASS OF 2020" portfolio="https://www.stevenychen.com" style={{marginTop: base16}}/>
                         <Member imageLink={require('../images/team/brittany.png')} name="Brittany Newton" 
