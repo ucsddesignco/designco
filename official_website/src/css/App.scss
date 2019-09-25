@@ -1,0 +1,126 @@
+@import "reset";
+@import "constants";
+@import "typography";
+
+/************************* BASE ***************************/
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+// Sticky footer
+#content {
+  min-height: calc(100vh - #{$spacer2} - 3rem);
+}
+
+.outerContainer {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0 $spacer2 0 $spacer2;
+}
+
+.innerContainer {
+  @media screen and (min-width: $md) {
+    padding: 0 $spacer3 0 $spacer3;
+  }
+}
+
+/************************* NAV + FOOTER ***************************/
+
+/*
+.NavBar div a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.NavBar div a:hover {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  color: #000000;
+}
+*/
+
+#logo {
+  height: 1.8rem;
+}
+
+.nav {
+  text-align: right;
+}
+
+.footerLinks {
+  text-align: center;
+  @media screen and (min-width: $lg) {
+    text-align: right;
+  }
+}
+
+.nav,
+.footerLinks {
+  list-style: none;
+  margin-top: -0.3rem;
+  li {
+    display: inline-block;
+    &:not(:first-child) {
+      margin-left: $spacer2;
+    }
+  }
+  a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/************************* BUTTONS ***************************/
+
+.button {
+  text-decoration: none;
+  padding: 2rem 3rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/************************* ABOUT ***************************/
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.members a img {
+  -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
+  filter: grayscale(100%);
+  height: 350px;
+  width: 350px;
+}
+
+.members a:hover img {
+  filter: none;
+}
+
+.memberName {
+  font-size: 24px;
+  font-family: "NeuePlakBold", sans-serif;
+  letter-spacing: 0.04em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.positionName {
+  font-family: "NBInternationalProLight", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.02rem;
+  margin-bottom: 1rem;
+}
+
+.year {
+  font-family: "NBInternationalMono", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.02rem;
+  margin-bottom: 3rem;
+}

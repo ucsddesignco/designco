@@ -1,0 +1,213 @@
+<style>
+  html,
+  body {
+    background: #000;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: "Neue Plak Extended";
+    letter-spacing: 4%;
+  }
+  .marquee {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  svg {
+    display: block;
+  }
+  .logo {
+    fill: none;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  a {
+    color: inherit;
+  }
+  #title-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #title {
+    text-align: center;
+  }
+</style>
+
+<div id="title-container">
+  <div id="title">
+    <h1>Something big is<br />coming Fall 2019.</h1>
+    <h2>
+      Check us out on <a href="">Facebook</a><br />or
+      <a href="site">continue to site</a>
+    </h2>
+  </div>
+</div>
+
+<div class="marquee">
+  <svg
+    width="181"
+    height="181"
+    viewBox="0 0 181 181"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      class="logo"
+      d="M2.41842 150.626L107.173 47.3961L108.911 45.6839H106.471H23.3024V1.93433H179.148V160.058H139.366V74.1793V71.7892L137.664 73.4672L30.9368 178.686L2.41842 150.626Z"
+      stroke="white"
+      stroke-width="2"
+    />
+  </svg>
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+  var colors = [
+    ["#fff", "#000"],
+    ["#006064", "#FFCDD2"],
+    ["#A7FFEB", "#512DA8"],
+    ["#00695C", "#E3F2FD"],
+    ["#FFECB3", "#C62828"]
+  ];
+
+  (function($, window, undefined) {
+    $.fn.marqueeify = function(options) {
+      var settings = $.extend(
+        {
+          horizontal: true,
+          vertical: true,
+          speed: 100, // In pixels per second
+          container: $(this).parent(),
+          bumpEdge: function() {}
+        },
+        options
+      );
+
+      return this.each(function() {
+        var containerWidth,
+          containerHeight,
+          elWidth,
+          elHeight,
+          move,
+          getSizes,
+          $el = $(this);
+
+        getSizes = function() {
+          containerWidth = settings.container.outerWidth();
+          containerHeight = settings.container.outerHeight();
+          elWidth = $el.outerWidth();
+          elHeight = $el.outerHeight();
+        };
+
+        move = {
+          right: function() {
+            $el.animate(
+              { left: containerWidth - elWidth },
+              {
+                duration: (containerWidth / settings.speed) * 1000,
+                queue: false,
+                easing: "linear",
+                complete: function() {
+                  settings.bumpEdge();
+                  move.left();
+                }
+              }
+            );
+          },
+          left: function() {
+            $el.animate(
+              { left: 0 },
+              {
+                duration: (containerWidth / settings.speed) * 1000,
+                queue: false,
+                easing: "linear",
+                complete: function() {
+                  settings.bumpEdge();
+                  move.right();
+                }
+              }
+            );
+          },
+          down: function() {
+            $el.animate(
+              { top: containerHeight - elHeight },
+              {
+                duration: (containerHeight / settings.speed) * 1000,
+                queue: false,
+                easing: "linear",
+                complete: function() {
+                  settings.bumpEdge();
+                  move.up();
+                }
+              }
+            );
+          },
+          up: function() {
+            $el.animate(
+              { top: 0 },
+              {
+                duration: (containerHeight / settings.speed) * 1000,
+                queue: false,
+                easing: "linear",
+                complete: function() {
+                  settings.bumpEdge();
+                  move.down();
+                }
+              }
+            );
+          }
+        };
+
+        getSizes();
+
+        if (settings.horizontal) {
+          move.right();
+        }
+        if (settings.vertical) {
+          move.down();
+        }
+
+        // Make that shit responsive!
+        $(window).resize(function() {
+          getSizes();
+        });
+      });
+    };
+  })(jQuery, window);
+
+  $(document).ready(function() {
+    $(".marquee").marqueeify({
+      speed: 150,
+      bumpEdge: function() {
+        var newColors = colors.pop();
+        var fg = newColors[0];
+        var bg = newColors[1];
+        // reverse fg and bg
+        // newColors[0] = bg;
+        // newColors[1] = fg;
+        colors.unshift(newColors);
+
+        $(".marquee .logo").css("stroke", fg);
+        $("body").css("background", bg);
+        $("body").css("color", fg);
+      }
+    });
+  });
+</script>
