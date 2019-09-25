@@ -1,52 +1,98 @@
 import React from "react";
-import {base16,base32, base24, base8, base4, base10, base2} from "../constants.js";
+import {base4, spacer1, spacer2, spacer3, spacer4} from "../constants.js";
 import Member from '../components/MemberTiles'
 import Navbar from '../components/Navbar';
+import { Container, Row, Col } from 'react-grid-system';
 
-const headingStyle={
-    marginLeft: base16, 
-    marginRight: base16, 
-    marginTop: base10, 
-    marginBottom: base10
-}
-
-const secondHeading= {
-    marginLeft: base16, 
-    marginRight: base16, 
-    marginTop: base10, 
-    marginBottom: base8
-}
-
-const membersStyle={
-    marginLeft: base16,
-    marginRight: base16,
-}
 class About extends React.Component{
     
     render(){
         const child   = { width: `30em`, height: `100%`, backgroundColor: "#00badb"}
     const parent  = { width: `60em`, height: `100%`}
         return(
-            <div>
-                <Navbar style={{marginTop: base8, color: "#000000"}} overlays={{marginLeft: base4, color: "#000000"}} />
-                <div className="heading" style={headingStyle}>
+            <div className="outerContainer">
+                <Navbar style={{color: "#000000"}} overlays={{marginLeft: base4, color: "#000000"}} />
+                <div className="innerContainer">
+                <h1>
                     We started in a tiny classroom in 2012.
                     Now we're a growing community of over 200 designers. 
-                </div>
+                </h1>
                 <div>
                     PLACEHOLDER FOR STUFF
                 </div>
-                <div className="heading" style={secondHeading}>
-                    Meet the team
+                <div style={{marginTop: spacer4, display: "flex"}}>
+                    <div style={{paddingRight: spacer2}}>
+                        <div>
+                            <h2 style={{paddingBottom: spacer2}}>
+                            Lorem ipsum dolor sit amet
+                            </h2>
+                            <p style={{paddingBottom: spacer3}}>
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div>
+                            <h2 style={{paddingBottom: spacer2}}>
+                            Lorem ipsum dolor sit amet
+                            </h2>
+                            <p style={{paddingBottom: spacer3}}>
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div style={{paddingLeft: spacer3}}>
+                        <div>
+                            <h2 style={{paddingBottom: spacer2}}>
+                            Lorem ipsum dolor sit amet
+                            </h2>
+                            <p style={{paddingBottom: spacer3}}>
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div>
+                            <h2 style={{paddingBottom: spacer2}}>
+                            Lorem ipsum dolor sit amet
+                            </h2>
+                            <p style={{paddingBottom: spacer3}}>
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div style={membersStyle}>
+                <h1>
+                    Meet the team
+                </h1>
+                <div style={{marginTop: spacer4}}>
                     <div style={{float: "left"}}>
                         <Member imageLink={require('../images/team/katya.png')} name="Katya Noble" 
                         position="Director of Growth + Strategy" year="CLASS OF 2019" portfolio="https://www.katyanoble.design"/>
                          <Member imageLink={require('../images/team/emily.png')} name="Emily Nguyen" 
-                        position="Co-Creative Director" year="CLASS OF 2019" portfolio="http://emilynguyen.co" style={{marginTop: base10, marginLeft: base16}}/>
+                        position="Co-Creative Director" year="CLASS OF 2019" portfolio="http://emilynguyen.co"/>
                         <Member imageLink={require('../images/team/steven.png')} name="Steven Chen" 
-                        position="Director of Industry Relations" year="CLASS OF 2020" portfolio="https://www.stevenychen.com" style={{marginTop: base16}}/>
+                        position="Director of Industry Relations" year="CLASS OF 2020" portfolio="https://www.stevenychen.com"/>
                         <Member imageLink={require('../images/team/brittany.png')} name="Brittany Newton" 
                         position="Community Engagement Coordinator" year="CLASS OF 2020" portfolio="https://brittanynewton.com"/>
                         <Member imageLink={require('../images/team/nhu.png')} name="Nhu Luong" 
@@ -60,18 +106,16 @@ class About extends React.Component{
                         portfolio="https://www.vickyly.co"/>
                         <Member imageLink={require('../images/team/winson.png')} name="Winson Dieu" 
                         position="Industry Relations Coordinator" year="CLASS OF 2021" 
-                        portfolio="https://www.winsondieu.com"/>
-
-                        
+                        portfolio="https://www.winsondieu.com"/>   
                     </div>
                     <div style={{float: "right"}}>
                         <Member imageLink={require('../images/team/nathan.png')} name="Nathan Mansur" 
-                        position="Director of Marketing + Operations" year="CLASS OF 2019" portfolio="https://www.nathanmansur.com" style={{marginTop: base16}}/> 
+                        position="Director of Marketing + Operations" year="CLASS OF 2019" portfolio="https://www.nathanmansur.com" /> 
                         <Member imageLink={require('../images/team/lucy.png')} name="Lucy Xu" 
-                        position="Co- Creative Director" year="CLASS OF 2019" portfolio="https://lucylouxu.com" style={{marginTop: base32, marginRight: 0}}/>  
+                        position="Co- Creative Director" year="CLASS OF 2019" portfolio="https://lucylouxu.com" />  
                         <Member imageLink={require('../images/team/jamin.png')} name="Jamin Capulong" 
                         position="Community Engagement Coordinator" year="CLASS OF 2020" 
-                        portfolio="https://www.linkedin.com/in/jamin-nick-capulong/" style={{marginTop: base24}}/>    
+                        portfolio="https://www.linkedin.com/in/jamin-nick-capulong/"/>    
                         <Member imageLink={require('../images/team/stella.png')} name="Stella Seki" 
                         position="Community Engagement Coordinator" year="CLASS OF 2021" 
                         portfolio="https://www.stellaseki.com"/>  
@@ -90,6 +134,18 @@ class About extends React.Component{
                     </div>
                 </div>
 
+                <br style={{clear: "both"}}/>
+                <Container>
+                    <Row>
+                    <Col md={5}>
+                        hi
+                    </Col>
+                    <Col md= {10} >
+                        hello
+                    </Col>
+                    </Row>
+                </Container>
+                </div>
             </div>
         );
     }

@@ -16,6 +16,14 @@ class Home extends React.Component {
           >
             <h2 style={{ marginBottom: spacer3 }}>What's coming up for you?</h2>
             [events]
+            <div>
+              <div style={{float: "left"}}>
+              some txt
+              </div>
+              <div style={{float: "right"}}>
+              second some txt
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <div id="content">
-        <Home />
+        <About />
       </div>
       <Footer />
     </div>

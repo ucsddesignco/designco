@@ -8,7 +8,7 @@ class MemberTiles extends React.Component{
                     <img src= {this.props.imageLink} alt= {this.props.name}/>
                 </a>
                 
-                <div className="memberName"> {this.props.name} </div>
+                <h3>{this.props.name} </h3>
                 <div className="positionName"> {this.props.position} </div>
                 <div className="year"> {this.props.year} </div>
                 <br style={{clear: "both"}}/>

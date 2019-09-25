@@ -3,8 +3,6 @@ import Navbar from "../components/Navbar";
 import Button from "../components/Button";
 
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
-
-import { base8, base4, base16, base24, base10 } from "../constants";
 import withPink from "../images/home/withPink.png";
 import withForest from "../images/home/withForest.png";
 import withBlue from "../images/home/withBlue.png";
