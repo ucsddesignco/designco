@@ -90,3 +90,20 @@
   letter-spacing: 0.02rem;
   margin-bottom: 3rem;
 }
+
+.footerStyle{
+  float: right;
+  display: flex;
+}
+
+.footerStyle a{
+  margin-left: 2.5rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.footerStyle a:hover{
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  color: #000000;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import {base8, base4, base16, base24} from '../constants';
+import {base8, base4, base16, base24, base10} from '../constants';
 import withPink from '../images/home/withPink.png';
 import withForest from '../images/home/withForest.png';
 import withBlue from '../images/home/withBlue.png';
@@ -51,12 +51,12 @@ class Splash extends React.Component{
         })
         return(
             <div style={bgStyle} id="#mainSplash">
-                <Navbar style={{paddingTop: base8, color: baseColor}} overlays={{marginLeft: base4, color: baseColor}}/>
-                <div style={{margin: base16}}>
+                <Navbar style={{paddingTop: base8, color: baseColor}} overlays={{marginLeft: base4, color: baseColor}} color={baseColor}/>
+                <div style={{marginLeft: base16, marginRight: base16, marginTop: base10, marginBottom: base10}}>
                     <div className="heading" style={{color: baseColor}}>
                         Grow with our community of student designers
                     </div>
-                    <div className="textStyle" style={{marginTop: base4, marginBottom: base4, color: baseColor, lineHeight: "36px"}}>
+                    <div style={{marginTop: base4, marginBottom: base4, color: baseColor, lineHeight: "36px", letterSpacing: "0.02rem", fontFamily: "NBInternationalProLight"}}>
                         <h3>
                         We're a strong and scrappy design community at UC San Diego, bridging the 
                         gap between young designers and industry. 
