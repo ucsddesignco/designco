@@ -10,15 +10,21 @@ class About extends React.Component{
         const child   = { width: `30em`, height: `100%`, backgroundColor: "#00badb"}
     const parent  = { width: `60em`, height: `100%`}
         return(
-            <div className="outerContainer">
+            <div>
                 <Navbar style={{color: "#000000"}} overlays={{marginLeft: base4, color: "#000000"}} />
+                <div className="outerContainer">
                 <div className="innerContainer">
                 <h1>
                     We started in a tiny classroom in 2012.
                     Now we're a growing community of over 200 designers. 
                 </h1>
-                <div>
-                    PLACEHOLDER FOR STUFF
+                <div className="scrollContainer" style={{marginTop: spacer4}}>
+                    <div className= "imageDiv">
+                        <img src={require("../images/about/temp1.png")} />
+                        <img src={require("../images/about/temp1.png")} />
+                        <img src={require("../images/about/temp1.png")} />
+                        <img src={require("../images/about/temp1.png")} />
+                    </div>
                 </div>
                 <div style={{marginTop: spacer4, display: "flex"}}>
                     <div style={{paddingRight: spacer2}}>
@@ -85,8 +91,8 @@ class About extends React.Component{
                 <h1>
                     Meet the team
                 </h1>
-                <div style={{marginTop: spacer4}}>
-                    <div style={{float: "left"}}>
+                <div style={{marginTop: spacer3}}>
+                    <div style={{float: "left", }}>
                         <Member imageLink={require('../images/team/katya.png')} name="Katya Noble" 
                         position="Director of Growth + Strategy" year="CLASS OF 2019" portfolio="https://www.katyanoble.design"/>
                          <Member imageLink={require('../images/team/emily.png')} name="Emily Nguyen" 
@@ -135,17 +141,8 @@ class About extends React.Component{
                 </div>
 
                 <br style={{clear: "both"}}/>
-                <Container>
-                    <Row>
-                    <Col md={5}>
-                        hi
-                    </Col>
-                    <Col md= {10} >
-                        hello
-                    </Col>
-                    </Row>
-                </Container>
                 </div>
+            </div>
             </div>
         );
     }

@@ -86,12 +86,6 @@ body {
 }
 
 /************************* ABOUT ***************************/
-
-.scroll-menu-arrow {
-  padding: 20px;
-  cursor: pointer;
-}
-
 .members a img {
   -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
   filter: grayscale(100%);
@@ -103,24 +97,18 @@ body {
   filter: none;
 }
 
-.memberName {
-  font-size: 24px;
-  font-family: "NeuePlakBold", sans-serif;
-  letter-spacing: 0.04em;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.positionName {
-  font-family: "NBInternationalProLight", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.02rem;
-  margin-bottom: 1rem;
-}
-
 .year {
-  font-family: "NBInternationalMono", sans-serif;
+  font-family: "NB International Mono", sans-serif;
   font-size: 12px;
   letter-spacing: 0.02rem;
   margin-bottom: 3rem;
+}
+
+.scrollContainer{
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.imageDiv img{
+  padding-right: $spacer2;
 }

@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import "./css/App.scss";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 setConfiguration({
   gutterWidth: spacer2,
@@ -16,7 +17,7 @@ function App() {
   return (
     <div>
       <div id="content">
-        <About />
+        <Contact />
       </div>
       <Footer />
     </div>
