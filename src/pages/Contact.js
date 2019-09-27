@@ -3,11 +3,17 @@ import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
 import Navbar from "../components/Navbar";
 import { spacer3, spacer4, spacer2 } from "../constants";
 import Button from "../components/Button";
+import { Helmet } from 'react-helmet';
 
 class Contact extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>
+            Contact | Design Co
+          </title>
+        </Helmet>
         <Navbar />
         <Container className="outerContainer">
           <div className="innerContainer">

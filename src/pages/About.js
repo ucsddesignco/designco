@@ -1,7 +1,7 @@
 import React from "react";
 import { base4, spacer1, spacer2, spacer3, spacer4 } from "../constants.js";
 import { team } from "../team.js";
-
+import {Helmet} from 'react-helmet';
 import Member from "../components/MemberTiles";
 import Navbar from "../components/Navbar";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
@@ -22,6 +22,9 @@ class About extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title> About | Design Co </title>
+        </Helmet>
         <Navbar />
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">

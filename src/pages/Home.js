@@ -12,6 +12,7 @@ import intuit from "../images/sponsors/intuit.png";
 import sony from "../images/sponsors/sony.png";
 import fb from "../images/sponsors/fb.png";
 import dlab from "../images/sponsors/dlab.png";
+import {Helmet} from "react-helmet";
 
 import event1 from "../images/events/fa19/week1_fallkickoff.png";
 
@@ -19,6 +20,9 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title> Design Co </title>
+        </Helmet>
         <Splash />
         <Container className="outerContainer">
           <div
