@@ -19,6 +19,7 @@ class Button extends React.Component {
             borderColor: this.props.bgColor
           }}
           href={this.props.link}
+          target={this.props.target}
         >
           {this.props.text}
           <span

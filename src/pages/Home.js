@@ -13,6 +13,8 @@ import sony from "../images/sponsors/sony.png";
 import fb from "../images/sponsors/fb.png";
 import dlab from "../images/sponsors/dlab.png";
 
+import event1 from "../images/events/fa19/week1_fallkickoff.png";
+
 class Home extends React.Component {
   render() {
     return (
@@ -28,7 +30,7 @@ class Home extends React.Component {
               <Col sm={6}>
                 <img
                   style={{ marginBottom: spacer1 }}
-                  src={placeholder}
+                  src={event1}
                   alt=""
                 ></img>
                 <h3 style={{ marginBottom: spacer1 }}>
@@ -46,6 +48,7 @@ class Home extends React.Component {
               <Col>
                 <Button
                   link="https://www.facebook.com/pg/ucsddesignco/events/"
+                  target="_blank"
                   text="View All Events"
                 ></Button>
               </Col>
