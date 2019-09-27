@@ -50,8 +50,13 @@ body {
     display: inline-block;
     &:not(:first-child) {
       margin-left: $spacer2;
-      @media screen and (max-width: $sm) {
-        margin-left: 1.9rem;
+    }
+    @media screen and (max-width: 400px) {
+      h4 {
+        font-size: 70%;
+      }
+      &:not(:first-child) {
+        margin-left: 2.4rem;
       }
     }
   }
@@ -79,6 +84,15 @@ body {
 
 /************************* HOME ***************************/
 
+.splashTitle {
+  @media screen and (min-width: $md) {
+    font-size: 6.5vw;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 8.5rem;
+    max-width: 120rem;
+  }
+}
 .events {
   img {
     width: 100%;
@@ -89,17 +103,32 @@ body {
 
 .button {
   text-decoration: none;
-  padding: 2rem 3rem;
+  padding: 1.7rem 2.4rem 1.5rem;
   white-space: nowrap;
   border-style: solid;
   border-width: 0.2rem !important;
   cursor: pointer;
-  transition: 0.3s;
+
+  position: relative;
+  z-index: 1;
   @media (hover: hover) {
     &:hover {
-      background-color: transparent !important;
-      color: inherit !important;
+      .shadow {
+        opacity: 0.3;
+      }
     }
+  }
+  .shadow {
+    transition: 0.3s;
+    border-style: solid;
+    border-width: 0.2rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 0.8rem;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
   }
 }
 

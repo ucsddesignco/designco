@@ -28,12 +28,12 @@
 }
 
 html {
-  font-size: 6.5px;
+  font-size: 7px;
   @media screen and (min-width: $sm) {
     font-size: 8px;
   }
   @media screen and (min-width: $md) {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
@@ -82,7 +82,7 @@ a {
 
 .text_caption {
   font-family: "NB International Mono", monospace;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.4rem;
   text-transform: uppercase;
 }

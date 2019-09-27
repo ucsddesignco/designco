@@ -84,12 +84,11 @@ class About extends React.Component {
                 <p>
                   Anyone can be a member of our community. We host events
                   weekly, on Wednesdays at 6:30PM in HSS 1346. Sometimes things
-                  change, so we suggest following our
+                  change, so we suggest following our{" "}
                   <a
                     href="https://www.facebook.com/ucsddesignco"
                     target="_blank"
                   >
-                    {" "}
                     Facebook page
                   </a>{" "}
                   to stay up-to-date.

@@ -13,7 +13,10 @@ class MemberTiles extends React.Component {
         </a>
 
         <h3 style={{ marginTop: spacer1 }}>{this.props.name} </h3>
-        <p style={{ marginTop: spacer1 }}> {this.props.position} </p>
+        <p className="text_small" style={{ marginTop: spacer1 }}>
+          {" "}
+          {this.props.position}{" "}
+        </p>
         <p className="text_caption" style={{ marginTop: spacer1 }}>
           {this.props.year}
         </p>

@@ -42,7 +42,7 @@ var bgImage = BACKGROUND_IMAGES[item];
 const splashStyle = {
   maxHeight: "1000px",
   height: "100%",
-  minHeight: "100vh",
+  miHeight: "100vh",
   backgroundImage: `url(${bgImage})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -58,7 +58,7 @@ class Splash extends React.Component {
         <Navbar color={baseColor} />
         <Container className="outerContainer">
           <div className="innerContainer">
-            <h1 style={{ marginBottom: spacer2, maxWidth: "80rem" }}>
+            <h1 className="splashTitle" style={{ marginBottom: spacer2 }}>
               Grow with our community of student designers.
             </h1>
             <p style={{ marginBottom: spacer2, maxWidth: "90rem" }}>

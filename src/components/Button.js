@@ -7,6 +7,7 @@ class Button extends React.Component {
     link: "#",
     text: ""
   };
+
   render() {
     return (
       <div style={this.props.style}>
@@ -20,6 +21,10 @@ class Button extends React.Component {
           href={this.props.link}
         >
           {this.props.text}
+          <span
+            className="shadow"
+            style={{ borderColor: this.props.bgColor }}
+          ></span>
         </a>
       </div>
     );
@@ -27,3 +32,9 @@ class Button extends React.Component {
 }
 
 export default Button;
+
+/*
+<style>
+          .button::after {"{"}border-color: {this.props.bgColor} ;{"}"}
+        </style>
+*/
