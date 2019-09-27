@@ -1,56 +1,43 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
+import { Container, Row, Col } from "react-grid-system";
 
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
-import withPink from "../images/home/withPink.png";
-import withForest from "../images/home/withForest.png";
-import withBlue from "../images/home/withBlue.png";
-import withGreen from "../images/home/withGreen.png";
-import withYellow from "../images/home/withYellow.png";
-import withBabyPink from "../images/home/withBabyPink.png";
+import blue from "../images/home/blue.png";
+import purple from "../images/home/purple.png";
+import green from "../images/home/green.png";
+import pink from "../images/home/pink.png";
+import yellow from "../images/home/yellow.png";
 
 const COLORS = [
   ["#F8BBD0", "#1A237E"],
-  ["#00695C", "#E3F2FD"],
+  ["#37474F", "#FFF59D"],
   ["#A7FFEB", "#512DA8"],
   ["#FFCDD2", "#006064"],
-  ["#FFF8E1", "#D32F2F"],
-  ["#37474F", "#69F0AE"]
+  ["#283593", "#FCE4EC"]
 ];
 
-const BACKGROUND_IMAGES = [
-  withPink,
-  withForest,
-  withBlue,
-  withBabyPink,
-  withYellow,
-  withGreen
-];
+const BACKGROUND_IMAGES = [blue, yellow, purple, green, pink];
 
-var randomItem;
+var item;
 
 // Retrieve prev item
 var prevItem = localStorage.getItem("prevItem");
 
 // If website has already been visitted, generate new item until item does not match prev one
 if (prevItem) {
-  while (true) {
-    randomItem = Math.floor(Math.random() * COLORS.length);
-    if (prevItem != randomItem) {
-      break;
-    }
-  }
+  item = ++prevItem % COLORS.length;
 } else {
-  randomItem = Math.floor(Math.random() * COLORS.length);
+  item = Math.floor(Math.random() * COLORS.length);
 }
 
 // Record new item
-localStorage.setItem("prevItem", randomItem);
+localStorage.setItem("prevItem", item);
 
-var baseColor = COLORS[randomItem][0];
-var bgColor = COLORS[randomItem][1];
-var bgImage = BACKGROUND_IMAGES[randomItem];
+var baseColor = COLORS[item][0];
+var bgColor = COLORS[item][1];
+var bgImage = BACKGROUND_IMAGES[item];
 
 const splashStyle = {
   maxHeight: "1000px",
@@ -69,12 +56,12 @@ class Splash extends React.Component {
     return (
       <div style={splashStyle}>
         <Navbar color={baseColor} />
-        <div className="outerContainer">
+        <Container className="outerContainer">
           <div className="innerContainer">
-            <h1 style={{ marginBottom: spacer2 }}>
+            <h1 style={{ marginBottom: spacer2, maxWidth: "80rem" }}>
               Grow with our community of student designers.
             </h1>
-            <p style={{ marginBottom: spacer2 }}>
+            <p style={{ marginBottom: spacer2, maxWidth: "90rem" }}>
               We’re a strong and scrappy design community at UC San Diego,
               bridging the gap between young designers and industry. Previously
               known as Design at UCSD.
@@ -87,7 +74,7 @@ class Splash extends React.Component {
               style={{ paddingBottom: spacer4 }}
             ></Button>
           </div>
-        </div>
+        </Container>
       </div>
     );
   }

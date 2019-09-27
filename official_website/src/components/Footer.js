@@ -5,8 +5,8 @@ import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
 class Footer extends React.Component {
   render() {
     return (
-      <div className="outerContainer" style={{ paddingBottom: spacer2 }}>
-        <Container>
+      <div style={{ paddingBottom: spacer2 }}>
+        <Container className="outerContainer">
           <Row>
             <Visible lg xl>
               <Col md={4}>
@@ -22,19 +22,30 @@ class Footer extends React.Component {
               <ul className="footerLinks">
                 <li>
                   <h4>
-                    <a href="https://www.facebook.com/ucsddesignco">Facebook</a>
+                    <a
+                      href="https://www.facebook.com/ucsddesignco"
+                      target="_blank"
+                    >
+                      Facebook
+                    </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="https://www.instagram.com/ucsddesignco/">
+                    <a
+                      href="https://www.instagram.com/ucsddesignco/"
+                      target="_blank"
+                    >
                       Instagram
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="https://www.linkedin.com/company/ucsddesignco/">
+                    <a
+                      href="https://www.linkedin.com/company/ucsddesignco/"
+                      target="_blank"
+                    >
                       LinkedIn
                     </a>
                   </h4>

@@ -14,7 +14,8 @@ class Button extends React.Component {
           className="button text_caption"
           style={{
             color: this.props.color,
-            backgroundColor: this.props.bgColor
+            backgroundColor: this.props.bgColor,
+            borderColor: this.props.bgColor
           }}
           href={this.props.link}
         >

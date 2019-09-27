@@ -6,20 +6,24 @@ class Navbar extends React.Component {
   render() {
     return (
       <div
-        className="outerContainer"
         style={{
-          color: this.props.color,
           paddingTop: spacer2,
           marginBottom: spacer4
         }}
       >
-        <Container>
+        <Container
+          className="outerContainer"
+          style={{
+            color: this.props.color
+          }}
+        >
           <Row>
-            <Col xs={1} sm={3}>
+            <Col xs={2} sm={3}>
               <a href="/">
                 <Hidden xs sm>
                   <svg
-                    id="logo"
+                    className="logo"
+                    style={{ height: "1.8rem" }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 384.05 41.98"
                   >
@@ -73,6 +77,7 @@ class Navbar extends React.Component {
                 </Hidden>
                 <Visible xs sm>
                   <svg
+                    className="logo"
                     style={{ height: "3.5rem" }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 88 91"
@@ -101,7 +106,7 @@ class Navbar extends React.Component {
                 </Visible>
               </a>
             </Col>
-            <Col xs={11} sm={9}>
+            <Col xs={10} sm={9}>
               <ul className="nav">
                 <li>
                   <h4>

@@ -28,8 +28,11 @@
 }
 
 html {
-  font-size: 6px;
+  font-size: 6.5px;
   @media screen and (min-width: $sm) {
+    font-size: 8px;
+  }
+  @media screen and (min-width: $md) {
     font-size: 10px;
   }
 }
@@ -49,7 +52,7 @@ h4 {
   font-family: "Neue Plak Extended", Arial, sans-serif;
   font-weight: bold;
   letter-spacing: 0.04rem;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 h1 {

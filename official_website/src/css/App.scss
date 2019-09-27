@@ -20,7 +20,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-  padding: 0 $spacer2 0 $spacer2;
+  padding: 0 $spacer2 0 $spacer2 !important;
 }
 
 .innerContainer {
@@ -44,10 +44,6 @@ body {
 }
 */
 
-#logo {
-  height: 1.8rem;
-}
-
 .nav {
   text-align: right;
 }
@@ -67,12 +63,38 @@ body {
     display: inline-block;
     &:not(:first-child) {
       margin-left: $spacer2;
+      @media screen and (max-width: $sm) {
+        margin-left: 1.9rem;
+      }
     }
   }
   a {
     text-decoration: none;
     margin: 0;
     padding: 0;
+    transition: 0.3s;
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.5 !important;
+      }
+    }
+  }
+}
+
+.logo {
+  transition: 0.3s;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.5 !important;
+    }
+  }
+}
+
+/************************* HOME ***************************/
+
+.events {
+  img {
+    width: 100%;
   }
 }
 
@@ -82,33 +104,61 @@ body {
   text-decoration: none;
   padding: 2rem 3rem;
   white-space: nowrap;
+  border-style: solid;
+  border-width: 0.2rem !important;
   cursor: pointer;
+  transition: 0.3s;
+  @media (hover: hover) {
+    &:hover {
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+  }
 }
 
 /************************* ABOUT ***************************/
 .members a img {
   -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
   filter: grayscale(100%);
-  height: 350px;
-  width: 350px;
+  width: 100%;
+  transition: 0.3s;
 }
 
 .members a:hover img {
   filter: none;
 }
 
-.year {
-  font-family: "NB International Mono", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.02rem;
-  margin-bottom: 3rem;
+.scrollWrapper {
+  overflow-y: hidden;
+  height: 40rem;
 }
+.scrollContainer {
+  overflow-y: hidden;
 
-.scrollContainer{
-  overflow: auto;
+  overflow-x: auto;
   white-space: nowrap;
+  cursor: ew-resize;
+  height: 41.5rem;
+  margin-left: $spacer2;
+  @media screen and (min-width: $md) {
+    margin-left: calc(#{$spacer2 + $spacer3});
+  }
 }
 
-.imageDiv img{
-  padding-right: $spacer2;
+.imageDiv {
+  height: 100%;
+  display: flex;
+  //align-items: center;
+  img {
+    -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
+    filter: grayscale(100%);
+    height: 100%;
+    margin-right: $spacer2;
+    &:nth-child(3n -1) {
+      height: 70%;
+    }
+    &:nth-child(3n) {
+      height: 85%;
+    }
+  }
 }
