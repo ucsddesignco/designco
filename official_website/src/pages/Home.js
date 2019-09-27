@@ -35,7 +35,8 @@ class Home extends React.Component {
                   6:30PM
                 </p>
               </Col>
-              <Col sm={6}></Col>
+              <Col sm={6}>
+              </Col>
             </Row>
             <Row>
               <Col>
