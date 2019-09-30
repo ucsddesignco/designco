@@ -32,11 +32,12 @@ class Home extends React.Component {
             <h2 style={{ marginBottom: spacer3 }}>What's coming up for you?</h2>
             <Row style={{ marginBottom: spacer3 }}>
               <Col sm={6}>
+                <a href="https://www.facebook.com/events/492692744911435/" target="_blank">
                 <img
                   style={{ marginBottom: spacer1 }}
                   src={event1}
                   alt=""
-                ></img>
+                ></img></a>
                 <h3 style={{ marginBottom: spacer1 }}>
                   GBM 1: Design Co Fall Kickoff
                 </h3>
