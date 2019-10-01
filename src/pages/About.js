@@ -1,7 +1,7 @@
 import React from "react";
 import { base4, spacer1, spacer2, spacer3, spacer4 } from "../constants.js";
 import { team } from "../team.js";
-import {Helmet} from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Member from "../components/MemberTiles";
 import Navbar from "../components/Navbar";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";

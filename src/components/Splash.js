@@ -71,7 +71,7 @@ class Splash extends React.Component {
               text="Learn More"
               color={bgColor}
               bgColor={baseColor}
-              style={{ paddingBottom: spacer4 }}
+              style={{ marginBottom: spacer4, paddingBottom: spacer3 }}
             ></Button>
           </div>
         </Container>
