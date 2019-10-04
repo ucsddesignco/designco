@@ -15,6 +15,8 @@ import dlab from "../images/sponsors/dlab.png";
 import {Helmet} from "react-helmet";
 
 import event1 from "../images/events/fa19/week1_fallkickoff.png";
+import event2 from "../images/events/fa19/week2_happylemon.png";
+import event3 from "../images/events/fa19/week2_internpanel.png";
 
 class Home extends React.Component {
   render() {
@@ -47,8 +49,43 @@ class Home extends React.Component {
                   6:30PM
                 </p>
               </Col>
-              <Col sm={6}></Col>
+              <Col sm={6}>
+                <a href="https://www.facebook.com/events/2512361065546079/" target="_blank">
+                <img
+                  style={{ marginBottom: spacer1 }}
+                  src={event2}
+                  alt=""
+                ></img></a>
+                <h3 style={{ marginBottom: spacer1 }}>
+                  Happy Lemon Boba Run
+                </h3>
+                <p className="text_small">
+                  Tuesday, Oct. 8<br></br>
+                  4633 Convoy St #107, San Diego, CA 92111<br></br>
+                  7:00PM
+                </p>
+              </Col>
             </Row>
+
+            <Row style={{ marginBottom: spacer3 }}>
+              <Col sm={6}>
+                <a href="https://www.facebook.com/events/958166034548618/" target="_blank">
+                <img
+                  style={{ marginBottom: spacer1 }}
+                  src={event3}
+                  alt=""
+                ></img></a>
+                <h3 style={{ marginBottom: spacer1 }}>
+                  GBM 2: Intern Panel
+                </h3>
+                <p className="text_small">
+                  Wednesday, Oct. 9<br></br>
+                  HSS 1346<br></br>
+                  6:30PM
+                </p>
+              </Col>
+            </Row>
+            
             <Row style={{ marginBottom: spacer4 }}>
               <Col>
                 <Button
