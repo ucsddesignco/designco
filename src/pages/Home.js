@@ -33,7 +33,7 @@ class Home extends React.Component {
           >
             <h2 style={{ marginBottom: spacer3 }}>What's coming up for you?</h2>
             <Row style={{ marginBottom: spacer3 }}>
-              <Col sm={6}>
+              <Col sm={6} style={{ marginBottom: spacer2 }}>
                 <a href="https://www.facebook.com/events/2512361065546079/" target="_blank">
                 <img
                   style={{ marginBottom: spacer1 }}
@@ -49,7 +49,7 @@ class Home extends React.Component {
                   7:00PM
                 </p>
               </Col>
-              <h3 style={{ marginBottom: spacer2 }}></h3>
+           
               <Col sm={6}>
                 <a href="https://www.facebook.com/events/958166034548618/" target="_blank">
                 <img
