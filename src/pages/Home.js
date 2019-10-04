@@ -49,6 +49,7 @@ class Home extends React.Component {
                   7:00PM
                 </p>
               </Col>
+              <h3 style={{ marginBottom: spacer2 }}></h3>
               <Col sm={6}>
                 <a href="https://www.facebook.com/events/958166034548618/" target="_blank">
                 <img
