@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
-import { Container, Row, Col } from "react-grid-system";
+import { Container } from "react-grid-system";
 
-import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
+import { spacer2, spacer3, spacer4 } from "../constants";
 import blue from "../images/home/blue.png";
 import purple from "../images/home/purple.png";
 import green from "../images/home/green.png";

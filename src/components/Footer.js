@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
-import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
+import { spacer1, spacer2 } from "../constants";
 
 class Footer extends React.Component {
   render() {

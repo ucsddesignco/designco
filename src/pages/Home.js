@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Splash from "../components/Splash";
 import Button from "../components/Button";
+import Event from "../components/Event";
 import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-grid-system";
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
@@ -12,11 +13,46 @@ import intuit from "../images/sponsors/intuit.png";
 import sony from "../images/sponsors/sony.png";
 import fb from "../images/sponsors/fb.png";
 import dlab from "../images/sponsors/dlab.png";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 import event1 from "../images/events/fa19/week1_fallkickoff.png";
 import event2 from "../images/events/fa19/week2_happylemon.png";
 import event3 from "../images/events/fa19/week2_internpanel.png";
+
+import { events } from "../events.js";
+
+// Get today's date
+const d = new Date();
+let currYear = String(d.getFullYear());
+let currMonth = String(d.getMonth() + 1).padStart(2, "0");
+let currDate = String(d.getDate()).padStart(2, "0");
+const today = parseInt(currYear + currMonth + currDate);
+
+// Sort events for upcoming
+events.sort((a, b) => (a.date < b.date ? 1 : -1));
+
+// Get upcoming events (events occurring today or later)
+let upcomingEvents = [];
+
+for (let i = 0; i < events.length; i++) {
+  console.log(events[i].date + " | " + today);
+  if (events[i].date >= today) upcomingEvents.unshift(events[i]);
+  else break;
+}
+
+const eventList = upcomingEvents.map(function(event) {
+  // Load events occurring today or later
+  return (
+    <Event
+      title={event.title}
+      link={event.link}
+      image={event.image}
+      date={event.date}
+      time={event.time}
+      location={event.location}
+    />
+  );
+});
 
 class Home extends React.Component {
   render() {
@@ -28,46 +64,51 @@ class Home extends React.Component {
         <Splash />
         <Container className="outerContainer">
           <div
-            className="events innerContainer"
-            style={{ marginTop: spacer4, marginBottom: spacer4 }}
+            className="innerContainer"
+            style={{ marginTop: spacer4, marginBottom: spacer3 }}
           >
-            <h2 style={{ marginBottom: spacer3 }}>What's coming up for you?</h2>
-            <Row style={{ marginBottom: spacer3 }}>
-              <Col sm={6} style={{ marginBottom: spacer2 }}>
-                <a href="https://www.facebook.com/events/2512361065546079/" target="_blank">
-                <img
-                  style={{ marginBottom: spacer1 }}
-                  src={event2}
-                  alt=""
-                ></img></a>
-                <h3 style={{ marginBottom: spacer1 }}>
-                  Happy Lemon Boba Run
-                </h3>
-                <p className="text_small">
-                  Tuesday, Oct. 8<br></br>
-                  4633 Convoy St #107, San Diego, CA 92111<br></br>
-                  7:00PM
+            <h2 style={{ marginBottom: spacer3 }}>News</h2>
+
+            <Row>
+              <Col sm={6} style={{ marginBottom: spacer3 }}>
+                <h3 style={{ marginBottom: spacer1 }}>Design Buds</h3>
+
+                <p style={{ marginBottom: spacer2 }}>
+                  Design Bud applications are out! This initiative is meant to
+                  serve as a friendly student/student program for those who want
+                  to better integrate into the design community on campus.
+                  Applications are due Wednesday, Oct. 9, 2019 at 11:59PM.{" "}
+                  <a href="http://bit.ly/designbudsfall19" target="_blank">
+                    Apply Now
+                  </a>
                 </p>
+                <p class="text_caption">Oct. 3, 2019</p>
               </Col>
-           
-              <Col sm={6}>
-                <a href="https://www.facebook.com/events/958166034548618/" target="_blank">
-                <img
-                  style={{ marginBottom: spacer1 }}
-                  src={event3}
-                  alt=""
-                ></img></a>
-                <h3 style={{ marginBottom: spacer1 }}>
-                  GBM 2: Intern Panel
-                </h3>
-                <p className="text_small">
-                  Wednesday, Oct. 9<br></br>
-                  HSS 1346<br></br>
-                  6:30PM
+              <Col sm={6} style={{ marginBottom: spacer3 }}>
+                <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
+
+                <p style={{ marginBottom: spacer2 }}>
+                  Design at UCSD is now Design Co. We’ve changed our name,
+                  brand, and visual identity, and we’ve updated our mission
+                  statement and values.{" "}
+                  <a
+                    href="https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
+                    target="_blank"
+                  >
+                    Read More
+                  </a>
                 </p>
+                <p class="text_caption">Sept. 27, 2019</p>
               </Col>
             </Row>
-            
+          </div>
+          <div
+            className="events innerContainer"
+            style={{ marginBottom: spacer4 }}
+          >
+            <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
+            <Row style={{ marginBottom: spacer3 }}>{eventList}</Row>
+
             <Row style={{ marginBottom: spacer4 }}>
               <Col>
                 <Button
