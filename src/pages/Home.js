@@ -71,20 +71,6 @@ class Home extends React.Component {
 
             <Row>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
-                <h3 style={{ marginBottom: spacer1 }}>Design Buds</h3>
-
-                <p style={{ marginBottom: spacer2 }}>
-                  Design Bud applications are out! This initiative is meant to
-                  serve as a friendly student/student program for those who want
-                  to better integrate into the design community on campus.
-                  Applications are due Wednesday, Oct. 9, 2019 at 11:59PM.{" "}
-                  <a href="http://bit.ly/designbudsfall19" target="_blank">
-                    Apply Now
-                  </a>
-                </p>
-                <p class="text_caption">Oct. 3, 2019</p>
-              </Col>
-              <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
 
                 <p style={{ marginBottom: spacer2 }}>
