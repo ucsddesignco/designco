@@ -71,7 +71,7 @@ class Home extends React.Component {
 
             <Row>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
-                <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
+                <h3 style={{ marginBottom: spacer1 }}>Meet your Design Buds </h3>
 
                 <p style={{ marginBottom: spacer2 }}>
                 Hello everyone! We just finished creating groups for 
