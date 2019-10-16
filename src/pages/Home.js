@@ -77,8 +77,8 @@ class Home extends React.Component {
                 Hello everyone! We just finished creating groups for 
                 the Design Bud program. Make sure to keep an eye out 
                 in your email for hints on the buddy reveal. 
-                𝐓𝐡𝐢𝐬 𝐢𝐬 𝐡𝐚𝐩𝐩𝐞𝐧𝐢𝐧𝐠 𝐚𝐟𝐭𝐞𝐫 𝐭𝐡𝐢𝐬 𝐰𝐞𝐞𝐤’𝐬 𝐆𝐁𝐌. If you cannot 
-                make it, please reach out.{" "}
+                This is happening after this week's GBM. If you cannot 
+                make it, please reach out.{" "} <br />
                   <a
                     href="http://bit.ly/designsystemsgbm"
                     target="_blank"
@@ -86,7 +86,7 @@ class Home extends React.Component {
                     See you at the GBM
                   </a>
                 </p>
-                <p class="text_caption">Sept. 27, 2019</p>
+                <p class="text_caption">Oct. 17, 2019</p>
               </Col>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
