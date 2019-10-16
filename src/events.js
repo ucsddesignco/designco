@@ -16,5 +16,13 @@ export const events = [
     date: 20191008,
     time: 1830,
     location: "4633 Convoy St #107, San Diego, CA 92111"
+  },
+  {
+    title: "GBM 3: Design Systems Workshop",
+    link: "http://bit.ly/designsystemsgbm",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_oc=AQk3OyZjvStwyojDy-XAQKoC84TpfJDuCXk9bcaXyVhN0HBnnVBE3mLlB_6PSnDlX9uDBDhXN_SG2-HOyn7kObSi&_nc_ht=scontent-lax3-1.xx&oh=67bffac7754767cf6d821d7769a7661b&oe=5E1737AD",
+    date: 20191017, 
+    time: 1830,
+    location: "HSS 1346"
   }
 ];
