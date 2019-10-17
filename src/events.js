@@ -24,5 +24,21 @@ export const events = [
     date: 20191017, 
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Jam w/ Workday",
+    link: "https://www.facebook.com/events/406084503655501",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_oc=AQluiKZ-xHDQYoUIW9kkOdJtEvuGAsApjiRNTMr2f51NiALd0v2mRyTiJddPY2uzPGcuDAPJ10bkXYpzVJsBlSA0&_nc_ht=scontent-lax3-1.xx&oh=f63bf70d17ddacc0b4e622890fd98f3b&oe=5E29E1BE",
+    date: 20191022,
+    time: 1700,
+    location: "Career Center, Horizon Room"
+  },
+  {
+    title: "GBM 4: Resume Workshop",
+    link: "https://www.facebook.com/events/557332198360417",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73010648_2387019728205151_3532722021001592832_n.jpg?_nc_cat=105&_nc_oc=AQl-MQfky7YSzV_zf6dnZQJkphtfCd9b1OpoeZxK9QTfvRHEE_RKnopOf36nFYwIbzZmcOZMk7i4HEoy2iEK8VlQ&_nc_ht=scontent-lax3-1.xx&oh=3c894c0bea15ed603716c3ea60b34fbd&oe=5E62AC42",
+    date: 20191023,
+    time: 1830,
+    location: "HSS 1346"
   }
 ];

@@ -12,13 +12,23 @@ function formatTime(time) {
   // Check that time is military
   let timeString = time.toString();
   if (timeString.length != 4)
-    throw new Error(
-      "Invalid event time: " + time + ". Must be military time (e.g. 1200)."
-    );
+    // Select last four digits
+    timeString = ("000" + timeString).substr(-4);
+    
+    // throw new Error(
+    //   "Invalid event time: " + time + ". Must be military time (e.g. 1200)."
+    // );
 
   let hour = Number(timeString.substring(0, 2));
-  let min = Number(timeString.substring(2, 4));
-  return hour < 12 ? hour + ":" + min + "AM" : 24 - hour + ":" + min + "PM";
+  let min_tens = Number(timeString.substring(2, 3));
+  let min_ones = Number(timeString.substring(3, 4));
+
+  // Determine if AM or PM
+  if (Number(timeString) == 2400)
+    timeString = 0;
+  let ampm = Number(timeString) <= 1159 ? "AM" : "PM";
+
+  return hour <= 12 ? hour + ":" + min_tens + min_ones + ampm : hour - 12 + ":" + min_tens + min_ones + ampm;
 }
 
 const days = [
