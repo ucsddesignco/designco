@@ -25,7 +25,7 @@ var item;
 // Retrieve prev item
 var prevItem = localStorage.getItem("prevItem");
 
-// If website has already been visitted, generate new item until item does not match prev one
+// If website has already been visited, generate new item until item does not match prev one
 if (prevItem) {
   item = ++prevItem % COLORS.length;
 } else {
