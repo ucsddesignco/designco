@@ -40,5 +40,21 @@ export const events = [
     date: 20191023,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Product Design Talk w/ Facebook",
+    link: "https://www.facebook.com/events/2557519091031116/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_oc=AQkUhyxLeFBQu0bxOp5h_QfWMDMFFGY9v2At9yH0214UCflO_oEoUqKG1oj-I_7sV6h_Ilb03XManyluja8CqW7Q&_nc_ht=scontent-lax3-1.xx&oh=447d3c3c2333c63e754291e0f2cf8438&oe=5E5778E1",
+    date: 20191029,
+    time: 1830,
+    location: "HSS 1346"
+  },
+  {
+    title: "Studio Session: Visual Design Principles w/ Facebook",
+    link: "https://www.facebook.com/events/441147996760078/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_oc=AQlWjedHJIlTUKUmqOQaSdIcX6bnnM3OjaTJfQxmny04k23fMR3WauhCCtCNwp4lRwnTKAVgHl1lg7k-yh8l_EAY&_nc_ht=scontent-lax3-1.xx&oh=8beb5b6b3f9061b4815fca8cba937d2e&oe=5E23614F",
+    date: 20191030,
+    time: 1830,
+    location: "HSS 1346"
   }
 ];
