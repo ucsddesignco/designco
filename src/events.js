@@ -50,6 +50,14 @@ export const events = [
     location: "HSS 1346"
   },
   {
+    title: "ServiceNow Info Session",
+    link: "https://www.facebook.com/events/1340395706136941/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_oc=AQlCaquRS5FoJDKrjR63fmOeaIvjBhT2EZNUGa8UwMxexlzT44sAlswkQ6cDZVArYyjiRmGy9xYabzUxvHpZwaZg&_nc_ht=scontent-lax3-1.xx&oh=cb9a77c9aaff3836df24fb940864ee6b&oe=5E18546E",
+    date: 20191105,
+    time: 1830,
+    location: "HSS 1346"
+  },
+  {
     title: "Studio Session: Visual Design Principles w/ Facebook",
     link: "https://www.facebook.com/events/441147996760078/",
     image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_oc=AQlWjedHJIlTUKUmqOQaSdIcX6bnnM3OjaTJfQxmny04k23fMR3WauhCCtCNwp4lRwnTKAVgHl1lg7k-yh8l_EAY&_nc_ht=scontent-lax3-1.xx&oh=8beb5b6b3f9061b4815fca8cba937d2e&oe=5E23614F",
