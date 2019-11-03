@@ -64,5 +64,13 @@ export const events = [
     date: 20191030,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Women Leaders in Design",
+    link: "https://www.facebook.com/events/2592866754274904/",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/74670756_2405037493070041_1073840006952386560_o.jpg?_nc_cat=110&_nc_oc=AQnHqtvrMOdv9T8eLyHTr_SdHdzwK6cTu0_IfcXv8IH-IYDvq69nKUUcLPVdBs7bblM&_nc_ht=scontent-lax3-2.xx&oh=6bb14731d465324a9bebfd37a27b3e77&oe=5E56BCEE",
+    date: 20191106,
+    time: 1800,
+    location: "Price Center Theater"
   }
 ];
