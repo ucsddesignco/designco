@@ -72,7 +72,7 @@ export const team = [
   {
     id: "alison",
     name: "Alison Chen",
-    role: "Web Developer",
+    role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/ealisonchen/",
     gradYear: 2021
   },
@@ -107,7 +107,7 @@ export const team = [
   {
     id: "andrew",
     name: "Andrew Zhen",
-    role: "Industry Relations Coordinator",
+    role: "Web Developer",
     link: "https://ajzhen.com",
     gradYear: 2020
   }

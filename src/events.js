@@ -82,6 +82,14 @@ export const events = [
     location: "ULTRAZONE Laser Tag"
   },
   {
+    title: "Design Co: Interviewing Workshop",
+    link: "https://www.facebook.com/events/1173512132838526/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_oc=AQmcH0TbdZ-kzlXBnJmwRn9Xs1xu9SoKo3EqTcdPV_7M9cK4FkVXINBBmQUknLABjqzcpprPjw2FTChwrd4V2IfX&_nc_ht=scontent-lax3-1.xx&oh=56b487731ce50095aba4e3ea4d545817&oe=5E40EE96",
+    date: 20191113,
+    time: 1830,
+    location: "HSS 1346",
+  },
+  {
     title: "Design Co: Portfolio Day",
     link: "https://www.facebook.com/events/267052910893182/",
     image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_oc=AQlAMbzy9Hm6YfR78g2eSnXQgGOayGeeX37AuAXsR20zbOeqGUQAIZGMlFUFaKapLblgtrq2OgnttAqzkRoBm_NZ&_nc_ht=scontent-lax3-1.xx&oh=ee80c5cd31d38275261fbf4cc1010171&oe=5E4A59E1",
