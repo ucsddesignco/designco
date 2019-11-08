@@ -70,7 +70,15 @@ export const events = [
     link: "https://www.facebook.com/events/2592866754274904/",
     image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/74670756_2405037493070041_1073840006952386560_o.jpg?_nc_cat=110&_nc_oc=AQnHqtvrMOdv9T8eLyHTr_SdHdzwK6cTu0_IfcXv8IH-IYDvq69nKUUcLPVdBs7bblM&_nc_ht=scontent-lax3-2.xx&oh=6bb14731d465324a9bebfd37a27b3e77&oe=5E56BCEE",
     date: 20191106,
-    time: 1800,
+    time: 1830,
     location: "Price Center Theater"
+  },
+  {
+    title: "Design Co: Laser Tag Event Social",
+    link: "https://www.facebook.com/events/2454578944664442/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73482572_2408285632745227_1557852923944239104_o.jpg?_nc_cat=104&_nc_oc=AQkkizJ9nRyT8gfWc_c_rKf1XD7Y35rcY65oAOEObPhPsSstFlBYs2iOkOpfHeWqI5O8NVP58PGLi9K_98SUYARk&_nc_ht=scontent-lax3-1.xx&oh=8bff57afc94c8d0e4d0d31075181298a&oe=5E5247DC",
+    date: 20191112,
+    time: 1845,
+    location: "ULTRAZONE Laser Tag"
   }
 ];
