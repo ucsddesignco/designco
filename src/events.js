@@ -80,5 +80,13 @@ export const events = [
     date: 20191112,
     time: 1845,
     location: "ULTRAZONE Laser Tag"
+  },
+  {
+    title: "Design Co: Portfolio Day",
+    link: "https://www.facebook.com/events/267052910893182/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_oc=AQlAMbzy9Hm6YfR78g2eSnXQgGOayGeeX37AuAXsR20zbOeqGUQAIZGMlFUFaKapLblgtrq2OgnttAqzkRoBm_NZ&_nc_ht=scontent-lax3-1.xx&oh=ee80c5cd31d38275261fbf4cc1010171&oe=5E4A59E1",
+    date: 20191117,
+    time: 1200,
+    location: "The Forum, Price Center 4th Floor"
   }
 ];
