@@ -123,6 +123,11 @@ class Navbar extends React.Component {
                     <a href="/contact">Contact</a>
                   </h4>
                 </li>
+                <li>
+                  <h4>
+                    <a href="/events">Events</a>
+                  </h4>
+                </li>
               </ul>
             </Col>
           </Row>

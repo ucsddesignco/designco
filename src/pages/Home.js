@@ -98,8 +98,7 @@ class Home extends React.Component {
             <Row style={{ marginBottom: spacer4 }}>
               <Col>
                 <Button
-                  link="https://www.facebook.com/pg/ucsddesignco/events/"
-                  target="_blank"
+                  link="/events"
                   text="View All Events"
                 ></Button>
               </Col>
