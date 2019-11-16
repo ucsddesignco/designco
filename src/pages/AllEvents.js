@@ -1,5 +1,5 @@
 import React from "react";
-import { spacer4, spacer3 } from "../constants.js";
+import { spacer1, spacer2, spacer3, spacer4 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Event from "../components/Event";
@@ -65,7 +65,7 @@ class AllEvents extends React.Component {
           <title>Events | Design Co</title>
         </Helmet>
         <Navbar />
-        <Container className="outerContainer" style={{ marginBottom: spacer3 }}>
+        <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div 
             className="innerContainer"
             style={{ marginBottom: spacer3 }}
@@ -80,19 +80,16 @@ class AllEvents extends React.Component {
             style={{ marginBottom: spacer3 }}
           >
             <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
-            <Row style={{ marginBottom: spacer3 }}>{eventList}</Row>
+            <Row>{eventList}</Row>
           </div>
           <div 
             className="events innerContainer"
             style={{ marginBottom: spacer4 }}
           >
             <h2 style={{ marginBottom: spacer3 }}>Past Events</h2>
-            <Row style={{ marginBottom: spacer3 }}>{pastEventList}</Row>
+            <Row>{pastEventList}</Row>
           </div>
-          <div 
-            className="innerContainer"
-            style={{ marginBottom: spacer4 }}
-          >
+          <div className="innerContainer">
             <h2>
               Follow us on Facebook to get the most up to date information 
               on all our events. </h2>

@@ -96,5 +96,13 @@ export const events = [
     date: 20191117,
     time: 1200,
     location: "The Forum, Price Center 4th Floor"
+  },
+  {
+    title: "Design Co: Visual Design Workshop",
+    link: "https://www.facebook.com/events/2409091399203746/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_oc=AQkxHsRJyYPSma8HDWU_GIigbkk24XZKUbvZq7LAdtw-qTAxczMQxHAmwxkaH_MGvKPfTlUecTRuJQnrlTneYrsp&_nc_ht=scontent-lax3-1.xx&oh=89c0b8a2c24f277eef2bd200741ea722&oe=5E49C363",
+    date: 20191120,
+    time: 1830,
+    location: "HSS 1346"
   }
 ];

@@ -120,12 +120,12 @@ class Navbar extends React.Component {
                 </li>
                 <li>
                   <h4>
-                    <a href="/contact">Contact</a>
+                    <a href="/events">Events</a>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="/events">Events</a>
+                    <a href="/contact">Contact</a>
                   </h4>
                 </li>
               </ul>
