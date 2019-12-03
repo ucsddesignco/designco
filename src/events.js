@@ -104,5 +104,13 @@ export const events = [
     date: 20191120,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Co: End of Quarter Celebration",
+    link: "https://www.facebook.com/events/1415900101909307/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_ohc=ynRCkrnLCyEAQmXDPEFfTu7XMmsu_XN6ubjrQPigZCDYgSgD9HjhA_S5w&_nc_ht=scontent-lax3-1.xx&oh=cec60a7076972f54c383976ad081a938&oe=5E404B21",
+    date: 20191204,
+    time: 1830,
+    location: "Rigobertos"
   }
 ];
