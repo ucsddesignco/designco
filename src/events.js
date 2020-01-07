@@ -120,5 +120,13 @@ export const events = [
     date: 20200114,
     time: 1100,
     location: "PC Ballroom East"
+  },
+  {
+    title: "Design Co: Pre-Stride Prep",
+    link: "https://www.facebook.com/events/760567994455410/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_ohc=EEn62CLVVYgAQlfFsKIvPVTnmd5vc7ec5EZRcJozcgG0Y5DecW2bI7-Pw&_nc_ht=scontent-lax3-1.xx&oh=af6219378d23821dbc4760f4547b540f&oe=5E934DAF",
+    date: 20200108,
+    time: 1830,
+    location: "HSS 1346",
   }
 ];
