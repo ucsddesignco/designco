@@ -1,31 +1,24 @@
 export const team = [
   {
-    id: "katya",
-    name: "Katya Noble",
-    role: "Director of Growth and Strategy",
-    link: "https://www.katyanoble.design/",
-    gradYear: 2019
-  },
-  {
-    id: "emily",
-    name: "Emily Nguyen",
-    role: "Co-Creative Director",
-    link: "http://emilynguyen.co/",
-    gradYear: 2019
+    id: "vicky",
+    name: "Vicky Ly",
+    role: "Director of Marketing and Operations",
+    link: "https://vickyly.co",
+    gradYear: 2020
   },
   {
     id: "lucy",
     name: "Lucy Xu",
-    role: "Co-Creative Director",
+    role: "Creative Director",
     link: "https://lucylouxu.com/",
     gradYear: 2020
   },
   {
-    id: "nathan",
-    name: "Nathan Mansur",
-    role: "Director of Marketing and Operations",
-    link: "https://www.linkedin.com/in/nathan-mansur/",
-    gradYear: 2019
+    id: "brittany",
+    name: "Brittany Newton",
+    role: "Director of Community, Growth and Strategy",
+    link: "https://www.linkedin.com/in/brittany-newton-648452133/",
+    gradYear: 2020
   },
   {
     id: "steven",
@@ -40,13 +33,6 @@ export const team = [
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/jamin-nick-capulong/",
     gradYear: 2021
-  },
-  {
-    id: "brittany",
-    name: "Brittany Newton",
-    role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/brittany-newton-648452133/",
-    gradYear: 2020
   },
   {
     id: "stella",
@@ -82,13 +68,6 @@ export const team = [
     role: "Web Developer",
     link: "https://www.linkedin.com/in/paridhi4699/",
     gradYear: 2021
-  },
-  {
-    id: "vicky",
-    name: "Vicky Ly",
-    role: "Marketing Coordinator",
-    link: "https://vickyly.co",
-    gradYear: 2020
   },
   {
     id: "quinn",
