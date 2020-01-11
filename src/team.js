@@ -32,7 +32,14 @@ export const team = [
     name: "Jamin Capulong",
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/jamin-nick-capulong/",
-    gradYear: 2021
+    gradYear: 2020
+  },
+  {
+    id: "andrew",
+    name: "Andrew Zhen",
+    role: "Web Developer",
+    link: "https://ajzhen.com",
+    gradYear: 2020
   },
   {
     id: "stella",
@@ -73,7 +80,7 @@ export const team = [
     id: "quinn",
     name: "Quinn Vu",
     role: "Marketing Coordinator",
-    link: "https://www.linkedin.com/in/thyvu1014/",
+    link: "https://thyvu.site/",
     gradYear: 2021
   },
   {
@@ -82,12 +89,5 @@ export const team = [
     role: "Industry Relations Coordinator",
     link: "https://winsondieu.com",
     gradYear: 2021
-  },
-  {
-    id: "andrew",
-    name: "Andrew Zhen",
-    role: "Web Developer",
-    link: "https://ajzhen.com",
-    gradYear: 2020
   }
 ];

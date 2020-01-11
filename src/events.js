@@ -20,7 +20,7 @@ export const events = [
   {
     title: "GBM 3: Design Systems Workshop",
     link: "http://bit.ly/designsystemsgbm",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_oc=AQk3OyZjvStwyojDy-XAQKoC84TpfJDuCXk9bcaXyVhN0HBnnVBE3mLlB_6PSnDlX9uDBDhXN_SG2-HOyn7kObSi&_nc_ht=scontent-lax3-1.xx&oh=67bffac7754767cf6d821d7769a7661b&oe=5E1737AD",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_ohc=4aO5mbZu2bQAX-Dsmuf&_nc_ht=scontent-lax3-2.xx&oh=5b14bc15be48c0efdc48cadf2cb9cba2&oe=5E8DDEAD",
     date: 20191016, 
     time: 1830,
     location: "HSS 1346"
@@ -52,7 +52,7 @@ export const events = [
   {
     title: "ServiceNow Info Session",
     link: "https://www.facebook.com/events/1340395706136941/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_oc=AQlCaquRS5FoJDKrjR63fmOeaIvjBhT2EZNUGa8UwMxexlzT44sAlswkQ6cDZVArYyjiRmGy9xYabzUxvHpZwaZg&_nc_ht=scontent-lax3-1.xx&oh=cb9a77c9aaff3836df24fb940864ee6b&oe=5E18546E",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_ohc=hC0G3Nvi7zcAX-doL3v&_nc_ht=scontent-lax3-1.xx&oh=b391bac266b13f85bf23633e9539e201&oe=5E8EFB6E",
     date: 20191105,
     time: 1830,
     location: "HSS 1346"
