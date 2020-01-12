@@ -114,7 +114,7 @@ export const events = [
     location: "Rigobertos"
   },
   {
-    title: "Design Co: Stride - Design Career Fair",
+    title: "Design Co: Stride - Micro Design Career Fair",
     link: "https://www.facebook.com/events/464110677635699/",
     image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_ohc=M-GRgYJ6lM4AQlf48U7wOlo58GiBFfF37MCI2KBi64nIrl8uDWS_DHWaQ&_nc_ht=scontent-sjc3-1.xx&oh=415d9c3881d97e9da6971124e5cb3972&oe=5EA37DE2",
     date: 20200114,
