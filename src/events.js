@@ -2,8 +2,7 @@ export const events = [
   {
     title: "GBM 2: Intern Panel",
     link: "https://www.facebook.com/events/958166034548618/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_oc=AQlvqtr_N-5-kEgla2CExPWpSt54Utj3It1ph6AE0PolwfEISHrx4T-VZ7xKnYB4SfE_X77HzLuCz7c6ZdqsvU31&_nc_ht=scontent-lax3-1.xx&oh=ceeab829f1d6725d951533c377856b56&oe=5E1E5B1C",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_ohc=sI5SKs-w374AX8H8LT5&_nc_ht=scontent-lax3-1.xx&oh=3691de33cb557b9a3d7b449457c6cf4d&oe=5E95021C",
     date: 20191009,
     time: 1830,
     location: "HSS 1346"
@@ -128,5 +127,13 @@ export const events = [
     date: 20200108,
     time: 1830,
     location: "HSS 1346",
+  },
+  {
+    title: "Design Co: Boba Run",
+    link: "https://www.facebook.com/events/611679676256418/",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_ohc=UXLxBY_OR9MAX8qF0cr&_nc_ht=scontent-lax3-2.xx&oh=5aa2f1f85cef7b2a7e63be976b8fdb93&oe=5E99282D",
+    date: 20200121,
+    time: 1850,
+    location: "Camellia Rd Tea Bar"
   }
 ];
