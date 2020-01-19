@@ -135,5 +135,13 @@ export const events = [
     date: 20200121,
     time: 1850,
     location: "Camellia Rd Tea Bar"
+  },
+  {
+    title: "Design Co: Figma Workshop",
+    link: "https://www.facebook.com/events/1461360350696892/",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82552531_2478509175722872_5547694511896920064_n.jpg?_nc_cat=106&_nc_ohc=JGuolUAbmskAX-toU8E&_nc_ht=scontent-lax3-2.xx&oh=0f1bb31ff1113970bcaddf33f5b569fc&oe=5E9F52DC",
+    date: 20200122,
+    time: 1830,
+    location: "HSS 1346"
   }
 ];
