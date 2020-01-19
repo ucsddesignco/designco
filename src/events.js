@@ -10,8 +10,7 @@ export const events = [
   {
     title: "Happy Lemon Boba Run",
     link: "https://www.facebook.com/events/2512361065546079/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72563764_2377737335800057_203945014517039104_o.jpg?_nc_cat=105&_nc_oc=AQlCvLY_D2hTww8vSbboClcpeW1zt2gqmSYZO_TAyT4g6hrrQT_Gi-mSW28-v5IzEabYf0OvmDIym4Lju8-vvl9X&_nc_ht=scontent-lax3-1.xx&oh=0ea263db42c6e8eef542ccd3d5d9d87c&oe=5E219282",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/72563764_2377737335800057_203945014517039104_o.jpg?_nc_cat=105&_nc_ohc=ekls9E5wGBAAX_mp9bg&_nc_ht=scontent-lax3-1.xx&_nc_tp=1002&oh=b7fcc3537e918edaca3f4ec023a0f7e8&oe=5EDA6B41",
     date: 20191008,
     time: 1830,
     location: "4633 Convoy St #107, San Diego, CA 92111"
@@ -59,7 +58,7 @@ export const events = [
   {
     title: "Studio Session: Visual Design Principles w/ Facebook",
     link: "https://www.facebook.com/events/441147996760078/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_oc=AQlWjedHJIlTUKUmqOQaSdIcX6bnnM3OjaTJfQxmny04k23fMR3WauhCCtCNwp4lRwnTKAVgHl1lg7k-yh8l_EAY&_nc_ht=scontent-lax3-1.xx&oh=8beb5b6b3f9061b4815fca8cba937d2e&oe=5E23614F",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_ohc=I3ddW3nF90UAX85n7bv&_nc_ht=scontent-lax3-1.xx&oh=98be962195a993765726eb4793f02070&oe=5E9A084F",
     date: 20191030,
     time: 1830,
     location: "HSS 1346"
@@ -139,7 +138,7 @@ export const events = [
   {
     title: "Design Co: Figma Workshop",
     link: "https://www.facebook.com/events/1461360350696892/",
-    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82552531_2478509175722872_5547694511896920064_n.jpg?_nc_cat=106&_nc_ohc=JGuolUAbmskAX-toU8E&_nc_ht=scontent-lax3-2.xx&oh=0f1bb31ff1113970bcaddf33f5b569fc&oe=5E9F52DC",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/83212469_2478836102356846_6496912057026215936_o.jpg?_nc_cat=106&_nc_ohc=RK9oYVT_0NMAX_u1S64&_nc_ht=scontent-lax3-2.xx&oh=3d3d48a3350f8659dc172b86f53d9699&oe=5ED950D6",
     date: 20200122,
     time: 1830,
     location: "HSS 1346"

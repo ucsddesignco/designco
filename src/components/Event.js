@@ -87,7 +87,9 @@ class Event extends React.Component {
             alt=""
           ></img>
         </a>
-        <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
+        <a href={this.props.link} target="_blank">
+          <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
+          </a>
         <p className="text_small">
           {formatDate(this.props.date)}
           <br></br>
