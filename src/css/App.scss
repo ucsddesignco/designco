@@ -183,4 +183,9 @@ body {
       padding-right: $spacer2;
     }
   }
+  @media screen and (min-width: $md) {
+    img:last-child {
+      padding-right: calc(#{$spacer2 + $spacer3});
+    }
+  }
 }

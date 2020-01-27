@@ -26,7 +26,7 @@ export const events = [
   {
     title: "Design Jam w/ Workday",
     link: "https://www.facebook.com/events/406084503655501",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_oc=AQluiKZ-xHDQYoUIW9kkOdJtEvuGAsApjiRNTMr2f51NiALd0v2mRyTiJddPY2uzPGcuDAPJ10bkXYpzVJsBlSA0&_nc_ht=scontent-lax3-1.xx&oh=f63bf70d17ddacc0b4e622890fd98f3b&oe=5E29E1BE",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_ohc=7rcHbKLGduUAX8HQ_ds&_nc_ht=scontent-lax3-1.xx&oh=bddae4ab2625eeb5cbbc2d943a95a980&oe=5EC815BE",
     date: 20191022,
     time: 1700,
     location: "Career Center, Horizon Room"
@@ -140,6 +140,14 @@ export const events = [
     link: "https://www.facebook.com/events/1461360350696892/",
     image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/83212469_2478836102356846_6496912057026215936_o.jpg?_nc_cat=106&_nc_ohc=RK9oYVT_0NMAX_u1S64&_nc_ht=scontent-lax3-2.xx&oh=3d3d48a3350f8659dc172b86f53d9699&oe=5ED950D6",
     date: 20200122,
+    time: 1830,
+    location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Accessible by Design",
+    link: "https://www.facebook.com/events/192603365225314/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/83024123_2481390782101378_3274092757022408704_o.jpg?_nc_cat=103&_nc_ohc=n0snfRwY1wUAX8dj_-4&_nc_ht=scontent-lax3-1.xx&oh=f7b45304e46a0370bd623d2333f92fe4&oe=5E933233",
+    date: 20200129,
     time: 1830,
     location: "HSS 1346"
   }
