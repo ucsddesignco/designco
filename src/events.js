@@ -150,5 +150,21 @@ export const events = [
     date: 20200129,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Boomers Social",
+    link: "https://www.facebook.com/events/204530944009864/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/83606730_2486874778219645_4280578438298861568_o.jpg?_nc_cat=100&_nc_ohc=AbknPwCxAuwAX_Z9FNY&_nc_ht=scontent-lax3-1.xx&oh=cc536e2c603582d2c4186763a1df727d&oe=5EBFE7B0",
+    date: 20200204,
+    time: 1830,
+    location: "Boomers"
+  },
+  {
+    title: "Design Co: Hack Your Visuals",
+    link: "https://www.facebook.com/events/227768654884806/",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/84192511_2486871954886594_7407132931195404288_o.jpg?_nc_cat=106&_nc_ohc=TA3nMSlogyUAX_mJbNh&_nc_ht=scontent-lax3-2.xx&oh=fa385a8d3f418a00e19888f41684067d&oe=5ED9C517",
+    date: 20200205,
+    time: 1830,
+    location: "HSS 1346"
   }
 ];
