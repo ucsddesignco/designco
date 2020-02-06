@@ -105,22 +105,17 @@ class Home extends React.Component {
             </Row>
             <h2 style={{ marginBottom: spacer3 }}>Sponsors</h2>
             <Row>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
+              <Col xs={6} md={4} style={{ marginBottom: spacer2 }}>
                 <a href="https://www.intuit.com/" target="_blank">
                   <img src={intuit} alt="Intuit"></img>
                 </a>
               </Col>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
+              <Col xs={6} md={4} style={{ marginBottom: spacer2 }}>
                 <a href="https://www.sony.com/" target="_blank">
                   <img src={sony} alt="Sony"></img>
                 </a>
               </Col>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
-                <a href="https://facebook.com" target="_blank">
-                  <img src={fb} alt="Facebook"></img>
-                </a>
-              </Col>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
+              <Col xs={6} md={4} style={{ marginBottom: spacer2 }}>
                 <a href="https://designlab.ucsd.edu/" target="_blank">
                   <img src={dlab} alt="The Design Lab at UC San Diego"></img>
                 </a>
