@@ -166,5 +166,13 @@ export const events = [
     date: 20200205,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Illustrator Workshop",
+    link: "https://www.facebook.com/events/518983912060662/",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/s960x960/84220218_2492252501015206_3087933618689933312_o.jpg?_nc_cat=107&_nc_ohc=EIEamIgzSVIAX_NvUdR&_nc_ht=scontent-lax3-2.xx&oh=38136058f591400ec6a81193f9a95b19&oe=5EB919E3",
+    date: 20200211,
+    time: 1830,
+    location: "HSS 1346"
   }
 ];
