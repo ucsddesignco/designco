@@ -1,0 +1,47 @@
+/*
+ * Breakpoints
+ */
+// Extra small devices (360px and up)
+@mixin xs {
+  @media (min-width: $xs) {
+    @content;
+  }
+}
+// Small devices (landscape phones, 600px and up)
+@mixin sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+// Medium devices (tablets, 840px and up)
+@mixin md {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+// Large devices (desktops, 960px and up)
+@mixin lg {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+// Extra large devices (large desktops, 1280px and up)
+@mixin xl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+// Extra extra large devices (large desktops, 1440px and up)
+@mixin xxl {
+  @media (min-width: $xxl) {
+    @content;
+  }
+}
+// Hover state only when possible
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}

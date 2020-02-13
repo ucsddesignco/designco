@@ -18,7 +18,7 @@ class Navbar extends React.Component {
           }}
         >
           <Row>
-            <Col xs={2} sm={3}>
+            <Col xs={2} sm={3} >
               <a href="/">
                 <Hidden xs sm>
                   <svg
@@ -121,6 +121,11 @@ class Navbar extends React.Component {
                 <li>
                   <h4>
                     <a href="/events">Events</a>
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    <a href="/join">Join Our Team</a>
                   </h4>
                 </li>
                 <li>
