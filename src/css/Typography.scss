@@ -75,6 +75,33 @@ a {
   color: inherit;
 }
 
+.steps {
+  font-family: "Neue Plak Extended", Arial, sans-serif;
+}
+
+.roles a {
+  font-family: "Neue Plak Extended", Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.apply {
+  font-family: "NB International Pro", Arial, sans-serif;
+  text-transform: uppercase;
+  & a {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+}
+
+.a-show, .a-hidden {
+  font-family: "NB International Pro", Arial, sans-serif;
+}
+
+.faq-item {
+  font-family: "Neue Plak Extended", Arial, sans-serif;
+}
+
 .text_small {
   font-size: 1.8rem;
   line-height: 2.8rem;

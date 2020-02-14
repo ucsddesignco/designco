@@ -12,13 +12,8 @@ import { setConfiguration } from "react-grid-system";
 import intuit from "../images/sponsors/intuit.png";
 import sony from "../images/sponsors/sony.png";
 import servicenow from "../images/sponsors/servicenow.png";
-import fb from "../images/sponsors/fb.png";
 import dlab from "../images/sponsors/dlab.png";
 import { Helmet } from "react-helmet";
-
-import event1 from "../images/events/fa19/week1_fallkickoff.png";
-import event2 from "../images/events/fa19/week2_happylemon.png";
-import event3 from "../images/events/fa19/week2_internpanel.png";
 
 import { events } from "../events.js";
 

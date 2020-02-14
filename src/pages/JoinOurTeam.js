@@ -84,7 +84,7 @@ class Join extends React.Component {
         <Container className="outerContainer" style={{ marginBottom: spacer2 }}>
           <div className="innerContainer">
             <div style={{ marginBottom: spacer4 }}>
-              <aside className="steps" >1st</aside>
+              <p className="steps">1st</p>
               <div className ="stepCopy">
                 <h1 style={{ marginBottom: spacer2 }}>We're cool people.</h1>
                 <p>
@@ -98,7 +98,7 @@ class Join extends React.Component {
             </div>
 
             <div style={{ marginBottom: spacer4 }}>
-              <aside className="steps" >2nd</aside>
+              <p className="steps">2nd</p>
               <div className ="stepCopy">
                 <h1 style={{ marginBottom: spacer2 }}>You'll get to create impact.</h1>
                 <p>
@@ -111,7 +111,7 @@ class Join extends React.Component {
             </div>
 
             <div style={{ marginBottom: spacer4 }}>
-              <aside className="steps" >3rd</aside>
+              <p className="steps">3rd</p>
               <div className ="stepCopy">
                 <h1 style={{ marginBottom: spacer2 }}>You'll grow (figuratively).</h1>
                 <p>

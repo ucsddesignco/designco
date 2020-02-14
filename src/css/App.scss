@@ -199,7 +199,6 @@ html {
 
 .steps {
   position: absolute;
-  font-family: "Neue Plak";
   font-size: 25rem;
   font-weight: 900;
   z-index: -1;
@@ -214,11 +213,7 @@ html {
 }
 
 .roles a {
-  text-decoration: underline;
   cursor: pointer;
-  font-family: "Neue Plak";
-  font-weight: 600;
-  text-decoration: none;
   margin-bottom: 1.5rem;
   transition: all 0.3s ease;
   @include md {
@@ -276,6 +271,14 @@ html {
   top: 0;
   z-index: 1000;
 }
+.panelNavPanel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
 .x {
   cursor: pointer;
   font-weight: 600;
@@ -299,18 +302,13 @@ html {
   background-color: white;
   float: right;
   border: none;
-  font-family: "NB International";
-  text-transform: uppercase;
   cursor: pointer;
-  // font-size: initial;
   white-space: nowrap;
   position: relative;
   z-index: 1;
   & a {
     display: inline-block;
     padding: 1.7rem 2.4rem;
-    font-size: 1.5rem;
-    line-height: normal;
   }
   @media (hover: hover) {
     &:hover {
@@ -358,7 +356,6 @@ $faq-gutter: 12rem;
 
 .faq-item {
   position: relative;
-  font-family: "Neue Plak";
   p {
     margin: 0; // Prevent jump on drawer open
     padding: 0;
@@ -400,7 +397,6 @@ $faq-gutter: 12rem;
   max-height: 0;
   overflow-y: hidden;
   transition: max-height 0.3s ease;
-  font-family: "NB International Pro";
 }
 .a-show {
   max-height: fit-content;

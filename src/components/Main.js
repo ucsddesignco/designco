@@ -2,8 +2,8 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import About from '../pages/About';
-import AllEvents from '../pages/AllEvents';
-import Join from '../pages/Join';
+import AllEvents from '../pages/Events';
+import Join from '../pages/JoinOurTeam';
 import Contact from '../pages/Contact';
 
 class Main extends React.Component{

@@ -6,10 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import Main from "./components/Main";
 
 import "./css/App.scss";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import AllEvents from "./pages/AllEvents";
 
 setConfiguration({
   gutterWidth: 40,

@@ -4,7 +4,7 @@ export const faq = [
     answer: "Design Co Board is a team of student leaders who ideate, plan, and execute events and professional growth opportunities for the UCSD design community."
   },
   {
-    question: "How long is the role period",
+    question: "How long is the role period?",
     answer: "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2020 quarter, and the 2020-21 school year (4 quarters total)."
   },
   {
@@ -13,7 +13,7 @@ export const faq = [
   },
   {
     question: "When is the application due?",
-    answer: "Applications are due Tuesday, February 18th at 11:59PM."
+    answer: "Applications are due Wednesday, February 19th at 11:59PM."
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
