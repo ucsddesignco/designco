@@ -264,6 +264,9 @@ html {
   color: #eee;
   overflow: auto;
   padding: $spacer2 $spacer3;
+  @media screen and (max-width: $md) {
+    padding: $spacer1 $spacer2;
+  }
 }
 .panel-wrap-close {
   transform: translateX(0%);
@@ -271,6 +274,7 @@ html {
 .panelNav {
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 .x {
   cursor: pointer;
@@ -297,8 +301,24 @@ html {
   border: none;
   font-family: "NB International";
   text-transform: uppercase;
-  padding: 1.7rem 2.4rem 1.5rem;
   cursor: pointer;
+  // font-size: initial;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+  & a {
+    display: inline-block;
+    padding: 1.7rem 2.4rem;
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+  @media (hover: hover) {
+    &:hover {
+      .shadow {
+        opacity: 0.2;
+      }
+    }
+  }
 }
 .panel-content-container {
   max-width: 1200px;
@@ -308,6 +328,9 @@ html {
   padding: $spacer4 $spacer2;
   ol {
     list-style-type: disc;
+  }
+  @media screen and (max-width: $md) {
+    padding: $spacer2 $spacer1;
   }
 }
 

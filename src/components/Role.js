@@ -38,11 +38,11 @@ class Role extends React.Component {
             <div className="panel">
               <div className="panelNav">
                 <span className="x" onClick={ this.handlePanel }></span>
-                <button className="apply">
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqIE9sX8vqb-74C4h_qcNtaCTwgLfILjtoJcgvsnVeGFQxBQ/viewform?usp=sf_link" style={{ textDecoration: "none" }}>
+                <div className="apply">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqIE9sX8vqb-74C4h_qcNtaCTwgLfILjtoJcgvsnVeGFQxBQ/viewform?usp=sf_link" target="_blank" style={{ textDecoration: "none" }}>
                     Apply
                   </a>
-                </button>
+                </div>
               </div>
               <div className="panel-content-container">
                 <h1 style={{ marginBottom: spacer3 }}>{this.props.team} Team – {this.props.position}</h1>
@@ -82,7 +82,7 @@ class Role extends React.Component {
                   Meet your potential teammate, {this.props.name}!
                 </h2>
                 <Row>
-                  <Col md={6} className="roleHeadshot">
+                  <Col md={6} className="roleHeadshot" style={{ marginBottom: spacer3 }}>
                     <img src={require("../images/join/" + this.props.name + ".png")} width="100%"/>
                   </Col>
                   <Col md={6}>
@@ -110,7 +110,7 @@ class Role extends React.Component {
                     <h3 style={{ marginBottom: spacer2 }}>
                       {this.props.q4}
                     </h3>
-                    <p style={{ marginBottom: spacer3 }} 
+                    <p style={{ marginBottom: spacer2 }} 
                       dangerouslySetInnerHTML={{ __html: this.props.a4 ? this.htmlDecode(this.props.a4) : "" }}
                     />
                   </Col>
