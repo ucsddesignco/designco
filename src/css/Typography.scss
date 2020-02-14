@@ -77,6 +77,13 @@ a {
 
 .steps {
   font-family: "Neue Plak Extended", Arial, sans-serif;
+  font-size: 25rem;
+  font-weight: bold;
+  line-height: 13rem;
+  @media screen and (max-width: $md) {
+    font-size: 15rem;
+    line-height: 5rem;
+  }
 }
 
 .roles a {

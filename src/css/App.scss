@@ -199,11 +199,8 @@ html {
 
 .steps {
   position: absolute;
-  font-size: 25rem;
-  font-weight: 900;
   z-index: -1;
   color: #f2f2f2;
-  line-height: 13rem;
 }
 
 .stepCopy {
@@ -271,14 +268,7 @@ html {
   top: 0;
   z-index: 1000;
 }
-.panelNavPanel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  width: 100%;
-  height: 200px;
-}
+
 .x {
   cursor: pointer;
   font-weight: 600;

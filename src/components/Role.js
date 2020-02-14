@@ -37,7 +37,6 @@ class Role extends React.Component {
           <div className={ this.state.showSidePanel ? "panel-wrap" : "panel-wrap panel-wrap-close"}>
             <div className="panel">
               <div className="panelNav">
-                <div className="panelNavBlack"></div>
                 <span className="x" onClick={ this.handlePanel }></span>
                 <div className="apply">
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqIE9sX8vqb-74C4h_qcNtaCTwgLfILjtoJcgvsnVeGFQxBQ/viewform?usp=sf_link" target="_blank" style={{ textDecoration: "none" }}>
@@ -79,7 +78,7 @@ class Role extends React.Component {
                   />
                 </div>
 
-                <h2 style={{ marginBottom: spacer2 }}>
+                <h2 style={{ marginBottom: spacer3 }}>
                   Meet your potential teammate, {this.props.name}!
                 </h2>
                 <Row>
