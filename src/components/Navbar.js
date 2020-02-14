@@ -125,7 +125,7 @@ class Navbar extends React.Component {
                 </li>
                 <li>
                   <h4>
-                    <a href="/join">Join Our Team</a>
+                    <a href="/joinourteam">Join Our Team</a>
                   </h4>
                 </li>
                 <li>
