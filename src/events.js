@@ -197,6 +197,15 @@ export const events = [
     time: 1830,
     location: "HSS 1346"
   },
+
+  {
+    title: "Design Co: Bay Area Alumni Mixer",
+    link: "https://www.facebook.com/events/238591123812983/",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/84415203_2491342497772873_1860664615281623040_o.jpg?_nc_cat=108&_nc_ohc=4vGM4HIb5YQAX9Mw9ry&_nc_ht=scontent-sjc3-1.xx&oh=f3bba3fe20f3b1075b10c0b16ad40978&oe=5EC8993D",
+    date: 20200213,
+    time: 1800,
+    location: "Workday SF Office"
+  },
   {
     title: "Design Frontiers With Intuit - Unlocking Smart Money Decisions",
     link: "http://frontiers.ucsddesign.co",
