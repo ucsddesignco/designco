@@ -82,7 +82,7 @@ export const events = [
   {
     title: "Design Co: Interviewing Workshop",
     link: "https://www.facebook.com/events/1173512132838526/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_oc=AQmcH0TbdZ-kzlXBnJmwRn9Xs1xu9SoKo3EqTcdPV_7M9cK4FkVXINBBmQUknLABjqzcpprPjw2FTChwrd4V2IfX&_nc_ht=scontent-lax3-1.xx&oh=56b487731ce50095aba4e3ea4d545817&oe=5E40EE96",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/s960x960/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_ohc=c9Y1w7AYc7AAX8YuX14&_nc_ht=scontent-sjc3-1.xx&_nc_tp=7&oh=d3f88fdcd4e03d3937b3bc6282e98dee&oe=5EC1FBF1",
     date: 20191113,
     time: 1830,
     location: "HSS 1346",
@@ -90,7 +90,7 @@ export const events = [
   {
     title: "Design Co: Portfolio Day",
     link: "https://www.facebook.com/events/267052910893182/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_oc=AQlAMbzy9Hm6YfR78g2eSnXQgGOayGeeX37AuAXsR20zbOeqGUQAIZGMlFUFaKapLblgtrq2OgnttAqzkRoBm_NZ&_nc_ht=scontent-lax3-1.xx&oh=ee80c5cd31d38275261fbf4cc1010171&oe=5E4A59E1",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/s960x960/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_ohc=8WO7eO8c-YMAX-Q8KfN&_nc_ht=scontent-sjc3-1.xx&_nc_tp=7&oh=73a0102889eb2003e26ddf3ddfa9f508&oe=5EC6D522",
     date: 20191117,
     time: 1200,
     location: "The Forum, Price Center 4th Floor"
@@ -98,7 +98,7 @@ export const events = [
   {
     title: "Design Co: Visual Design Workshop",
     link: "https://www.facebook.com/events/2409091399203746/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_oc=AQkxHsRJyYPSma8HDWU_GIigbkk24XZKUbvZq7LAdtw-qTAxczMQxHAmwxkaH_MGvKPfTlUecTRuJQnrlTneYrsp&_nc_ht=scontent-lax3-1.xx&oh=89c0b8a2c24f277eef2bd200741ea722&oe=5E49C363",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/s960x960/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_ohc=or1gT8mchEcAX9owgO1&_nc_ht=scontent-sjc3-1.xx&_nc_tp=7&oh=3157cd1019ddb79da31af77dd4a8da04&oe=5EB68204",
     date: 20191120,
     time: 1830,
     location: "HSS 1346"
@@ -106,7 +106,7 @@ export const events = [
   {
     title: "Design Co: End of Quarter Celebration",
     link: "https://www.facebook.com/events/1415900101909307/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_ohc=ynRCkrnLCyEAQmXDPEFfTu7XMmsu_XN6ubjrQPigZCDYgSgD9HjhA_S5w&_nc_ht=scontent-lax3-1.xx&oh=cec60a7076972f54c383976ad081a938&oe=5E404B21",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_ohc=ctmr_Ol_FZgAX9t6-tr&_nc_ht=scontent-sjc3-1.xx&oh=c36ad198a16e9c961cffffba033347cf&oe=5EB6F221",
     date: 20191204,
     time: 1830,
     location: "Rigobertos"
@@ -174,5 +174,29 @@ export const events = [
     date: 20200211,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Bay Area Alumni Mixer",
+    link: "https://www.facebook.com/events/238591123812983/",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/84415203_2491342497772873_1860664615281623040_o.jpg?_nc_cat=108&_nc_ohc=4vGM4HIb5YQAX9Mw9ry&_nc_ht=scontent-sjc3-1.xx&oh=f3bba3fe20f3b1075b10c0b16ad40978&oe=5EC8993D",
+    date: 20200213,
+    time: 1800,
+    location: "Workday SF Office"
+  },
+  {
+    title: "Design Co: Brand Design Workshop",
+    link: "https://www.facebook.com/events/1474078526092634/",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/86217666_2496080080632448_3565264588771426304_o.jpg?_nc_cat=109&_nc_ohc=5nPPgsG3WjwAX9x6p47&_nc_ht=scontent-sjc3-1.xx&oh=0e0120a7552c4ea141476557fb9f581b&oe=5EC1A090",
+    date: 20200219,
+    time: 1830,
+    location: "HSS 1346"
+  },
+  {
+    title: "Design Frontiers with Intuit — Unlocking Smart Money Decisions",
+    link: "https://www.facebook.com/events/176842466925095/",
+    image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/86728155_2501461400094316_8420994948219797504_n.jpg?_nc_cat=104&_nc_ohc=8qGquUvYbqwAX8EfcOs&_nc_ht=scontent-sjc3-1.xx&oh=880b75568f0775bac467310b4e171d6b&oe=5EB60D24",
+    date: 20200223,
+    time: 1000,
+    location: "UCSD Multipurpose Room"
   }
 ];

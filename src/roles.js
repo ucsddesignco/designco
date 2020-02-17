@@ -4,7 +4,7 @@ export const roles = [
     position: "Designer",
     description: "You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.",
     duty: 
-      "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to product visual collateral across multiple mediums. &lt;/li&gt; \
+      "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums. &lt;/li&gt; \
       &lt;li&gt; Working within an established and maturing brand and visual identity. &lt;/li&gt; \
       &lt;li&gt; Working with the Creative team to strengthen our brand and establish clear guidelines. &lt;/li&gt; \
       &lt;li&gt; Designing and evolving new and existing sub-brands (e.g. Design Frontiers, Stride etc). &lt;/li&gt; \
