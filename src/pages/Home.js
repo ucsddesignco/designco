@@ -67,6 +67,17 @@ class Home extends React.Component {
 
             <Row>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
+                <h3 style={{ marginBottom: spacer1 }}>Join Our Team</h3>
+                <p style={{ marginBottom: spacer2 }}>
+                  Design Co is looking for new members to join the leadership
+                  team.{" "}
+                  <a href="/joinourteam" target="_blank">
+                    Read More
+                  </a>
+                </p>
+                <p class="text_caption">Feb. 12, 2020</p>
+              </Col>
+              <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
 
                 <p style={{ marginBottom: spacer2 }}>
@@ -93,10 +104,7 @@ class Home extends React.Component {
 
             <Row style={{ marginBottom: spacer4 }}>
               <Col>
-                <Button
-                  link="/events"
-                  text="View All Events"
-                ></Button>
+                <Button link="/events" text="View All Events"></Button>
               </Col>
             </Row>
             <h2 style={{ marginBottom: spacer3 }}>Sponsors</h2>
