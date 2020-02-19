@@ -146,7 +146,7 @@ export const roles = [
   {
     team: "Marketing",
     position: "Content Strategist / Writer",
-    description: "You are bold and personable. You are an individual deeply interested in helping Design Co curate strong industry partnerships. At Design Co, we believe that creating opportunities for students to interface with industry is key in preparing our community to be industry ready.",
+    description: "You are creative and insightful. You understand tone and voice. You want to write content that captivates an audience. You are grammar.",
     duty: 
       "&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team to curate and execute marketing campaigns &lt;/li&gt; \
       &lt;li&gt; Helping the marketing team determine quarterly and year-long marketing strategies that increase reach, engagement, and impressions &lt;/li&gt; \
