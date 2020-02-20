@@ -92,8 +92,7 @@ export const events = [
   {
     title: "Design Co: Interviewing Workshop",
     link: "https://www.facebook.com/events/1173512132838526/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_oc=AQmcH0TbdZ-kzlXBnJmwRn9Xs1xu9SoKo3EqTcdPV_7M9cK4FkVXINBBmQUknLABjqzcpprPjw2FTChwrd4V2IfX&_nc_ht=scontent-lax3-1.xx&oh=56b487731ce50095aba4e3ea4d545817&oe=5E40EE96",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_ohc=Ae4i5uXKvH0AX_Mz-in&_nc_ht=scontent-lax3-1.xx&oh=c5cab1d3337b4839c2594c6a2b5a01fe&oe=5EB79596",
     date: 20191113,
     time: 1830,
     location: "HSS 1346"
@@ -101,8 +100,7 @@ export const events = [
   {
     title: "Design Co: Portfolio Day",
     link: "https://www.facebook.com/events/267052910893182/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_oc=AQlAMbzy9Hm6YfR78g2eSnXQgGOayGeeX37AuAXsR20zbOeqGUQAIZGMlFUFaKapLblgtrq2OgnttAqzkRoBm_NZ&_nc_ht=scontent-lax3-1.xx&oh=ee80c5cd31d38275261fbf4cc1010171&oe=5E4A59E1",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_ohc=quIWlAKk0OgAX-92Hb8&_nc_ht=scontent-lax3-1.xx&oh=ccc2012b7bffaffca42a098d4e15fd54&oe=5EC100E1",
     date: 20191117,
     time: 1200,
     location: "The Forum, Price Center 4th Floor"
@@ -110,8 +108,7 @@ export const events = [
   {
     title: "Design Co: Visual Design Workshop",
     link: "https://www.facebook.com/events/2409091399203746/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_oc=AQkxHsRJyYPSma8HDWU_GIigbkk24XZKUbvZq7LAdtw-qTAxczMQxHAmwxkaH_MGvKPfTlUecTRuJQnrlTneYrsp&_nc_ht=scontent-lax3-1.xx&oh=89c0b8a2c24f277eef2bd200741ea722&oe=5E49C363",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_ohc=zG5-dGG8k3UAX_EgFZR&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=8f462e1a11df21cdb8bf92fd2bc5b1ed&oe=5EB68204",
     date: 20191120,
     time: 1830,
     location: "HSS 1346"
@@ -119,8 +116,7 @@ export const events = [
   {
     title: "Design Co: End of Quarter Celebration",
     link: "https://www.facebook.com/events/1415900101909307/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_ohc=ynRCkrnLCyEAQmXDPEFfTu7XMmsu_XN6ubjrQPigZCDYgSgD9HjhA_S5w&_nc_ht=scontent-lax3-1.xx&oh=cec60a7076972f54c383976ad081a938&oe=5E404B21",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_ohc=rbMhBwlWppcAX9Bbu9L&_nc_ht=scontent-lax3-1.xx&oh=b2a1a8e3b60d0248d1f27d657b1ec48e&oe=5EB6F221",
     date: 20191204,
     time: 1830,
     location: "Rigobertos"

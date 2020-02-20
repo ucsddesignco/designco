@@ -4,10 +4,10 @@ export const roles = [
     position: "Designer",
     description: "You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.",
     duty: 
-      "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums. &lt;/li&gt; \
-      &lt;li&gt; Working within an established and maturing brand and visual identity. &lt;/li&gt; \
-      &lt;li&gt; Working with the Creative team to strengthen our brand and establish clear guidelines. &lt;/li&gt; \
-      &lt;li&gt; Designing and evolving new and existing sub-brands (e.g. Design Frontiers, Stride etc). &lt;/li&gt; \
+      "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums &lt;/li&gt; \
+      &lt;li&gt; Working within an established and maturing brand and visual identity &lt;/li&gt; \
+      &lt;li&gt; Working with the Creative team to strengthen our brand and establish clear guidelines &lt;/li&gt; \
+      &lt;li&gt; Designing and evolving new and existing sub-brands (e.g. Design Frontiers, Stride, etc,) &lt;/li&gt; \
       &lt;li&gt; Creating website mockups and collaborate with web developers to design and execute new websites &lt;/li&gt; &lt;/ol&gt;"
     ,
     general: 
@@ -45,9 +45,9 @@ export const roles = [
     position: "Web Developer",
     description: "You are systematic. You are position: absolute. You are passionate about delivering beautiful website experiences by building out websites, pages, and components that are both scalable and responsive.",
     duty: 
-      "Updating and maintaining all Design Co Websites \
-      Building applications that are cross-browser and W3C compliant \
-      Collaborating with designers to take mockups and turning them into beautiful, responsive websites, pages, and digital experiences",
+      "&lt;ol&gt; &lt;li&gt; Updating and maintaining all Design Co Websites &lt;/li&gt; \
+      &lt;li&gt; Building applications that are cross-browser and W3C compliant &lt;/li&gt; \
+      &lt;li&gt; Collaborating with designers to take mockups and turning them into beautiful, responsive websites, pages, and digital experiences &lt;/li&gt; &lt;/ol&gt;",
     general: 
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
@@ -81,14 +81,14 @@ export const roles = [
       "&lt;ol&gt; &lt;li&gt; Working in collaboration with the industry relations team to develop and maintain partnerships with a wide range of different companies &lt;/li&gt; \
       &lt;li&gt; Communicating directly with our partner companies to ensure that the needs of both the companies’ and our community are met &lt;/li&gt; \
       &lt;li&gt; Help to continuously build, iterate, and improve our partnerships and offerings for industry partners &lt;/li&gt; \
-      &lt;li&gt; Serve as general Events Coordinator (securing rooms, booking spaces, catering etc) &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as general Events Coordinator (securing rooms, booking spaces, catering, etc.) &lt;/li&gt; &lt;/ol&gt;",
     general: 
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
       &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;"
     ,
     offer: 
-      "&lt;ol&gt; &lt;li&gt; Excellent professional communication skills (via email, phone etc) &lt;/li&gt; \
+      "&lt;ol&gt; &lt;li&gt; Excellent professional communication skills (via email, phone, etc.) &lt;/li&gt; \
       &lt;li&gt; Highly organized and self-driven individual &lt;/li&gt; \
       &lt;li&gt; Excitement for discovering opportunities to help expose students to the skills sought in industry &lt;/li&gt; \
       &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
@@ -116,7 +116,7 @@ export const roles = [
       "&lt;ol&gt; &lt;li&gt; Working with our team to plan and execute large scale events such as Design Frontiers and Stride Design Career Fair &lt;/li&gt; \
       &lt;li&gt; Ideating, planning, and coordinating social events that engage the design community &lt;/li&gt; \
       &lt;li&gt; Facilitating the community engagement programs for students, including, but not limited to Design Buds and the Design Co Fellowship, as well as initiatives for our alumni &lt;/li&gt;\
-      &lt;li&gt; Serving as a general Events Coordinator (securing rooms/booking spaces, catering, etc) &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serving as a general Events Coordinator (securing rooms/booking spaces, catering, etc.) &lt;/li&gt; &lt;/ol&gt;",
     general: 
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
