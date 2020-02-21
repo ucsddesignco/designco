@@ -45,7 +45,7 @@ export const team = [
     id: "stella",
     name: "Stella Seki",
     role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/stella-seki-043051170/",
+    link: "https://www.stellaseki.com/",
     gradYear: 2021
   },
   {

@@ -7,7 +7,7 @@ class MemberTiles extends React.Component {
       <div class="members" style={{ marginBottom: spacer3 }}>
         <a href={this.props.link} target="blank">
           <img
-            src={require(`../images/team/${this.props.id}.png`)}
+            src={require(`../images/team/duotone/${this.props.id}.jpg`)}
             alt={this.props.name}
           />
         </a>
