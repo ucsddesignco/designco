@@ -73,7 +73,7 @@ export const team = [
     id: "paridhi",
     name: "Paridhi Khaitan",
     role: "Web Developer",
-    link: "https://www.linkedin.com/in/paridhi4699/",
+    link: "https://www.paridhikhaitan.me/",
     gradYear: 2021
   },
   {

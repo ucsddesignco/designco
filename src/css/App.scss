@@ -236,16 +236,41 @@ html {
   }
 }
 
-.panel-wrap {
+.panel-darken {
   position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.4);
+}
+.panel-darken-close {
+  transform: translateX(100%);
+}
+.panel-darken-open {
+  transform: translateX(0%);
+}
+
+.panel-wrap {
   width: 90%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+.panel-wrap-close {
   transform: translateX(100%);
   transition: .3s ease-out;
-  z-index: 100;
+  visibility: hidden;
 }
+.panel-wrap-open {
+  transform: translateX(0%);
+  transition: .3s ease-out;
+  visibility: visible;
+}
+
 .panel {
   position: absolute;
   top: 0;
@@ -259,9 +284,6 @@ html {
   @media screen and (max-width: $md) {
     padding: $spacer1 $spacer2;
   }
-}
-.panel-wrap-close {
-  transform: translateX(0%);
 }
 .panelNav {
   position: sticky;
