@@ -5,14 +5,16 @@ import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
 class Role extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { showSidePanel: true };
+    this.state = { hideSidePanel: true };
     this.handlePanel = this.handlePanel.bind(this);
+    this.escFunction = this.escFunction.bind(this);
   }
 
   handlePanel = () => {
+    console.log("3");
     // show/hide panel
     this.setState(state => ({
-      showSidePanel: !state.showSidePanel
+      hideSidePanel: !state.hideSidePanel
     }));
 
     // reset panel scroll position to the top
@@ -28,6 +30,24 @@ class Role extends React.Component {
     return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
   }
 
+  escFunction(event){
+    console.log("1");
+    if(event.keyCode === 27) {
+      console.log("2");
+      if(!this.state.hideSidePanel) {
+        this.setState(state => ({
+          hideSidePanel: !state.hideSidePanel
+        }));
+      }
+    }
+  }
+  componentDidMount(){
+    document.addEventListener("keydown", this.escFunction, false);
+  }
+  componentWillUnmount(){
+    document.removeEventListener("keydown", this.escFunction, false);
+  }
+
   render() {
     return (
       <div>
@@ -41,10 +61,10 @@ class Role extends React.Component {
         </Col>
 
         {/* darken background */}
-        <div className={ this.state.showSidePanel ? "panel-darken panel-darken-close" : "panel-darken panel-darken-open"} onClick={ this.handlePanel }></div>
+        <div className={ this.state.hideSidePanel ? "panel-darken panel-darken-close" : "panel-darken panel-darken-open"} onClick={ this.handlePanel }></div>
 
         {/* side panel */}
-        <div style={ {scrollTop: "0"} } className={ this.state.showSidePanel ? "panel-wrap panel-wrap-close" : "panel-wrap panel-wrap-open"}>
+        <div style={ {scrollTop: "0"} } className={ this.state.hideSidePanel ? "panel-wrap panel-wrap-close" : "panel-wrap panel-wrap-open"}>
           <div className="panel">
             <div className="panelNav">
               <span className="x" onClick={ this.handlePanel }></span>

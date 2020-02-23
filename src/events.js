@@ -83,8 +83,7 @@ export const events = [
   {
     title: "Design Co: Laser Tag Event Social",
     link: "https://www.facebook.com/events/2454578944664442/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73482572_2408285632745227_1557852923944239104_o.jpg?_nc_cat=104&_nc_oc=AQkkizJ9nRyT8gfWc_c_rKf1XD7Y35rcY65oAOEObPhPsSstFlBYs2iOkOpfHeWqI5O8NVP58PGLi9K_98SUYARk&_nc_ht=scontent-lax3-1.xx&oh=8bff57afc94c8d0e4d0d31075181298a&oe=5E5247DC",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/73482572_2408285632745227_1557852923944239104_o.jpg?_nc_cat=104&_nc_ohc=cCcHOkkiEjEAX8gaz4D&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=5713010b2ff48933e934caf50f368f70&oe=5EFAE7BB",
     date: 20191112,
     time: 1845,
     location: "ULTRAZONE Laser Tag"
@@ -219,5 +218,21 @@ export const events = [
     date: 20200219,
     time: 1830,
     location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Front-End Development Workshop",
+    link: "https://www.facebook.com/events/3569320876442160/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/87162340_2505437833030006_2103682244370497536_o.jpg?_nc_cat=105&_nc_ohc=2P0JsOY_tRAAX9M51rc&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=0b0f3591e05b20e7de0c1e680c246f36&oe=5EC1B146",
+    date: 20200226,
+    time: 1830,
+    location: "HSS 1346"
+  },
+  {
+    title: "Design Co: Ice Skating Social",
+    link: "https://www.facebook.com/events/179878529984729/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/87071802_2503944783179311_8926777070160183296_o.jpg?_nc_cat=102&_nc_ohc=JGwO6H7ILnAAX-y7AP9&_nc_ht=scontent-lax3-1.xx&oh=bec1c01462c53456a08283465a786a0a&oe=5EBCEFBD",
+    date: 20200228,
+    time: 1850,
+    location: "UTC Ice"
   }
 ];
