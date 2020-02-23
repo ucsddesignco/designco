@@ -2,14 +2,36 @@ import React from "react";
 import { spacer2, spacer1, spacer3 } from "../constants";
 
 class MemberTiles extends React.Component {
+  constructor(props) {
+    super(props);
+    this.removeDuotone = this.removeDuotone.bind(this);
+    this.addDuotone = this.addDuotone.bind(this);
+    this.state = { duotone: true }
+  }
+
+  removeDuotone = () => {
+    this.setState({
+      duotone: false
+    });
+  }
+  
+  addDuotone = () => {
+    this.setState({
+      duotone: true
+    });
+  }
+
   render() {
     return (
-      <div class="members" style={{ marginBottom: spacer3 }}>
+      <div className="members" style={{ marginBottom: spacer3 }}>
         <a href={this.props.link} target="blank">
           <img
-            src={require(`../images/team/duotone/${this.props.id}.jpg`)}
+            src = {this.state.duotone ? require(`../images/team/duotone/${this.props.id}-duotone.jpg`) : require(`../images/team/${this.props.id}.jpg`) }
             alt={this.props.name}
+            onMouseOver={ this.removeDuotone }
+            onMouseOut = { this.addDuotone }
           />
+          {console.log(this.state.duotone)}
         </a>
 
         <h3 style={{ marginTop: spacer1 }}>{this.props.name} </h3>

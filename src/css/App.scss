@@ -143,8 +143,8 @@ html {
 /************************* ABOUT ***************************/
 
 .members a img {
-  -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
-  filter: grayscale(100%);
+  // -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
+  // filter: grayscale(100%);
   width: 100%;
   transition: 0.3s;
   &:hover {
