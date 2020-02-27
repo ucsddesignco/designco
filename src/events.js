@@ -74,8 +74,7 @@ export const events = [
   {
     title: "Design Co: Women Leaders in Design",
     link: "https://www.facebook.com/events/2592866754274904/",
-    image:
-      "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/74670756_2405037493070041_1073840006952386560_o.jpg?_nc_cat=110&_nc_oc=AQnHqtvrMOdv9T8eLyHTr_SdHdzwK6cTu0_IfcXv8IH-IYDvq69nKUUcLPVdBs7bblM&_nc_ht=scontent-lax3-2.xx&oh=6bb14731d465324a9bebfd37a27b3e77&oe=5E56BCEE",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/74670756_2405037493070041_1073840006952386560_o.jpg?_nc_cat=110&_nc_sid=a61e81&_nc_ohc=E_m8aXo-RA8AX8hFQta&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=6ad21f8c8fdba403850fe187e3fda295&oe=5EFEDA89",
     date: 20191106,
     time: 1830,
     location: "Price Center Theater"
@@ -234,5 +233,13 @@ export const events = [
     date: 20200228,
     time: 1850,
     location: "UTC Ice"
+  },
+  {
+    title: "Field Trip: Intuit Design Open House",
+    link: "https://www.facebook.com/events/214359136355617",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/87884265_2508430522730737_1890747648554565632_o.jpg?_nc_cat=100&_nc_sid=a61e81&_nc_ohc=WRYWt9ynnF0AX_FRBaa&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=3d0cec41ec001e164e82298c1c589558&oe=5F01E159",
+    date: 20200305,
+    time: 1400,
+    location: "Intuit San Diego Office"
   }
 ];

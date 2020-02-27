@@ -31,7 +31,6 @@ class MemberTiles extends React.Component {
             onMouseOver={ this.removeDuotone }
             onMouseOut = { this.addDuotone }
           />
-          {console.log(this.state.duotone)}
         </a>
 
         <h3 style={{ marginTop: spacer1 }}>{this.props.name} </h3>
