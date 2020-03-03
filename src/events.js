@@ -47,8 +47,7 @@ export const events = [
   {
     title: "Product Design Talk w/ Facebook",
     link: "https://www.facebook.com/events/2557519091031116/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_oc=AQkUhyxLeFBQu0bxOp5h_QfWMDMFFGY9v2At9yH0214UCflO_oEoUqKG1oj-I_7sV6h_Ilb03XManyluja8CqW7Q&_nc_ht=scontent-lax3-1.xx&oh=447d3c3c2333c63e754291e0f2cf8438&oe=5E5778E1",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=wAO1cmCB4XAAX8rxMy6&_nc_ht=scontent-lax3-1.xx&oh=60ba64c1f7e9240aecde45ed45774aad&oe=5E9963E1",
     date: 20191029,
     time: 1830,
     location: "HSS 1346"
