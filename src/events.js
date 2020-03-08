@@ -38,8 +38,7 @@ export const events = [
   {
     title: "GBM 4: Resume Workshop",
     link: "https://www.facebook.com/events/557332198360417",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73010648_2387019728205151_3532722021001592832_n.jpg?_nc_cat=105&_nc_oc=AQl-MQfky7YSzV_zf6dnZQJkphtfCd9b1OpoeZxK9QTfvRHEE_RKnopOf36nFYwIbzZmcOZMk7i4HEoy2iEK8VlQ&_nc_ht=scontent-lax3-1.xx&oh=3c894c0bea15ed603716c3ea60b34fbd&oe=5E62AC42",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=01VXVnehuJkAX8EgUS-&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=51b8384809b2638bacf5fc7f2d87ea59&oe=5E97C545",
     date: 20191023,
     time: 1830,
     location: "HSS 1346"

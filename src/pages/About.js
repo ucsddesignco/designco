@@ -1,10 +1,10 @@
 import React from "react";
-import { base4, spacer1, spacer2, spacer3, spacer4 } from "../constants.js";
+import { spacer2, spacer3, spacer4 } from "../constants.js";
 import { team } from "../team.js";
 import { Helmet } from "react-helmet";
 import Member from "../components/MemberTiles";
 import Navbar from "../components/Navbar";
-import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
+import { Container, Row, Col } from "react-grid-system";
 
 const teamList = team.map(member => (
   <Col sm={6} md={4}>
@@ -25,7 +25,7 @@ class About extends React.Component {
         <Helmet>
           <title> About | Design Co </title>
         </Helmet>
-        <Navbar />
+        <Navbar color={"#000"} altColor={"#FFF"}/>
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">
             <h1>

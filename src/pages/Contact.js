@@ -14,7 +14,7 @@ class Contact extends React.Component {
             Contact | Design Co
           </title>
         </Helmet>
-        <Navbar />
+        <Navbar color={"#000"} altColor={"#FFF"}/>
         <Container className="outerContainer">
           <div className="innerContainer">
             <h1 style={{ marginBottom: spacer3 }}>

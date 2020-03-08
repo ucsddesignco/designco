@@ -1,5 +1,5 @@
 import React from "react";
-import { spacer1, spacer2, spacer3, spacer4 } from "../constants.js";
+import { spacer3, spacer4 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Event from "../components/Event";
@@ -64,7 +64,7 @@ class AllEvents extends React.Component {
         <Helmet>
           <title>Events | Design Co</title>
         </Helmet>
-        <Navbar />
+        <Navbar color={"#000"} altColor={"#FFF"}/>
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div 
             className="innerContainer"

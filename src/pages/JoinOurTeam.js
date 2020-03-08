@@ -1,5 +1,5 @@
 import React from "react";
-import { base4, spacer1, spacer2, spacer3, spacer4 } from "../constants.js";
+import { spacer2, spacer3, spacer4 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
@@ -7,7 +7,7 @@ import { faq } from "../faq.js";
 import QA from "../components/QA";
 import { roles } from "../roles.js";
 import Role from "../components/Role";
-import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
+import { Container, Row, Col } from "react-grid-system";
 
 
 const faqList = faq.map(item => (
@@ -57,7 +57,7 @@ class Join extends React.Component {
         <Helmet>
           <title> Join Our Team | Design Co </title>
         </Helmet>
-        <Navbar />
+        <Navbar color={"#000"} altColor={"#FFF"}/>
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">
             <Row>

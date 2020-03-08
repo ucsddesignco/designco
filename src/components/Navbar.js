@@ -1,8 +1,33 @@
 import React from "react";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
-import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
+import { spacer2, spacer4 } from "../constants";
 
 class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { active: false, hideSidePanel: true }
+    this.toggleHamburger = this.toggleHamburger.bind(this);
+  }
+
+  toggleHamburger = () => {
+    if (!this.state.active) {
+      document.getElementById("hamburger").classList.add("is-active");
+      document.getElementById("hamburger-inner").style.backgroundColor = this.props.altColor;
+    } else {
+      document.getElementById("hamburger").classList.remove("is-active");
+
+      // Delay resetting hamburger color for natural animation
+      setTimeout(() => {
+        document.getElementById("hamburger-inner").style.backgroundColor = this.props.color;
+      }, 200);
+    }
+
+    this.setState({
+      active: !this.state.active,
+      hideSidePanel: !this.state.hideSidePanel
+    })
+  }
+
   render() {
     return (
       <div
@@ -106,34 +131,99 @@ class Navbar extends React.Component {
                 </Visible>
               </a>
             </Col>
-            <Col xs={10} sm={9}>
-              <ul className="nav">
-                <li>
-                  <h4>
-                    <a href="/">Home</a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="/about">About</a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="/events">Events</a>
-                  </h4>
-                </li>
-                {/* <li>
-                  <h4>
-                    <a href="/joinourteam">Join Our Team</a>
-                  </h4>
-                </li> */}
-                <li>
-                  <h4>
-                    <a href="/contact">Contact</a>
-                  </h4>
-                </li>
-              </ul>
+            <Col xs={10} sm={9} style={{ paddingLeft: "0" }}>
+              <Hidden xs sm style={{ padding: "0" }}>
+                <ul className="nav">
+                  <li>
+                    <h4>
+                      <a href="/">Home</a>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      <a href="/about">About</a>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      <a href="/events">Events</a>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      <a href="/joinourteam">Join Our Team</a>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      <a href="/contact">Contact</a>
+                    </h4>
+                  </li>
+                </ul>
+              </Hidden>
+              <Visible xs sm>
+                <div 
+                  id="hamburger" 
+                  className="hamburger hamburger--spin" 
+                  onClick={ this.toggleHamburger }
+                >
+                  <div className="hamburger-box">
+                    <div 
+                      id="hamburger-inner" 
+                      style={{ backgroundColor: this.props.color }}
+                    ></div>
+                  </div>
+                </div>
+
+                {/* Background brightness */}
+                <div 
+                  className={ this.state.hideSidePanel ? "panel-darken panel-darken-close" : "panel-darken panel-darken-open"} 
+                  onClick={ this.toggleHamburger }
+                ></div>
+
+                {/* Side panel */}
+                <div 
+                  className={ this.state.hideSidePanel ? "panel-wrap panel-wrap-close" : "panel-wrap panel-wrap-open"}
+                >
+                  <div 
+                    className="panel"
+                    style={{ backgroundColor: this.props.color }}
+                  >
+                    <div className="panelNav">
+                    <ul 
+                      id="ham-nav"
+                      style={{ color: this.props.altColor }}
+                    >
+                      <li>
+                        <h4>
+                          <a href="/">Home</a>
+                        </h4>
+                      </li>
+                      <li>
+                        <h4>
+                          <a href="/about">About</a>
+                        </h4>
+                      </li>
+                      <li>
+                        <h4>
+                          <a href="/events">Events</a>
+                        </h4>
+                      </li>
+                      <li>
+                        <h4>
+                          <a href="/joinourteam">Join Our Team</a>
+                        </h4>
+                      </li>
+                      <li>
+                        <h4>
+                          <a href="/contact">Contact</a>
+                        </h4>
+                      </li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              </Visible>
             </Col>
           </Row>
         </Container>

@@ -1,13 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Splash from "../components/Splash";
 import Button from "../components/Button";
 import Event from "../components/Event";
-import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-grid-system";
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
-import placeholder from "../images/placeholder/fb.png";
-import { setConfiguration } from "react-grid-system";
 
 import intuit from "../images/sponsors/intuit.png";
 import sony from "../images/sponsors/sony.png";
@@ -31,7 +27,6 @@ events.sort((a, b) => (a.date < b.date ? 1 : -1));
 let upcomingEvents = [];
 
 for (let i = 0; i < events.length; i++) {
-  console.log(events[i].date + " | " + today);
   if (events[i].date >= today) upcomingEvents.unshift(events[i]);
   else break;
 }
@@ -75,7 +70,7 @@ class Home extends React.Component {
                     Read More
                   </a>
                 </p>
-                <p class="text_caption">Feb. 12, 2020</p>
+                <p className="text_caption">Feb. 12, 2020</p>
               </Col>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
@@ -91,7 +86,7 @@ class Home extends React.Component {
                     Read More
                   </a>
                 </p>
-                <p class="text_caption">Sept. 27, 2019</p>
+                <p className="text_caption">Sept. 27, 2019</p>
               </Col>
             </Row>
           </div>
