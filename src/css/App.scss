@@ -133,10 +133,10 @@ html {
   border: 0;
   margin: 0 20px 0 0;
   overflow: visible; }
-.hamburger:hover {
-  opacity: 0.5; }
-.hamburger.is-active:hover {
-  opacity: 0.5; }
+// .hamburger:hover {
+//   opacity: 0.5; }
+// .hamburger.is-active:hover {
+//   opacity: 0.5; }
 .hamburger.is-active #hamburger-inner,
 .hamburger.is-active #hamburger-inner::before,
 .hamburger.is-active #hamburger-inner::after {
