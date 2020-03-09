@@ -239,5 +239,13 @@ export const events = [
     date: 20200305,
     time: 1400,
     location: "Intuit San Diego Office"
+  },
+  {
+    title: "Design Co: End of Quarter Celebration",
+    link: "https://www.facebook.com/events/1045820139124085",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/89782901_2517422061831583_109240762301939712_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=UU07mT-cQdoAX9XhEAp&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=89ebaefab6ffd657ee0beb30812d99cc&oe=5E98C1D9",
+    date: 20200311,
+    time: 1830,
+    location: "SpotKTV: 7327 Clairemont Mesa Blvd"
   }
 ];
