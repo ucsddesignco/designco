@@ -1,5 +1,13 @@
 export const events = [
   {
+    title: "GBM 1: Design Co Fall Kickoff",
+    link: "https://www.facebook.com/events/492692744911435/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=VNMLhE4CeLgAX_W3HP_&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=e67fdb897ceb1e6c5678687e2cdfcba2&oe=5E97CBC9",
+    date: 20191003,
+    time: 1830,
+    location: "HSS 1346"
+  },
+  {
     title: "GBM 2: Intern Panel",
     link: "https://www.facebook.com/events/958166034548618/",
     image:
