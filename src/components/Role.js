@@ -10,6 +10,11 @@ class Role extends React.Component {
     this.escFunction = this.escFunction.bind(this);
   }
 
+  handleScroll = () => {
+    // Enable/disable document page from scrolling
+    document.body.style.overflow = this.state.hideSidePanel ? "hidden" : "scroll";
+  }
+
   handlePanel = () => {
     // Show and hide panel
     this.setState(state => ({
@@ -20,6 +25,8 @@ class Role extends React.Component {
     for (let i = 0; i < document.getElementsByClassName("panel").length; i++) {
       document.getElementsByClassName("panel")[i].scrollTop = 0;
     }
+
+    this.handleScroll();
   }
 
   // Enables HTML styling for text input from roles.js
@@ -33,8 +40,9 @@ class Role extends React.Component {
     if(event.keyCode === 27) {
       if(!this.state.hideSidePanel) {
         this.setState(state => ({
-          hideSidePanel: !state.hideSidePanel
+          hideSidePanel: true
         }));
+        document.body.style.overflow = "scroll";
       }
     }
   }

@@ -7,14 +7,17 @@ class Navbar extends React.Component {
     super(props);
     this.state = { active: false, hideSidePanel: true }
     this.toggleHamburger = this.toggleHamburger.bind(this);
+    this.escFunction = this.escFunction.bind(this);
   }
 
   toggleHamburger = () => {
     if (!this.state.active) {
       document.getElementById("hamburger").classList.add("is-active");
       document.getElementById("hamburger-inner").style.backgroundColor = this.props.altColor;
+      document.body.style.overflow = "hidden";
     } else {
       document.getElementById("hamburger").classList.remove("is-active");
+      document.body.style.overflow = "scroll";
 
       // Delay resetting hamburger color for natural animation
       setTimeout(() => {
@@ -26,6 +29,20 @@ class Navbar extends React.Component {
       active: !this.state.active,
       hideSidePanel: !this.state.hideSidePanel
     })
+  }
+
+  escFunction(event){
+    if(event.keyCode === 27) {
+      if(!this.state.hideSidePanel) {
+        this.toggleHamburger(); 
+      }
+    }
+  }
+  componentDidMount(){
+    document.addEventListener("keydown", this.escFunction, false);
+  }
+  componentWillUnmount(){
+    document.removeEventListener("keydown", this.escFunction, false);
   }
 
   render() {
@@ -164,7 +181,7 @@ class Navbar extends React.Component {
               <Visible xs sm>
                 <div 
                   id="hamburger" 
-                  className="hamburger hamburger--spin" 
+                  className="hamburger--spin" 
                   onClick={ this.toggleHamburger }
                 >
                   <div className="hamburger-box">

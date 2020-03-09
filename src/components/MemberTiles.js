@@ -1,5 +1,5 @@
 import React from "react";
-import { spacer2, spacer1, spacer3 } from "../constants";
+import { spacer1, spacer3 } from "../constants";
 
 class MemberTiles extends React.Component {
   constructor(props) {
