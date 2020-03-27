@@ -31,7 +31,7 @@ for (let i = 0; i < events.length; i++) {
   else break;
 }
 
-const eventList = upcomingEvents.map(function(event) {
+const eventList = (upcomingEvents.length === 0) ? <p style={{marginLeft: spacer1}}>Keep an eye out for spring quarter updates!</p> : upcomingEvents.map(function(event) {
   // Load events occurring today or later
   return (
     <Event
@@ -62,11 +62,18 @@ class Home extends React.Component {
 
             <Row>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
-                <h3 style={{ marginBottom: spacer1 }}>Join Our Team</h3>
+                <h3 style={{ marginBottom: spacer1 }}>
+                  No In-Person GBMs for Spring Quarter
+                </h3>
                 <p style={{ marginBottom: spacer2 }}>
-                  Design Co is looking for new members to join the leadership
-                  team.{" "}
-                  <a href="/joinourteam" target="_blank">
+                  In light of the current COVID-19 (Coronavirus) pandemic, we
+                  have decided to suspend in-person GBMs during Spring Quarter.
+                  Don’t fret - Our team is working hard to explore virtual
+                  opportunities for our design community!{" "}
+                  <a
+                    href="https://www.facebook.com/photo?fbid=2531393510434438&set=a.1640898366150628"
+                    target="_blank"
+                  >
                     Read More
                   </a>
                 </p>
