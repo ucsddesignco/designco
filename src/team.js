@@ -80,7 +80,7 @@ export const team = [
     id: "quinn",
     name: "Quinn Vu",
     role: "Marketing Coordinator",
-    link: "https://thyvu.site/",
+    link: "https://quinn-vu.com/work",
     gradYear: 2021
   },
   {
