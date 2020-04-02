@@ -166,6 +166,11 @@ class Navbar extends React.Component {
                       <a href="/events">Events</a>
                     </h4>
                   </li>
+                  <li>
+                    <h4>
+                      <a href="http://community.ucsddesign.co/">Community</a>
+                    </h4>
+                  </li>
                   {/* <li>
                     <h4>
                       <a href="/joinourteam">Join Our Team</a>
@@ -224,6 +229,11 @@ class Navbar extends React.Component {
                       <li>
                         <h4>
                           <a href="/events">Events</a>
+                        </h4>
+                      </li>
+                      <li>
+                        <h4>
+                          <a href="http://community.ucsddesign.co/">Community</a>
                         </h4>
                       </li>
                       {/* <li>
