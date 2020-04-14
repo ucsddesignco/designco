@@ -101,7 +101,7 @@ export const team = [
     id: "daniel",
     name: "Daniel Li",
     role: "Content Strategist/Writer",
-    link: "http://amyan.me/",
+    link: "http://linkedin.com/in/lidaniel99",
     gradYear: 2021
   },
   {
@@ -115,7 +115,7 @@ export const team = [
     id: "amy",
     name: "Amy An",
     role: "Industry Relations Coordinator",
-    link: "http://linkedin.com/in/lidaniel99",
+    link: "http://amyan.me/",
     gradYear: 2021
   },
   {
