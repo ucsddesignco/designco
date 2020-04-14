@@ -1,12 +1,5 @@
 export const team = [
   {
-    id: "vicky",
-    name: "Vicky Ly",
-    role: "Director of Marketing and Operations",
-    link: "https://vickyly.co",
-    gradYear: 2020
-  },
-  {
     id: "brittany",
     name: "Brittany Newton",
     role: "Director of Community, Growth and Strategy",
@@ -35,10 +28,10 @@ export const team = [
     gradYear: 2020
   },
   {
-    id: "jamin",
-    name: "Jamin Capulong",
-    role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/jamin-nick-capulong/",
+    id: "vicky",
+    name: "Vicky Ly",
+    role: "Director of Marketing and Operations",
+    link: "https://vickyly.co",
     gradYear: 2020
   },
   {
@@ -49,66 +42,17 @@ export const team = [
     gradYear: 2020
   },
   {
-    id: "lucy",
-    name: "Lucy Xu",
-    role: "Honorary GIF Maker",
-    link: "https://lucylouxu.com/",
-    gradYear: 2020
-  },
-  {
-    id: "stella",
-    name: "Stella Seki",
+    id: "jamin",
+    name: "Jamin Capulong",
     role: "Community Engagement Coordinator",
-    link: "https://www.stellaseki.com/",
-    gradYear: 2021
-  },
-  {
-    id: "quinn",
-    name: "Quinn Vu",
-    role: "Marketing Coordinator",
-    link: "https://quinn-vu.com/work",
-    gradYear: 2021
+    link: "https://www.linkedin.com/in/jamin-nick-capulong/",
+    gradYear: 2020
   },
   {
     id: "alison",
     name: "Alison Chen",
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/ealisonchen/",
-    gradYear: 2021
-  },
-  {
-    id: "winson",
-    name: "Winson Dieu",
-    role: "Industry Relations Coordinator",
-    link: "https://winsondieu.com",
-    gradYear: 2021
-  },
-  {
-    id: "paridhi",
-    name: "Paridhi Khaitan",
-    role: "Web Developer",
-    link: "https://www.paridhikhaitan.me/",
-    gradYear: 2021
-  },
-  {
-    id: "nicolette",
-    name: "Nicolette Shin",
-    role: "Social Media Coordinator",
-    link: "http://linkedin.com/in/nicoletteshin526/",
-    gradYear: 2021
-  },
-  {
-    id: "daniel",
-    name: "Daniel Li",
-    role: "Content Strategist/Writer",
-    link: "http://linkedin.com/in/lidaniel99",
-    gradYear: 2021
-  },
-  {
-    id: "dana",
-    name: "Dana Chou",
-    role: "Photographer/Videographer",
-    link: "https://www.danachou.net/",
     gradYear: 2021
   },
   {
@@ -119,6 +63,20 @@ export const team = [
     gradYear: 2021
   },
   {
+    id: "dana",
+    name: "Dana Chou",
+    role: "Photographer/Videographer",
+    link: "https://www.danachou.net/",
+    gradYear: 2021
+  },
+  {
+    id: "daniel",
+    name: "Daniel Li",
+    role: "Content Strategist/Writer",
+    link: "http://linkedin.com/in/lidaniel99",
+    gradYear: 2021
+  },
+  {
     id: "julia-c",
     name: "Julia Chu",
     role: "Community Engagement Coordinator",
@@ -126,11 +84,39 @@ export const team = [
     gradYear: 2021
   },
   {
-    id: "mylinh",
-    name: "Mylinh Lac",
+    id: "nicolette",
+    name: "Nicolette Shin",
+    role: "Social Media Coordinator",
+    link: "http://linkedin.com/in/nicoletteshin526/",
+    gradYear: 2021
+  },
+  {
+    id: "paridhi",
+    name: "Paridhi Khaitan",
+    role: "Web Developer",
+    link: "https://www.paridhikhaitan.me/",
+    gradYear: 2021
+  },
+  {
+    id: "quinn",
+    name: "Quinn Vu",
+    role: "Marketing Coordinator",
+    link: "https://quinn-vu.com/work",
+    gradYear: 2021
+  },
+  {
+    id: "stella",
+    name: "Stella Seki",
     role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/mylinh-lac/",
-    gradYear: 2022
+    link: "https://www.stellaseki.com/",
+    gradYear: 2021
+  },
+  {
+    id: "winson",
+    name: "Winson Dieu",
+    role: "Industry Relations Coordinator",
+    link: "https://winsondieu.com",
+    gradYear: 2021
   },
   {
     id: "braeanne",
@@ -140,10 +126,10 @@ export const team = [
     gradYear: 2022
   },
   {
-    id: "adam",
-    name: "Syed Adam Emir Putra",
-    role: "Web Developer",
-    link: "http://syedadam007.github.io/",
+    id: "mylinh",
+    name: "Mylinh Lac",
+    role: "Community Engagement Coordinator",
+    link: "https://www.linkedin.com/in/mylinh-lac/",
     gradYear: 2022
   },
   {
@@ -151,6 +137,13 @@ export const team = [
     name: "Staci Lin",
     role: "Industry Relations Coordinator",
     link: "http://stacilin.com/",
+    gradYear: 2022
+  },
+  {
+    id: "adam",
+    name: "Syed Adam Emir Putra",
+    role: "Web Developer",
+    link: "http://syedadam007.github.io/",
     gradYear: 2022
   },
   {
