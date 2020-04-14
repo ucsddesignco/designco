@@ -255,5 +255,21 @@ export const events = [
     date: 20200311,
     time: 1830,
     location: "SpotKTV: 7327 Clairemont Mesa Blvd"
+  },
+  {
+    title: "Design Co: Office Hours - Democratizing Design Resources",
+    link: "https://www.facebook.com/events/233106538099531/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/92694570_2544831435757312_1547809817232408576_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=VWni7iguf0EAX9BAT4G&_nc_ht=scontent-lax3-1.xx&oh=beaad51e279e70e7b63a8206a5f59b6d&oe=5EBA1708",
+    date: 20200415,
+    time: 1830,
+    location: "Zoom"
+  },
+  {
+    title: "Design Co: Skribbl.io",
+    link: "https://www.facebook.com/events/854237768411324/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/92699040_2545518579021931_8418026039191535616_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=bKjAXHmWd6wAX_on7fW&_nc_ht=scontent-lax3-1.xx&oh=7179eccb2ce9c56967c55c25da841020&oe=5EBAEABE",
+    date: 20200417,
+    time: 1830,
+    location: "Zoom"
   }
 ];

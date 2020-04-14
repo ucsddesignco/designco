@@ -21,6 +21,12 @@ class MemberTiles extends React.Component {
     });
   }
 
+  // componentDidMount() {
+  //   this.props.pictures.forEach((picture) => {
+  //     new Image().src = picture.fileName;
+  //   });
+  // }
+
   render() {
     return (
       <div className="members" style={{ marginBottom: spacer3 }}>
