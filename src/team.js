@@ -1,12 +1,5 @@
 export const team = [
   {
-    id: "steven",
-    name: "Steven Chen",
-    role: "Director of Industry Relations",
-    link: "https://www.stevenychen.com/",
-    gradYear: 2020
-  },
-  {
     id: "vicky",
     name: "Vicky Ly",
     role: "Director of Marketing and Operations",
@@ -35,6 +28,20 @@ export const team = [
     gradYear: 2021
   },
   {
+    id: "steven",
+    name: "Steven Chen",
+    role: "Director of Industry Relations",
+    link: "https://www.stevenychen.com/",
+    gradYear: 2020
+  },
+  {
+    id: "jamin",
+    name: "Jamin Capulong",
+    role: "Community Engagement Coordinator",
+    link: "https://www.linkedin.com/in/jamin-nick-capulong/",
+    gradYear: 2020
+  },
+  {
     id: "andrew",
     name: "Andrew Zhen",
     role: "Web Developer",
@@ -46,13 +53,6 @@ export const team = [
     name: "Lucy Xu",
     role: "Honorary GIF Maker",
     link: "https://lucylouxu.com/",
-    gradYear: 2020
-  },
-  {
-    id: "jamin",
-    name: "Jamin Capulong",
-    role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/jamin-nick-capulong/",
     gradYear: 2020
   },
   {
