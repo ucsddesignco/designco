@@ -2,7 +2,7 @@ export const events = [
   {
     title: "GBM 1: Design Co Fall Kickoff",
     link: "https://www.facebook.com/events/492692744911435/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=VNMLhE4CeLgAX_W3HP_&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=e67fdb897ceb1e6c5678687e2cdfcba2&oe=5E97CBC9",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=F-u93j01rTkAX_xvcXI&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=f5a43287602b9d52f116e85987dd2ad6&oe=5EC2F5B7",
     date: 20191003,
     time: 1830,
     location: "HSS 1346"
@@ -51,7 +51,7 @@ export const events = [
   {
     title: "Product Design Talk w/ Facebook",
     link: "https://www.facebook.com/events/2557519091031116/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=wAO1cmCB4XAAX8rxMy6&_nc_ht=scontent-lax3-1.xx&oh=60ba64c1f7e9240aecde45ed45774aad&oe=5E9963E1",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=xBGwKdP7xGQAX8rMjEu&_nc_ht=scontent-lax3-1.xx&oh=506d5ae3fbebcaa9deb66b2c72374d87&oe=5EC2AF1F",
     date: 20191029,
     time: 1830,
     location: "HSS 1346"
@@ -67,8 +67,7 @@ export const events = [
   {
     title: "Studio Session: Visual Design Principles w/ Facebook",
     link: "https://www.facebook.com/events/441147996760078/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_ohc=I3ddW3nF90UAX85n7bv&_nc_ht=scontent-lax3-1.xx&oh=98be962195a993765726eb4793f02070&oe=5E9A084F",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=2ld98opLIfMAX9PNdcF&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=3ab6e6caf7a9e80d5d8c4629b3517a46&oe=5EC0D958",
     date: 20191030,
     time: 1830,
     location: "HSS 1346"
@@ -141,8 +140,7 @@ export const events = [
   {
     title: "Design Co: Boba Run",
     link: "https://www.facebook.com/events/611679676256418/",
-    image:
-      "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_ohc=UXLxBY_OR9MAX8qF0cr&_nc_ht=scontent-lax3-2.xx&oh=5aa2f1f85cef7b2a7e63be976b8fdb93&oe=5E99282D",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_sid=b386c4&_nc_ohc=xr1IAnTHUs8AX_EiGLx&_nc_ht=scontent-lax3-2.xx&oh=bd514850fe524097145de5198b5735e3&oe=5EC047D3",
     date: 20200121,
     time: 1850,
     location: "Camellia Rd Tea Bar"
@@ -245,7 +243,7 @@ export const events = [
   {
     title: "Design Co: End of Quarter Celebration",
     link: "https://www.facebook.com/events/1045820139124085",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/89782901_2517422061831583_109240762301939712_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=UU07mT-cQdoAX9XhEAp&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=89ebaefab6ffd657ee0beb30812d99cc&oe=5E98C1D9",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/89782901_2517422061831583_109240762301939712_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=N3wXETGD8CcAX88DXuX&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=c822ced33be576b7f1b1139daa3afd2b&oe=5EC1FFA7",
     date: 20200311,
     time: 1830,
     location: "SpotKTV: 7327 Clairemont Mesa Blvd"
@@ -263,6 +261,14 @@ export const events = [
     link: "https://www.facebook.com/events/854237768411324/",
     image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/92699040_2545518579021931_8418026039191535616_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=bKjAXHmWd6wAX_on7fW&_nc_ht=scontent-lax3-1.xx&oh=7179eccb2ce9c56967c55c25da841020&oe=5EBAEABE",
     date: 20200417,
+    time: 1830,
+    location: "Zoom"
+  },
+  {
+    title: "Design Co: Figma Jam",
+    link: "https://www.facebook.com/events/3245900578968546",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/93186139_2549988225241633_7282431192865964032_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=itRP2boeI98AX8I5Nq8&_nc_ht=scontent-lax3-1.xx&oh=cd3472cc39ff1cc2fdebc7043004b200&oe=5EC1E81A",
+    date: 20200422,
     time: 1830,
     location: "Zoom"
   }
