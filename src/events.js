@@ -271,5 +271,13 @@ export const events = [
     date: 20200422,
     time: 1830,
     location: "Zoom"
+  },
+  {
+    title: "Design Co: Animal Crossing Social",
+    link: "https://www.facebook.com/events/544869263134079",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/93599471_2551346385105817_6437675649036451840_o.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=hQT9A8EtJGkAX9azslB&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=aa5f2c1696af4ad018063af0eafd14b2&oe=5EC44A15",
+    date: 20200425,
+    time: 1900,
+    location: "Zoom"
   }
 ];
