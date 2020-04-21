@@ -267,9 +267,9 @@ export const events = [
   {
     title: "Design Co: Figma Jam",
     link: "https://www.facebook.com/events/3245900578968546",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/93186139_2549988225241633_7282431192865964032_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=itRP2boeI98AX8I5Nq8&_nc_ht=scontent-lax3-1.xx&oh=cd3472cc39ff1cc2fdebc7043004b200&oe=5EC1E81A",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/93675010_2552098771697245_2900781775976398848_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=UvGEkHbM9u0AX-gESA-&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=c610111be32e2f31da1621c7f61904f8&oe=5EC62B43",
     date: 20200422,
-    time: 1830,
+    time: 1700,
     location: "Zoom"
   },
   {
