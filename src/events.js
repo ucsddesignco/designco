@@ -123,8 +123,7 @@ export const events = [
   {
     title: "Design Co: Stride - Micro Design Career Fair",
     link: "https://www.facebook.com/events/464110677635699/",
-    image:
-      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_ohc=M-GRgYJ6lM4AQlf48U7wOlo58GiBFfF37MCI2KBi64nIrl8uDWS_DHWaQ&_nc_ht=scontent-sjc3-1.xx&oh=415d9c3881d97e9da6971124e5cb3972&oe=5EA37DE2",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=7HaS6wFAGrUAX9Gavj4&_nc_ht=scontent-lax3-1.xx&oh=929e0eb6fe42cd426c581cc6d96892e4&oe=5EC9B89E",
     date: 20200114,
     time: 1100,
     location: "PC Ballroom East"
@@ -278,6 +277,14 @@ export const events = [
     image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/93599471_2551346385105817_6437675649036451840_o.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=hQT9A8EtJGkAX9azslB&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=aa5f2c1696af4ad018063af0eafd14b2&oe=5EC44A15",
     date: 20200425,
     time: 1900,
+    location: "Zoom"
+  },
+  {
+    title: "Design Co: Portfolio Critiques",
+    link: "https://www.facebook.com/events/635068663710437/",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/94123569_2554455718128217_6001467865532727296_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=W3pUxW3lPNMAX9ce7F7&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=7e956f2c2dc50c1595666c31882beee7&oe=5ECB44F5",
+    date: 20200429,
+    time: 1700,
     location: "Zoom"
   }
 ];
