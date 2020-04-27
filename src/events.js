@@ -286,5 +286,13 @@ export const events = [
     date: 20200429,
     time: 1700,
     location: "Zoom"
+  },
+  {
+    title: "Design Co: Job Hunting Tips w/ Design Recruiters",
+    link: "https://www.facebook.com/events/1560987610717882",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/94619298_2556076857966103_5234135364980965376_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=3MTS53A0NlUAX_iQud4&_nc_ht=scontent-lax3-2.xx&oh=dd864b3243ac30045c657aa05a3238a2&oe=5ECB6AE8",
+    date: 20200506,
+    time: 1700,
+    location: "Zoom"
   }
 ];

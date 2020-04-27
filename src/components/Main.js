@@ -5,6 +5,7 @@ import About from '../pages/About';
 import AllEvents from '../pages/Events';
 // import Join from '../pages/JoinOurTeam';
 import Contact from '../pages/Contact';
+import GBM from '../pages/GBM';
 
 class Main extends React.Component{
     render(){
@@ -17,6 +18,7 @@ class Main extends React.Component{
                     <Route path='/events' component={AllEvents}/>
                     {/* <Route path='/joinourteam' component={Join}/> */}
                     <Route path='/contact' component={Contact}/>
+                    <Route path='/gbm' component={GBM}/>
                 </Switch>
             </main>
         );
