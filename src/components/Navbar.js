@@ -5,7 +5,7 @@ import { spacer2, spacer4 } from "../constants";
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { active: false, hideSidePanel: true }
+    this.state = { active: false, hideSidePanel: true };
     this.toggleHamburger = this.toggleHamburger.bind(this);
     this.escFunction = this.escFunction.bind(this);
   }
@@ -13,7 +13,9 @@ class Navbar extends React.Component {
   toggleHamburger = () => {
     if (!this.state.active) {
       document.getElementById("hamburger").classList.add("is-active");
-      document.getElementById("hamburger-inner").style.backgroundColor = this.props.altColor;
+      document.getElementById(
+        "hamburger-inner"
+      ).style.backgroundColor = this.props.altColor;
       document.body.style.overflow = "hidden";
     } else {
       document.getElementById("hamburger").classList.remove("is-active");
@@ -21,27 +23,29 @@ class Navbar extends React.Component {
 
       // Delay resetting hamburger color for natural animation
       setTimeout(() => {
-        document.getElementById("hamburger-inner").style.backgroundColor = this.props.color;
+        document.getElementById(
+          "hamburger-inner"
+        ).style.backgroundColor = this.props.color;
       }, 200);
     }
 
     this.setState({
       active: !this.state.active,
       hideSidePanel: !this.state.hideSidePanel
-    })
-  }
+    });
+  };
 
-  escFunction(event){
-    if(event.keyCode === 27) {
-      if(!this.state.hideSidePanel) {
-        this.toggleHamburger(); 
+  escFunction(event) {
+    if (event.keyCode === 27) {
+      if (!this.state.hideSidePanel) {
+        this.toggleHamburger();
       }
     }
   }
-  componentDidMount(){
+  componentDidMount() {
     document.addEventListener("keydown", this.escFunction, false);
   }
-  componentWillUnmount(){
+  componentWillUnmount() {
     document.removeEventListener("keydown", this.escFunction, false);
   }
 
@@ -60,7 +64,7 @@ class Navbar extends React.Component {
           }}
         >
           <Row>
-            <Col xs={2} sm={3} >
+            <Col xs={2} sm={3}>
               <a href="/">
                 <Hidden xs sm>
                   <svg
@@ -149,7 +153,7 @@ class Navbar extends React.Component {
               </a>
             </Col>
             <Col xs={10} sm={9} style={{ paddingLeft: "0" }}>
-              <Hidden xs sm style={{ padding: "0" }}>
+              <Hidden xs sm md style={{ padding: "0" }}>
                 <ul className="nav">
                   <li>
                     <h4>
@@ -164,6 +168,11 @@ class Navbar extends React.Component {
                   <li>
                     <h4>
                       <a href="/events">Events</a>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
+                      <a href="/gbm">GBM</a>
                     </h4>
                   </li>
                   <li>
@@ -183,70 +192,82 @@ class Navbar extends React.Component {
                   </li>
                 </ul>
               </Hidden>
-              <Visible xs sm>
-                <div 
-                  id="hamburger" 
-                  className="hamburger--spin" 
-                  onClick={ this.toggleHamburger }
+              <Visible xs sm md>
+                <div
+                  id="hamburger"
+                  className="hamburger--spin"
+                  onClick={this.toggleHamburger}
                 >
                   <div className="hamburger-box">
-                    <div 
-                      id="hamburger-inner" 
+                    <div
+                      id="hamburger-inner"
                       style={{ backgroundColor: this.props.color }}
                     ></div>
                   </div>
                 </div>
 
                 {/* Background brightness */}
-                <div 
-                  className={ this.state.hideSidePanel ? "panel-darken panel-darken-close" : "panel-darken panel-darken-open"} 
-                  onClick={ this.toggleHamburger }
+                <div
+                  className={
+                    this.state.hideSidePanel
+                      ? "panel-darken panel-darken-close"
+                      : "panel-darken panel-darken-open"
+                  }
+                  onClick={this.toggleHamburger}
                 ></div>
 
                 {/* Side panel */}
-                <div 
-                  className={ this.state.hideSidePanel ? "panel-wrap panel-wrap-close" : "panel-wrap panel-wrap-open"}
+                <div
+                  className={
+                    this.state.hideSidePanel
+                      ? "panel-wrap panel-wrap-close"
+                      : "panel-wrap panel-wrap-open"
+                  }
                 >
-                  <div 
+                  <div
                     className="panel"
                     style={{ backgroundColor: this.props.color }}
                   >
                     <div className="panelNav">
-                    <ul 
-                      id="ham-nav"
-                      style={{ color: this.props.altColor }}
-                    >
-                      <li>
-                        <h4>
-                          <a href="/">Home</a>
-                        </h4>
-                      </li>
-                      <li>
-                        <h4>
-                          <a href="/about">About</a>
-                        </h4>
-                      </li>
-                      <li>
-                        <h4>
-                          <a href="/events">Events</a>
-                        </h4>
-                      </li>
-                      <li>
-                        <h4>
-                          <a href="http://community.ucsddesign.co/">Community</a>
-                        </h4>
-                      </li>
-                      {/* <li>
+                      <ul id="ham-nav" style={{ color: this.props.altColor }}>
+                        <li>
+                          <h4>
+                            <a href="/">Home</a>
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <a href="/about">About</a>
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <a href="/events">Events</a>
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <a href="/gbm">GBM</a>
+                          </h4>
+                        </li>
+                        <li>
+                          <h4>
+                            <a href="http://community.ucsddesign.co/">
+                              Community
+                            </a>
+                          </h4>
+                        </li>
+                        {/* <li>
                         <h4>
                           <a href="/joinourteam">Join Our Team</a>
                         </h4>
                       </li> */}
-                      <li>
-                        <h4>
-                          <a href="/contact">Contact</a>
-                        </h4>
-                      </li>
-                    </ul>
+                        <li>
+                          <h4>
+                            <a href="/contact">Contact</a>
+                          </h4>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
