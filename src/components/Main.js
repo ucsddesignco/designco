@@ -3,10 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import AllEvents from '../pages/Events';
-import Join from '../pages/JoinOurTeam';
-import Contact from '../pages/Contact';
+// import Join from '../pages/JoinOurTeam';
 import GBM from '../pages/GBM';
-import Test from '../pages/Test';
+import Contact from '../pages/Contact';
 
 class Main extends React.Component{
     render(){
@@ -17,10 +16,9 @@ class Main extends React.Component{
                     <Route exact path='/home' component={Home}/>
                     <Route path='/about' component={About}/>
                     <Route path='/events' component={AllEvents}/>
-                    <Route path='/joinourteam' component={Join}/>
-                    <Route path='/contact' component={Contact}/>
+                    {/* <Route path='/joinourteam' component={Join}/> */}
                     <Route path='/gbm' component={GBM}/>
-                    <Route path='/test' component={Test}/>
+                    <Route path='/contact' component={Contact}/>
                 </Switch>
             </main>
         );
