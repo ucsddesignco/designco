@@ -64,25 +64,22 @@ class AllEvents extends React.Component {
         <Helmet>
           <title>Events | Design Co</title>
         </Helmet>
-        <Navbar color={"#000"} altColor={"#FFF"}/>
+        <Navbar color={"#000"} altColor={"#FFF"} from="events" />
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
-          <div 
-            className="innerContainer"
-            style={{ marginBottom: spacer3 }}
-          >
+          <div className="innerContainer" style={{ marginBottom: spacer3 }}>
             <h1>
-              We host events for both technical development and networking. 
-              Come out to our events!
+              We host events for both technical development and networking. Come
+              out to our events!
             </h1>
           </div>
-          <div 
+          <div
             className="events innerContainer"
             style={{ marginBottom: spacer3 }}
           >
             <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
             <Row>{eventList}</Row>
           </div>
-          <div 
+          <div
             className="events innerContainer"
             style={{ marginBottom: spacer4 }}
           >
@@ -91,12 +88,13 @@ class AllEvents extends React.Component {
           </div>
           <div className="innerContainer">
             <h2>
-              Follow us on Facebook to get the most up to date information 
-              on all our events. </h2>
+              Follow us on Facebook to get the most up to date information on
+              all our events.{" "}
+            </h2>
           </div>
         </Container>
       </div>
-    )
+    );
   }
 }
 

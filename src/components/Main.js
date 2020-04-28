@@ -17,7 +17,7 @@ class Main extends React.Component {
           <Route path="/about" component={About} />
           <Route path="/events" component={AllEvents} />
           {/* <Route path='/joinourteam' component={Join}/> */}
-          <Route path="/gbm" component={GBM} />
+          <Route exact path="/gbm" component={GBM} />
           <Route path="/contact" component={Contact} />
         </Switch>
       </main>

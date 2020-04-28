@@ -25,7 +25,7 @@ class About extends React.Component {
         <Helmet>
           <title> About | Design Co </title>
         </Helmet>
-        <Navbar color={"#000"} altColor={"#FFF"}/>
+        <Navbar color={"#000"} altColor={"#FFF"} from="about" />
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">
             <h1>

@@ -5,7 +5,7 @@ import { spacer2, spacer4 } from "../constants";
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { active: false, hideSidePanel: true };
+    this.state = { active: false, hideSidePanel: true, from: this.props.from };
     this.toggleHamburger = this.toggleHamburger.bind(this);
     this.escFunction = this.escFunction.bind(this);
   }
@@ -44,9 +44,15 @@ class Navbar extends React.Component {
   }
   componentDidMount() {
     document.addEventListener("keydown", this.escFunction, false);
+    if (this.state.from != "home") {
+      document.getElementById(this.state.from).style.opacity = "0.5";
+    }
   }
   componentWillUnmount() {
     document.removeEventListener("keydown", this.escFunction, false);
+    if (this.state.from != "home") {
+      document.getElementById(this.state.from).style.opacity = "1";
+    }
   }
 
   render() {
@@ -157,17 +163,16 @@ class Navbar extends React.Component {
                 <ul className="nav">
                   <li>
                     <h4>
-                      <a href="/">Home</a>
+                      <a href="/about" id="about">
+                        About
+                      </a>
                     </h4>
                   </li>
                   <li>
                     <h4>
-                      <a href="/about">About</a>
-                    </h4>
-                  </li>
-                  <li>
-                    <h4>
-                      <a href="/events">Events</a>
+                      <a href="/events" id="events">
+                        Events
+                      </a>
                     </h4>
                   </li>
                   <li>
@@ -187,7 +192,9 @@ class Navbar extends React.Component {
                   </li> */}
                   <li>
                     <h4>
-                      <a href="/contact">Contact</a>
+                      <a href="/contact" id="contact">
+                        Contact
+                      </a>
                     </h4>
                   </li>
                 </ul>
@@ -232,17 +239,16 @@ class Navbar extends React.Component {
                       <ul id="ham-nav" style={{ color: this.props.altColor }}>
                         <li>
                           <h4>
-                            <a href="/">Home</a>
+                            <a href="/about" id="about">
+                              About
+                            </a>
                           </h4>
                         </li>
                         <li>
                           <h4>
-                            <a href="/about">About</a>
-                          </h4>
-                        </li>
-                        <li>
-                          <h4>
-                            <a href="/events">Events</a>
+                            <a href="/events" id="events">
+                              Events
+                            </a>
                           </h4>
                         </li>
                         <li>
@@ -264,7 +270,9 @@ class Navbar extends React.Component {
                       </li> */}
                         <li>
                           <h4>
-                            <a href="/contact">Contact</a>
+                            <a href="/contact" id="contact">
+                              Contact
+                            </a>
                           </h4>
                         </li>
                       </ul>

@@ -9,12 +9,8 @@ import { roles } from "../roles.js";
 import Role from "../components/Role";
 import { Container, Row, Col } from "react-grid-system";
 
-
 const faqList = faq.map(item => (
-  <QA 
-    question={item.question}
-    answer={item.answer}
-  />
+  <QA question={item.question} answer={item.answer} />
 ));
 
 const roleList = roles.map(item => (
@@ -46,7 +42,7 @@ class JoinOurTeam extends React.Component {
   }
 
   componentDidMount() {
-    window.location.href = "https://ucsd.zoom.us/j/93237758725"
+    window.location.href = "https://ucsd.zoom.us/j/93237758725";
   }
 
   handlePanel() {
@@ -61,25 +57,28 @@ class JoinOurTeam extends React.Component {
         <Helmet>
           <title> Join Our Team | Design Co </title>
         </Helmet>
-        <Navbar color={"#000"} altColor={"#FFF"}/>
+        <Navbar color={"#000"} altColor={"#FFF"} from="joinourteam" />
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">
             <Row>
               <Col md={6}>
-              <h1 style={{ marginBottom: spacer2 }}>
-                So many boards, here’s why you should choose ours.
-              </h1>
-              <p style={{ marginBottom: spacer3 }}>
-                Applications due Wednesday, February 19th at 11:59PM.
-              </p>
-              <Button
-                link="#roles"
-                text="View Open Roles"
-                style={{ marginBottom: spacer4 }}
-              ></Button>
+                <h1 style={{ marginBottom: spacer2 }}>
+                  So many boards, here’s why you should choose ours.
+                </h1>
+                <p style={{ marginBottom: spacer3 }}>
+                  Applications due Wednesday, February 19th at 11:59PM.
+                </p>
+                <Button
+                  link="#roles"
+                  text="View Open Roles"
+                  style={{ marginBottom: spacer4 }}
+                ></Button>
               </Col>
               <Col md={6}>
-                <img src={require("../images/join/board.gif")} style={{ width: "100%" }}/>
+                <img
+                  src={require("../images/join/board.gif")}
+                  style={{ width: "100%" }}
+                />
               </Col>
             </Row>
           </div>
@@ -89,13 +88,13 @@ class JoinOurTeam extends React.Component {
           <div className="innerContainer">
             <div style={{ marginBottom: spacer4 }}>
               <p className="steps">1st</p>
-              <div className ="stepCopy">
+              <div className="stepCopy">
                 <h1 style={{ marginBottom: spacer2 }}>We're cool people.</h1>
                 <p>
-                  Like you, we’re aspiring designers. We’re the ones who plan 
-                  GBMs, Stride, Design Frontiers, and all that other cool stuff. 
-                  At the end of the day we’re tired and our necks are sore from 
-                  pushing pixels, but we’re students, we’re happy, and we're a 
+                  Like you, we’re aspiring designers. We’re the ones who plan
+                  GBMs, Stride, Design Frontiers, and all that other cool stuff.
+                  At the end of the day we’re tired and our necks are sore from
+                  pushing pixels, but we’re students, we’re happy, and we're a
                   family.
                 </p>
               </div>
@@ -103,25 +102,30 @@ class JoinOurTeam extends React.Component {
 
             <div style={{ marginBottom: spacer4 }}>
               <p className="steps">2nd</p>
-              <div className ="stepCopy">
-                <h1 style={{ marginBottom: spacer2 }}>You'll get to create impact.</h1>
+              <div className="stepCopy">
+                <h1 style={{ marginBottom: spacer2 }}>
+                  You'll get to create impact.
+                </h1>
                 <p>
-                  You’ll get the chance to take part in the planning of 35+ 
-                  events each school year. From a career fair to design sprints, 
-                  to general workshops and talks, you’ll have the chance to get 
-                  your hands dirty and do some cool stuff for your design community.
+                  You’ll get the chance to take part in the planning of 35+
+                  events each school year. From a career fair to design sprints,
+                  to general workshops and talks, you’ll have the chance to get
+                  your hands dirty and do some cool stuff for your design
+                  community.
                 </p>
               </div>
             </div>
 
             <div style={{ marginBottom: spacer4 }}>
               <p className="steps">3rd</p>
-              <div className ="stepCopy">
-                <h1 style={{ marginBottom: spacer2 }}>You'll grow (figuratively).</h1>
+              <div className="stepCopy">
+                <h1 style={{ marginBottom: spacer2 }}>
+                  You'll grow (figuratively).
+                </h1>
                 <p>
-                  You’ll get exposed to so many unique opportunities and 
-                  challenges. Our board is constantly exploring new things, 
-                  sharing ideas, and experimenting. We fail together and grow 
+                  You’ll get exposed to so many unique opportunities and
+                  challenges. Our board is constantly exploring new things,
+                  sharing ideas, and experimenting. We fail together and grow
                   together, so come along with us for the journey!
                 </p>
               </div>
@@ -141,24 +145,25 @@ class JoinOurTeam extends React.Component {
           </div>
         </div>
 
-        <Container className="outerContainer" style={{ marginBottom: spacer3 }} id="roles">
+        <Container
+          className="outerContainer"
+          style={{ marginBottom: spacer3 }}
+          id="roles"
+        >
           <div className="innerContainer">
             <h1 style={{ marginBottom: spacer3 }}>Open Roles</h1>
-            { roleList }
+            {roleList}
           </div>
         </Container>
-        
-        <Container 
-          className="outerContainer" 
-          style={{ marginBottom: spacer4 }}
-        >
+
+        <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">
             <div id="faq">
               <div className="container">
                 <h1 style={{ marginBottom: spacer3 }}>
                   In case you're wondering (FAQs)
                 </h1>
-                { faqList }
+                {faqList}
               </div>
             </div>
           </div>

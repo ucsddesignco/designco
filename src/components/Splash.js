@@ -55,7 +55,7 @@ class Splash extends React.Component {
   render() {
     return (
       <div style={splashStyle}>
-        <Navbar color={baseColor} altColor={bgColor}/>
+        <Navbar color={baseColor} altColor={bgColor} from="home" />
         <Container className="outerContainer">
           <div className="innerContainer">
             <h1 className="splashTitle" style={{ marginBottom: spacer2 }}>
