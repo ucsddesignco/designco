@@ -45,6 +45,10 @@ class Join extends React.Component {
     this.handlePanel = this.handlePanel.bind(this);
   }
 
+  componentDidMount() {
+    window.location.href = "https://ucsd.zoom.us/j/93237758725"
+  }
+
   handlePanel() {
     this.setState(state => ({
       showSidePanel: !state.showSidePanel
