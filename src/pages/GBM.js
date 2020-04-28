@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from '../pages/Home'
+import Contact from '../pages/Contact'
 
 class GBM extends React.Component {
   // componentDidMount() {
@@ -8,7 +8,7 @@ class GBM extends React.Component {
 
   render() {
     return (
-      <Home />
+      <Contact />
     );
   }
 }
