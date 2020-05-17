@@ -10,7 +10,7 @@ export const events = [
   {
     title: "GBM 2: Intern Panel",
     link: "https://www.facebook.com/events/958166034548618/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=-dmeQuBaFmIAX-ejWis&_nc_ht=scontent-lax3-1.xx&oh=ee834bb199b5c59625aa6cade3e78606&oe=5EBC84E4",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=uBED_C1CSe8AX_EgW6a&_nc_ht=scontent-lax3-1.xx&oh=3bbbdfb0176078996dc1ded3be308ac2&oe=5EE80664",
     date: 20191009,
     time: 1830,
     location: "HSS 1346"
@@ -27,7 +27,7 @@ export const events = [
   {
     title: "GBM 3: Design Systems Workshop",
     link: "http://bit.ly/designsystemsgbm",
-    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/s960x960/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=ra-q7QvL6xgAX-ZNW-n&_nc_ht=scontent-lax3-2.xx&_nc_tp=7&oh=314a784435195e63c3919c93474ddd11&oe=5EB9C212",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=HbkAELzBIlMAX_Y4BEX&_nc_ht=scontent-lax3-2.xx&oh=5c246bd89832241de4fced9c2188880b&oe=5EE740D3",
     date: 20191016,
     time: 1830,
     location: "HSS 1346"
@@ -35,7 +35,7 @@ export const events = [
   {
     title: "Design Jam w/ Workday",
     link: "https://www.facebook.com/events/406084503655501",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=4Lm1nhFqF_EAX_aQvmq&_nc_ht=scontent-lax3-1.xx&oh=abda8eb39b6b9dced004c72f831408c4&oe=5EBCDBC2",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=_5ChhqZ0iiIAX-0G2il&_nc_ht=scontent-lax3-1.xx&oh=f7b54db5a48c962e1af176a65ab5a0ed&oe=5EE468C2",
     date: 20191022,
     time: 1700,
     location: "Career Center, Horizon Room"
@@ -43,7 +43,7 @@ export const events = [
   {
     title: "GBM 4: Resume Workshop",
     link: "https://www.facebook.com/events/557332198360417",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=nZBRt9VoiqwAX_mckcd&_nc_ht=scontent-lax3-1.xx&oh=94db195c03569a0392382307d645293e&oe=5EB9445E",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=uG7NkzKKtq4AX9pV42o&_nc_ht=scontent-lax3-1.xx&oh=697ecf3a63d32a351ce0a903191de8f8&oe=5EE4C5DE",
     date: 20191023,
     time: 1830,
     location: "HSS 1346"
@@ -59,7 +59,7 @@ export const events = [
   {
     title: "ServiceNow Info Session",
     link: "https://www.facebook.com/events/1340395706136941/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=ruIDryD6tBcAX_YG8rN&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=fb191b58835357dd1a52183a1d45d532&oe=5EBC1477",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=-ogffWTyzjQAX8kTX3N&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=9ed49cdebf2a3b66a4ea31a832a4b15b&oe=5EE795F7",
     date: 20191105,
     time: 1830,
     location: "HSS 1346"
@@ -91,7 +91,7 @@ export const events = [
   {
     title: "Design Co: Interviewing Workshop",
     link: "https://www.facebook.com/events/1173512132838526/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_ohc=Ae4i5uXKvH0AX_Mz-in&_nc_ht=scontent-lax3-1.xx&oh=c5cab1d3337b4839c2594c6a2b5a01fe&oe=5EB79596",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=gzlBSPpyxMEAX912NB-&_nc_ht=scontent-lax3-1.xx&oh=795606e56dee8631f99bd7f6c4e5a1cb&oe=5EE516EA",
     date: 20191113,
     time: 1830,
     location: "HSS 1346"
@@ -107,7 +107,7 @@ export const events = [
   {
     title: "Design Co: Visual Design Workshop",
     link: "https://www.facebook.com/events/2409091399203746/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_ohc=zG5-dGG8k3UAX_EgFZR&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=8f462e1a11df21cdb8bf92fd2bc5b1ed&oe=5EB68204",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=OvIQ8xsCKDwAX-TVPSy&_nc_ht=scontent-lax3-1.xx&oh=1c630ebc8994679ae4f161fe08d4aa26&oe=5EE42B1D",
     date: 20191120,
     time: 1830,
     location: "HSS 1346"
@@ -115,7 +115,7 @@ export const events = [
   {
     title: "Design Co: End of Quarter Celebration",
     link: "https://www.facebook.com/events/1415900101909307/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_ohc=rbMhBwlWppcAX9Bbu9L&_nc_ht=scontent-lax3-1.xx&oh=b2a1a8e3b60d0248d1f27d657b1ec48e&oe=5EB6F221",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=NMnBg3FRpjYAX9c67tN&_nc_ht=scontent-lax3-1.xx&oh=76b5b5d55badd2e10f548e6197da0d05&oe=5EE5BA5F",
     date: 20191204,
     time: 1830,
     location: "Rigobertos"
@@ -131,7 +131,7 @@ export const events = [
   {
     title: "Design Co: Pre-Stride Prep",
     link: "https://www.facebook.com/events/760567994455410/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=6HtSMfFunLoAX-L0mAi&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=76cb08617ff15e000c877d66a5edee20&oe=5EBBE5CC",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=y9Yd7oMLftwAX8U1ZO5&_nc_ht=scontent-lax3-1.xx&oh=68367ebd2a7257a0ed6ec0af53144a4d&oe=5EE5C651",
     date: 20200108,
     time: 1830,
     location: "HSS 1346"
@@ -139,7 +139,7 @@ export const events = [
   {
     title: "Design Co: Boba Run",
     link: "https://www.facebook.com/events/611679676256418/",
-    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_sid=b386c4&_nc_ohc=xr1IAnTHUs8AX_EiGLx&_nc_ht=scontent-lax3-2.xx&oh=bd514850fe524097145de5198b5735e3&oe=5EC047D3",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_sid=b386c4&_nc_ohc=Ih5HHXThSh8AX-k5Q0Q&_nc_ht=scontent-lax3-2.xx&oh=035804918ce065c48f1bd15d01e8028f&oe=5EE7D4D3",
     date: 20200121,
     time: 1850,
     location: "Camellia Rd Tea Bar"
@@ -156,7 +156,7 @@ export const events = [
   {
     title: "Design Co: Accessible by Design",
     link: "https://www.facebook.com/events/192603365225314/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/83024123_2481390782101378_3274092757022408704_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=9cPphT2DK4AAX8waf1z&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=6fb70c37937b4a518e5bcba83132f471&oe=5EBA7358",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/83024123_2481390782101378_3274092757022408704_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=wmtr1w-QeDsAX_ySMSJ&_nc_ht=scontent-lax3-1.xx&oh=6ed2f3d9126da1aa6533b55b28a7eae3&oe=5EE5E1CD",
     date: 20200129,
     time: 1830,
     location: "HSS 1346"
@@ -164,8 +164,7 @@ export const events = [
   {
     title: "Design Co: Boomers Social",
     link: "https://www.facebook.com/events/204530944009864/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/83606730_2486874778219645_4280578438298861568_o.jpg?_nc_cat=100&_nc_ohc=AbknPwCxAuwAX_Z9FNY&_nc_ht=scontent-lax3-1.xx&oh=cc536e2c603582d2c4186763a1df727d&oe=5EBFE7B0",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/s960x960/83606730_2486874778219645_4280578438298861568_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=2srJBYJjgh0AX8Mkwwb&_nc_ht=scontent-lax3-1.xx&_nc_tp=7&oh=deff46584425350136fda4a816b1434b&oe=5EE6D329",
     date: 20200204,
     time: 1830,
     location: "Boomers"
@@ -182,8 +181,7 @@ export const events = [
   {
     title: "Design Co: Illustrator Workshop",
     link: "https://www.facebook.com/events/518983912060662/",
-    image:
-      "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/s960x960/84220218_2492252501015206_3087933618689933312_o.jpg?_nc_cat=107&_nc_ohc=EIEamIgzSVIAX_NvUdR&_nc_ht=scontent-lax3-2.xx&oh=38136058f591400ec6a81193f9a95b19&oe=5EB919E3",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/84220218_2492252501015206_3087933618689933312_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=AM8J8WEGcosAX9PHrLC&_nc_ht=scontent-lax3-2.xx&oh=48738e9c67b42cd1b952ee39c3b4e20a&oe=5EE60FFC",
     date: 20200211,
     time: 1830,
     location: "HSS 1346"
@@ -200,8 +198,7 @@ export const events = [
   {
     title: "Design Frontiers With Intuit - Unlocking Smart Money Decisions",
     link: "http://frontiers.ucsddesign.co",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/86728155_2501461400094316_8420994948219797504_n.jpg?_nc_cat=104&_nc_ohc=8qGquUvYbqwAX8-FDYO&_nc_ht=scontent-lax3-1.xx&oh=d695634067b9c1cc89d6de1d834556fe&oe=5EB60D24",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/87023683_2502404516666671_6668804572426797056_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=2IgDoE6XxpAAX_M08js&_nc_ht=scontent-lax3-1.xx&oh=0b268fbb792780e894f1e26959ae6f37&oe=5EE50A14",
     date: 20200223,
     time: 1000,
     location: "Multipurpose Room, PC"
@@ -226,7 +223,7 @@ export const events = [
   {
     title: "Design Co: Ice Skating Social",
     link: "https://www.facebook.com/events/179878529984729/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/87071802_2503944783179311_8926777070160183296_o.jpg?_nc_cat=102&_nc_ohc=JGwO6H7ILnAAX-y7AP9&_nc_ht=scontent-lax3-1.xx&oh=bec1c01462c53456a08283465a786a0a&oe=5EBCEFBD",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/87071802_2503944783179311_8926777070160183296_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=T7Hd8l_cwEEAX_VT97h&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=7c46bcc5f528acf64d23b14cca993aa0&oe=5EE58DDA",
     date: 20200228,
     time: 1850,
     location: "UTC Ice"
@@ -250,7 +247,7 @@ export const events = [
   {
     title: "Design Co: Office Hours - Democratizing Design Resources",
     link: "https://www.facebook.com/events/233106538099531/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/92694570_2544831435757312_1547809817232408576_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=VWni7iguf0EAX9BAT4G&_nc_ht=scontent-lax3-1.xx&oh=beaad51e279e70e7b63a8206a5f59b6d&oe=5EBA1708",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/92694570_2544831435757312_1547809817232408576_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=hSQ6XsfVhuMAX-Qwncf&_nc_ht=scontent-lax3-1.xx&oh=57ab5e24a05ea330d4ad7e39dbc1e17e&oe=5EE59888",
     date: 20200415,
     time: 1830,
     location: "Zoom"
@@ -258,7 +255,7 @@ export const events = [
   {
     title: "Design Co: Skribbl.io",
     link: "https://www.facebook.com/events/854237768411324/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/92699040_2545518579021931_8418026039191535616_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=bKjAXHmWd6wAX_on7fW&_nc_ht=scontent-lax3-1.xx&oh=7179eccb2ce9c56967c55c25da841020&oe=5EBAEABE",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/92699040_2545518579021931_8418026039191535616_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=etYITggBSIUAX-E0KgJ&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=e57f3b30e9de256e02e646d7a1ca8440&oe=5EE481A7",
     date: 20200417,
     time: 1830,
     location: "Zoom"
@@ -292,6 +289,14 @@ export const events = [
     link: "https://www.facebook.com/events/1560987610717882",
     image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/94619298_2556076857966103_5234135364980965376_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=3MTS53A0NlUAX_iQud4&_nc_ht=scontent-lax3-2.xx&oh=dd864b3243ac30045c657aa05a3238a2&oe=5ECB6AE8",
     date: 20200506,
+    time: 1700,
+    location: "Zoom"
+  },
+  {
+    title: "Design Co: After Effects",
+    link: "https://www.facebook.com/events/3068521020041745/",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/96390590_2565359273704528_1639323394077884416_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=ywbozC0HPiAAX-w1cWA&_nc_ht=scontent-lax3-2.xx&oh=2d30d0b50a569e3ced71565c3731f5eb&oe=5EE776FA",
+    date: 20200513,
     time: 1700,
     location: "Zoom"
   }
