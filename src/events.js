@@ -125,8 +125,7 @@ export const events = [
   {
     title: "Design Co: Stride - Micro Design Career Fair",
     link: "https://www.facebook.com/events/464110677635699/",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=7HaS6wFAGrUAX9Gavj4&_nc_ht=scontent-lax3-1.xx&oh=929e0eb6fe42cd426c581cc6d96892e4&oe=5EC9B89E",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=67dLL7kVoHMAX9lTL0f&_nc_ht=scontent-lax3-1.xx&oh=7d99273ee3faeec9c11df944164d304c&oe=5EF1459E",
     date: 20200114,
     time: 1100,
     location: "PC Ballroom East"
@@ -193,8 +192,7 @@ export const events = [
   {
     title: "Design Co: Bay Area Alumni Mixer",
     link: "https://www.facebook.com/events/238591123812983/",
-    image:
-      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/84415203_2491342497772873_1860664615281623040_o.jpg?_nc_cat=108&_nc_ohc=4vGM4HIb5YQAX9Mw9ry&_nc_ht=scontent-sjc3-1.xx&oh=f3bba3fe20f3b1075b10c0b16ad40978&oe=5EC8993D",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/84415203_2491342497772873_1860664615281623040_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=CvS7GHP6v3UAX-EYdyl&_nc_ht=scontent-lax3-1.xx&oh=def352514b61614e9784b45346a379c3&oe=5EEFC2C3",
     date: 20200213,
     time: 1800,
     location: "Workday SF Office"
@@ -267,8 +265,7 @@ export const events = [
   {
     title: "Design Co: Figma Jam",
     link: "https://www.facebook.com/events/3245900578968546",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/93675010_2552098771697245_2900781775976398848_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=UvGEkHbM9u0AX-gESA-&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=c610111be32e2f31da1621c7f61904f8&oe=5EC62B43",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/93675010_2552098771697245_2900781775976398848_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=wDruBC5T-iwAX99k_0K&_nc_ht=scontent-lax3-1.xx&oh=a0325ab46a17ed341213e2663492dfc4&oe=5EF0005A",
     date: 20200422,
     time: 1700,
     location: "Zoom"
@@ -276,8 +273,7 @@ export const events = [
   {
     title: "Design Co: Animal Crossing Social",
     link: "https://www.facebook.com/events/544869263134079",
-    image:
-      "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/93599471_2551346385105817_6437675649036451840_o.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=hQT9A8EtJGkAX9azslB&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=aa5f2c1696af4ad018063af0eafd14b2&oe=5EC44A15",
+    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/93599471_2551346385105817_6437675649036451840_o.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=IUX5XxPnpnMAX_7inH4&_nc_ht=scontent-lax3-1.xx&oh=7fa3e98ad92db1144994a5c96a87abbf&oe=5EF0CD10",
     date: 20200425,
     time: 1900,
     location: "Zoom"
@@ -322,6 +318,14 @@ export const events = [
     image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p480x480/97748101_2570741789832943_3988981550816428032_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=Ug9F-WOoucoAX83zRn1&_nc_ht=scontent-lax3-1.xx&_nc_tp=6&oh=fa7240e4bfa15f628cbf31cf6db32537&oe=5EE9BB1C",
     date: 20200522,
     time: 2000,
+    location: "Zoom"
+  },
+  {
+    title: "Design Co: Figma Prototyping",
+    link: "https://www.facebook.com/events/385675928994038",
+    image: "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/101159489_2577658525807936_6013484299263672320_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=14_hLsLceA8AX_IS3rP&_nc_ht=scontent-lax3-2.xx&oh=e6db52045fce2655237b93f01de0f17f&oe=5EF1B5FD",
+    date: 20200527,
+    time: 1700,
     location: "Zoom"
   }
 ];
