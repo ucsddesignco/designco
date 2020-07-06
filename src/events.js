@@ -123,14 +123,15 @@ export const events = [
   {
     title: "Design Co: Stride - Micro Design Career Fair",
     link: "https://www.facebook.com/events/464110677635699/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=u8kqG0cQTxgAX_A3BIL&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=d13411fe5de41190271cd962a592027f&oe=5F26AF4C",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=gAp_Fqk7AzQAX_nW6qP&_nc_ht=scontent.fkul4-1.fna&oh=e36d0f7adb3bbd72c383b7504f249cd0&oe=5F28A49E",
     date: 20200114,
     time: 1100,
     location: "PC Ballroom East"
   },
   {
     title: "Design Co: Pre-Stride Prep",
-    link: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=gAp_Fqk7AzQAX_nW6qP&_nc_ht=scontent.fkul4-1.fna&oh=e36d0f7adb3bbd72c383b7504f249cd0&oe=5F28A49E",
+    link: "https://www.facebook.com/events/760567994455410/",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=u8kqG0cQTxgAX_A3BIL&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=d13411fe5de41190271cd962a592027f&oe=5F26AF4C",
     date: 20200108,
     time: 1830,
     location: "HSS 1346"
