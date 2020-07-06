@@ -2,7 +2,7 @@ export const events = [
   {
     title: "GBM 1: Design Co Fall Kickoff",
     link: "https://www.facebook.com/events/492692744911435/",
-    image: "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=qQ53ixIfL9UAX8ALXGw&_nc_ht=scontent-lax3-1.xx&oh=e504bbe25d731b123070d44ee5461a90&oe=5EE803D2",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=6H8AR0bgVVYAX9h3lsF&_nc_ht=scontent.fkul4-1.fna&oh=dab4ce39db235e28391d3e52a9905539&oe=5F274BD2",
     date: 20191003,
     time: 1830,
     location: "HSS 1346"
