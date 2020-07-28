@@ -1,6 +1,6 @@
 export const events = [
   {
-    title: "GBM 1: Design Co Fall Kickoff",
+    title: "Design Co: Design Co Fall Kickoff",
     link: "https://www.facebook.com/events/492692744911435/",
     image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=6H8AR0bgVVYAX9h3lsF&_nc_ht=scontent.fkul4-1.fna&oh=dab4ce39db235e28391d3e52a9905539&oe=5F274BD2",
     date: 20191003,
@@ -8,7 +8,7 @@ export const events = [
     location: "HSS 1346"
   },
   {
-    title: "GBM 2: Intern Panel",
+    title: "Design Co: Intern Panel",
     link: "https://www.facebook.com/events/958166034548618/",
     image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=CfYLfxSvUeUAX-eLlLC&_nc_ht=scontent.fkul4-2.fna&oh=a3a403a2e5378824df63681ecc365b8b&oe=5F274E64",
     date: 20191009,
@@ -25,7 +25,7 @@ export const events = [
     location: "4633 Convoy St #107, San Diego, CA 92111"
   },
   {
-    title: "GBM 3: Design Systems Workshop",
+    title: "Design Co: Design Systems Workshop",
     link: "http://bit.ly/designsystemsgbm",
     image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=2tJ3NNu5iS0AX8Y0RkY&_nc_ht=scontent.fkul4-2.fna&oh=ca49f5095396354cd18801ea58ab0312&oe=5F2688D3",
     date: 20191016,
@@ -41,7 +41,11 @@ export const events = [
     location: "Career Center, Horizon Room"
   },
   {
+<<<<<<< HEAD
     title: "GBM 4: Resume Workshop",
+=======
+    title: "Design Co: Resume Workshop",
+>>>>>>> 9c2f5c534c780f1b491365b23935b9a2e27f9d90
     link: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=JqdmbD7xGJgAX9RKY5n&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=276e1efc3e7e148051cf322bf952cb28&oe=5F29D13B",
     date: 20191023,
     time: 1830,
