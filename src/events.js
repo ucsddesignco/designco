@@ -42,14 +42,16 @@ export const events = [
   },
   {
     title: "Design Co: Resume Workshop",
-    link: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=3grgABqklvAAX8S9kx7&_nc_ht=scontent.fkul4-2.fna&oh=3c1e8856d86a490cba97e0038a247458&oe=5F43B1DE",
+    link: "https://www.facebook.com/events/557332198360417/",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=3grgABqklvAAX8S9kx7&_nc_ht=scontent.fkul4-2.fna&oh=3c1e8856d86a490cba97e0038a247458&oe=5F43B1DE",
     date: 20191023,
     time: 1830,
     location: "HSS 1346"
   },
   {
     title: "Product Design Talk w/ Facebook",
-    link: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=DSsCEIY5G18AX-VuWz1&_nc_ht=scontent.fkul4-1.fna&oh=e924c3f1d313ad931a3abacdab3ea66b&oe=5F45339F",
+    link: "https://www.facebook.com/events/2557519091031116/",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=DSsCEIY5G18AX-VuWz1&_nc_ht=scontent.fkul4-1.fna&oh=e924c3f1d313ad931a3abacdab3ea66b&oe=5F45339F",
     date: 20191029,
     time: 1830,
     location: "HSS 1346"
