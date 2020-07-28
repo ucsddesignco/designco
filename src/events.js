@@ -41,19 +41,15 @@ export const events = [
     location: "Career Center, Horizon Room"
   },
   {
-<<<<<<< HEAD
-    title: "GBM 4: Resume Workshop",
-=======
     title: "Design Co: Resume Workshop",
->>>>>>> 9c2f5c534c780f1b491365b23935b9a2e27f9d90
-    link: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=JqdmbD7xGJgAX9RKY5n&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=276e1efc3e7e148051cf322bf952cb28&oe=5F29D13B",
+    link: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=3grgABqklvAAX8S9kx7&_nc_ht=scontent.fkul4-2.fna&oh=3c1e8856d86a490cba97e0038a247458&oe=5F43B1DE",
     date: 20191023,
     time: 1830,
     location: "HSS 1346"
   },
   {
     title: "Product Design Talk w/ Facebook",
-    link: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=H9EWC22x-VAAX_VTFEG&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=57d1c3bde7089d52574758da2a534c55&oe=5F28C8DE",
+    link: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=DSsCEIY5G18AX-VuWz1&_nc_ht=scontent.fkul4-1.fna&oh=e924c3f1d313ad931a3abacdab3ea66b&oe=5F45339F",
     date: 20191029,
     time: 1830,
     location: "HSS 1346"
@@ -328,6 +324,14 @@ export const events = [
     image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/101159489_2577658525807936_6013484299263672320_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=Z89PdCj8vwgAX9OmW1b&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=53ff04b221b7fb8371981ac099f98fe9&oe=5F28B745",
     date: 20200527,
     time: 1700,
+    location: "Zoom"
+  },
+  {
+    title: "Design Co: Storytelling with Netflix",
+    link: "https://www.facebook.com/events/412385033030028/",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/110347994_2624079014499220_830470066953484708_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=IxDMZxgGe7oAX9gqPSg&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=01b2a2f5d811da6e6290ca396ee69f79&oe=5F437B14",
+    date: 20200729,
+    time: 1830,
     location: "Zoom"
   }
 ];
