@@ -117,7 +117,7 @@ export const events = [
   {
     title: "Design Co: End of Quarter Celebration",
     link: "https://www.facebook.com/events/1415900101909307/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=RUHX8IYERFkAX8SZk3Q&_nc_ht=scontent.fkul4-2.fna&oh=5b3459db1138618677717aaa1258faf6&oe=5F28F6DF",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-0/p480x480/79312923_2431644090409381_2386284963528966144_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=sKSJ9-5PQfAAX8Pt7_u&_nc_ht=scontent.fkul4-2.fna&_nc_tp=6&oh=dd3ea5310986bc47bed825f039d2016c&oe=5F521A46",
     date: 20191204,
     time: 1830,
     location: "Rigobertos"
@@ -125,7 +125,7 @@ export const events = [
   {
     title: "Design Co: Stride - Micro Design Career Fair",
     link: "https://www.facebook.com/events/464110677635699/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=gAp_Fqk7AzQAX_nW6qP&_nc_ht=scontent.fkul4-1.fna&oh=e36d0f7adb3bbd72c383b7504f249cd0&oe=5F28A49E",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/79338039_2446083432298780_8239104436148895744_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=obKbzzFCJUwAX9ONvkT&_nc_ht=scontent.fkul4-1.fna&oh=465845c5e7478f73a875ecc86831ccb2&oe=5F50319E",
     date: 20200114,
     time: 1100,
     location: "PC Ballroom East"
@@ -133,7 +133,7 @@ export const events = [
   {
     title: "Design Co: Pre-Stride Prep",
     link: "https://www.facebook.com/events/760567994455410/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=u8kqG0cQTxgAX_A3BIL&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=d13411fe5de41190271cd962a592027f&oe=5F26AF4C",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/81728555_2466975420209581_2613905912250761216_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=q35gvsrkqRgAX-GHYbz&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=7cd8280df37abbf3681010a362767048&oe=5F5230CC",
     date: 20200108,
     time: 1830,
     location: "HSS 1346"
@@ -141,7 +141,7 @@ export const events = [
   {
     title: "Design Co: Boba Run",
     link: "https://www.facebook.com/events/611679676256418/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_sid=b386c4&_nc_ohc=b1iDlkZG60MAX_Cr74G&_nc_ht=scontent.fkul4-2.fna&oh=e820344b8faffa5c03d93e24cad4147e&oe=5F271CD3",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/82444375_2476319849275138_5300391939965714432_o.jpg?_nc_cat=111&_nc_sid=b386c4&_nc_ohc=tEYO7fTkwK8AX_F2cc0&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=f6f5e6953f521e72a9d7fde7491ee20d&oe=5F501B36",
     date: 20200121,
     time: 1850,
     location: "Camellia Rd Tea Bar"
@@ -150,7 +150,7 @@ export const events = [
     title: "Design Co: Figma Workshop",
     link: "https://www.facebook.com/events/1461360350696892/",
     image:
-      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/83212469_2478836102356846_6496912057026215936_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=DUZMXyKZ1UYAX-TcBGN&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=a1923097894e3f3330546090457441b7&oe=5F2831CF",
+      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/83212469_2478836102356846_6496912057026215936_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=3lA_B7z0YnEAX9J0iJk&_nc_ht=scontent.fkul4-1.fna&oh=8e2aed465deb1c8143426472ebacb68a&oe=5F51BDAA",
     date: 20200122,
     time: 1830,
     location: "HSS 1346"
@@ -158,7 +158,7 @@ export const events = [
   {
     title: "Design Co: Accessible by Design",
     link: "https://www.facebook.com/events/192603365225314/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/83024123_2481390782101378_3274092757022408704_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=jK37orU6hXsAX9Un66I&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=176f2497d590cbdf8eb72b3acb1c990f&oe=5F293158",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/83024123_2481390782101378_3274092757022408704_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=oGSYCHIg1cEAX8sZeD_&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=25fb94d6d2d1aecbb63e8482fd92d2f2&oe=5F50BE58",
     date: 20200129,
     time: 1830,
     location: "HSS 1346"
@@ -175,7 +175,7 @@ export const events = [
     title: "Design Co: Hack Your Visuals",
     link: "https://www.facebook.com/events/227768654884806/",
     image:
-      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/84192511_2486871954886594_7407132931195404288_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=00EWUTnwwNkAX-JbgKi&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=05bd8ae6f03685c5289141381e4680ab&oe=5F2772F4",
+      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/84192511_2486871954886594_7407132931195404288_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=Ok2HUO15xMoAX9vmV3H&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=b93bdd23324325fa7ce85c1aa5e39033&oe=5F4EFFF4",
     date: 20200205,
     time: 1830,
     location: "HSS 1346"
@@ -183,7 +183,7 @@ export const events = [
   {
     title: "Design Co: Illustrator Workshop",
     link: "https://www.facebook.com/events/518983912060662/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/84220218_2492252501015206_3087933618689933312_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=EPrQQs93R9kAX-f73PI&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=38b65b76290cca1f70a7b0f1ddae7ae3&oe=5F26CF1D",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/84220218_2492252501015206_3087933618689933312_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=CLkH-UcGbXIAX-Yd5iB&_nc_ht=scontent.fkul4-2.fna&oh=7aa6fd930fe0b2ec8668d90d4e2a1499&oe=5F50D97C",
     date: 20200211,
     time: 1830,
     location: "HSS 1346"
@@ -192,7 +192,7 @@ export const events = [
   {
     title: "Design Co: Bay Area Alumni Mixer",
     link: "https://www.facebook.com/events/238591123812983/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/84415203_2491342497772873_1860664615281623040_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=VdrrYw_nEAIAX9poXFO&_nc_ht=scontent.fkul4-2.fna&oh=5874b4cc596c0166cac154eb9ee4f6e8&oe=5F2721C3",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/84415203_2491342497772873_1860664615281623040_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=q24uZVse7_wAX_tcLjv&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=712b5e14e5c53f41d33839af3ee7a403&oe=5F50D426",
     date: 20200213,
     time: 1800,
     location: "Workday SF Office"
@@ -200,7 +200,7 @@ export const events = [
   {
     title: "Design Frontiers With Intuit - Unlocking Smart Money Decisions",
     link: "http://frontiers.ucsddesign.co",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/87023683_2502404516666671_6668804572426797056_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=Ts42a0vD-8oAX9qYkaN&_nc_ht=scontent.fkul4-2.fna&oh=7043d7a91098a7a6b112b61a54f93035&oe=5F284694",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/87023683_2502404516666671_6668804572426797056_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=cwRBfBcONz8AX8-OYi9&_nc_ht=scontent.fkul4-2.fna&oh=38649fabe89188a956fb37f422d2ae41&oe=5F4FD394",
     date: 20200223,
     time: 1000,
     location: "Multipurpose Room, PC"
@@ -208,7 +208,7 @@ export const events = [
   {
     title: "Design Co: Brand Design Workshop",
     link: "https://www.facebook.com/events/1474078526092634/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/86217666_2496080080632448_3565264588771426304_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=eRqT_q9e37EAX9s6olq&_nc_ht=scontent.fkul4-1.fna&oh=db01119abb9be79663e05b57ccddd383&oe=5F2A25F0",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/86217666_2496080080632448_3565264588771426304_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=7bmVB8gm9WYAX94suQ1&_nc_ht=scontent.fkul4-1.fna&oh=c63186897c7a40cf491fa4a5e644f922&oe=5F51B2F0",
     date: 20200219,
     time: 1830,
     location: "HSS 1346"
@@ -216,7 +216,7 @@ export const events = [
   {
     title: "Design Co: Front-End Development Workshop",
     link: "https://www.facebook.com/events/3569320876442160/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-0/p480x480/87162340_2505437833030006_2103682244370497536_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=zJj8DPnbeOgAX9fhDrR&_nc_ht=scontent.fkul4-2.fna&_nc_tp=6&oh=16d14f2a3c12377df0c5c8c74d46b3ed&oe=5F2A153A",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/87162340_2505437833030006_2103682244370497536_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=Q9391yBaBb8AX8McI1o&_nc_ht=scontent.fkul4-2.fna&oh=4e06eb03140dc700bcfea6f2970b9bf9&oe=5F4FC7A3",
     date: 20200226,
     time: 1830,
     location: "HSS 1346"
@@ -224,7 +224,7 @@ export const events = [
   {
     title: "Design Co: Ice Skating Social",
     link: "https://www.facebook.com/events/179878529984729/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/87071802_2503944783179311_8926777070160183296_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=WUczJDcepAkAX83F0FZ&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=db518601ab58f39e05c13c9549ee7ade&oe=5F28CA5A",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/87071802_2503944783179311_8926777070160183296_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=oSqead2L-LQAX94dqCl&_nc_ht=scontent.fkul4-1.fna&oh=5b3be693c0e8eee36ccf539c515e0043&oe=5F526F43",
     date: 20200228,
     time: 1850,
     location: "UTC Ice"
@@ -233,7 +233,7 @@ export const events = [
     title: "Field Trip: Intuit Design Open House",
     link: "https://www.facebook.com/events/214359136355617",
     image:
-      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/87884265_2508430522730737_1890747648554565632_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=DRT6wlVh7pgAX_viuXN&_nc_ht=scontent.fkul4-1.fna&oh=34083f6c389e5d8c91f086e54fe2dbe8&oe=5F26AA42",
+      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/87884265_2508430522730737_1890747648554565632_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=7C_pRpMIslwAX-dgGU8&_nc_ht=scontent.fkul4-1.fna&oh=1eeda56aaecfc3c15a6fb85a32111615&oe=5F522BC2",
     date: 20200305,
     time: 1400,
     location: "Intuit San Diego Office"
@@ -241,7 +241,7 @@ export const events = [
   {
     title: "Design Co: End of Quarter Celebration",
     link: "https://www.facebook.com/events/1045820139124085",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/89782901_2517422061831583_109240762301939712_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=5CHIvTXzTFEAX-QdPpd&_nc_ht=scontent.fkul4-1.fna&oh=a4f250f3be2b3e83be0becc13c97d1d2&oe=5F2A001E",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/89782901_2517422061831583_109240762301939712_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=2s9HaVG6Y1AAX8EF0RR&_nc_ht=scontent.fkul4-1.fna&oh=f9717a7378ac733a608064892611e9b7&oe=5F518D1E",
     date: 20200311,
     time: 1830,
     location: "SpotKTV: 7327 Clairemont Mesa Blvd"
@@ -249,7 +249,7 @@ export const events = [
   {
     title: "Design Co: Office Hours - Democratizing Design Resources",
     link: "https://www.facebook.com/events/233106538099531/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/92694570_2544831435757312_1547809817232408576_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=F8rq4OFjs_kAX8Sp32M&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=9f4797ec7397479f866b09250aec728a&oe=5F283B1D",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/92694570_2544831435757312_1547809817232408576_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=F3E4a_jRz-8AX9_S6q2&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=d6c3ccda1ca30116c07ee5c93f56bb47&oe=5F4FC81D",
     date: 20200415,
     time: 1830,
     location: "Zoom"
@@ -257,7 +257,7 @@ export const events = [
   {
     title: "Design Co: Skribbl.io",
     link: "https://www.facebook.com/events/854237768411324/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/92699040_2545518579021931_8418026039191535616_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=hsC5E0LQ2vQAX9pXY8Z&_nc_ht=scontent.fkul4-2.fna&oh=4cce0b55dfbb0ba8c519646c685c5c46&oe=5F29A8BE",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/92699040_2545518579021931_8418026039191535616_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=ea9yctdgvecAX93UD3d&_nc_ht=scontent.fkul4-2.fna&oh=beec5d7a02910c09f6036a5dce25e761&oe=5F5135BE",
     date: 20200417,
     time: 1830,
     location: "Zoom"
@@ -265,7 +265,7 @@ export const events = [
   {
     title: "Design Co: Figma Jam",
     link: "https://www.facebook.com/events/3245900578968546",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/93675010_2552098771697245_2900781775976398848_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=KAG_V8yvgVMAX_mZtG9&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=5261eb46ce914977a182aca7c17955d3&oe=5F290BC3",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/93675010_2552098771697245_2900781775976398848_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=mHV_Ipq5AskAX8zr-Aq&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=890597f87501a180e48886433be179a7&oe=5F5098C3",
     date: 20200422,
     time: 1700,
     location: "Zoom"
@@ -273,7 +273,7 @@ export const events = [
   {
     title: "Design Co: Animal Crossing Social",
     link: "https://www.facebook.com/events/544869263134079",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-0/p480x480/93599471_2551346385105817_6437675649036451840_o.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=lAaPec2_ifcAX_5Op8I&_nc_ht=scontent.fkul4-2.fna&_nc_tp=6&oh=34c3cc9cdf7caef799772753c82084c0&oe=5F272A95",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/93599471_2551346385105817_6437675649036451840_o.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=JUWUfra_bXoAX_dDOdT&_nc_ht=scontent.fkul4-2.fna&oh=3688474efec6f925d91ff4a0c2704b71&oe=5F4FB910",
     date: 20200425,
     time: 1900,
     location: "Zoom"
@@ -282,7 +282,7 @@ export const events = [
     title: "Design Co: Portfolio Critiques",
     link: "https://www.facebook.com/events/635068663710437/",
     image:
-      "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-0/p480x480/94123569_2554455718128217_6001467865532727296_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=Uc11vAzf1WcAX_w6mVZ&_nc_ht=scontent.fkul4-2.fna&_nc_tp=6&oh=cf8ac68d7cc803e7be92fad00e9b7c2c&oe=5F2A30F5",
+      "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/94123569_2554455718128217_6001467865532727296_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=oMo7O-KeVJEAX8fH8bW&_nc_ht=scontent.fkul4-2.fna&oh=db30e72b7e10753dcd675879a1a0ce18&oe=5F52DF70",
     date: 20200429,
     time: 1700,
     location: "Zoom"
@@ -291,7 +291,7 @@ export const events = [
     title: "Design Co: Job Hunting Tips w/ Design Recruiters",
     link: "https://www.facebook.com/events/1560987610717882",
     image:
-      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/95389831_2561572634083192_5425395910848806912_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=2APhOxF0x04AX_itWkI&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=5163af50eeabb5d3cbfb0a0d7ecfcc45&oe=5F28D828",
+      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/95389831_2561572634083192_5425395910848806912_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=NbrDJyCzqTAAX-jDKPK&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=406a7dd9cb42d7237347efdf9aa64a8e&oe=5F506528",
     date: 20200506,
     time: 1700,
     location: "Zoom"
@@ -299,7 +299,7 @@ export const events = [
   {
     title: "Design Co: After Effects",
     link: "https://www.facebook.com/events/3068521020041745/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-0/p480x480/96390590_2565359273704528_1639323394077884416_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=NBdnCHT1TQUAX-X6ow8&_nc_ht=scontent.fkul4-2.fna&_nc_tp=6&oh=c2e51b2601e19552515884c9a54ef7f4&oe=5F2938E3",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-0/p480x480/96390590_2565359273704528_1639323394077884416_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=1daQbx_eFCMAX8ZFt8r&_nc_ht=scontent.fkul4-2.fna&_nc_tp=6&oh=d39e86046b52ee3be607f923b3a281c9&oe=5F50C5E3",
     date: 20200513,
     time: 1700,
     location: "Zoom"
@@ -307,7 +307,7 @@ export const events = [
   {
     title: "Design Co: Design Inspiration",
     link: "https://www.facebook.com/events/712529716219165/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/99099802_2573036982936757_5163440856123834368_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=__TfnFT0oBIAX_66EA4&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=a40dd42c63089d033564f41fe70a37dc&oe=5F299F30",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/99099802_2573036982936757_5163440856123834368_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=4FhdtVuJMXcAX9Oa5RY&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=6251f556fab086dba130a449eaadf43a&oe=5F512C30",
     date: 20200520,
     time: 1700,
     location: "Zoom"
@@ -315,7 +315,7 @@ export const events = [
   {
     title: "Design Co: Netflix Party Social",
     link: "https://www.facebook.com/events/167606648027766/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/97748101_2570741789832943_3988981550816428032_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=XoPxaGWBg00AX8i2B0E&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=667f64087883c33e68440848d1258fa8&oe=5F29031C",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-0/p480x480/97748101_2570741789832943_3988981550816428032_o.jpg?_nc_cat=109&_nc_sid=b386c4&_nc_ohc=c0gTQWERqi8AX9DQbds&_nc_ht=scontent.fkul4-1.fna&_nc_tp=6&oh=dab74667f305e48d29024faaacbbb56f&oe=5F50901C",
     date: 20200522,
     time: 2000,
     location: "Zoom"
@@ -323,7 +323,7 @@ export const events = [
   {
     title: "Design Co: Figma Prototyping",
     link: "https://www.facebook.com/events/385675928994038",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/101159489_2577658525807936_6013484299263672320_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=Z89PdCj8vwgAX9OmW1b&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=53ff04b221b7fb8371981ac099f98fe9&oe=5F28B745",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/101159489_2577658525807936_6013484299263672320_o.jpg?_nc_cat=106&_nc_sid=b386c4&_nc_ohc=VqPLrLC07cUAX9fJ_3f&_nc_ht=scontent.fkul4-1.fna&oh=15029de868656fda2e32a11ab8628eb4&oe=5F50A1FD",
     date: 20200527,
     time: 1700,
     location: "Zoom"
