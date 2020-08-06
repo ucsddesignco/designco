@@ -2,7 +2,7 @@ export const events = [
   {
     title: "Design Co: Design Co Fall Kickoff",
     link: "https://www.facebook.com/events/492692744911435/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=6H8AR0bgVVYAX9h3lsF&_nc_ht=scontent.fkul4-1.fna&oh=dab4ce39db235e28391d3e52a9905539&oe=5F274BD2",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/71183159_2373152389591885_2782785340589473792_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=GkGua4lHuF4AX_LrUtn&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=6c7888efa75960451a53586dcc49974e&oe=5F5157B7",
     date: 20191003,
     time: 1830,
     location: "HSS 1346"
@@ -10,7 +10,7 @@ export const events = [
   {
     title: "Design Co: Intern Panel",
     link: "https://www.facebook.com/events/958166034548618/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=CfYLfxSvUeUAX-eLlLC&_nc_ht=scontent.fkul4-2.fna&oh=a3a403a2e5378824df63681ecc365b8b&oe=5F274E64",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/71923052_2377739839133140_8618773549340950528_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=Xc57RMOPe7wAX9WP9u5&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=a04909552dbb866e391e824e2db7535a&oe=5F505285",
     date: 20191009,
     time: 1830,
     location: "HSS 1346"
@@ -19,7 +19,7 @@ export const events = [
     title: "Happy Lemon Boba Run",
     link: "https://www.facebook.com/events/2512361065546079/",
     image:
-      "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/72563764_2377737335800057_203945014517039104_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=cBO6t2TRf8MAX9aJO6u&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=d77458802680d57e825749eaf56c6c4c&oe=5F29163F",
+      "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/72563764_2377737335800057_203945014517039104_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=ZGeaTMYxj2IAX_Egi6B&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=9a74158e66f3ede351ca531a2882ff63&oe=5F50A33F",
     date: 20191008,
     time: 1830,
     location: "4633 Convoy St #107, San Diego, CA 92111"
@@ -27,7 +27,7 @@ export const events = [
   {
     title: "Design Co: Design Systems Workshop",
     link: "http://bit.ly/designsystemsgbm",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=2tJ3NNu5iS0AX8Y0RkY&_nc_ht=scontent.fkul4-2.fna&oh=ca49f5095396354cd18801ea58ab0312&oe=5F2688D3",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/72341804_2386078494965941_408393274647117824_o.jpg?_nc_cat=107&_nc_sid=b386c4&_nc_ohc=2TadxtWekioAX-FWmMQ&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=8b808cf6552eb8653e6b40b4345dd015&oe=5F500D12",
     date: 20191016,
     time: 1830,
     location: "HSS 1346"
@@ -35,7 +35,7 @@ export const events = [
   {
     title: "Design Jam w/ Workday",
     link: "https://www.facebook.com/events/406084503655501",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=nXHpSVhJRM8AX85KI3_&_nc_ht=scontent.fkul4-2.fna&oh=b5dda336cbe553d35dbe2df1284c35d4&oe=5F27A542",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/73150953_2388485258058598_5041579882178412544_n.jpg?_nc_cat=101&_nc_sid=b386c4&_nc_ohc=RVBMTUHG-lYAX_Ask99&_nc_ht=scontent.fkul4-2.fna&oh=33c1dc83379260db72c631938bb47a3e&oe=5F4F3242",
     date: 20191022,
     time: 1700,
     location: "Career Center, Horizon Room"
@@ -59,7 +59,7 @@ export const events = [
   {
     title: "ServiceNow Info Session",
     link: "https://www.facebook.com/events/1340395706136941/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=5y8pqYF2oPEAX-3LUt1&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=efa0069f2735cc8488961e4ccbd7e7a1&oe=5F26DDF7",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/73137914_2399927273581063_4140642395135934464_o.jpg?_nc_cat=102&_nc_sid=b386c4&_nc_ohc=kMFz8LlWyTsAX-qbVVp&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=7371f8624225a406710ef9c819e41496&oe=5F525F77",
     date: 20191105,
     time: 1830,
     location: "HSS 1346"
@@ -67,7 +67,7 @@ export const events = [
   {
     title: "Studio Session: Visual Design Principles w/ Facebook",
     link: "https://www.facebook.com/events/441147996760078/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=p2iO-L_acKcAX89ou6J&_nc_ht=scontent.fkul4-1.fna&oh=b65d9484358b60e285b9302836981ae5&oe=5F2A3131",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/75435872_2393368987570225_7052494792915156992_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=M2hchFNwA4wAX_HqGGx&_nc_oc=AQneLWbZwItR07Pl3TR3BrfrWH75aflz1A601otrNl42QTKZfoVBPxEyjiHKiBudZ9c&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=afda09918c9532af79b1ee55778c82ea&oe=5F4F3B58",
     date: 20191030,
     time: 1830,
     location: "HSS 1346"
@@ -76,7 +76,7 @@ export const events = [
     title: "Design Co: Women Leaders in Design",
     link: "https://www.facebook.com/events/2592866754274904/",
     image:
-      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/74670756_2405037493070041_1073840006952386560_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=wveN90ItXJ0AX8sWwig&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=6109499d13b41ff9f2eb432542de17fc&oe=5F283F77",
+      "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/74670756_2405037493070041_1073840006952386560_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=TTvjfgqyzAYAX8wfBeA&_nc_ht=scontent.fkul4-1.fna&oh=808c03ce39c307d75e034c5d59d8ef45&oe=5F51CD12",
     date: 20191106,
     time: 1830,
     location: "Price Center Theater"
@@ -85,7 +85,7 @@ export const events = [
     title: "Design Co: Laser Tag Event Social",
     link: "https://www.facebook.com/events/2454578944664442/",
     image:
-      "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/73482572_2408285632745227_1557852923944239104_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=J_6jfxaHAN0AX92qcB-&_nc_ht=scontent.fkul4-2.fna&oh=947b1ab8df832cffea95b15961d0b0a6&oe=5F26CC24",
+      "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/73482572_2408285632745227_1557852923944239104_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=4cMx632OM8gAX-UttCY&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=8a3f58f7916a27be55fafe8060f43504&oe=5F4FCAC5",
     date: 20191112,
     time: 1845,
     location: "ULTRAZONE Laser Tag"
@@ -93,7 +93,7 @@ export const events = [
   {
     title: "Design Co: Interviewing Workshop",
     link: "https://www.facebook.com/events/1173512132838526/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=i6dsyjiUdjQAX9uy-Ci&_nc_ht=scontent.fkul4-1.fna&oh=636aec5de7a0af16abf2aeb574e75d59&oe=5F28536A",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/72938743_2409433369297120_2316261079455367168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=ujaSAG_QL-kAX-UPsVS&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=06b3b38493a76e8aa083ab98a414b4cf&oe=5F51578F",
     date: 20191113,
     time: 1830,
     location: "HSS 1346"
@@ -101,7 +101,7 @@ export const events = [
   {
     title: "Design Co: Portfolio Day",
     link: "https://www.facebook.com/events/267052910893182/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=AXwXRklCBdMAX9hchYW&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=137c9f89fc589aec73920fd649993c2f&oe=5F28E5DE",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/74643527_2409883179252139_490790852126310400_o.jpg?_nc_cat=100&_nc_sid=b386c4&_nc_ohc=dUhXgz8aK5gAX_DUVaV&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=f5326cb031b0927afeb7880728c69531&oe=5F5072DE",
     date: 20191117,
     time: 1200,
     location: "The Forum, Price Center 4th Floor"
@@ -109,7 +109,7 @@ export const events = [
   {
     title: "Design Co: Visual Design Workshop",
     link: "https://www.facebook.com/events/2409091399203746/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=D1Ws29RcMiYAX_8joJR&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=e07df0d8e636d789f47fc1ce99b1e21e&oe=5F2966FC",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/s960x960/77081204_2415440108696446_3172650302415306752_o.jpg?_nc_cat=104&_nc_sid=b386c4&_nc_ohc=OGC4uU4w6K8AX8t1bhX&_nc_ht=scontent.fkul4-2.fna&_nc_tp=7&oh=1ca90007fbf58452846afecf084ee646&oe=5F50F3FC",
     date: 20191120,
     time: 1830,
     location: "HSS 1346"
