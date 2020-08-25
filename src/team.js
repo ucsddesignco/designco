@@ -141,9 +141,9 @@ export const team = [
   },
   {
     id: "adam",
-    name: "Syed Adam Emir Putra",
+    name: "Adam Syed",
     role: "Web Developer",
-    link: "http://syedadam007.github.io/",
+    link: "https://syedadam.com/",
     gradYear: 2022
   },
   {
