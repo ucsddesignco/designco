@@ -43,7 +43,7 @@ export const events = [
   {
     title: "Design Co: Resume Workshop",
     link: "https://www.facebook.com/events/557332198360417/",
-    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=3grgABqklvAAX8S9kx7&_nc_ht=scontent.fkul4-2.fna&oh=3c1e8856d86a490cba97e0038a247458&oe=5F43B1DE",
+    image: "https://scontent.fkul4-2.fna.fbcdn.net/v/t1.0-9/72342928_2387019724871818_6132937123700932608_o.jpg?_nc_cat=108&_nc_sid=b386c4&_nc_ohc=SSFA6JBN4IMAX85Qa57&_nc_ht=scontent.fkul4-2.fna&oh=a9d35b083e5e3147642a566b1de78b3b&oe=5F6B3EDE",
     date: 20191023,
     time: 1830,
     location: "HSS 1346"
@@ -51,7 +51,7 @@ export const events = [
   {
     title: "Product Design Talk w/ Facebook",
     link: "https://www.facebook.com/events/2557519091031116/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=DSsCEIY5G18AX-VuWz1&_nc_ht=scontent.fkul4-1.fna&oh=e924c3f1d313ad931a3abacdab3ea66b&oe=5F45339F",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/72755128_2395395577367566_739480337716871168_o.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=QfSBK4WXHe4AX-IkNCl&_nc_ht=scontent.fkul4-1.fna&tp=7&oh=24965e76f99d62aaceb91c10385c854f&oe=5F6C055E",
     date: 20191029,
     time: 1830,
     location: "HSS 1346"
@@ -331,7 +331,7 @@ export const events = [
   {
     title: "Design Co: Storytelling with Netflix",
     link: "https://www.facebook.com/events/412385033030028/",
-    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/s960x960/110347994_2624079014499220_830470066953484708_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=IxDMZxgGe7oAX9gqPSg&_nc_ht=scontent.fkul4-1.fna&_nc_tp=7&oh=01b2a2f5d811da6e6290ca396ee69f79&oe=5F437B14",
+    image: "https://scontent.fkul4-1.fna.fbcdn.net/v/t1.0-9/110347994_2624079014499220_830470066953484708_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=ip-Qpch2Ii4AX-pEnbh&_nc_ht=scontent.fkul4-1.fna&oh=22f4dcfa4255c05ed67786758ee37307&oe=5F6C7FF5",
     date: 20200729,
     time: 1830,
     location: "Zoom"
