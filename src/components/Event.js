@@ -83,7 +83,7 @@ class Event extends React.Component {
         <a href={this.props.link} target="_blank">
           <img
             style={{ marginBottom: spacer1 }}
-            src={this.props.image}
+            src={require(`../images/events/${this.props.image}.jpg`)}
             alt=""
           ></img>
         </a>
