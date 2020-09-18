@@ -10,7 +10,7 @@ class Footer extends React.Component {
           <Row>
             <Visible lg xl>
               <Col md={4}>
-                <h4>Design Co © 2019</h4>
+                <h4>Design Co © 2020</h4>
               </Col>
             </Visible>
             <Col lg={8}>
