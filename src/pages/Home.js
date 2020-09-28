@@ -31,19 +31,26 @@ for (let i = 0; i < events.length; i++) {
   else break;
 }
 
-const eventList = (upcomingEvents.length === 0) ? <p style={{marginLeft: spacer1}}>Keep an eye out for spring quarter updates!</p> : upcomingEvents.map(function(event) {
-  // Load events occurring today or later
-  return (
-    <Event
-      title={event.title}
-      link={event.link}
-      image={event.image}
-      date={event.date}
-      time={event.time}
-      location={event.location}
-    />
+const eventList =
+  upcomingEvents.length === 0 ? (
+    <p style={{ marginLeft: spacer1 }}>
+      Keep an eye out for Fall quarter updates!
+    </p>
+  ) : (
+    upcomingEvents.map(function (event) {
+      // Load events occurring today or later
+      return (
+        <Event
+          title={event.title}
+          link={event.link}
+          image={event.image}
+          date={event.date}
+          time={event.time}
+          location={event.location}
+        />
+      );
+    })
   );
-});
 
 class Home extends React.Component {
   render() {
