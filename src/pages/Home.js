@@ -87,22 +87,6 @@ class Home extends React.Component {
                 </p>
                 <p className="text_caption">Sept. 30, 2020</p>
               </Col>
-              <Col sm={6} style={{ marginBottom: spacer3 }}>
-                <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
-
-                <p style={{ marginBottom: spacer2 }}>
-                  Design at UCSD is now Design Co. We’ve changed our name,
-                  brand, and visual identity, and we’ve updated our mission
-                  statement and values.{" "}
-                  <a
-                    href="https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
-                    target="_blank"
-                  >
-                    Read More
-                  </a>
-                </p>
-                <p className="text_caption">Sept. 27, 2019</p>
-              </Col>
             </Row>
           </div>
           <div
