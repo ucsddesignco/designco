@@ -70,21 +70,22 @@ class Home extends React.Component {
             <Row>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h3 style={{ marginBottom: spacer1 }}>
-                  No In-Person GBMs for Spring Quarter
+                  2019–20 Rewind: A Year of Firsts
                 </h3>
                 <p style={{ marginBottom: spacer2 }}>
-                  In light of the current COVID-19 (Coronavirus) pandemic, we
-                  have decided to suspend in-person GBMs during Spring Quarter.
-                  Don’t fret - Our team is working hard to explore virtual
-                  opportunities for our design community!{" "}
+                  This past year was filled with a lot of “firsts” as we
+                  continued to build an inclusive community of student
+                  designers. With the 2020–21 school year fast approaching, we
+                  wanted to highlight all the new events and initiatives that
+                  were launched.{" "}
                   <a
-                    href="https://www.facebook.com/photo?fbid=2531393510434438&set=a.1640898366150628"
+                    href="https://medium.com/ucsddesignco/2019-20-rewind-a-year-of-firsts-281c3be71c89"
                     target="_blank"
                   >
                     Read More
                   </a>
                 </p>
-                <p className="text_caption">Feb. 12, 2020</p>
+                <p className="text_caption">Sept. 30, 2020</p>
               </Col>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h3 style={{ marginBottom: spacer1 }}>Meet, Design Co!</h3>
