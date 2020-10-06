@@ -86,17 +86,6 @@ class Home extends React.Component {
                 </p>
                 <p className="text_caption">Sept. 30, 2020</p>
               </Col>
-              {/* <Col sm={6} style={{ marginBottom: spacer3 }}>
-                <h2 className="events" style={{ marginBottom: spacer3 }}>
-                  Upcoming Events
-                </h2>
-                {eventList}
-                <Button
-                  style={{ marginTop: spacer2 }}
-                  link="/events"
-                  text="View All Events"
-                ></Button>
-              </Col> */}
             </Row>
           </div>
           <div
@@ -104,12 +93,12 @@ class Home extends React.Component {
             style={{ marginBottom: spacer4 }}
           >
             <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
-            <Row style={{ marginBottom: spacer3 }}>{eventList}</Row>
+            <Row style={{ marginBottom: spacer2 }}>{eventList}</Row>
 
             <Row style={{ marginBottom: spacer4 }}>
               <Col>
                 <Button
-                  style={{ marginBottom: spacer4 }}
+                  style={{ marginBottom: spacer3 }}
                   link="/events"
                   text="View All Events"
                 ></Button>
