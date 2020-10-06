@@ -83,7 +83,7 @@ class AllEvents extends React.Component {
             className="events innerContainer"
             style={{ marginBottom: spacer4 }}
           >
-            <h2 style={{ marginBottom: spacer3 }}>Past Events</h2>
+            <h2 style={{ marginBottom: spacer3 }}>2019-2020 Events</h2>
             <Row>{pastEventList}</Row>
           </div>
           <div className="innerContainer">

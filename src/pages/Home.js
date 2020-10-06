@@ -65,10 +65,9 @@ class Home extends React.Component {
             className="innerContainer"
             style={{ marginTop: spacer4, marginBottom: spacer3 }}
           >
-            <h2 style={{ marginBottom: spacer3 }}>News</h2>
-
             <Row>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
+                <h2 style={{ marginBottom: spacer3 }}>News</h2>
                 <h3 style={{ marginBottom: spacer1 }}>
                   2019–20 Rewind: A Year of Firsts
                 </h3>
@@ -87,6 +86,17 @@ class Home extends React.Component {
                 </p>
                 <p className="text_caption">Sept. 30, 2020</p>
               </Col>
+              {/* <Col sm={6} style={{ marginBottom: spacer3 }}>
+                <h2 className="events" style={{ marginBottom: spacer3 }}>
+                  Upcoming Events
+                </h2>
+                {eventList}
+                <Button
+                  style={{ marginTop: spacer2 }}
+                  link="/events"
+                  text="View All Events"
+                ></Button>
+              </Col> */}
             </Row>
           </div>
           <div
@@ -98,7 +108,11 @@ class Home extends React.Component {
 
             <Row style={{ marginBottom: spacer4 }}>
               <Col>
-                <Button link="/events" text="View All Events"></Button>
+                <Button
+                  style={{ marginBottom: spacer4 }}
+                  link="/events"
+                  text="View All Events"
+                ></Button>
               </Col>
             </Row>
             <h2 style={{ marginBottom: spacer3 }}>Sponsors</h2>
