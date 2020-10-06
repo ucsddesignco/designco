@@ -1,11 +1,4 @@
 export const team = [
-  // {
-  //   id: "brittany",
-  //   name: "Brittany Newton",
-  //   role: "Director of Community, Growth and Strategy",
-  //   link: "https://www.linkedin.com/in/brittany-newton-648452133/",
-  //   gradYear: 2020
-  // },
   {
     id: "julia-n",
     name: "Julia Nguyen",
@@ -20,27 +13,6 @@ export const team = [
     link: "http://nhu777.net",
     gradYear: 2021,
   },
-  // {
-  //   id: "steven",
-  //   name: "Steven Chen",
-  //   role: "Director of Industry Relations",
-  //   link: "https://www.stevenychen.com/",
-  //   gradYear: 2020
-  // },
-  // {
-  //   id: "vicky",
-  //   name: "Vicky Ly",
-  //   role: "Director of Marketing and Operations",
-  //   link: "https://vickyly.co",
-  //   gradYear: 2020
-  // },
-  // {
-  //   id: "andrew",
-  //   name: "Andrew Zhen",
-  //   role: "Web Developer",
-  //   link: "https://ajzhen.com",
-  //   gradYear: 2020
-  // },
   {
     id: "jamin",
     name: "Jamin Capulong",
@@ -153,4 +125,32 @@ export const team = [
     link: "http://linkedin.com/in/megan-tan-31a2471a5",
     gradYear: 2023,
   },
+  // {
+  //   id: "steven",
+  //   name: "Steven Chen",
+  //   role: "Director of Industry Relations",
+  //   link: "https://www.stevenychen.com/",
+  //   gradYear: 2020
+  // },
+  // {
+  //   id: "vicky",
+  //   name: "Vicky Ly",
+  //   role: "Director of Marketing and Operations",
+  //   link: "https://vickyly.co",
+  //   gradYear: 2020
+  // },
+  // {
+  //   id: "andrew",
+  //   name: "Andrew Zhen",
+  //   role: "Web Developer",
+  //   link: "https://ajzhen.com",
+  //   gradYear: 2020
+  // },
+  // {
+  //   id: "brittany",
+  //   name: "Brittany Newton",
+  //   role: "Director of Community, Growth and Strategy",
+  //   link: "https://www.linkedin.com/in/brittany-newton-648452133/",
+  //   gradYear: 2020
+  // },
 ];
