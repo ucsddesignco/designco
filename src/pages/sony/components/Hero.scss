@@ -1,0 +1,65 @@
+@import "./Fonts.scss";
+
+.background {
+  background-color: black;
+  height: 100%;
+}
+
+.container {
+  width: calc(100% - 60px);
+  margin: auto;
+}
+
+.headphones-logo {
+  width: auto;
+  height: 680px;
+  margin-top: 40px;
+}
+
+.sony-title {
+  color: white;
+  font-size: 6rem;
+  letter-spacing: 4%;
+}
+
+.sony-subtitle-container {
+  display: flex;
+}
+
+.sony-subtitle {
+  color: white;
+}
+
+.sony-small-logo {
+  margin-left: 1.5rem;
+  margin-top: -6px;
+}
+
+.button {
+  background-color: white;
+  width: 170px;
+  height: 52px;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin: 74px 0px 152px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+  width: 170px;
+  height: 52px;
+  border: 1px solid white;
+  transition: 0.3s;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin: 74px 0px 152px;
+  cursor: pointer;
+}

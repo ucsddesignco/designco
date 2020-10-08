@@ -1,0 +1,37 @@
+@import "./Fonts.scss";
+
+.footer {
+  background: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.dco-copyright {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Neue Plak Extended";
+  font-size: 1.25rem;
+}

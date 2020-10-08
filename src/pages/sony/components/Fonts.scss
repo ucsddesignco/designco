@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Neue Plak Extended";
+  src: url("../fonts/NeuePlak-ExtendedBold.woff2") format("woff2"),
+    url("../fonts/NeuePlak-ExtendedBold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NB International Pro";
+  src: url("../fonts/NB-International-Pro-Regular.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NB International Pro";
+  src: url("../fonts/NBInternationalPro-Lig.woff2") format("woff2"),
+    url("../fonts/NBInternationalPro-Lig.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NB International Mono";
+  src: url("../fonts/NBInternationalMonoWebfont.woff2") format("woff2"),
+    url("../fonts/NBInternationalMonoWebfont.woff") format("woff");
+}

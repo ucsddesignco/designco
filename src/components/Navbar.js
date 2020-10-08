@@ -31,7 +31,7 @@ class Navbar extends React.Component {
 
     this.setState({
       active: !this.state.active,
-      hideSidePanel: !this.state.hideSidePanel
+      hideSidePanel: !this.state.hideSidePanel,
     });
   };
 
@@ -60,13 +60,13 @@ class Navbar extends React.Component {
       <div
         style={{
           paddingTop: spacer2,
-          marginBottom: spacer4
+          marginBottom: spacer4,
         }}
       >
         <Container
           className="outerContainer"
           style={{
-            color: this.props.color
+            color: this.props.color,
           }}
         >
           <Row>
@@ -192,6 +192,11 @@ class Navbar extends React.Component {
                   </li> */}
                   <li>
                     <h4>
+                      <a href="/sony">Sony</a>
+                    </h4>
+                  </li>
+                  <li>
+                    <h4>
                       <a href="/contact" id="contact">
                         Contact
                       </a>
@@ -268,6 +273,11 @@ class Navbar extends React.Component {
                           <a href="/joinourteam">Join Our Team</a>
                         </h4>
                       </li> */}
+                        <li>
+                          <h4>
+                            <a href="/sony">Sony</a>
+                          </h4>
+                        </li>
                         <li>
                           <h4>
                             <a href="/contact" id="contact">
