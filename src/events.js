@@ -336,4 +336,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Game Night Social",
+    link: "https://www.facebook.com/events/1217490275304716/",
+    image: "20201016",
+    date: 20201015,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
