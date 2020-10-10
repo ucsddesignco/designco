@@ -1,34 +1,33 @@
 import React from "react";
-import "./Hero.scss";
-// import headphones from "../images/sony_headphones.png";
+import headphones from "../images/sony_headphones.png";
 import logo from "../images/sony_logo.svg";
 import { Container, Row, Col } from "react-grid-system";
+import "../../../css/App.scss";
 import { spacer1, spacer2, spacer3, spacer4 } from "./constants";
+import Navbar from "../../../components/Navbar";
 
 function Hero() {
   return (
-    <div className="background">
-      <div className="container">
-        <Container>
-          <Row>
-            <Col sm={12}>
-              <h2 className="sony-title">Headphones UX Review</h2>
-              <div className="sony-subtitle-container">
-                <p className="sony-subtitle">Sponsored by</p>
-                <img className="sony-small-logo" src={logo} alt="sony-logo" />
-              </div>
-              <button class="button">Apply Now</button>
-            </Col>
-            {/* <Col sm={6}>
+    <div className="sony-hero">
+      <Container>
+        <Row justify="end" align="center">
+          <Col sm={6}>
+            <h1>Headphones UX Review</h1>
+            <div className="sony-subtitle-container">
+              <p>Sponsored by</p>
               <img
-                className="headphones-logo"
-                src={headphones}
-                alt="headphones"
-              />
-            </Col> */}
-          </Row>
-        </Container>
-      </div>
+                className="sony-small-logo"
+                src={logo}
+                alt="sony-logo"
+              />{" "}
+            </div>
+            <button className="text_caption">Apply Now</button>
+          </Col>
+          <Col sm={6}>
+            <img style={{ width: "100%" }} src={headphones} alt="headphones" />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
