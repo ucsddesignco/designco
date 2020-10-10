@@ -20,8 +20,9 @@ function About() {
             </Col>
             <Col sm={11}>
               <p className="paragraph-text">
-                Headphones UX Field Study is a <b>3 week</b> long event teaching
-                students first hand what it means to conduct research at Sony.
+                Headphones UX Review is a 2 week long event teaching students
+                first-hand how human factors engineers at Sony contribute to the
+                UX of headphones.
               </p>
             </Col>
           </Row>
@@ -31,8 +32,8 @@ function About() {
             </Col>
             <Col sm={11}>
               <p className="paragraph-text">
-                This event will be a self exploration in understanding what it
-                means to <b>user test, synthesis notes,</b> and{" "}
+                This event is a self-exploration in understanding what it means
+                to <b>perform an expert review, synthesize notes,</b> and{" "}
                 <b>ultimately contribute findings.</b>
               </p>
             </Col>
@@ -43,11 +44,9 @@ function About() {
             </Col>
             <Col sm={11}>
               <p className="paragraph-text">
-                The event ends off with <b>meeting the Sony Team</b> and{" "}
-                <b>
-                  learning to conduct field studies and create artifacts from
-                  your own findings.
-                </b>{" "}
+                This event ends off with a collaborative opportunity to share
+                results and form ideas for product improvement with human
+                factors engineers at Sony.
               </p>
             </Col>
           </Row>

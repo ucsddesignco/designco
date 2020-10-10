@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "./Navbar.scss";
+import "./NavbarSony.scss";
 import logo from "../images/sony_logo.svg";
 
-function Navbar() {
+function NavbarSony() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -39,4 +39,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarSony;

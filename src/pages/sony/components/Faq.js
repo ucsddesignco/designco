@@ -33,7 +33,9 @@ function Faq() {
               <h3 className="faq-title">How might I qualify?</h3>
               <p className="paragraph-text">
                 You must be current UC San Diego students who owns an iPhone or
-                Android phone (excluding LG phones).
+                Android phone (excluding LG phones). Those with range of motion
+                issues with head/neck, or with tinnitus (ringing of the ears)
+                should not participate for comfort and safety reasons.
               </p>
             </Col>
             <Col sm={6}>

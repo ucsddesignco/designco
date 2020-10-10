@@ -16,6 +16,7 @@
     "react-grid-system": "^5.0.2",
     "react-helmet": "^5.2.1",
     "react-horizontal-scrolling-menu": "^0.7.5",
+    "react-icons": "^3.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.1",
     "react-scroll-horizontal": "^1.6.2"
