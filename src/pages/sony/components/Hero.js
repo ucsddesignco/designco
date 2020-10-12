@@ -8,27 +8,34 @@ import Navbar from "../../../components/Navbar";
 
 function Hero() {
   return (
-    <div className="sony-hero">
-      <Container>
-        <Row justify="end" align="center">
-          <Col sm={6}>
-            <h1>Headphones UX Review</h1>
-            <div className="sony-subtitle-container">
-              <p>Sponsored by</p>
+    <>
+      <Navbar color="#FFF" altColor="#000" from="headphones-ux-review"/>
+      <div className="sony-hero">
+        <Container>
+          <Row justify="end" align="center">
+            <Col sm={6}>
+              <h1>Headphones UX Review</h1>
+              <div className="sony-subtitle-container">
+                <p>Sponsored by</p>
+                <img
+                  className="sony-small-logo"
+                  src={logo}
+                  alt="sony-logo"
+                />{" "}
+              </div>
+              <button className="text_caption">Apply Now</button>
+            </Col>
+            <Col sm={6}>
               <img
-                className="sony-small-logo"
-                src={logo}
-                alt="sony-logo"
-              />{" "}
-            </div>
-            <button className="text_caption">Apply Now</button>
-          </Col>
-          <Col sm={6}>
-            <img style={{ width: "100%" }} src={headphones} alt="headphones" />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+                style={{ width: "100%" }}
+                src={headphones}
+                alt="headphones"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </>
   );
 }
 

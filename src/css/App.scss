@@ -547,11 +547,13 @@ ol {
   height: 100%;
   color: white;
 
-  padding: $spacer3 $spacer1;
+  padding: $spacer4 $spacer1;
 
   @include md {
-    padding: $spacer3 $spacer4;
+    padding: 18rem $spacer4 $spacer3 $spacer4;
   }
+
+  margin-top: -24rem;
 
   h1 {
     @include md {
