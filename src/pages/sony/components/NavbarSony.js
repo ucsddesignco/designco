@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "../components/NavbarSony.scss";
+import "./NavbarSony.scss";
 import logo from "../images/sony_logo.svg";
 
 function NavbarSony() {
