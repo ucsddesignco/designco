@@ -10,6 +10,7 @@ import Navbar from "../../components/Navbar";
 function Sony() {
   return (
     <div>
+      <NavbarSony />
       <Hero />
       <About />
       <Timeline />
