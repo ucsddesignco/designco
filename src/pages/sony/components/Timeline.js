@@ -29,7 +29,7 @@ function Timeline() {
         </Row>
         <Row className="row-data">
           <Col sm={2}>
-            <h3>Headphones UX Review</h3>
+            <h3>Expert Review</h3>
             <h4>Nov 10 - 19</h4>
           </Col>
           <Col sm={10}>

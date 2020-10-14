@@ -12,7 +12,7 @@ function Hero() {
       <Navbar color="#FFF" altColor="#000" from="headphones-ux-review"/>
       <div className="sony-hero">
         <Container>
-          <Row justify="end" align="center">
+          <Row align="center">
             <Col sm={6}>
               <h1>Headphones UX Review</h1>
               <div className="sony-subtitle-container">
@@ -24,13 +24,6 @@ function Hero() {
                 />{" "}
               </div>
               <button className="text_caption">Apply Now</button>
-            </Col>
-            <Col sm={6}>
-              <img
-                style={{ width: "100%" }}
-                src={headphones}
-                alt="headphones"
-              />
             </Col>
           </Row>
         </Container>
