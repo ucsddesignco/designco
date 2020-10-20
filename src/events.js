@@ -344,4 +344,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Intern Panel",
+    link: "https://www.facebook.com/events/443615426623176/",
+    image: "20201022",
+    date: 20201022,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
