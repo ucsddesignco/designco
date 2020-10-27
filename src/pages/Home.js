@@ -37,7 +37,7 @@ const eventList =
       Keep an eye out for Fall quarter updates!
     </p>
   ) : (
-    upcomingEvents.map(function (event) {
+    upcomingEvents.map(function(event) {
       // Load events occurring today or later
       return (
         <Event
@@ -66,6 +66,24 @@ class Home extends React.Component {
             style={{ marginTop: spacer4, marginBottom: spacer3 }}
           >
             <Row>
+              <Col
+                sm={6}
+                className="events innerContainer"
+                style={{ marginBottom: spacer3 }}
+              >
+                <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
+
+                <Row style={{ marginBottom: spacer2 }}>{eventList}</Row>
+                <Row style={{ marginBottom: spacer4 }}>
+                  <Col>
+                    <Button
+                      style={{ marginBottom: spacer3 }}
+                      link="/events"
+                      text="View All Events"
+                    ></Button>
+                  </Col>
+                </Row>
+              </Col>
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h2 style={{ marginBottom: spacer3 }}>News</h2>
                 <h3 style={{ marginBottom: spacer1 }}>
@@ -85,25 +103,6 @@ class Home extends React.Component {
                   </a>
                 </p>
                 <p className="text_caption">Sept. 30, 2020</p>
-              </Col>
-              <Col
-                sm={6}
-                className="events innerContainer"
-                style={{ marginBottom: spacer3 }}
-              >
-                <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
-                <div className="upcomingEventsContainer">
-                  <Row style={{ marginBottom: spacer2 }}>{eventList}</Row>
-                  <Row style={{ marginBottom: spacer4 }}>
-                    <Col>
-                      <Button
-                        style={{ marginBottom: spacer3 }}
-                        link="/events"
-                        text="View All Events"
-                      ></Button>
-                    </Col>
-                  </Row>
-                </div>
               </Col>
             </Row>
           </div>

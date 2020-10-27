@@ -79,7 +79,7 @@ class Event extends React.Component {
 
   render() {
     return (
-      <Col sm={6} style={{ marginBottom: spacer2 }}>
+      <Col xs={12} style={{ marginBottom: spacer2 }}>
         <a href={this.props.link} target="_blank">
           <img
             style={{ marginBottom: spacer1 }}
