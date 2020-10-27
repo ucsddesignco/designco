@@ -111,7 +111,7 @@ class Home extends React.Component {
             className="events innerContainer"
             style={{ marginBottom: spacer4 }}
           >
-            <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
+            {/* <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
             <Row style={{ marginBottom: spacer2 }}>{eventList}</Row>
 
             <Row style={{ marginBottom: spacer4 }}>
@@ -122,7 +122,7 @@ class Home extends React.Component {
                   text="View All Events"
                 ></Button>
               </Col>
-            </Row>
+            </Row> */}
             <h2 style={{ marginBottom: spacer3 }}>Sponsors</h2>
             <Row>
               <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
