@@ -352,4 +352,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Scary Movie Social",
+    link: "https://www.facebook.com/events/3653942147960938/",
+    image: "20201029",
+    date: 20201029,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
