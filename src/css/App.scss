@@ -34,6 +34,20 @@ html {
   }
 }
 
+.upcomingEventsContainer {
+  box-sizing: border-box;
+  min-height: 1px;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 3.6rem;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0%;
+  right: auto;
+  left: auto;
+}
+
 /************************* NAV + FOOTER ***************************/
 
 .nav {
