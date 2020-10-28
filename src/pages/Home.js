@@ -40,7 +40,7 @@ const eventList =
     upcomingEvents.map(function(event) {
       // Load events occurring today or later
       return (
-        <Col xs={12} style={{ marginBottom: spacer2 }}>
+        <Col xs={12}>
           <Event
             title={event.title}
             link={event.link}
@@ -76,7 +76,7 @@ class Home extends React.Component {
                 <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
 
                 <Row style={{ marginBottom: spacer2 }}>{eventList}</Row>
-                <Row style={{ marginBottom: spacer4 }}>
+                <Row>
                   <Col>
                     <Button
                       style={{ marginBottom: spacer3 }}
