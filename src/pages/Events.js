@@ -1,9 +1,9 @@
 import React from "react";
-import { spacer3, spacer4 } from "../constants.js";
+import { spacer3, spacer4, spacer2 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Event from "../components/Event";
-import { Container, Row } from "react-grid-system";
+import { Container, Row, Col } from "react-grid-system";
 
 import { events } from "../events.js";
 
@@ -29,31 +29,35 @@ for (let i = 0; i < events.length; i++) {
 // Reverse the order for past events
 pastEvents.reverse();
 
-const eventList = upcomingEvents.map(function (event) {
+const eventList = upcomingEvents.map(function(event) {
   // Load events occurring today or later
   return (
-    <Event
-      title={event.title}
-      link={event.link}
-      image={event.image}
-      date={event.date}
-      time={event.time}
-      location={event.location}
-    />
+    <Col sm={6} style={{ marginBottom: spacer2 }}>
+      <Event
+        title={event.title}
+        link={event.link}
+        image={event.image}
+        date={event.date}
+        time={event.time}
+        location={event.location}
+      />
+    </Col>
   );
 });
 
-const pastEventList = pastEvents.map(function (event) {
+const pastEventList = pastEvents.map(function(event) {
   // Load events occurring today or later
   return (
-    <Event
-      title={event.title}
-      link={event.link}
-      image={event.image}
-      date={event.date}
-      time={event.time}
-      location={event.location}
-    />
+    <Col sm={6}>
+      <Event
+        title={event.title}
+        link={event.link}
+        image={event.image}
+        date={event.date}
+        time={event.time}
+        location={event.location}
+      />
+    </Col>
   );
 });
 
@@ -83,7 +87,7 @@ class AllEvents extends React.Component {
             className="events innerContainer"
             style={{ marginBottom: spacer4 }}
           >
-            <h2 style={{ marginBottom: spacer3 }}>2019-2020 Events</h2>
+            <h2 style={{ marginBottom: spacer3 }}>Past Events</h2>
             <Row>{pastEventList}</Row>
           </div>
           <div className="innerContainer">

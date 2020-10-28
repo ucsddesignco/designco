@@ -14,14 +14,13 @@ function formatTime(time) {
 
   // Select hours and minutes if possible
   let hour = parseInt(time / 100);
-  let min_tens = parseInt((time - (hour * 100)) / 10);
-  let min_ones = parseInt(time - (hour * 100) - (min_tens * 10));
+  let min_tens = parseInt((time - hour * 100) / 10);
+  let min_ones = parseInt(time - hour * 100 - min_tens * 10);
 
   // Automatically add 12 hours, subtract if too much
   hour += 12;
-  if (hour >= 24)
-    hour -= 12;
-  
+  if (hour >= 24) hour -= 12;
+
   return (hour <= 12 ? hour : hour - 12) + ":" + min_tens + min_ones + ampm;
 }
 
@@ -79,7 +78,7 @@ class Event extends React.Component {
 
   render() {
     return (
-      <Col xs={12} style={{ marginBottom: spacer2 }}>
+      <>
         <a href={this.props.link} target="_blank">
           <img
             style={{ marginBottom: spacer1 }}
@@ -89,7 +88,7 @@ class Event extends React.Component {
         </a>
         <a href={this.props.link} target="_blank">
           <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
-          </a>
+        </a>
         <p className="text_small">
           {formatDate(this.props.date)}
           <br></br>
@@ -97,7 +96,7 @@ class Event extends React.Component {
           <br></br>
           {formatTime(this.props.time)}
         </p>
-      </Col>
+      </>
     );
   }
 }
