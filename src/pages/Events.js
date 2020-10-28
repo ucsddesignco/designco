@@ -48,7 +48,7 @@ const eventList = upcomingEvents.map(function(event) {
 const pastEventList = pastEvents.map(function(event) {
   // Load events occurring today or later
   return (
-    <Col sm={6}>
+    <Col sm={6} style={{ marginBottom: spacer2 }}>
       <Event
         title={event.title}
         link={event.link}
