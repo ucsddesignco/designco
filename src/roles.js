@@ -99,10 +99,10 @@ export const roles = [
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; If you know any funny jokes, can teach sick dance moves, and have great food recommendations &lt;/li&gt; &lt;/ol&gt;",
     name: "Staci",
-    q1: "Why did you decide to join Design Co's board?",
+    q1: "What have you gained from being part of the Design Co board?",
     a1:
       "After joining Design Co board, I’ve been able to cultivate my skills as a student designer & leader. I’ve had a greater appreciation for the backend of all the amazing events, and taught me that a solid communicative team can help you accomplish great things that you wouldn’t have been able to do alone.",
-    q2: "What have you learned from being on the Design Co board?",
+    q2: "How have you grown during your time on the Design Co board?",
     a2:
       "I’ve definitely grown out of my comfort zone by speaking to 200+ people over the internet! Being on board also gave me more confidence to pursue leadership positions outside of Design Co.",
     q3: "How would you describe how the Design Co board works together?",
@@ -194,7 +194,7 @@ export const roles = [
       &lt;li&gt; Taking photographs and videos for all events &lt;/li&gt; \
       &lt;li&gt; Editing and sharing photos and videos after events &lt;/li&gt; \
       &lt;li&gt; Curating marketing videos for our social media channels (e.g. Design Frontiers Video, Intro to Design Co, etc.) &lt;/li&gt; \
-      &lt;li&gt; Working closely with our Creative Team to ensure that our video and photo editing aligns with our visual language &lt;/li&gt; &lt;/ol&gt; \ ",
+      &lt;li&gt; Working closely with our Creative Team to ensure that our video and photo editing aligns with our visual language &lt;/li&gt; &lt;/ol&gt;  ",
     general:
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
@@ -232,7 +232,7 @@ export const roles = [
       &lt;li&gt; Helping the marketing team determine quarterly and year-long marketing strategies that increase reach, engagement, and impressions &lt;/li&gt; \
       &lt;li&gt; Managing our social media channels (e.g. Facebook, Instagram, LinkedIn, Snapchat) and ensuring a consistent flow of media posts &lt;/li&gt; \
       &lt;li&gt; Using social media marketing strategies to boost attendance at our events &lt;/li&gt; \
-      &lt;li&gt; Creating marketing plans for small to large scale events &lt;/li&gt; &lt;/ol&gt; \ ",
+      &lt;li&gt; Creating marketing plans for small to large scale events &lt;/li&gt; &lt;/ol&gt;  ",
     general:
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
