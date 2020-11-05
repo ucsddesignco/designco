@@ -74,7 +74,7 @@ class Role extends React.Component {
             <div className="panelNav">
               <span className="x" onClick={ this.handlePanel }></span>
               <div className="apply">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqIE9sX8vqb-74C4h_qcNtaCTwgLfILjtoJcgvsnVeGFQxBQ/viewform?usp=sf_link" target="_blank" style={{ textDecoration: "none" }}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaK2klWiZoSzvz_jsMtVJkNx_rs8VhKoi2oUYw9_lSQtIm8g/viewform" target="_blank" style={{ textDecoration: "none" }}>
                   Apply
                 </a>
               </div>

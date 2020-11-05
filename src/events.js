@@ -360,4 +360,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Resume Workshop",
+    link: "https://www.facebook.com/events/367022448059906",
+    image: "20201105",
+    date: 20201105,
+    time: 1700,
+    location: "Zoom",
+  }
 ];

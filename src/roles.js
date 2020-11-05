@@ -27,18 +27,18 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Julia",
+    name: "Megan",
     q1: "What have you gained from being part of the Design Co board?",
     a1:
-      "Besides strengthening my technical skills, I’ve gained so many close friends who share the same interests as me and are devoted to progressing their careers alongside everyone else.",
+      "I’ve gained long-lasting friendships and get to work with an insanely talented group of people who are always willing to support each other in any way possible. My fellow board members continuously inspire me through initiatives to grow the design community, and by being part of the Design Co board, I’ve gotten the chance to take part in the behind-the-scenes work that goes along in crafting these initiatives and events.",
     q2: "How have you grown during your time on the Design Co board?",
     a2:
-      "I’ve grown to be a more confident leader and designer with the support from the Design Co board and our design community. ",
+      "Although my time on board has been completely virtual, I have grown in so many ways. Being able to contribute to the ever-growing Design Co brand while in its budding form has allowed me to expand my graphic design skill set, all the while learning how to stretch my creativity in the process.",
     q3: "How would you describe how the Design Co board works together?",
     a3:
-      "Design Co’s work environment is very flexible. We are all busy because of school, but can count on everyone on the team to come together to get things done.",
+      "We work in cross-functional, tight-knit teams to seamlessly run Design Co.",
     q4: "Fun fact?",
-    a4: "I love tiny homes and hope to build one myself one day."
+    a4: "I love alpacas and hope to one day own an alpaca farm!"
   },
   // {
   //   team: "Creative",
@@ -98,18 +98,18 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; If you know any funny jokes, can teach sick dance moves, and have great food recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Winson",
+    name: "Staci",
     q1: "Why did you decide to join Design Co's board?",
     a1:
-      "I want to create opportunities for the design community because I know how difficult it is doing it alone; rather than that I’d like for everyone to come and learn together.",
+      "After joining Design Co board, I’ve been able to cultivate my skills as a student designer & leader. I’ve had a greater appreciation for the backend of all the amazing events, and taught me that a solid communicative team can help you accomplish great things that you wouldn’t have been able to do alone.",
     q2: "What have you learned from being on the Design Co board?",
     a2:
-      "I’ve learned what it means to have balance; doing cool sh*t while having fun. To epitomize my time on board it’s being surrounded with talented and really nice people.",
+      "I’ve definitely grown out of my comfort zone by speaking to 200+ people over the internet! Being on board also gave me more confidence to pursue leadership positions outside of Design Co.",
     q3: "How would you describe how the Design Co board works together?",
     a3:
-      "An efficient and light-hearted way of organizing a bunch of moving pieces into really awesome events and opportunities. I’m extremely proud to be a part of the board and love the way we work. There doesn’t need to be a high stress environment to do good and have fun.",
+      "Productive, fun, and quirky. We all come together as these amazing puzzle pieces to create large scale events.",
     q4: "Fun fact?",
-    a4: "I used to make clothes with my mom from start to finish."
+    a4: "I’ve been dancing since I was 2 years old :^)"
   },
   // {
   //   team: "Community",
@@ -180,8 +180,8 @@ export const roles = [
     q2: "How would you describe how the Design Co board works together?",
     a2:
       "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "What’s a TV show you’re currently binge watching?",
-    a3: "Brooklyn 99"
+    q3: "Fun fact?",
+    a3: "I can sing along to almost any Disney songs"
   },
   {
     team: "Marketing",
@@ -219,8 +219,8 @@ export const roles = [
     q2: "How would you describe how the Design Co board works together?",
     a2:
       "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "What’s a TV show you’re currently binge watching?",
-    a3: "Brooklyn 99"
+    q3: "Fun fact?",
+    a3: "I can sing along to almost any Disney songs"
   },
   {
     team: "Marketing",
@@ -256,8 +256,8 @@ export const roles = [
     q2: "How would you describe how the Design Co board works together?",
     a2:
       "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "What’s a TV show you’re currently binge watching?",
-    a3: "Brooklyn 99"
+    q3: "Fun fact?",
+    a3: "I can sing along to almost any Disney songs"
   }
   // {
   //   team: "Marketing",
