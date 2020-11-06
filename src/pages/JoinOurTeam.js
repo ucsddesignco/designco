@@ -41,10 +41,6 @@ class JoinOurTeam extends React.Component {
     this.handlePanel = this.handlePanel.bind(this);
   }
 
-  componentDidMount() {
-    window.location.href = "https://ucsd.zoom.us/j/93237758725";
-  }
-
   handlePanel() {
     this.setState(state => ({
       showSidePanel: !state.showSidePanel
@@ -57,7 +53,7 @@ class JoinOurTeam extends React.Component {
         <Helmet>
           <title> Join Our Team | Design Co </title>
         </Helmet>
-        <Navbar color={"#000"} altColor={"#FFF"} from="joinourteam" />
+        <Navbar color={"#000"} altColor={"#FFF"} from="join-our-team" />
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer">
             <Row>
@@ -66,7 +62,7 @@ class JoinOurTeam extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications due Wednesday, February 19th at 11:59PM.
+                  Applications due Sunday, November 15th at 11:59PM.
                 </p>
                 <Button
                   link="#roles"

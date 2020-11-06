@@ -1,35 +1,43 @@
 export const faq = [
   {
     question: "What is Design Co Board?",
-    answer: "Design Co Board is a team of student leaders who ideate, plan, and execute events and professional growth opportunities for the UCSD design community."
+    answer:
+      "Design Co Board is a team of student leaders who ideate, plan, and execute events and professional growth opportunities for the UCSD design community."
   },
   {
     question: "How long is the role period?",
-    answer: "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2020 quarter, and the 2020-21 school year (4 quarters total)."
+    answer:
+      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Winter and Spring 2021 quarters, and the 2021-22 school year (5 quarters total)."
   },
   {
-    question: "Oh, shoot, I’m (graduating soon, studying abroad, not going to be here for all of next school year), what should I do?",
-    answer: "Not being able to serve the full term does not necessarily eliminate you as a candidate, but we do want to be transparent and let you know that it may put you at a disadvantage. Please be sure to let us know, in the application, if you cannot serve the entire period."
+    question: "I won't be living near campus this year, can I still apply?",
+    answer:
+      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. All events and meetings during the 2020-2021 school year will be held virtually."
   },
   {
     question: "When is the application due?",
-    answer: "Applications are due Wednesday, February 19th at 11:59PM."
+    answer: "Applications are due Sunday, November 15th at 11:59PM."
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
-    answer: "While our board is made up of people who wear multiple hats, we believe that you should be committed and passionate about the role(s) you are applying to. &lt;b style='font-weight: 900'&gt;Because of that you may apply to 3 roles maximum&lt;/b&gt;."
+    answer:
+      "While our board is made up of people who wear multiple hats, we believe that you should be committed and passionate about the role(s) you are applying to. &lt;b style='font-weight: 900'&gt;Because of that you may apply to 3 roles maximum&lt;/b&gt;."
   },
   {
     question: "What is the application & interview process like?",
-    answer: "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by 2/22 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place on 2/25, 2/26, and 2/27. Offers will be sent out shortly after and new board members will join us for their first board meeting on Thursday 3/12."
+    answer:
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Tuesday 11/17 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Wednesday 11/18 - Wednesday 11/25. Offers will be sent out shortly after and new board members will join us for their first board meeting on Tuesday 12/1."
   },
   {
-    question: "If I become a board member, what will my responsibilities look like?",
-    answer: "Full details on your responsibilities are outlined in the role descriptions above. At a minimum, all board members are expected to attend 1 weekly board meeting (~1.5 hours) and weekly GBMs (~2 hours). Your role responsibilities should give you an additional 2-3 hours (this varies) of work per week."
+    question:
+      "If I become a board member, what will my responsibilities look like?",
+    answer:
+      "Full details on your responsibilities are outlined in the role descriptions above. At a minimum, all board members are expected to attend 1 weekly board meeting (~1.5 hours) and weekly GBMs (~2 hours). Your role responsibilities should give you an additional 2-3 hours (this varies) of work per week, including team meetings (1 hour). All events and meetings during the 2020-2021 school year will be held virtually."
   },
   {
     question: "How do board members collaborate together?",
-    answer: "We’re split into four highly cross-functional and collaborative teams. Now that’s a lot of corporate jargon, what does that mean? It’s easier for us to explain through the lense of planning an event. &lt;br/&gt;&lt;br/&gt;\
+    answer:
+      "We’re split into four highly cross-functional and collaborative teams. Now that’s a lot of corporate jargon, what does that mean? It’s easier for us to explain through the lense of planning an event. &lt;br/&gt;&lt;br/&gt;\
     \
     Let’s say Design Co wants to set up a huge recruiting session with multiple industry partners. &lt;br/&gt;&lt;br/&gt;\
     &lt;ol&gt; \
@@ -44,6 +52,7 @@ export const faq = [
   },
   {
     question: "I’m not getting paid, so what’s in it for me?",
-    answer: "We’re going to keep it real. You’re signing up for extra work, and extra stress, and you’re not going to be paid. So why should you do this? To start, not a single member of our board regrets ever joining our board. People have grown and learned so much, beyond design, during their time on our board. We’re all a family and push each other to become better versions of ourselves everyday. So if you’re passionate about helping the design community at UCSD grow, submit an application, we’d love to have you aboard (no pun intended)."
+    answer:
+      "We’re going to keep it real. You’re signing up for extra work, and extra stress, and you’re not going to be paid. So why should you do this? To start, not a single member of our board regrets ever joining our board. People have grown and learned so much, beyond design, during their time on our board. We’re all a family and push each other to become better versions of ourselves everyday. So if you’re passionate about helping the design community at UCSD grow, submit an application, we’d love to have you aboard (no pun intended)."
   }
 ];
