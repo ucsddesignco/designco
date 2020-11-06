@@ -38,7 +38,7 @@ export const roles = [
     a3:
       "We work in cross-functional, tight-knit teams to seamlessly run Design Co.",
     q4: "Fun fact?",
-    a4: "I love alpacas and hope to one day own an alpaca farm!"
+    a4: "I love alpacas and hope to one day own an alpaca farm!",
   },
   // {
   //   team: "Creative",
@@ -109,7 +109,7 @@ export const roles = [
     a3:
       "Productive, fun, and quirky. We all come together as these amazing puzzle pieces to create large scale events.",
     q4: "Fun fact?",
-    a4: "I’ve been dancing since I was 2 years old :^)"
+    a4: "I’ve been dancing since I was 2 years old :^)",
   },
   // {
   //   team: "Community",
@@ -181,7 +181,7 @@ export const roles = [
     a2:
       "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
     q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs"
+    a3: "I can sing along to almost any Disney songs",
   },
   {
     team: "Marketing",
@@ -220,7 +220,7 @@ export const roles = [
     a2:
       "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
     q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs"
+    a3: "I can sing along to almost any Disney songs",
   },
   {
     team: "Marketing",
@@ -257,8 +257,8 @@ export const roles = [
     a2:
       "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
     q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs"
-  }
+    a3: "I can sing along to almost any Disney songs",
+  },
   // {
   //   team: "Marketing",
   //   position: "Photographer / Videographer",
