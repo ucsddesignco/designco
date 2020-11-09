@@ -368,4 +368,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Speed Friending Social + Design Buds Reveal",
+    link: "https://www.facebook.com/events/1895006733974098/",
+    image: "20201112",
+    date: 20201112,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
