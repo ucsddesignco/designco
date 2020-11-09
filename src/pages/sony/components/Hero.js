@@ -9,11 +9,11 @@ import Navbar from "../../../components/Navbar";
 function Hero() {
   return (
     <>
-      <Navbar color="#FFF" altColor="#000" from="headphones-ux-review"/>
+      <Navbar color="#FFF" altColor="#000" from="headphones-ux-review" />
       <div className="sony-hero">
         <Container>
           <Row align="center">
-            <Col sm={6}>
+            <Col sm={12}>
               <h1>Headphones UX Review</h1>
               <div className="sony-subtitle-container">
                 <p>Sponsored by</p>
