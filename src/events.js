@@ -376,4 +376,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Camp DCo Pt. 1 – User Research",
+    link: "https://www.facebook.com/events/419295049088608",
+    image: "20201117",
+    date: 20201117,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
