@@ -385,8 +385,8 @@ export const events = [
     location: "Zoom",
   },
   {
-    title: "Design Co: Camp DCo Pt. 1 – User Research",
-    link: "Design Co: Camp DCo Pt. 2 – Wireframing + Visual/Brand Design",
+    title: "Design Co: Camp DCo Pt. 2 – Wireframing + Visual/Brand Design",
+    link: "https://www.facebook.com/events/697965027780387",
     image: "20201119",
     date: 20201119,
     time: 1700,
