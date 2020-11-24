@@ -9,11 +9,11 @@ import { roles } from "../roles.js";
 import Role from "../components/Role";
 import { Container, Row, Col } from "react-grid-system";
 
-const faqList = faq.map(item => (
+const faqList = faq.map((item) => (
   <QA question={item.question} answer={item.answer} />
 ));
 
-const roleList = roles.map(item => (
+const roleList = roles.map((item) => (
   <Role
     team={item.team}
     position={item.position}
@@ -42,8 +42,8 @@ class JoinOurTeam extends React.Component {
   }
 
   handlePanel() {
-    this.setState(state => ({
-      showSidePanel: !state.showSidePanel
+    this.setState((state) => ({
+      showSidePanel: !state.showSidePanel,
     }));
   }
 
@@ -62,7 +62,7 @@ class JoinOurTeam extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications due Sunday, November 15th at 11:59PM.
+                  Applications due Friday, November 20th at 11:59PM.
                 </p>
                 <Button
                   link="#roles"
