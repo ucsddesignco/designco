@@ -10,7 +10,7 @@ export const team = [
     id: "nhu",
     name: "Nhu Luong",
     role: "Creative Director",
-    link: "http://nhu777.net",
+    link: "https://nhu777.webflow.io/",
     gradYear: 2021,
   },
   {
