@@ -392,4 +392,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Unwrapping the Online Interview Process",
+    link: "https://www.facebook.com/events/209110704068105",
+    image: "20201203",
+    date: 20201203,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
