@@ -400,4 +400,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: End of Quarter Celebration",
+    link: "https://www.facebook.com/events/406428643886589",
+    image: "20201210",
+    date: 20201210,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
