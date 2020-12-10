@@ -20,7 +20,7 @@ class Main extends React.Component {
           {/* <Route path='/joinourteam' component={Join}/> */}
           <Route exact path="/gbm" component={GBM} />
           <Route path="/contact" component={Contact} />
-          <Route path="/headphones-ux-review" component={Sony} />
+          <Route path="/headphone-ux-review" component={Sony} />
         </Switch>
       </main>
     );

@@ -192,7 +192,9 @@ class Navbar extends React.Component {
                   </li> */}
                   <li>
                     <h4>
-                      <a href="/headphones-ux-review" id="headphones-ux-review">Sony</a>
+                      <a href="/headphone-ux-review" id="headphone-ux-review">
+                        Sony
+                      </a>
                     </h4>
                   </li>
                   <li>
@@ -275,7 +277,12 @@ class Navbar extends React.Component {
                       </li> */}
                         <li>
                           <h4>
-                            <a href="/headphones-ux-review" id="headphones-ux-review">Sony</a>
+                            <a
+                              href="/headphone-ux-review"
+                              id="headphone-ux-review"
+                            >
+                              Sony
+                            </a>
                           </h4>
                         </li>
                         <li>

@@ -19,7 +19,7 @@ function About() {
           </Col>
           <Col sm={11}>
             <p>
-              Headphones UX Review is a 2 week long teaching event, giving
+              Headphone UX Review is a 2 week long teaching event, giving
               students first-hand insight into how human factors engineers at
               Sony contribute to the UX of headphones.
             </p>
