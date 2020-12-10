@@ -15,22 +15,22 @@ function Timeline() {
         <Row className="row-data">
           <Col sm={2}>
             <h3>Kickoff</h3>
-            <h4>Nov 10</h4>
+            <h4>Jan 26</h4>
           </Col>
           <Col sm={10}>
             <p>
               We’ll distribute headphones and help you set up your accounts to
-              properly pair off your headphones. Join human factors engineers at
-              Sony as they share stories about their work, and walk you through
-              how they conduct expert reviews on headphones at Sony. There will
-              be a group activity to get you started.
+              properly pair your headphones. Join Sony's human factors engineers
+              as they share stories about their work, and walk you through how
+              they conduct expert reviews on headphones at Sony. There will be a
+              group activity to get you started.
             </p>
           </Col>
         </Row>
         <Row className="row-data">
           <Col sm={2}>
             <h3>Expert Review</h3>
-            <h4>Nov 10 - 19</h4>
+            <h4>Jan 26 - Feb 4</h4>
           </Col>
           <Col sm={10}>
             <p>
@@ -45,13 +45,13 @@ function Timeline() {
         <Row className="row-data">
           <Col sm={2}>
             <h3>Debrief & Ideate</h3>
-            <h4>Nov 19</h4>
+            <h4>Feb 4</h4>
           </Col>
           <Col sm={10}>
             <p>
-              Consolidate your findings with your headphones and compete in an
-              ideation exercise. Ask questions, learn about opportunities, and
-              network with members of Sony’s human factors team.
+              Consolidate your findings and compete in an ideation exercise. Ask
+              questions, learn about opportunities, and network with members of
+              Sony’s human factors team.
             </p>
           </Col>
         </Row>
