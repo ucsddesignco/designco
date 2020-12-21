@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-grid-system";
 import "../../../css/App.scss";
 import { spacer1, spacer2, spacer3, spacer4 } from "./constants";
 import Navbar from "../../../components/Navbar";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -23,7 +24,14 @@ function Hero() {
                   alt="sony-logo"
                 />{" "}
               </div>
-              <button className="text_caption">Apply Now</button>
+              <a href=" https://forms.gle/g2KAZhrUdY47sweV7" target="_blank">
+                <button
+                  href="https://forms.gle/g2KAZhrUdY47sweV7"
+                  className="text_caption"
+                >
+                  Apply Now
+                </button>
+              </a>
             </Col>
           </Row>
         </Container>
