@@ -548,3 +548,116 @@ $faq-gutter: 12rem;
 ol {
   list-style-type: decimal;
 }
+
+/************** SONY ***************/
+
+// .container {
+//   width: calc(100% - 60px);
+//   margin: auto;
+// }
+
+.sony-hero {
+  background: black;
+  height: 100%;
+  color: white;
+
+  padding: $spacer4 $spacer1;
+
+  @include md {
+    padding: 18rem $spacer4 $spacer4 $spacer4;
+  }
+
+  margin-top: -24rem;
+
+  h1 {
+    @include md {
+      font-size: 9.6rem;
+      line-height: 12rem;
+    }
+  }
+
+  .sony-subtitle-container {
+    margin: $spacer4 0 $spacer3 0;
+    display: flex;
+
+    p {
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+    }
+  }
+  .sony-small-logo {
+    margin-left: 1.5rem;
+    margin-top: -6px;
+  }
+
+  button{
+    padding: $spacer1 $spacer2;
+    border: none;
+    border-radius: 0;
+    background: white;
+
+    &:hover{
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}
+
+.sony-about {
+  padding: $spacer3 $spacer1;
+
+  @include md {
+    padding: $spacer3 $spacer4;
+  }
+
+  h1 {
+    color: black;
+  }
+
+  p {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: black;
+  }
+
+  img {
+    width: 100%;
+    max-width: 48px;
+  }
+
+  .row-data {
+    margin-top: $spacer3;
+  }
+}
+
+.sony-timeline {
+  padding: $spacer3 $spacer1;
+
+  @include md {
+    padding: $spacer3 $spacer4;
+  }
+
+  background: black;
+  color: white;
+
+  p {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  .row-data {
+    margin-top: $spacer3;
+  }
+}
+
+.sony-faq {
+  padding: $spacer3 $spacer1;
+
+  @include md {
+    padding: $spacer3 $spacer4;
+  }
+
+  h1 {
+    margin-bottom: $spacer3;
+  }
+}
