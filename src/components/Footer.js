@@ -16,7 +16,7 @@ class Footer extends React.Component {
             <Col lg={8}>
               <Hidden lg xl>
                 <h4 style={{ textAlign: "center", marginBottom: spacer1 }}>
-                  Design Co © 2019
+                  Design Co © 2020
                 </h4>
               </Hidden>
               <ul className="footerLinks">
