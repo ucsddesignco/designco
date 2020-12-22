@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import AllEvents from "../pages/Events";
-import Join from '../pages/JoinOurTeam';
+// import Join from "../pages/JoinOurTeam";
 import GBM from "../pages/GBM";
 import Contact from "../pages/Contact";
 import Sony from "../pages/sony/Sony";
@@ -17,7 +17,7 @@ class Main extends React.Component {
           <Route exact path="/home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/events" component={AllEvents} />
-          <Route path='/join-our-team' component={Join}/>
+          {/* <Route path="/join-our-team" component={Join} /> */}
           <Route exact path="/gbm" component={GBM} />
           <Route path="/contact" component={Contact} />
           <Route path="/headphone-ux-review" component={Sony} />
