@@ -29,7 +29,7 @@ for (let i = 0; i < events.length; i++) {
 // Reverse the order for past events
 pastEvents.reverse();
 
-const eventList = upcomingEvents.map(function(event) {
+const eventList = upcomingEvents.map(function (event) {
   // Load events occurring today or later
   return (
     <Col sm={6} style={{ marginBottom: spacer2 }}>
@@ -45,7 +45,7 @@ const eventList = upcomingEvents.map(function(event) {
   );
 });
 
-const pastEventList = pastEvents.map(function(event) {
+const pastEventList = pastEvents.map(function (event) {
   // Load events occurring today or later
   return (
     <Col sm={6} style={{ marginBottom: spacer2 }}>
@@ -72,8 +72,8 @@ class AllEvents extends React.Component {
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer" style={{ marginBottom: spacer3 }}>
             <h1>
-              For Fall Quarter, we’re hosting weekly, interactive events focused
-              on professional development and networking.
+              For Winter Quarter, we’re hosting weekly, interactive events
+              focused on professional development and networking.
             </h1>
           </div>
           <div
