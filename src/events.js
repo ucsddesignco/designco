@@ -408,4 +408,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Crafting Your Taste",
+    link: "https://www.facebook.com/events/242657044055781/",
+    image: "20210107",
+    date: 20210107
+    time: 1700,
+    location: "Zoom",
+  },
 ];
