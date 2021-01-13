@@ -410,9 +410,9 @@ export const events = [
   },
   {
     title: "Design Co: Crafting Your Taste",
-    link: "https://www.facebook.com/events/242657044055781/",
-    image: "20210107",
-    date: 20210107,
+    link: "https://www.facebook.com/events/318045996205019",
+    image: "20210114",
+    date: 20210114,
     time: 1700,
     location: "Zoom",
   },
