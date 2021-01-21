@@ -416,4 +416,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Cross-Cultural Design",
+    link: "https://www.facebook.com/events/233600011601264",
+    image: "20210121",
+    date: 20210121,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
