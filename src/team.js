@@ -122,7 +122,7 @@ export const team = [
     id: "julie",
     name: "Julie Han",
     role: "Social Media Coordinator",
-    link: "juliehan.webflow.io",
+    link: "https://juliehan.webflow.io",
     gradYear: 2022,
   },
   {
