@@ -139,6 +139,13 @@ export const team = [
     link: "amansinghsarna.me",
     gradYear: 2022,
   },
+  {
+    id: "gisca",
+    name: "Gisca Giancana",
+    role: "Social Media Coordinator",
+    link: "giscagiancana.com",
+    gradYear: 2022,
+  },
   // {
   //   id: "alison",
   //   name: "Alison Chen",
