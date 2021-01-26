@@ -424,4 +424,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Spark AR Workshop",
+    link: "https://www.facebook.com/events/258108399065901",
+    image: "20210128",
+    date: 20210128,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
