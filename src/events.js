@@ -432,4 +432,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Bob Ross Night",
+    link: "https://www.facebook.com/events/258863075629306",
+    image: "20210204",
+    date: 20210204,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
