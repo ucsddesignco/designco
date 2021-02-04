@@ -5,7 +5,7 @@ export const events = [
     image: "20191003",
     date: 20191003,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Intern Panel",
@@ -13,7 +13,7 @@ export const events = [
     image: "20191009",
     date: 20191009,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Happy Lemon Boba Run",
@@ -21,7 +21,7 @@ export const events = [
     image: "20191008",
     date: 20191008,
     time: 1830,
-    location: "4633 Convoy St #107, San Diego, CA 92111",
+    location: "4633 Convoy St #107, San Diego, CA 92111"
   },
   {
     title: "Design Co: Design Systems Workshop",
@@ -29,7 +29,7 @@ export const events = [
     image: "20191016",
     date: 20191016,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Jam w/ Workday",
@@ -37,7 +37,7 @@ export const events = [
     image: "20191022",
     date: 20191022,
     time: 1700,
-    location: "Career Center, Horizon Room",
+    location: "Career Center, Horizon Room"
   },
   {
     title: "Design Co: Resume Workshop",
@@ -45,7 +45,7 @@ export const events = [
     image: "20191023",
     date: 20191023,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Product Design Talk w/ Facebook",
@@ -53,7 +53,7 @@ export const events = [
     image: "20191029",
     date: 20191029,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "ServiceNow Info Session",
@@ -61,7 +61,7 @@ export const events = [
     image: "20191105",
     date: 20191105,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Studio Session: Visual Design Principles w/ Facebook",
@@ -69,7 +69,7 @@ export const events = [
     image: "20191030",
     date: 20191030,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Women Leaders in Design",
@@ -77,7 +77,7 @@ export const events = [
     image: "20191106",
     date: 20191106,
     time: 1830,
-    location: "Price Center Theater",
+    location: "Price Center Theater"
   },
   {
     title: "Design Co: Laser Tag Event Social",
@@ -85,7 +85,7 @@ export const events = [
     image: "20191112",
     date: 20191112,
     time: 1845,
-    location: "ULTRAZONE Laser Tag",
+    location: "ULTRAZONE Laser Tag"
   },
   {
     title: "Design Co: Interviewing Workshop",
@@ -93,7 +93,7 @@ export const events = [
     image: "20191113",
     date: 20191113,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Portfolio Day",
@@ -101,7 +101,7 @@ export const events = [
     image: "20191117",
     date: 20191117,
     time: 1200,
-    location: "The Forum, Price Center 4th Floor",
+    location: "The Forum, Price Center 4th Floor"
   },
   {
     title: "Design Co: Visual Design Workshop",
@@ -109,7 +109,7 @@ export const events = [
     image: "20191120",
     date: 20191120,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: End of Quarter Celebration",
@@ -117,7 +117,7 @@ export const events = [
     image: "20191204",
     date: 20191204,
     time: 1830,
-    location: "Rigobertos",
+    location: "Rigobertos"
   },
   {
     title: "Design Co: Stride - Micro Design Career Fair",
@@ -125,7 +125,7 @@ export const events = [
     image: "20200114",
     date: 20200114,
     time: 1100,
-    location: "PC Ballroom East",
+    location: "PC Ballroom East"
   },
   {
     title: "Design Co: Pre-Stride Prep",
@@ -133,7 +133,7 @@ export const events = [
     image: "20200108",
     date: 20200108,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Boba Run",
@@ -141,7 +141,7 @@ export const events = [
     image: "20200121",
     date: 20200121,
     time: 1850,
-    location: "Camellia Rd Tea Bar",
+    location: "Camellia Rd Tea Bar"
   },
   {
     title: "Design Co: Figma Workshop",
@@ -149,7 +149,7 @@ export const events = [
     image: "20200122",
     date: 20200122,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Accessible by Design",
@@ -157,7 +157,7 @@ export const events = [
     image: "20200129",
     date: 20200129,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   // {
   //   title: "Design Co: Boomers Social",
@@ -173,7 +173,7 @@ export const events = [
     image: "20200205",
     date: 20200205,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Illustrator Workshop",
@@ -181,7 +181,7 @@ export const events = [
     image: "20200211",
     date: 20200211,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
 
   {
@@ -190,7 +190,7 @@ export const events = [
     image: "20200213",
     date: 20200213,
     time: 1800,
-    location: "Workday SF Office",
+    location: "Workday SF Office"
   },
   {
     title: "Design Frontiers With Intuit - Unlocking Smart Money Decisions",
@@ -198,7 +198,7 @@ export const events = [
     image: "20200223",
     date: 20200223,
     time: 1000,
-    location: "Multipurpose Room, PC",
+    location: "Multipurpose Room, PC"
   },
   {
     title: "Design Co: Brand Design Workshop",
@@ -206,7 +206,7 @@ export const events = [
     image: "20200219",
     date: 20200219,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Front-End Development Workshop",
@@ -214,7 +214,7 @@ export const events = [
     image: "20200226",
     date: 20200226,
     time: 1830,
-    location: "HSS 1346",
+    location: "HSS 1346"
   },
   {
     title: "Design Co: Ice Skating Social",
@@ -222,7 +222,7 @@ export const events = [
     image: "20200228",
     date: 20200228,
     time: 1850,
-    location: "UTC Ice",
+    location: "UTC Ice"
   },
   {
     title: "Field Trip: Intuit Design Open House",
@@ -230,7 +230,7 @@ export const events = [
     image: "20200305",
     date: 20200305,
     time: 1400,
-    location: "Intuit San Diego Office",
+    location: "Intuit San Diego Office"
   },
   {
     title: "Design Co: End of Quarter Celebration",
@@ -238,7 +238,7 @@ export const events = [
     image: "20200311",
     date: 20200311,
     time: 1830,
-    location: "SpotKTV: 7327 Clairemont Mesa Blvd",
+    location: "SpotKTV: 7327 Clairemont Mesa Blvd"
   },
   {
     title: "Design Co: Office Hours - Democratizing Design Resources",
@@ -246,7 +246,7 @@ export const events = [
     image: "20200415",
     date: 20200415,
     time: 1830,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Skribbl.io",
@@ -254,7 +254,7 @@ export const events = [
     image: "20200417",
     date: 20200417,
     time: 1830,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Figma Jam",
@@ -262,7 +262,7 @@ export const events = [
     image: "20200422",
     date: 20200422,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Animal Crossing Social",
@@ -270,7 +270,7 @@ export const events = [
     image: "20200425",
     date: 20200425,
     time: 1900,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Portfolio Critiques",
@@ -278,7 +278,7 @@ export const events = [
     image: "20200429",
     date: 20200429,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Job Hunting Tips w/ Design Recruiters",
@@ -286,7 +286,7 @@ export const events = [
     image: "20200506",
     date: 20200506,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: After Effects",
@@ -294,7 +294,7 @@ export const events = [
     image: "20200513",
     date: 20200513,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Design Inspiration",
@@ -302,7 +302,7 @@ export const events = [
     image: "20200520",
     date: 20200520,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Netflix Party Social",
@@ -310,7 +310,7 @@ export const events = [
     image: "20200522",
     date: 20200522,
     time: 2000,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Figma Prototyping",
@@ -318,7 +318,7 @@ export const events = [
     image: "20200527",
     date: 20200527,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Storytelling with Netflix",
@@ -326,7 +326,7 @@ export const events = [
     image: "20200729",
     date: 20200729,
     time: 1830,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Fall Kickoff - Intro to Design",
@@ -334,7 +334,7 @@ export const events = [
     image: "20201008",
     date: 20201008,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Game Night Social",
@@ -342,7 +342,7 @@ export const events = [
     image: "20201016",
     date: 20201015,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Intern Panel",
@@ -350,7 +350,7 @@ export const events = [
     image: "20201022",
     date: 20201022,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Scary Movie Social",
@@ -358,7 +358,7 @@ export const events = [
     image: "20201029",
     date: 20201029,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Resume Workshop",
@@ -366,7 +366,7 @@ export const events = [
     image: "20201105",
     date: 20201105,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Speed Friending Social + Design Buds Reveal",
@@ -374,7 +374,7 @@ export const events = [
     image: "20201112",
     date: 20201112,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Camp DCo Pt. 1 – User Research",
@@ -382,7 +382,7 @@ export const events = [
     image: "20201117",
     date: 20201117,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Camp DCo Pt. 2 – Wireframing + Visual/Brand Design",
@@ -390,7 +390,7 @@ export const events = [
     image: "20201119",
     date: 20201119,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Unwrapping the Online Interview Process",
@@ -398,7 +398,7 @@ export const events = [
     image: "20201203",
     date: 20201203,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: End of Quarter Celebration",
@@ -406,7 +406,7 @@ export const events = [
     image: "20201210",
     date: 20201210,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Crafting Your Taste",
@@ -414,7 +414,7 @@ export const events = [
     image: "20210114",
     date: 20210114,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Cross-Cultural Design",
@@ -422,7 +422,7 @@ export const events = [
     image: "20210121",
     date: 20210121,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Spark AR Workshop",
@@ -430,7 +430,7 @@ export const events = [
     image: "20210128",
     date: 20210128,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
   {
     title: "Design Co: Bob Ross Night",
@@ -438,6 +438,14 @@ export const events = [
     image: "20210204",
     date: 20210204,
     time: 1700,
-    location: "Zoom",
+    location: "Zoom"
   },
+  {
+    title: "Design Co: Designing for Social Impact",
+    link: "https://www.facebook.com/events/1319687548402424/",
+    image: "20210211",
+    date: 20210211,
+    time: 1700,
+    location: "Zoom"
+  }
 ];

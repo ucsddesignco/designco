@@ -40,6 +40,7 @@ class Footer extends React.Component {
                     </a>
                   </h4>
                 </li>
+
                 <li>
                   <h4>
                     <a
@@ -47,6 +48,13 @@ class Footer extends React.Component {
                       target="_blank"
                     >
                       LinkedIn
+                    </a>
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    <a href="https://medium.com/ucsddesignco/" target="_blank">
+                      Medium
                     </a>
                   </h4>
                 </li>

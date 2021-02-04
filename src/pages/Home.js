@@ -40,7 +40,7 @@ const eventList =
     upcomingEvents.map(function (event) {
       // Load events occurring today or later
       return (
-        <Col xs={12}>
+        <Col xs={12} style={{marginBottom: spacer2}}>
           <Event
             title={event.title}
             link={event.link}
