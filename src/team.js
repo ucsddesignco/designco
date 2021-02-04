@@ -136,14 +136,21 @@ export const team = [
     id: "aman",
     name: "Aman Singh",
     role: "Industry Relations Coordinator",
-    link: "amansinghsarna.me",
+    link: "https://www.amansinghsarna.me/",
     gradYear: 2022,
   },
   {
     id: "gisca",
     name: "Gisca Giancana",
     role: "Social Media Coordinator",
-    link: "giscagiancana.com",
+    link: "https://www.giscagiancana.com/",
+    gradYear: 2022,
+  },
+  {
+    id: "leann",
+    name: "Leann Gamboa",
+    role: "Visual + Brand Designer",
+    link: "https://www.linkedin.com/in/leanngamboa/",
     gradYear: 2022,
   },
   // {
