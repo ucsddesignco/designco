@@ -76,6 +76,7 @@ class AllEvents extends React.Component {
               focused on professional development and diversity, equity, and
               inclusion.
             </h1>
+            <h2 style={{marginTop: spacer3}}><a href="/gbm">Zoom link to our GBMs</a></h2>
           </div>
           <div
             className="events innerContainer"

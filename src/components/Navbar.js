@@ -175,11 +175,11 @@ class Navbar extends React.Component {
                       </a>
                     </h4>
                   </li>
-                  <li>
+                  {/* <li>
                     <h4>
                       <a href="/gbm">GBM</a>
                     </h4>
-                  </li>
+                  </li> */}
                   <li>
                     <h4>
                       <a href="http://community.ucsddesign.co/">Community</a>
@@ -190,13 +190,13 @@ class Navbar extends React.Component {
                       <a href="/join-our-team" id="join-our-team">Join Our Team</a>
                     </h4>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <h4>
                       <a href="/headphone-ux-review" id="headphone-ux-review">
                         Sony
                       </a>
                     </h4>
-                  </li>
+                  </li> */}
                   <li>
                     <h4>
                       <a href="/contact" id="contact">
@@ -258,11 +258,11 @@ class Navbar extends React.Component {
                             </a>
                           </h4>
                         </li>
-                        <li>
+                        {/* <li>
                           <h4>
                             <a href="/gbm">GBM</a>
                           </h4>
-                        </li>
+                        </li> */}
                         <li>
                           <h4>
                             <a href="http://community.ucsddesign.co/">
@@ -270,14 +270,14 @@ class Navbar extends React.Component {
                             </a>
                           </h4>
                         </li>
-                        <li>
+                        {/* <li>
                           <h4>
                             <a href="/join-our-team" id="join-our-team">
                               Join Our Team
                             </a>
                           </h4>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <h4>
                             <a
                               href="/headphone-ux-review"
@@ -286,7 +286,7 @@ class Navbar extends React.Component {
                               Sony
                             </a>
                           </h4>
-                        </li>
+                        </li> */}
                         <li>
                           <h4>
                             <a href="/contact" id="contact">
