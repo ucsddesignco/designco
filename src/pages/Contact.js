@@ -15,9 +15,7 @@ class Contact extends React.Component {
         <Navbar color={"#000"} altColor={"#FFF"} from="contact" />
         <Container className="outerContainer">
           <div className="innerContainer">
-            <h1 style={{ marginBottom: spacer3 }}>
-              Get in touch with us online:
-            </h1>
+            <h1 style={{ marginBottom: spacer3 }}>Get in touch with us:</h1>
             <Row>
               <Col md={6} style={{ marginBottom: spacer3 }}>
                 <a

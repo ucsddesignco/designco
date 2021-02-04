@@ -6,7 +6,7 @@ import Member from "../components/MemberTiles";
 import Navbar from "../components/Navbar";
 import { Container, Row, Col } from "react-grid-system";
 
-const teamList = team.map(member => (
+const teamList = team.map((member) => (
   <Col sm={6} md={4}>
     <Member
       id={member.id}
@@ -75,18 +75,18 @@ class About extends React.Component {
                 </h2>
                 <p>
                   By combining workshops, events, and other career growth
-                  opportunities, we’re taking the challenges of breaking into
-                  industry head on and building a strong design community while
+                  opportunities, we’re tackling the challenges of breaking into
+                  industry head-on and building a strong design community while
                   we're at it. And yes, it includes you too.
                 </p>
               </Col>
               <Col md={6} style={{ marginBottom: spacer3 }}>
                 <h2 style={{ marginBottom: spacer2 }}>
-                  I'm sold, how do I join?
+                  I’m sold — how do I join?
                 </h2>
                 <p>
                   Anyone can be a member of our community. We host events
-                  weekly, on Wednesdays at 6:30PM in HSS 1346. Sometimes things
+                  weekly, on Thursdays at 5PM over Zoom. Sometimes things
                   change, so we suggest following our{" "}
                   <a
                     href="https://www.facebook.com/ucsddesignco"
