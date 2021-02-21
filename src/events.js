@@ -451,8 +451,8 @@ export const events = [
   {
     title: "Design Co: Designer to Developer Handoff",
     link: "https://www.facebook.com/events/535458657396331",
-    image: "20210211",
-    date: 20210215,
+    image: "20210218",
+    date: 20210218,
     time: 1700,
     location: "Zoom",
   },
