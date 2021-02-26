@@ -456,4 +456,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: How to Win Your First Designathon",
+    link: "https://www.facebook.com/events/434000061048449/",
+    image: "20210225",
+    date: 20210225,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
