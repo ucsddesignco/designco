@@ -7,16 +7,16 @@ export const faq = [
   {
     question: "How long is the role period?",
     answer:
-      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Winter and Spring 2021 quarters, and the 2021-22 school year (5 quarters total).",
+      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring and Fall 2021 quarters, and the 2021-22 school year (5 quarters total).",
   },
   {
     question: "I won't be living near campus this year, can I still apply?",
     answer:
-      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. All events and meetings during the 2020-2021 school year will be held virtually.",
+      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. All events and meetings during the 2021-2022 school year will be held virtually.",
   },
   {
     question: "When is the application due?",
-    answer: "Applications are due Friday, November 20th at 11:59PM.",
+    answer: "Applications are due Saturday, March 27th at 11:59PM.",
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
@@ -26,13 +26,13 @@ export const faq = [
   {
     question: "What is the application & interview process like?",
     answer:
-      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Tuesday 11/17 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Wednesday 11/18 - Wednesday 11/25. Offers will be sent out shortly after and new board members will join us for their first board meeting on Tuesday 12/1.",
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Thursday 04/01 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Wednesday 04/07 - Friday 04/09. Offers will be sent out shortly after and new board members will join us for their first board meeting on Tuesday 04/20.",
   },
   {
     question:
       "If I become a board member, what will my responsibilities look like?",
     answer:
-      "Full details on your responsibilities are outlined in the role descriptions above. At a minimum, all board members are expected to attend 1 weekly board meeting (~1.5 hours) and weekly GBMs (~2 hours). Your role responsibilities should give you an additional 2-3 hours (this varies) of work per week, including team meetings (1 hour). All events and meetings during the 2020-2021 school year will be held virtually.",
+      "Full details on your responsibilities are outlined in the role descriptions above. At a minimum, all board members are expected to attend 1 weekly board meeting (~1.5 hours) and weekly GBMs (~2 hours). Your role responsibilities should give you an additional 2-3 hours (this varies) of work per week, including team meetings (1 hour). All events and meetings during the 2021-2022 school year will be held virtually.",
   },
   {
     question: "How do board members collaborate together?",

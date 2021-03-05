@@ -12,13 +12,15 @@ class Role extends React.Component {
 
   handleScroll = () => {
     // Enable/disable document page from scrolling
-    document.body.style.overflow = this.state.hideSidePanel ? "hidden" : "scroll";
-  }
+    document.body.style.overflow = this.state.hideSidePanel
+      ? "hidden"
+      : "scroll";
+  };
 
   handlePanel = () => {
     // Show and hide panel
-    this.setState(state => ({
-      hideSidePanel: !state.hideSidePanel
+    this.setState((state) => ({
+      hideSidePanel: !state.hideSidePanel,
     }));
 
     // Reset panel scroll position to the top
@@ -27,29 +29,29 @@ class Role extends React.Component {
     }
 
     this.handleScroll();
-  }
+  };
 
   // Enables HTML styling for text input from roles.js
-  htmlDecode(input){
-    var e = document.createElement('div');
+  htmlDecode(input) {
+    var e = document.createElement("div");
     e.innerHTML = input;
     return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
   }
 
-  escFunction(event){
-    if(event.keyCode === 27) {
-      if(!this.state.hideSidePanel) {
-        this.setState(state => ({
-          hideSidePanel: true
+  escFunction(event) {
+    if (event.keyCode === 27) {
+      if (!this.state.hideSidePanel) {
+        this.setState((state) => ({
+          hideSidePanel: true,
         }));
         document.body.style.overflow = "scroll";
       }
     }
   }
-  componentDidMount(){
+  componentDidMount() {
     document.addEventListener("keydown", this.escFunction, false);
   }
-  componentWillUnmount(){
+  componentWillUnmount() {
     document.removeEventListener("keydown", this.escFunction, false);
   }
 
@@ -57,59 +59,93 @@ class Role extends React.Component {
     return (
       <div>
         <Col className="roles" style={{ marginBottom: spacer2 }}>
-          <a onClick={ this.handlePanel }>
-            <span>{this.props.team} Team – {this.props.position}</span>
+          <a onClick={this.handlePanel}>
+            <span>
+              {this.props.team} Team – {this.props.position}
+            </span>
           </a>
-          <a onClick={ this.handlePanel }>
-            <img src={require("../images/join/arrow.svg")}/>
+          <a onClick={this.handlePanel}>
+            <img src={require("../images/join/arrow.svg")} />
           </a>
         </Col>
 
         {/* Background brightness */}
-        <div className={ this.state.hideSidePanel ? "panel-darken panel-darken-close" : "panel-darken panel-darken-open"} onClick={ this.handlePanel }></div>
+        <div
+          className={
+            this.state.hideSidePanel
+              ? "panel-darken panel-darken-close"
+              : "panel-darken panel-darken-open"
+          }
+          onClick={this.handlePanel}
+        ></div>
 
         {/* Side panel */}
-        <div style={ {scrollTop: "0"} } className={ this.state.hideSidePanel ? "panel-wrap panel-wrap-close" : "panel-wrap panel-wrap-open"}>
+        <div
+          style={{ scrollTop: "0" }}
+          className={
+            this.state.hideSidePanel
+              ? "panel-wrap panel-wrap-close"
+              : "panel-wrap panel-wrap-open"
+          }
+        >
           <div className="panel">
             <div className="panelNav">
-              <span className="x" onClick={ this.handlePanel }></span>
+              <span className="x" onClick={this.handlePanel}></span>
               <div className="apply">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaK2klWiZoSzvz_jsMtVJkNx_rs8VhKoi2oUYw9_lSQtIm8g/viewform" target="_blank" style={{ textDecoration: "none" }}>
+                <a
+                  href="https://forms.gle/2g6EjNJUxQngHha46"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
                   Apply
                 </a>
               </div>
             </div>
             <div className="panel-content-container">
-              <h1 style={{ marginBottom: spacer3 }}>{this.props.team} Team – {this.props.position}</h1>
-              <p style={{ marginBottom: spacer3 }}>
-                {this.props.description}
-              </p>
-              
+              <h1 style={{ marginBottom: spacer3 }}>
+                {this.props.team} Team – {this.props.position}
+              </h1>
+              <p style={{ marginBottom: spacer3 }}>{this.props.description}</p>
+
               <h2 style={{ marginBottom: spacer2 }}>You Will Be</h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
-                <p style={{ marginBottom: spacer1 }}
-                  dangerouslySetInnerHTML={{ __html: this.htmlDecode(this.props.duty) }}
+                <p
+                  style={{ marginBottom: spacer1 }}
+                  dangerouslySetInnerHTML={{
+                    __html: this.htmlDecode(this.props.duty),
+                  }}
                 />
               </div>
 
-              <h2 style={{ marginBottom: spacer2 }}>Other General Responsibilites</h2>
+              <h2 style={{ marginBottom: spacer2 }}>
+                Other General Responsibilites
+              </h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
-                <p style={{ marginBottom: spacer1 }}
-                  dangerouslySetInnerHTML={{ __html: this.htmlDecode(this.props.general) }}
+                <p
+                  style={{ marginBottom: spacer1 }}
+                  dangerouslySetInnerHTML={{
+                    __html: this.htmlDecode(this.props.general),
+                  }}
                 />
               </div>
 
               <h2 style={{ marginBottom: spacer2 }}>What You Can Offer</h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
-                <p style={{ marginBottom: spacer1 }}
-                  dangerouslySetInnerHTML={{ __html: this.htmlDecode(this.props.offer) }}
+                <p
+                  style={{ marginBottom: spacer1 }}
+                  dangerouslySetInnerHTML={{
+                    __html: this.htmlDecode(this.props.offer),
+                  }}
                 />
               </div>
 
               <h2 style={{ marginBottom: spacer2 }}>Extra Credit For</h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
-                <p style={{ marginBottom: spacer1 }}
-                  dangerouslySetInnerHTML={{ __html: this.htmlDecode(this.props.ec) }}
+                <p
+                  style={{ marginBottom: spacer1 }}
+                  dangerouslySetInnerHTML={{
+                    __html: this.htmlDecode(this.props.ec),
+                  }}
                 />
               </div>
 
@@ -117,41 +153,40 @@ class Role extends React.Component {
                 Meet your potential teammate, {this.props.name}!
               </h2>
               <Row>
-                <Col md={6} className="roleHeadshot" style={{ marginBottom: spacer3 }}>
-                  <img src={require("../images/join/" + this.props.name + ".png")} width="100%" alt={ this.props.name }/>
+                <Col
+                  md={6}
+                  className="roleHeadshot"
+                  style={{ marginBottom: spacer3 }}
+                >
+                  <img
+                    src={require("../images/join/" + this.props.name + ".png")}
+                    width="100%"
+                    alt={this.props.name}
+                  />
                 </Col>
                 <Col md={6}>
-                  <h3 style={{ marginBottom: spacer2 }}>
-                    {this.props.q1}
-                  </h3>
-                  <p style={{ marginBottom: spacer3 }}>
-                    {this.props.a1}
-                  </p>
+                  <h3 style={{ marginBottom: spacer2 }}>{this.props.q1}</h3>
+                  <p style={{ marginBottom: spacer3 }}>{this.props.a1}</p>
 
-                  <h3 style={{ marginBottom: spacer2 }}>
-                    {this.props.q2}
-                  </h3>
-                  <p style={{ marginBottom: spacer3 }}>
-                    {this.props.a2}
-                  </p>
+                  <h3 style={{ marginBottom: spacer2 }}>{this.props.q2}</h3>
+                  <p style={{ marginBottom: spacer3 }}>{this.props.a2}</p>
 
-                  <h3 style={{ marginBottom: spacer2 }}>
-                    {this.props.q3}
-                  </h3>
-                  <p style={{ marginBottom: spacer3 }}>
-                    {this.props.a3}
-                  </p>
+                  <h3 style={{ marginBottom: spacer2 }}>{this.props.q3}</h3>
+                  <p style={{ marginBottom: spacer3 }}>{this.props.a3}</p>
 
-                  <h3 style={{ marginBottom: spacer2 }}>
-                    {this.props.q4}
-                  </h3>
-                  <p style={{ marginBottom: spacer2 }} 
-                    dangerouslySetInnerHTML={{ __html: this.props.a4 ? this.htmlDecode(this.props.a4) : "" }}
+                  <h3 style={{ marginBottom: spacer2 }}>{this.props.q4}</h3>
+                  <p
+                    style={{ marginBottom: spacer2 }}
+                    dangerouslySetInnerHTML={{
+                      __html: this.props.a4
+                        ? this.htmlDecode(this.props.a4)
+                        : "",
+                    }}
                   />
                 </Col>
               </Row>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     );
