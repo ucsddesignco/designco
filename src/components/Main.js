@@ -7,6 +7,7 @@ import AllEvents from "../pages/Events";
 import GBM from "../pages/GBM";
 import Contact from "../pages/Contact";
 import Sony from "../pages/sony/Sony";
+import Partnership from "../pages/Partnership";
 
 class Main extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class Main extends React.Component {
           <Route exact path="/gbm" component={GBM} />
           <Route path="/contact" component={Contact} />
           <Route path="/headphone-ux-review" component={Sony} />
+          <Route path="/partnership" component={Partnership} />
         </Switch>
       </main>
     );

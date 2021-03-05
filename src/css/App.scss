@@ -590,13 +590,13 @@ ol {
     margin-top: -6px;
   }
 
-  button{
+  button {
     padding: $spacer1 $spacer2;
     border: none;
     border-radius: 0;
     background: white;
 
-    &:hover{
+    &:hover {
       opacity: 0.8;
       cursor: pointer;
     }
@@ -659,5 +659,20 @@ ol {
 
   h1 {
     margin-bottom: $spacer3;
+  }
+}
+
+/**************** PARTNERSHIP ***********************/
+.partnershipSplash {
+  background: black;
+  background-image: url(../images/partnership/plant.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  height: 60vh;
+
+  .splashText {
+    position: absolute;
   }
 }
