@@ -1,45 +1,45 @@
 export const roles = [
-  {
-    team: "Creative",
-    position: "Designer",
-    description:
-      "You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.",
-    duty:
-      "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums &lt;/li&gt; \
-      &lt;li&gt; Working within an established and maturing brand and visual identity &lt;/li&gt; \
-      &lt;li&gt; Working with the Creative team to strengthen our brand and establish clear guidelines &lt;/li&gt; \
-      &lt;li&gt; Designing and evolving new and existing sub-brands (e.g. Design Frontiers, Stride, etc,) &lt;/li&gt; \
-      &lt;li&gt; Creating website mockups and collaborate with web developers to design and execute new websites &lt;/li&gt; &lt;/ol&gt;",
-    general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
-      &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
-    offer:
-      "&lt;ol&gt; &lt;li&gt; Knowledge of basic graphic design principles &lt;/li&gt; \
-      &lt;li&gt; Prior experience with either Illustrator, InDesign, and/or Figma &lt;/li&gt; \
-      &lt;li&gt; Good team player and communicator &lt;/li&gt; \
-      &lt;li&gt; Highly organized and self-driven individual who is able to balance multiple projects at once &lt;/li&gt; \
-      &lt;li&gt; Ability to adapt and work under our brand guidelines as well as other company guidelines &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec:
-      "&lt;ol&gt; &lt;li&gt; Prior experience with design systems &lt;/li&gt; \
-      &lt;li&gt; Experience creating motion graphics &lt;/li&gt; \
-      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
-      &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Megan",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1:
-      "I’ve gained long-lasting friendships and get to work with an insanely talented group of people who are always willing to support each other in any way possible. My fellow board members continuously inspire me through initiatives to grow the design community, and by being part of the Design Co board, I’ve gotten the chance to take part in the behind-the-scenes work that goes along in crafting these initiatives and events.",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2:
-      "Although my time on board has been completely virtual, I have grown in so many ways. Being able to contribute to the ever-growing Design Co brand while in its budding form has allowed me to expand my graphic design skill set, all the while learning how to stretch my creativity in the process.",
-    q3: "How would you describe how the Design Co board works together?",
-    a3:
-      "We work in cross-functional, tight-knit teams to seamlessly run Design Co.",
-    q4: "Fun fact?",
-    a4: "I love alpacas and hope to one day own an alpaca farm!",
-  },
+  // {
+  //   team: "Creative",
+  //   position: "Designer",
+  //   description:
+  //     "You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.",
+  //   duty:
+  //     "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums &lt;/li&gt; \
+  //     &lt;li&gt; Working within an established and maturing brand and visual identity &lt;/li&gt; \
+  //     &lt;li&gt; Working with the Creative team to strengthen our brand and establish clear guidelines &lt;/li&gt; \
+  //     &lt;li&gt; Designing and evolving new and existing sub-brands (e.g. Design Frontiers, Stride, etc,) &lt;/li&gt; \
+  //     &lt;li&gt; Creating website mockups and collaborate with web developers to design and execute new websites &lt;/li&gt; &lt;/ol&gt;",
+  //   general:
+  //     "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+  //     &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
+  //     &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+  //   offer:
+  //     "&lt;ol&gt; &lt;li&gt; Knowledge of basic graphic design principles &lt;/li&gt; \
+  //     &lt;li&gt; Prior experience with either Illustrator, InDesign, and/or Figma &lt;/li&gt; \
+  //     &lt;li&gt; Good team player and communicator &lt;/li&gt; \
+  //     &lt;li&gt; Highly organized and self-driven individual who is able to balance multiple projects at once &lt;/li&gt; \
+  //     &lt;li&gt; Ability to adapt and work under our brand guidelines as well as other company guidelines &lt;/li&gt; \
+  //     &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
+  //   ec:
+  //     "&lt;ol&gt; &lt;li&gt; Prior experience with design systems &lt;/li&gt; \
+  //     &lt;li&gt; Experience creating motion graphics &lt;/li&gt; \
+  //     &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
+  //     &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
+  //     &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
+  //   name: "Megan",
+  //   q1: "What have you gained from being part of the Design Co board?",
+  //   a1:
+  //     "I’ve gained long-lasting friendships and get to work with an insanely talented group of people who are always willing to support each other in any way possible. My fellow board members continuously inspire me through initiatives to grow the design community, and by being part of the Design Co board, I’ve gotten the chance to take part in the behind-the-scenes work that goes along in crafting these initiatives and events.",
+  //   q2: "How have you grown during your time on the Design Co board?",
+  //   a2:
+  //     "Although my time on board has been completely virtual, I have grown in so many ways. Being able to contribute to the ever-growing Design Co brand while in its budding form has allowed me to expand my graphic design skill set, all the while learning how to stretch my creativity in the process.",
+  //   q3: "How would you describe how the Design Co board works together?",
+  //   a3:
+  //     "We work in cross-functional, tight-knit teams to seamlessly run Design Co.",
+  //   q4: "Fun fact?",
+  //   a4: "I love alpacas and hope to one day own an alpaca farm!",
+  // },
   {
     team: "Creative",
     position: "Web Developer",
