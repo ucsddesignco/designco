@@ -134,7 +134,8 @@ class JoinOurTeam extends React.Component {
             <div className="imageDiv">
               <img src={require("../images/join/1.jpg")} />
               <img src={require("../images/join/2.jpg")} />
-              <img src={require("../images/join/3.jpg")} />
+              <img src={require("../images/join/6.jpg")} />
+              {/* <img src={require("../images/join/3.jpg")} /> */}
               <img src={require("../images/join/4.jpg")} />
               <img src={require("../images/join/5.jpg")} />
             </div>
