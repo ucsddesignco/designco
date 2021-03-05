@@ -74,7 +74,7 @@ export const roles = [
     a3:
       "Every single team member is paramount for Design Co’s mission to be fulfilled. Our meetings are filled with insightful discussions and fun conversations that it never feels like a chore to be a part of the mission.",
     q4: "Fun fact?",
-    a4: " I'm a National Fencer 🤺 and am originally from Malaysia 🇲🇾.",
+    a4: " I'm a National Fencer and am originally from Malaysia!",
   },
   {
     team: "Industry Relations",
@@ -112,7 +112,7 @@ export const roles = [
     a3:
       "Although Design Co board is made up of several teams, we also individually work with everyone in order to plan GBM's. That way, everyone gets to work with everyone and as a result we've all grown closer as board.",
     q4: "Fun fact?",
-    a4: "I was born in Montreal, Canada! 🇨🇦",
+    a4: "I was born in Montreal, Canada!",
   },
   {
     team: "Community",

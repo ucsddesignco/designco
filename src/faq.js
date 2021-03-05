@@ -12,7 +12,7 @@ export const faq = [
   {
     question: "I won't be living near campus this year, can I still apply?",
     answer:
-      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. All events and meetings during the 2021-2022 school year will be held virtually.",
+      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. All events and meetings are currently held virtually, but we plan to move to in-person events next school year when possible.",
   },
   {
     question: "When is the application due?",
