@@ -26,13 +26,13 @@ export const faq = [
   {
     question: "What is the application & interview process like?",
     answer:
-      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Thursday 04/01 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Wednesday 04/07 - Friday 04/09. Offers will be sent out shortly after and new board members will join us for their first board meeting on Tuesday 04/20.",
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Thursday 04/01 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Wednesday 04/07 - Friday 04/09. Offers will be sent out shortly after.",
   },
   {
     question:
       "If I become a board member, what will my responsibilities look like?",
     answer:
-      "Full details on your responsibilities are outlined in the role descriptions above. At a minimum, all board members are expected to attend 1 weekly board meeting (~1.5 hours) and weekly GBMs (~2 hours). Your role responsibilities should give you an additional 2-3 hours (this varies) of work per week, including team meetings (1 hour). All events and meetings during the 2021-2022 school year will be held virtually.",
+      "Full details on your responsibilities are outlined in the role descriptions above. At a minimum, all board members are expected to attend 1 weekly board meeting (~1.5 hours) and weekly GBMs (~2 hours). Your role responsibilities should give you an additional 2-3 hours (this varies) of work per week, including team meetings (1 hour).",
   },
   {
     question: "How do board members collaborate together?",
