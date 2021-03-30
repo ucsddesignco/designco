@@ -62,7 +62,7 @@ class JoinOurTeam extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications due Saturday, March 27th at 11:59PM.
+                  Applications extended til Saturday, April 3rd at 11:59PM.
                 </p>
                 <Button
                   link="#roles"

@@ -16,7 +16,7 @@ export const faq = [
   },
   {
     question: "When is the application due?",
-    answer: "Applications are due Saturday, March 27th at 11:59PM.",
+    answer: "Applications are due Saturday, April 3rd at 11:59PM.",
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
