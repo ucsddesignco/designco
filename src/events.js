@@ -472,4 +472,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Service Design Q&A with Fjord",
+    link: "https://www.facebook.com/events/507309310433424",
+    image: "20210408",
+    date: 20210408,
+    time: 1600,
+    location: "Zoom",
+  },
 ];
