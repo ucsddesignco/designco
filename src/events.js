@@ -472,12 +472,20 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
-  // {
-  //   title: "Design Co: Service Design Q&A with Fjord",
-  //   link: "https://www.facebook.com/events/507309310433424",
-  //   image: "20210408",
-  //   date: 20210408,
-  //   time: 1600,
-  //   location: "Zoom",
-  // },
+  {
+    title: "Design Co: Live on Discord",
+    link: "https://www.facebook.com/events/1666822860186140",
+    image: "20210408",
+    date: 20210408,
+    time: 1700,
+    location: "Zoom",
+  },
+  {
+    title: "Design Co: Fireside Chat with Fjord: Design and Innovation",
+    link: "https://www.facebook.com/events/507309310433424/",
+    image: "20210415",
+    date: 20210415,
+    time: 1600,
+    location: "Zoom",
+  },
 ];
