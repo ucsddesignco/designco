@@ -700,7 +700,7 @@ ol {
       width: auto;
     }
 
-    b{
+    b {
       font-weight: 700;
     }
   }
@@ -719,5 +719,31 @@ ol {
     .tables {
       margin: $spacer4 0;
     }
+  }
+
+  .strike {
+    color: #b7b7b7;
+    text-decoration: line-through;
+  }
+
+  .styledHeader {
+    color: black;
+    background-color: white;
+    padding: $spacer1;
+  }
+
+  .prices {
+    font-family: "NB International Mono";
+    font-size: 1.1rem;
+    margin: $spacer2 0 $spacer3 0;
+  }
+
+  .numbers {
+    margin-top: $spacer1;
+    font-family: "NB International Mono";
+  }
+
+  .grey_table {
+    background-color: #282828;
   }
 }

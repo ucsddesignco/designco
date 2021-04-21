@@ -130,14 +130,15 @@ class Partnership extends React.Component {
           <Row className="innerContainer">
             <Col className="tables">
               <h1>Sponsorship Packages</h1>
-              <p>
+              <p className="prices">
                 *Prices reduced to accommodate for the COVID-19 pandemic and
                 nature of remote events
               </p>
+              <TablePage />
             </Col>
           </Row>
         </div>
-        <TablePage />
+
         <div style={{ marginTop: spacer4, marginBottom: spacer4 }}>
           <Container className="outerContainer">
             <Row className="innerContainer">
