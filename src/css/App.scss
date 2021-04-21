@@ -663,16 +663,61 @@ ol {
 }
 
 /**************** PARTNERSHIP ***********************/
-.partnershipSplash {
-  background: black;
-  background-image: url(../images/partnership/plant.png);
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: white;
-  height: 60vh;
 
-  .splashText {
-    position: absolute;
+.partnership {
+  .partnershipSplash {
+    background: #000;
+    background-image: url(../images/partnership/plant.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: $spacer3;
+    // height: calc(100vh - 10rem);
+
+    .splashText {
+      position: absolute;
+    }
+  }
+
+  .statsRow {
+    img {
+      width: 100%;
+      margin-top: $spacer2;
+    }
+  }
+
+  .customList {
+    display: flex;
+    margin-top: $spacer2;
+
+    p {
+      margin-left: $spacer2;
+    }
+
+    img {
+      height: 3.5rem;
+      width: auto;
+    }
+
+    b{
+      font-weight: 700;
+    }
+  }
+
+  .previousSponsors {
+    img {
+      margin-top: $spacer2;
+      width: 100%;
+    }
+  }
+
+  .sponsorshipTable {
+    background-color: #000;
+    color: #fff;
+
+    .tables {
+      margin: $spacer4 0;
+    }
   }
 }

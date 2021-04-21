@@ -8,9 +8,10 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "mdbreact": "^5.0.2",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
+    "react-bootstrap": "^1.5.2",
     "react-browser-router": "^2.1.2",
     "react-dom": "^16.12.0",
     "react-grid-system": "^5.0.2",
@@ -19,7 +20,8 @@
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.1",
-    "react-scroll-horizontal": "^1.6.2"
+    "react-scroll-horizontal": "^1.6.2",
+    "react-super-responsive-table": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
