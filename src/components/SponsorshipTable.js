@@ -8,27 +8,27 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 
-const StyledTableCell = withStyles(theme => ({
+const StyledTableCell = withStyles((theme) => ({
   head: {
     backgroundColor: theme.palette.common.black,
     color: "white",
     minWidth: "16rem",
     fontFamily: "Neue Plak Extended",
-    fontSize: "1.4rem"
+    fontSize: "1.4rem",
   },
   body: {
     fontSize: 14,
     color: "white",
     fontFamily: "NB International Pro",
-    padding: "3rem"
-  }
+    padding: "3rem",
+  },
 }))(TableCell);
 
-const StyledTableRow = withStyles(theme => ({
+const StyledTableRow = withStyles((theme) => ({
   root: {
     backgroundColor: "black",
-    color: "white"
-  }
+    color: "white",
+  },
 }))(TableRow);
 
 function createData(name, friends, supporters, partners, collab, premier) {
@@ -40,11 +40,11 @@ const marketing_rows = [
     <p>
       Some or all:
       <br />
-      • Speaker Spotlights <br />
-      • General Post <br />
-      • Email blast <br />
-      • Instructional/Teaching Assistants help market through classrooms <br />
-      • Collaboration with other universities <br />
+      + Speaker Spotlights <br />
+      + General Post <br />
+      + Email blast <br />+ Instructional / Teaching Assistants help market
+      through classrooms <br />
+      + Collaboration with other universities <br />
       <br />
       Number of posts on social media platforms (Facebook, Instagram, Linkedin)
     </p>,
@@ -64,7 +64,7 @@ const marketing_rows = [
     true,
     true,
     true
-  )
+  ),
 ];
 
 const recruitment_rows = [
@@ -91,7 +91,7 @@ const recruitment_rows = [
     true,
     true,
     true
-  )
+  ),
 ];
 
 const talks_rows = [
@@ -126,13 +126,13 @@ const talks_rows = [
     false,
     false,
     true
-  )
+  ),
 ];
 
 const useStyles = makeStyles({
   table: {
-    minWidth: 700
-  }
+    minWidth: 700,
+  },
 });
 
 export default function TablePage() {
@@ -198,7 +198,7 @@ export default function TablePage() {
               <h4>Marketing Campaigns & Brand Presence</h4>
             </StyledTableCell>
           </StyledTableRow>
-          {marketing_rows.map(row => (
+          {marketing_rows.map((row) => (
             <StyledTableRow key={row.name}>
               <StyledTableCell component="th" scope="row">
                 {row.name}
@@ -239,7 +239,7 @@ export default function TablePage() {
               <h4>Recruitment & Promotions</h4>
             </StyledTableCell>
           </StyledTableRow>
-          {recruitment_rows.map(row => (
+          {recruitment_rows.map((row) => (
             <StyledTableRow key={row.name}>
               <StyledTableCell component="th" scope="row">
                 {row.name}
@@ -281,7 +281,7 @@ export default function TablePage() {
               <h4>Events, Talks, and Workshops</h4>
             </StyledTableCell>
           </StyledTableRow>
-          {talks_rows.map(row => (
+          {talks_rows.map((row) => (
             <StyledTableRow key={row.name}>
               <StyledTableCell component="th" scope="row">
                 {row.name}

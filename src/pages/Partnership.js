@@ -204,7 +204,7 @@ class Partnership extends React.Component {
                   </p>
                 </div>
                 <h2 style={{ marginTop: spacer3 }}>
-                  <a href="/contact">Where do I sign up?</a>
+                  <a href="/contact">Partner With Us</a>
                 </h2>
                 {/* <Row>
                   <Col>
