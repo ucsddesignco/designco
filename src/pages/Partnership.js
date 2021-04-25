@@ -19,14 +19,14 @@ class Partnership extends React.Component {
             <Row className="innerContainer">
               <Col sm={9} className="splashText">
                 <h1 style={{ marginTop: spacer2 }}>
-                  Parntership Offerings <br /> 2021-2022
+                  Partnership Offerings <br /> 2021-2022
                 </h1>
                 <p style={{ marginTop: spacer2 }}>
                   Design Co is a pre-professional student organization at UC San
                   Diego that bridges the gap between designers and industry.
                 </p>
                 <Button
-                  link="/events"
+                  link="#about-partnership"
                   text="Learn More"
                   color="#000"
                   bgColor="#FFF"
@@ -38,7 +38,10 @@ class Partnership extends React.Component {
             </Row>
           </Container>
         </div>
-        <div style={{ marginTop: spacer4, marginBottom: spacer4 }}>
+        <div
+          id="about-partnership"
+          style={{ marginTop: spacer4, marginBottom: spacer4 }}
+        >
           <Container className="outerContainer">
             <Row className="innerContainer">
               <Col>
@@ -161,8 +164,8 @@ class Partnership extends React.Component {
                   <p>
                     <b>Campus Engagement</b>
                     <br />
-                    - 35,000+ students, faculty, professors, and visitors
-                    <br />- Increase brand recognizability by UC San Diego’s
+                    + 35,000+ students, faculty, professors, and visitors
+                    <br />+ Increase brand recognizability by UC San Diego’s
                     community as a whole
                   </p>
                 </div>
@@ -172,9 +175,9 @@ class Partnership extends React.Component {
                   <p>
                     <b>Recruiting Opportunities</b>
                     <br />
-                    - Access student resumes and portfolios through recruiting
+                    + Access student resumes and portfolios through recruiting
                     opportunities
-                    <br />- 1,000+ design students and growing through Stride
+                    <br />+ 1,000+ design students and growing through Stride
                     Career Fair, Design Sprints, Formal, and Informal Sessions
                   </p>
                 </div>
@@ -184,8 +187,8 @@ class Partnership extends React.Component {
                   <p>
                     <b>Product Exposure</b>
                     <br />
-                    - Bring your demos to events you attend and expose students
-                    to your tools or services <br />- Conduct user testing and
+                    + Bring your demos to events you attend and expose students
+                    to your tools or services <br />+ Conduct user testing and
                     receive valuable feedback on your product(s)
                   </p>
                 </div>
@@ -195,11 +198,23 @@ class Partnership extends React.Component {
                   <p>
                     <b>Event Management</b>
                     <br />
-                    - Organized and handled by our events team
-                    <br />- Includes digital marketing, Zoom meeting logistics,
+                    + Organized and handled by our events team
+                    <br />+ Includes digital marketing, Zoom meeting logistics,
                     and post-event reports containing statistics about attendees
                   </p>
                 </div>
+                <h2 style={{ marginTop: spacer3 }}>
+                  <a href="/contact">Where do I sign up?</a>
+                </h2>
+                {/* <Row>
+                  <Col>
+                    <Button
+                      style={{ marginBottom: spacer3 }}
+                      link="/contact"
+                      text="Contact Us"
+                    ></Button>
+                  </Col>
+                </Row> */}
               </Col>
             </Row>
           </Container>
