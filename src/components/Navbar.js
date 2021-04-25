@@ -185,13 +185,13 @@ class Navbar extends React.Component {
                       <a href="http://community.ucsddesign.co/">Community</a>
                     </h4>
                   </li>
-                  <li>
+                  {/* <li>
                     <h4>
                       <a href="/join-our-team" id="join-our-team">
                         Join Our Team
                       </a>
                     </h4>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <h4>
                       <a href="/headphone-ux-review" id="headphone-ux-review">

@@ -17,7 +17,7 @@ class Main extends React.Component {
           <Route exact path="/home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/events" component={AllEvents} />
-          <Route path="/join-our-team" component={Join} />
+          {/* <Route path="/join-our-team" component={Join} /> */}
           <Route exact path="/gbm" component={GBM} />
           <Route path="/contact" component={Contact} />
           {/* <Route path="/headphone-ux-review" component={Sony} /> */}

@@ -488,4 +488,12 @@ export const events = [
     time: 1600,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Figma: Beyond the Basics",
+    link: "https://www.facebook.com/events/753232608724718/",
+    image: "20210429",
+    date: 20210429,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
