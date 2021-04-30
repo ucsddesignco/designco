@@ -496,4 +496,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Portfolio Prep Talk",
+    link: "https://www.facebook.com/events/3054054434824854/",
+    image: "20210506",
+    date: 20210506,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
