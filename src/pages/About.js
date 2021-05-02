@@ -18,8 +18,6 @@ const teamList = team.map((member) => (
   </Col>
 ));
 
-//hello this is shawn
-
 class About extends React.Component {
   render() {
     return (
