@@ -504,4 +504,12 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "It's a Small (Design) World",
+    link: "https://www.facebook.com/events/1036271650112718",
+    image: "20210506",
+    date: 20210513,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
