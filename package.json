@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-browser-router": "^2.1.2",
@@ -19,8 +18,9 @@
     "react-horizontal-scrolling-menu": "^0.7.5",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.1",
-    "react-scroll-horizontal": "^1.6.2"
+    "react-scripts": "^4.0.3",
+    "react-scroll-horizontal": "^1.6.2",
+    "sass": "^1.32.12"
   },
   "scripts": {
     "start": "react-scripts start",

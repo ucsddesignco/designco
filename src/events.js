@@ -513,3 +513,5 @@ export const events = [
     location: "Zoom",
   },
 ];
+
+// if npm start fails you npm rebuild node-sass
