@@ -31,7 +31,7 @@ const days = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday"
+  "Saturday",
 ];
 const months = [
   "Jan",
@@ -45,7 +45,7 @@ const months = [
   "Sept",
   "Oct",
   "Nov",
-  "Dec"
+  "Dec",
 ];
 
 function formatDate(dateInt) {
@@ -73,7 +73,7 @@ class Event extends React.Component {
     image: "",
     date: "",
     time: "",
-    location: ""
+    location: "",
   };
 
   render() {
