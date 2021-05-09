@@ -14,7 +14,7 @@ class Partnership extends React.Component {
           <title> Partnership | Design Co </title>
         </Helmet>
         <div className="partnershipSplash">
-          <Navbar color={"#FFF"} altColor={"#000"} from="partnership" />
+          <Navbar color={"#FFF"} altColor={"#000"} from="home" />
           <Container className="outerContainer">
             <Row className="innerContainer">
               <Col sm={9} className="splashText">
@@ -132,11 +132,11 @@ class Partnership extends React.Component {
         <div className="sponsorshipTable outerContainer">
           <Row className="innerContainer">
             <Col className="tables">
-              <h1>Sponsorship Packages</h1>
-              <p className="prices">
+              <h1 className="h1-sponsorship">Sponsorship Packages</h1>
+              {/* <p className="prices">
                 *Prices reduced to accommodate for the COVID-19 pandemic and
                 nature of remote events
-              </p>
+              </p> */}
               <TablePage />
             </Col>
           </Row>
@@ -204,7 +204,7 @@ class Partnership extends React.Component {
                   </p>
                 </div>
                 <h2 style={{ marginTop: spacer3 }}>
-                  <a href="/contact">Partner With Us</a>
+                  <a href="mailto:designatucsd@gmail.com">Partner With Us</a>
                 </h2>
                 {/* <Row>
                   <Col>

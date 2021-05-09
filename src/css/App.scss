@@ -239,6 +239,23 @@ html {
   }
 }
 
+.partnership-banner {
+  width: 100%;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(0.95);
+  }
+  box-sizing: border-box;
+  min-height: 1px;
+  position: relative;
+  margin-bottom: 3.6rem;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0%;
+  right: auto;
+  left: auto;
+}
+
 /************************* BUTTONS ***************************/
 
 .button {
@@ -710,6 +727,14 @@ ol {
       margin-top: $spacer2;
       width: 100%;
     }
+  }
+
+  .h1-sponsorship {
+    margin-bottom: $spacer3;
+  }
+
+  .partnership-margin {
+    margin-bottom: 7.2rem;
   }
 
   .sponsorshipTable {

@@ -95,7 +95,7 @@ class Contact extends React.Component {
 
               <Col md={6}>
                 <a
-                  href="mailto:designatucsd@gmail.com"
+                  href="mailto:designatucsd@gmail.com?subject=Design Co Partnership"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
@@ -179,6 +179,38 @@ class Contact extends React.Component {
                   link="https://goo.gl/maps/PAozsX5jUWuetaTd8"
                   text="Map Me"
                 ></Button>
+              </Col>
+            </Row>
+          </div>
+        </Container>
+        <Container className="outerContainer">
+          <div className="innerContainer">
+            <h1 style={{ marginBottom: spacer3 }}>Partner with us:</h1>
+          </div>
+        </Container>
+        <Hidden xs sm md lg xl>
+          <div className="scrollContainer" style={{ marginBottom: spacer4 }}>
+            <div className="imageDiv">
+              <img src={require("../images/about/temp1.png")} />
+              <img src={require("../images/about/temp1.png")} />
+              <img src={require("../images/about/temp1.png")} />
+              <img src={require("../images/about/temp1.png")} />
+            </div>
+          </div>
+        </Hidden>
+        <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
+          <div className="innerContainer">
+            <Row>
+              <Col md={6}>
+                <img
+                  className="partnership-banner"
+                  src={require("../images/partnership/partnership-banner.png")}
+                  alt="partnership-banner"
+                />
+                <Button link="/partnership" text="Learn More"></Button>
+                <Visible xs sm>
+                  <div style={{ marginBottom: spacer3 }}></div>
+                </Visible>
               </Col>
             </Row>
           </div>

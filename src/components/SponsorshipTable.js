@@ -147,47 +147,47 @@ export default function TablePage() {
             <StyledTableCell align="center" className="grey_table">
               <p>Friends of Design Co</p>
               <br />
-              <p className="numbers">
+              {/* <p className="numbers">
                 <span className="strike">$500 - $1,000</span>
                 <br />
                 $250 - $500
-              </p>
+              </p> */}
             </StyledTableCell>
             <StyledTableCell align="center">
               <p>Supporter</p>
               <br />
-              <p className="numbers">
+              {/* <p className="numbers">
                 <span className="strike">$1,500 - $3,000</span>
                 <br />
                 $1,000 - $2,000
-              </p>
+              </p> */}
             </StyledTableCell>
             <StyledTableCell align="center" className="grey_table">
               <p>Partner</p>
               <br />
-              <p className="numbers">
+              {/* <p className="numbers">
                 <span className="strike">$3,500 - $5,000</span>
                 <br />
                 $2,500 - $3,500
-              </p>
+              </p> */}
             </StyledTableCell>{" "}
             <StyledTableCell align="center">
               <p>Collaborator</p>
               <br />
-              <p className="numbers">
+              {/* <p className="numbers">
                 <span className="strike">$3,500 - $7,000</span>
                 <br />
                 $4,000 - $5,000
-              </p>
+              </p> */}
             </StyledTableCell>{" "}
             <StyledTableCell align="center" className="grey_table">
               <p>Premier Collaborator</p>
               <br />
-              <p className="numbers">
+              {/* <p className="numbers">
                 <span className="strike">$7,500+</span>
                 <br />
                 $5,500+
-              </p>
+              </p> */}
             </StyledTableCell>
           </TableRow>
         </TableHead>
