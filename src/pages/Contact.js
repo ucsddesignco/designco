@@ -95,7 +95,7 @@ class Contact extends React.Component {
 
               <Col md={6}>
                 <a
-                  href="mailto:designatucsd@gmail.com?subject=Design Co Partnership"
+                  href="mailto:designatucsd@gmail.com"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
