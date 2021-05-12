@@ -512,6 +512,14 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "Design Frontiers 2021",
+    link: "https://www.facebook.com/events/2037581656373516",
+    image: "20210520",
+    date: 20210520,
+    time: 1700,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
