@@ -118,6 +118,31 @@ class Contact extends React.Component {
                 </a>
                 <p>designatucsd@gmail.com</p>
               </Col>
+              <Col md={6} style={{ marginBottom: spacer3 }}>
+                <a
+                  href="https://discord.com/invite/ZZEp4WNWK3"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
+                  <div style={{ display: "flex" }}>
+                    <h2 style={{ marginBottom: spacer2 }}>Discord</h2>
+                    <svg
+                      style={{ height: "5rem" }}
+                      viewBox="0 0 50 51"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M13.2892 19.8011L13.2892 12.7929L37.1171 12.7929L37.1171 19.8011L37.116 19.8011L37.116 37.3225L30.8086 37.3225L30.8086 24.0167L14.5883 40.237L10.0719 35.7207L25.9915 19.8011L13.2892 19.8011Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <p>/ucsddesignco</p>
+              </Col>
             </Row>
           </div>
           <Hidden xs sm>
