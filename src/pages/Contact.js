@@ -207,6 +207,10 @@ class Contact extends React.Component {
                   src={require("../images/partnership/partnership-banner.png")}
                   alt="partnership-banner"
                 />
+                <p className="partner-with-us">
+                  Contact us for more information on pricing and sponsorship
+                  plans
+                </p>
                 <Button link="/partnership" text="Learn More"></Button>
                 <Visible xs sm>
                   <div style={{ marginBottom: spacer3 }}></div>

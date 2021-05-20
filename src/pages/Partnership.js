@@ -31,9 +31,7 @@ class Partnership extends React.Component {
                   color="#000"
                   bgColor="#FFF"
                   style={{ marginTop: spacer3, marginBottom: spacer4 }}
-                >
-                  >
-                </Button>
+                ></Button>
               </Col>
             </Row>
           </Container>
