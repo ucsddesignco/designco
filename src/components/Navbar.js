@@ -282,7 +282,6 @@ class Navbar extends React.Component {
                             </a>
                           </h4>
                         </li>{" "}
-                        */}
                         {/* <li>
                           <h4>
                             <a href="/join-our-team" id="join-our-team">
