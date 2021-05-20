@@ -517,7 +517,7 @@ export const events = [
     link: "https://www.facebook.com/events/2037581656373516",
     image: "20210520",
     date: 20210520,
-    time: 1700,
+    time: 1600,
     location: "Zoom",
   },
 ];
