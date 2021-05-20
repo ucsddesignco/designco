@@ -208,6 +208,42 @@ class Contact extends React.Component {
             </Row>
           </div>
         </Container>
+        <Container className="outerContainer">
+          <div className="innerContainer">
+            <h1 style={{ marginBottom: spacer3 }}>Partner with us:</h1>
+          </div>
+        </Container>
+        <Hidden xs sm md lg xl>
+          <div className="scrollContainer" style={{ marginBottom: spacer4 }}>
+            <div className="imageDiv">
+              <img src={require("../images/about/temp1.png")} />
+              <img src={require("../images/about/temp1.png")} />
+              <img src={require("../images/about/temp1.png")} />
+              <img src={require("../images/about/temp1.png")} />
+            </div>
+          </div>
+        </Hidden>
+        <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
+          <div className="innerContainer">
+            <Row>
+              <Col md={6}>
+                <img
+                  className="partnership-banner"
+                  src={require("../images/partnership/partnership-banner.png")}
+                  alt="partnership-banner"
+                />
+                <p className="partner-with-us">
+                  Contact us for more information on pricing and sponsorship
+                  plans
+                </p>
+                <Button link="/partnership" text="Learn More"></Button>
+                <Visible xs sm>
+                  <div style={{ marginBottom: spacer3 }}></div>
+                </Visible>
+              </Col>
+            </Row>
+          </div>
+        </Container>
       </div>
     );
   }

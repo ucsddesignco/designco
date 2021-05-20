@@ -239,6 +239,23 @@ html {
   }
 }
 
+.partnership-banner {
+  width: 100%;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(0.95);
+  }
+  box-sizing: border-box;
+  min-height: 1px;
+  position: relative;
+  margin-bottom: 3.6rem;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0%;
+  right: auto;
+  left: auto;
+}
+
 /************************* BUTTONS ***************************/
 
 .button {
@@ -324,6 +341,10 @@ html {
       padding-right: calc(#{$spacer2 + $spacer3});
     }
   }
+}
+
+p.partner-with-us {
+  margin-bottom: $spacer2;
 }
 
 /************************* JOIN ***************************/
@@ -590,13 +611,13 @@ ol {
     margin-top: -6px;
   }
 
-  button{
+  button {
     padding: $spacer1 $spacer2;
     border: none;
     border-radius: 0;
     background: white;
 
-    &:hover{
+    &:hover {
       opacity: 0.8;
       cursor: pointer;
     }
@@ -659,5 +680,99 @@ ol {
 
   h1 {
     margin-bottom: $spacer3;
+  }
+}
+
+/**************** PARTNERSHIP ***********************/
+
+.partnership {
+  .partnershipSplash {
+    background: #000;
+    background-image: url(../images/partnership/plant.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: $spacer3;
+    // height: calc(100vh - 10rem);
+
+    .splashText {
+      position: absolute;
+    }
+  }
+
+  .statsRow {
+    img {
+      width: 100%;
+      margin-top: $spacer2;
+    }
+  }
+
+  .customList {
+    display: flex;
+    margin-top: $spacer2;
+
+    p {
+      margin-left: $spacer2;
+    }
+
+    img {
+      height: 3.5rem;
+      width: auto;
+    }
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  .previousSponsors {
+    img {
+      margin-top: $spacer2;
+      width: 100%;
+    }
+  }
+
+  .h1-sponsorship {
+    margin-bottom: $spacer3;
+  }
+
+  .partnership-margin {
+    margin-bottom: 7.2rem;
+  }
+
+  .sponsorshipTable {
+    background-color: #000;
+    color: #fff;
+
+    .tables {
+      margin: $spacer4 0;
+    }
+  }
+
+  .strike {
+    color: #b7b7b7;
+    text-decoration: line-through;
+  }
+
+  .styledHeader {
+    color: black;
+    background-color: white;
+    padding: $spacer1;
+  }
+
+  .prices {
+    font-family: "NB International Mono";
+    font-size: 1.1rem;
+    margin: $spacer2 0 $spacer3 0;
+  }
+
+  .numbers {
+    margin-top: $spacer1;
+    font-family: "NB International Mono";
+  }
+
+  .grey_table {
+    background-color: #282828;
   }
 }

@@ -13,9 +13,8 @@ class Navbar extends React.Component {
   toggleHamburger = () => {
     if (!this.state.active) {
       document.getElementById("hamburger").classList.add("is-active");
-      document.getElementById(
-        "hamburger-inner"
-      ).style.backgroundColor = this.props.altColor;
+      document.getElementById("hamburger-inner").style.backgroundColor =
+        this.props.altColor;
       document.body.style.overflow = "hidden";
     } else {
       document.getElementById("hamburger").classList.remove("is-active");
@@ -23,9 +22,8 @@ class Navbar extends React.Component {
 
       // Delay resetting hamburger color for natural animation
       setTimeout(() => {
-        document.getElementById(
-          "hamburger-inner"
-        ).style.backgroundColor = this.props.color;
+        document.getElementById("hamburger-inner").style.backgroundColor =
+          this.props.color;
       }, 200);
     }
 
@@ -187,9 +185,14 @@ class Navbar extends React.Component {
                   </li>
                   {/* <li>
                     <h4>
-                      <a href="/join-our-team" id="join-our-team">
-                        Join Our Team
+                      <a href="/partnership" id="partnership">
+                        Partner
                       </a>
+                    </h4>
+                  </li> */}
+                  {/* <li>
+                    <h4>
+                      <a href="/join-our-team" id="join-our-team">Join Our Team</a>
                     </h4>
                   </li> */}
                   {/* <li>
@@ -273,6 +276,14 @@ class Navbar extends React.Component {
                           </h4>
                         </li>
                         <li>
+                          <h4>
+                            <a href="/partnership" id="partnership">
+                              Partner
+                            </a>
+                          </h4>
+                        </li>{" "}
+                        */}
+                        {/* <li>
                           <h4>
                             <a href="/join-our-team" id="join-our-team">
                               Join Our Team
