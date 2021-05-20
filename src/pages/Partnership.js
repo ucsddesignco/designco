@@ -46,7 +46,9 @@ class Partnership extends React.Component {
                 <h1>About</h1>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     Our mission is to cultivate a space that fosters opportunity
                     and growth as an inclusive community of designers.
@@ -54,7 +56,9 @@ class Partnership extends React.Component {
                 </div>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     Students in our organization have demonstrated their ability
                     to produce meaningful work at their internships and careers
@@ -65,59 +69,63 @@ class Partnership extends React.Component {
                 </div>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>Last Year’s Statistics:</p>
                 </div>
 
                 <Row className="statsRow">
                   <Col sm={6}>
                     <img
-                      src={require("../images/partnership/stats-1.png")}
+                      src={require("../images/partnership/stats-1.png").default}
                     ></img>
                   </Col>
                   <Col sm={6}>
                     <img
-                      src={require("../images/partnership/stats-2.png")}
+                      src={require("../images/partnership/stats-2.png").default}
                     ></img>
                   </Col>
                   <Col sm={6}>
                     <img
-                      src={require("../images/partnership/stats-3.png")}
+                      src={require("../images/partnership/stats-3.png").default}
                     ></img>
                   </Col>
                   <Col sm={6}>
                     <img
-                      src={require("../images/partnership/stats-4.png")}
+                      src={require("../images/partnership/stats-4.png").default}
                     ></img>
                   </Col>
                 </Row>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>Previous Sponsors:</p>
                 </div>
                 <Row className="previousSponsors">
                   <Col xs={6} sm={3}>
                     <img
-                      src={require("../images/sponsors/sony.png")}
+                      src={require("../images/sponsors/sony.png").default}
                       alt="Sponsor"
                     />
                   </Col>
                   <Col xs={6} sm={3}>
                     <img
-                      src={require("../images/sponsors/intuit.png")}
+                      src={require("../images/sponsors/intuit.png").default}
                       alt="Sponsor"
                     />
                   </Col>
                   <Col xs={6} sm={3}>
                     <img
-                      src={require("../images/sponsors/servicenow.png")}
+                      src={require("../images/sponsors/servicenow.png").default}
                       alt="Sponsor"
                     />
                   </Col>
                   <Col xs={6} sm={3}>
                     <img
-                      src={require("../images/sponsors/dlab.png")}
+                      src={require("../images/sponsors/dlab.png").default}
                       alt="Sponsor"
                     />
                   </Col>
@@ -147,7 +155,9 @@ class Partnership extends React.Component {
                 <h1>Why Partner With Us?</h1>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     <b>Brand Exposure</b>
                     <br />
@@ -158,7 +168,9 @@ class Partnership extends React.Component {
                 </div>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     <b>Campus Engagement</b>
                     <br />
@@ -169,7 +181,9 @@ class Partnership extends React.Component {
                 </div>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     <b>Recruiting Opportunities</b>
                     <br />
@@ -181,7 +195,9 @@ class Partnership extends React.Component {
                 </div>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     <b>Product Exposure</b>
                     <br />
@@ -192,7 +208,9 @@ class Partnership extends React.Component {
                 </div>
 
                 <div className="customList">
-                  <img src={require("../images/partnership/arrow.svg")} />
+                  <img
+                    src={require("../images/partnership/arrow.svg").default}
+                  />
                   <p>
                     <b>Event Management</b>
                     <br />

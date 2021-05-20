@@ -205,31 +205,41 @@ export default function TablePage() {
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {row.friends && (
-                  <img src={require("../images/partnership/yellow.svg")}></img>
+                  <img
+                    src={require("../images/partnership/yellow.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center">
                 {" "}
                 {row.supporters && (
-                  <img src={require("../images/partnership/purple.svg")}></img>
+                  <img
+                    src={require("../images/partnership/purple.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {" "}
                 {row.partners && (
-                  <img src={require("../images/partnership/blue.svg")}></img>
+                  <img
+                    src={require("../images/partnership/blue.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center">
                 {" "}
                 {row.collab && (
-                  <img src={require("../images/partnership/pink.svg")}></img>
+                  <img
+                    src={require("../images/partnership/pink.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {" "}
                 {row.premier && (
-                  <img src={require("../images/partnership/green.svg")}></img>
+                  <img
+                    src={require("../images/partnership/green.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
             </StyledTableRow>
@@ -246,31 +256,41 @@ export default function TablePage() {
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {row.friends && (
-                  <img src={require("../images/partnership/yellow.svg")}></img>
+                  <img
+                    src={require("../images/partnership/yellow.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center">
                 {" "}
                 {row.supporters && (
-                  <img src={require("../images/partnership/purple.svg")}></img>
+                  <img
+                    src={require("../images/partnership/purple.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {" "}
                 {row.partners && (
-                  <img src={require("../images/partnership/blue.svg")}></img>
+                  <img
+                    src={require("../images/partnership/blue.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center">
                 {" "}
                 {row.collab && (
-                  <img src={require("../images/partnership/pink.svg")}></img>
+                  <img
+                    src={require("../images/partnership/pink.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {" "}
                 {row.premier && (
-                  <img src={require("../images/partnership/green.svg")}></img>
+                  <img
+                    src={require("../images/partnership/green.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
             </StyledTableRow>
@@ -288,31 +308,41 @@ export default function TablePage() {
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {row.friends && (
-                  <img src={require("../images/partnership/yellow.svg")}></img>
+                  <img
+                    src={require("../images/partnership/yellow.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center">
                 {" "}
                 {row.supporters && (
-                  <img src={require("../images/partnership/purple.svg")}></img>
+                  <img
+                    src={require("../images/partnership/purple.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {" "}
                 {row.partners && (
-                  <img src={require("../images/partnership/blue.svg")}></img>
+                  <img
+                    src={require("../images/partnership/blue.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center">
                 {" "}
                 {row.collab && (
-                  <img src={require("../images/partnership/pink.svg")}></img>
+                  <img
+                    src={require("../images/partnership/pink.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
               <StyledTableCell align="center" className="grey_table">
                 {" "}
                 {row.premier && (
-                  <img src={require("../images/partnership/green.svg")}></img>
+                  <img
+                    src={require("../images/partnership/green.svg").default}
+                  ></img>
                 )}
               </StyledTableCell>
             </StyledTableRow>

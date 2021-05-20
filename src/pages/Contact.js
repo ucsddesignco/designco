@@ -229,7 +229,10 @@ class Contact extends React.Component {
               <Col md={6}>
                 <img
                   className="partnership-banner"
-                  src={require("../images/partnership/partnership-banner.png")}
+                  src={
+                    require("../images/partnership/partnership-banner.png")
+                      .default
+                  }
                   alt="partnership-banner"
                 />
                 <p className="partner-with-us">
