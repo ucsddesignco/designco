@@ -520,6 +520,14 @@ export const events = [
     time: 1600,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Power Up",
+    link: "https://powerup.ucsddesign.co/",
+    image: "20210520",
+    date: 20210528,
+    time: 1500,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
