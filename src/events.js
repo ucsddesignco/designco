@@ -516,7 +516,7 @@ export const events = [
     title: "Design Frontiers 2021",
     link: "https://www.facebook.com/events/2037581656373516",
     image: "20210520",
-    date: 20210520,
+    date: 20210527,
     time: 1600,
     location: "Zoom",
   },
