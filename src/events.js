@@ -522,7 +522,7 @@ export const events = [
   },
   {
     title: "Design Co: Power Up",
-    link: "https://powerup.ucsddesign.co/",
+    link: "https://www.facebook.com/events/3039071622994284",
     image: "20210520",
     date: 20210528,
     time: 1500,
