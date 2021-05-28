@@ -523,8 +523,8 @@ export const events = [
   {
     title: "Design Co: Power Up",
     link: "https://www.facebook.com/events/3039071622994284",
-    image: "20210528",
-    date: 20210528,
+    image: "20210628",
+    date: 20210628,
     time: 1500,
     location: "Zoom",
   },
