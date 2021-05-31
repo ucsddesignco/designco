@@ -61,7 +61,7 @@ function formatDate(dateInt) {
     days[date.getUTCDay()] +
     ", " +
     months[date.getUTCMonth()] +
-    ". " +
+    " " +
     date.getUTCDate()
   );
 }
