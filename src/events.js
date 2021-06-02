@@ -525,8 +525,8 @@ export const events = [
     link: "https://www.facebook.com/events/3039071622994284",
     image: "20210628",
     date: 20210628,
-    time: 1500,
-    location: "Zoom",
+    time: 2359,
+    location: "Application due June 14th,",
   },
   {
     title: "We’re Not Really Strangers, We’re Designers",

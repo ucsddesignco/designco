@@ -4,10 +4,10 @@ import { spacer1, spacer2 } from "../constants";
 
 function formatTime(time) {
   // Check that time is a number
-  if (typeof time != "number")
-    throw new Error(
-      'Invalid event time: "' + time + '". Must be a number, not a string.'
-    );
+  // if (typeof time != "number")
+  //   throw new Error(
+  //     'Invalid event time: "' + time + '". Must be a number, not a string.'
+  //   );
 
   // Determine if AM or PM
   let ampm = time <= 1159 || time == 2400 ? "AM" : "PM";
