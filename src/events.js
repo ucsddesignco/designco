@@ -529,7 +529,7 @@ export const events = [
     location: "Zoom",
   },
   {
-    title: "Design Co: Power Up",
+    title: "We’re Not Really Strangers, We’re Designers",
     link: "https://www.facebook.com/events/676924823283779",
     image: "20210603",
     date: 20210603,
