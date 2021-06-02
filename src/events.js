@@ -531,7 +531,7 @@ export const events = [
   {
     title: "We’re Not Really Strangers, We’re Designers",
     link: "https://www.facebook.com/events/676924823283779",
-    image: "20210603",
+    image: "20210603_new",
     date: 20210603,
     time: 1700,
     location: "Zoom",
