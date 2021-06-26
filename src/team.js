@@ -106,6 +106,27 @@ export const team = [
     gradYear: 2022,
   },
   {
+    id: "samantha",
+    name: "Samantha Cheung",
+    role: "Community Engagement Coordinator",
+    link: "https://www.linkedin.com/in/cheung-samantha/",
+    gradYear: 2022,
+  },
+  {
+    id: "amber",
+    name: "Amber Lu",
+    role: "Community Engagement Coordinator",
+    link: "https://www.linkedin.com/in/amberlu1226/",
+    gradYear: 2022,
+  },
+  {
+    id: "sergio",
+    name: "Sergio Ramirez",
+    role: "Community Engagement Coordinator",
+    link: "https://www.linkedin.com/in/sramirez2292/",
+    gradYear: 2022,
+  },
+  {
     id: "juna",
     name: "Juna Kim",
     role: "Visual + Brand Designer",
@@ -119,6 +140,34 @@ export const team = [
     role: "Media Coordinator",
     link: "https://www.linkedin.com/in/tiffany-zhong-2841a718b/",
     gradYear: 2023,
+  },
+  {
+    id: "tracy",
+    name: "Tracy Nguyen",
+    role: "Industry Relations Coordinator",
+    link: "https://www.linkedin.com/in/tracy-trang-nguyen/",
+    gradYear: 2023,
+  },
+  {
+    id: "shawn",
+    name: "Shawn Kim",
+    role: "Web Developer",
+    link: "https://www.linkedin.com/in/shawn-j-kim/",
+    gradYear: 2023,
+  },
+  {
+    id: "maria",
+    name: "Maria Dhilla",
+    role: "Industry Relations Coordinator",
+    link: "https://mariadhilla.myportfolio.com/",
+    gradYear: 2023,
+  },
+  {
+    id: "tracey",
+    name: "Tracey Du",
+    role: "Web Developer",
+    link: "https://www.linkedin.com/in/traceydu/",
+    gradYear: 2024,
   },
 
   // {
