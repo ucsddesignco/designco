@@ -78,13 +78,6 @@ export const team = [
     gradYear: 2022,
   },
   {
-    id: "aman",
-    name: "Aman Singh",
-    role: "Industry Relations Coordinator",
-    link: "https://www.amansinghsarna.me/",
-    gradYear: 2022,
-  },
-  {
     id: "gisca",
     name: "Gisca Giancana",
     role: "Social Media Coordinator",
