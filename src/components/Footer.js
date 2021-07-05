@@ -60,12 +60,14 @@ class Footer extends React.Component {
                 </li>
                 <li>
                   <h4>
-                    <a href="mailto:designatucsd@gmail.com">Email</a>
+                    <a href="https://discord.com/invite/ZZEp4WNWK3" target="_blank">
+                      Discord
+                    </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="https://discord.com/invite/ZZEp4WNWK3" target="_blank">Discord</a>
+                    <a href="mailto:designatucsd@gmail.com">Email</a>
                   </h4>
                 </li>
               </ul>
