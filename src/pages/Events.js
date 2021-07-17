@@ -72,7 +72,7 @@ class AllEvents extends React.Component {
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
           <div className="innerContainer" style={{ marginBottom: spacer3 }}>
             <h1>
-              During Spring Quarter, we’ll be hosting weekly, interactive events
+              During Fall Quarter, we’ll be hosting weekly, interactive events
               focused on professional development and diversity, equity, and
               inclusion.
             </h1>
