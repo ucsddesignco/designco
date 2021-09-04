@@ -536,6 +536,22 @@ export const events = [
     time: 1700,
     location: "Zoom",
   },
+  {
+    title: "DEI in Industry with Service Now",
+    link: "https://www.facebook.com/events/204020048419044/",
+    image: "20210825",
+    date: 20210825,
+    time: 1700,
+    location: "Zoom",
+  },
+  {
+    title: "Power Up Final Showcase",
+    link: "https://www.facebook.com/events/1284529615312120/",
+    image: "20210830",
+    date: 20210830,
+    time: 1800,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
