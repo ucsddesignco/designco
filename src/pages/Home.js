@@ -89,22 +89,19 @@ class Home extends React.Component {
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h2 style={{ marginBottom: spacer3 }}>News</h2>
                 <h3 style={{ marginBottom: spacer1 }}>
-                  2019–20 Rewind: A Year of Firsts
+                  From Small Business to Big Impact: How Power Up Teams Transformed Blendees & Café X
                 </h3>
                 <p style={{ marginBottom: spacer2 }}>
-                  This past year was filled with a lot of “firsts” as we
-                  continued to build an inclusive community of student
-                  designers. With the 2020–21 school year fast approaching, we
-                  wanted to highlight all the new events and initiatives that
-                  were launched.{" "}
+                  Featuring the owners of Blendees & Café X.
+                  <br></br>
                   <a
-                    href="https://medium.com/ucsddesignco/2019-20-rewind-a-year-of-firsts-281c3be71c89"
+                    href="https://medium.com/@ucsddesignco/from-small-business-to-big-impact-how-power-up-teams-transformed-blendees-caf%C3%A9-x-7a8903a72e38"
                     target="_blank"
                   >
                     Read More
                   </a>
                 </p>
-                <p className="text_caption">Sept. 30, 2020</p>
+                <p className="text_caption">Sept. 8, 2021</p>
               </Col>
             </Row>
           </div>
