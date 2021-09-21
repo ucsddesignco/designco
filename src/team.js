@@ -11,14 +11,14 @@ export const team = [
     name: "Quinn Vu",
     role: "Marketing Director",
     link: "https://quinn-vu.com/",
-    gradYear: 2021,
+    gradYear: 2022,
   },
   {
     id: "stella",
     name: "Stella Seki",
-    role: "Community Engagement Director",
+    role: "Emotional Support Cat",
     link: "https://www.stellaseki.com/",
-    gradYear: 2021,
+    gradYear: 2022,
   },
   {
     id: "megan",
