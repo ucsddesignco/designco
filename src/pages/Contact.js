@@ -120,7 +120,7 @@ class Contact extends React.Component {
               </Col>
               <Col md={6} style={{ marginBottom: spacer3 }}>
                 <a
-                  href="https://discord.com/invite/ZZEp4WNWK3"
+                  href="https://discord.gg/jpzznvhX3x"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
