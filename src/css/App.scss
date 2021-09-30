@@ -823,12 +823,16 @@ ol {
 }
 
 .shop-gallery {
-  background: #000;
+  background: #000000;
+  color: white;
+  padding-top: 8rem;
+  padding-bottom: 16rem;
 }
 
 .shop-gallery-title {
   color: #fff;
   margin: auto 11rem;
+  margin-bottom: 6rem;
 }
 
 .shop-gallery-items {
@@ -844,4 +848,22 @@ ol {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+}
+
+.shop-item {
+  .shop-item-img {
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+.shop-item-img {
+  height: 20rem;
+  display: flex;
+
+  img {
+    height: 100%;
+  }
 }

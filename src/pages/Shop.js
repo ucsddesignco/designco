@@ -1,12 +1,21 @@
 import React from "react";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
+import { setConfiguration } from "react-grid-system";
 import Navbar from "../components/Navbar";
 
+//import shop items list
+import teapotSticker from "../images/shop/teapot-sticker.png";
+import dcoSticker from "../images/shop/dco-sticker.png";
+import communityShirt from "../images/shop/community-shirt.png";
+
 function Shop() {
+  // remove any padding from container
+  setConfiguration({ gutterWidth: 0 });
+
   return (
     <div>
       <div className="background-image"></div>
-      <Navbar from="shop" />
+      {/* <Navbar from="shop" /> */}
       <div className="shop-banner">
         <div className="shop-content">
           <h1 className="shopbanner-title">Shop Design Co</h1>
@@ -25,9 +34,33 @@ function Shop() {
         <div className="shop-gallery-items">
           <Container>
             <Row>
-              <Col>hello</Col>
-              <Col>hello</Col>
-              <Col>hello</Col>
+              <Col>
+                <div className="shop-item">
+                  <div className="shop-item-img">
+                    <img alt="shop-item" src={dcoSticker} />
+                  </div>
+                  <h3>Design Co Sticker</h3>
+                  <p>$20</p>
+                </div>
+              </Col>
+              <Col>
+                <div className="shop-item">
+                  <div className="shop-item-img">
+                    <img alt="shop-item" src={teapotSticker} />
+                  </div>
+                  <h3>Teapot Sticker</h3>
+                  <p>$20</p>
+                </div>
+              </Col>
+              <Col>
+                <div className="shop-item">
+                  <div className="shop-item-img">
+                    <img alt="shop-item" src={communityShirt} />
+                  </div>
+                  <h3>Grow With Us</h3>
+                  <p>$20</p>
+                </div>
+              </Col>
             </Row>
           </Container>
         </div>
