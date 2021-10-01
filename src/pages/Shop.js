@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
 import { setConfiguration } from "react-grid-system";
 import Navbar from "../components/Navbar";
+import Modal from '../components/shop/Modal'
 
 //import shop items list
 import teapotSticker from "../images/shop/teapot-sticker.png";
@@ -9,6 +10,19 @@ import dcoSticker from "../images/shop/dco-sticker.png";
 import communityShirt from "../images/shop/community-shirt.png";
 
 function Shop() {
+
+  const [showModal, setShowModal] = useState(false);
+    const [index, setIndex] = useState(-1);
+    
+    const hideModal = () => {
+        setShowModal(false);
+    };
+
+    const display = (value) => {
+        setIndex(value);
+        setShowModal(true);
+    }
+
   // remove any padding from container
   setConfiguration({ gutterWidth: 0 });
 
@@ -35,8 +49,8 @@ function Shop() {
           <Container>
             <Row>
               <Col>
-                <div className="shop-item">
-                  <div className="shop-item-img">
+                <div className="shop-item" >
+                  <div className="shop-item-img" onClick={() => {display(0)}} >
                     <img alt="shop-item" src={dcoSticker} />
                   </div>
                   <h3>Design Co Sticker</h3>
@@ -45,7 +59,7 @@ function Shop() {
               </Col>
               <Col>
                 <div className="shop-item">
-                  <div className="shop-item-img">
+                  <div className="shop-item-img" onClick={() => {display(1)}} >
                     <img alt="shop-item" src={teapotSticker} />
                   </div>
                   <h3>Teapot Sticker</h3>
@@ -54,7 +68,7 @@ function Shop() {
               </Col>
               <Col>
                 <div className="shop-item">
-                  <div className="shop-item-img">
+                  <div className="shop-item-img" onClick={() => {display(2)}} >
                     <img alt="shop-item" src={communityShirt} />
                   </div>
                   <h3>Grow With Us</h3>
@@ -65,6 +79,13 @@ function Shop() {
           </Container>
         </div>
       </div>
+
+      <Modal
+            show={showModal}
+            onHide={() => {hideModal()}} 
+            index={index} 
+        />   
+        
     </div>
   );
 }

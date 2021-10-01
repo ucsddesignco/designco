@@ -9,6 +9,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "bootstrap": "^4.4.1",
+    "latest-version": "^6.0.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.5.2",
     "react-browser-router": "^2.1.2",
@@ -18,6 +19,7 @@
     "react-helmet": "^5.2.1",
     "react-horizontal-scrolling-menu": "^0.7.5",
     "react-icons": "^3.11.0",
+    "react-responsive-carousel": "^3.2.21",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^4.0.3",
     "react-scroll-horizontal": "^1.6.2",

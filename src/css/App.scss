@@ -867,3 +867,124 @@ ol {
     height: 100%;
   }
 }
+
+/********* Modal Example ********/
+.me {
+  position: fixed;
+  background: white;
+  top: calc(0px);
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.me-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.me-image {
+  height: 35vw;
+  width: 100%;
+  object-fit: cover;
+}
+
+.me-left {
+  display: flex;
+  flex-direction: column;
+  padding: 3.75rem;
+}
+
+.me-right {
+  display: flex;
+  flex-direction: column;
+  padding: 3.75rem;
+}
+
+.me-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.me-img-small {
+  height: 8vw;
+  width: 8vw;
+  background-color: gray;
+}
+
+.me-x {
+  display: flex;
+  align-self: flex-end;
+  height: 21px;
+  width: 21px;
+}
+
+.me h3 {
+  font-family: "Neue Plak Extended";
+  font-size: 2rem;
+  font-weight: normal;
+  color: black;
+  letter-spacing: 4%;
+}
+
+.me p {
+  font-family: "NB International Pro";
+  font-size: 1.25rem;
+  color: black;
+  letter-spacing: 2%;
+}
+
+.smaller-text {
+  font-size: 1.125rem;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+#m3r {
+  margin-right: 3rem;
+}
+
+#m1-5b {
+  margin-bottom: 1.5rem;
+}
+
+#m1-875b {
+  margin-bottom: 1.875rem;
+}
+
+#m2b {
+  margin-bottom: 2rem;
+}
+
+#m3b {
+  margin-bottom: 3rem;
+}
+
+.me-container-sizes {
+  display: flex;
+  flex-direction: row;
+}
+
+.me-button {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: auto;
+  background-color: black;
+}
+
+.me-button p {
+  font-family: "NB International Mono";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+}
+
