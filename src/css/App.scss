@@ -47,7 +47,63 @@ html {
   right: auto;
   left: auto;
 }
+/************************* NAV + FOOTER ***************************/
 
+.nav {
+  text-align: right;
+}
+
+.footerLinks {
+  text-align: center;
+  @media screen and (min-width: $lg) {
+    text-align: right;
+  }
+}
+
+.whitenav,
+.footerLinks {
+  list-style: none;
+  margin-top: -0.3rem;
+  li {
+    display: inline-block;
+    &:not(:first-child) {
+      margin-left: $spacer2;
+    }
+    @media screen and (max-width: 400px) {
+      h4 {
+        font-size: 70%;
+      }
+      &:not(:first-child) {
+        margin-left: 2.4rem;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.5 !important;
+      }
+    }
+  }
+}
+
+.logo {
+  transition: 0.3s;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.5 !important;
+    }
+  }
+}
+
+.whitenav {
+  text-align: right;
+  color: white;
+}
 /************************* NAV + FOOTER ***************************/
 
 .nav {
