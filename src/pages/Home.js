@@ -89,7 +89,8 @@ class Home extends React.Component {
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h2 style={{ marginBottom: spacer3 }}>News</h2>
                 <h3 style={{ marginBottom: spacer1 }}>
-                  From Small Business to Big Impact: How Power Up Teams Transformed Blendees & Café X
+                  From Small Business to Big Impact: How Power Up Teams
+                  Transformed Blendees & Café X
                 </h3>
                 <p style={{ marginBottom: spacer2 }}>
                   Featuring the owners of Blendees & Café X.
