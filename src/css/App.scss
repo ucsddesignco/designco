@@ -104,6 +104,20 @@ html {
   text-align: right;
   color: white;
 }
+
+.white-footer {
+  background-color: black;
+  color: white;
+}
+
+.dco-logo {
+  width: 150px;
+  height: 30px;
+  background-image: url("../images/shop/dco-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /************************* NAV + FOOTER ***************************/
 
 .nav {
@@ -837,14 +851,14 @@ ol {
   }
 }
 
-/**************** PARTNERSHIP ***********************/
+/**************** SHOP ***********************/
 .shop-banner {
   color: #fff;
-  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5rem 0;
 }
 
 .shop-content {
@@ -895,7 +909,7 @@ ol {
   margin: auto 11rem;
 }
 
-.background-image {
+.shop-background {
   position: absolute;
   z-index: -1;
   background-image: url("../images/events/placeholderbanner.jpg");
@@ -903,7 +917,7 @@ ol {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .shop-item {
@@ -916,6 +930,10 @@ ol {
   }
 }
 
+.shop-item:hover {
+  cursor: pointer;
+}
+
 .shop-item-img {
   height: 20rem;
   display: flex;
@@ -925,14 +943,26 @@ ol {
   }
 }
 
-/********* Modal Example ********/
+/********* Modal ********/
+.me-background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 80%;
+  top: 0;
+  z-index: 1000;
+}
+
 .me {
   position: fixed;
-  background: white;
-  top: calc(0px);
-  left: 0;
-  right: 0;
-  z-index: 100;
+  background-color: white;
+  top: calc(10vh);
+  left: 5vw;
+  right: 5vw;
+  z-index: 1000;
+  height: calc(80vh);
+  width: 90vw;
 }
 
 .me-container {
@@ -944,15 +974,22 @@ ol {
 }
 
 .me-image {
-  height: 35vw;
-  width: 100%;
+  height: 20vw;
+  width: auto;
   object-fit: cover;
+  position: relative;
 }
 
 .me-left {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 3.75rem;
+}
+
+.me-small {
+  height: 30px;
+  width: 30px;
 }
 
 .me-right {
@@ -970,7 +1007,7 @@ ol {
 .me-img-small {
   height: 8vw;
   width: 8vw;
-  background-color: gray;
+  object-fit: contain;
 }
 
 .me-x {
@@ -978,6 +1015,12 @@ ol {
   align-self: flex-end;
   height: 21px;
   width: 21px;
+  cursor: pointer;
+}
+
+.me-x-mobile {
+  height: 0;
+  cursor: pointer;
 }
 
 .me h3 {
@@ -986,6 +1029,14 @@ ol {
   font-weight: normal;
   color: black;
   letter-spacing: 4%;
+}
+
+.me-h3-desktop {
+  display: flex;
+}
+
+.me-h3-mobile {
+  display: none;
 }
 
 .me p {
@@ -1036,6 +1087,7 @@ ol {
   height: 50px;
   width: auto;
   background-color: black;
+  cursor: pointer;
 }
 
 .me-button p {
@@ -1043,4 +1095,87 @@ ol {
   font-size: 0.8rem;
   text-transform: uppercase;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .me-x-mobile {
+    display: flex;
+    align-self: flex-end;
+    height: 21px;
+    width: 21px;
+  }
+  .me-x {
+    display: none;
+  }
+  .me-h3-mobile {
+    display: flex;
+  }
+  .me-h3-desktop {
+    display: none;
+  }
+}
+
+/********* Modal Images ********/
+.me-item1-image1 {
+  height: 20vw;
+  width: auto;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+}
+
+.me-item1-image2 {
+  height: 20vw;
+  width: auto;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+}
+
+.me-item1-image3 {
+  height: 20vw;
+  width: auto;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+}
+
+.me-item1-image4 {
+  height: 20vw;
+  width: auto;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+}
+
+/********* Carousel ********/
+.carousel .slide {
+  background-color: red;
+}
+
+.carousel li.thumb {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/********* Slider ********/
+.slider-image {
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+}
+
+.right-arrow {
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }

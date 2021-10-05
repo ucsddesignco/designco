@@ -3,6 +3,7 @@ import { spacer2, spacer3, spacer4 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
+import Footer from "../components/Footer";
 import { faq } from "../faq.js";
 import QA from "../components/QA";
 import { roles } from "../roles.js";
@@ -165,6 +166,7 @@ class JoinOurTeam extends React.Component {
             </div>
           </div>
         </Container>
+        <Footer />
       </div>
     );
   }

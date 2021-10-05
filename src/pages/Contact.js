@@ -3,6 +3,7 @@ import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
 import Navbar from "../components/Navbar";
 import { spacer3, spacer4, spacer2 } from "../constants";
 import Button from "../components/Button";
+import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
 class Contact extends React.Component {
@@ -247,6 +248,7 @@ class Contact extends React.Component {
             </Row>
           </div>
         </Container>
+        <Footer />
       </div>
     );
   }

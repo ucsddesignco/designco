@@ -4,6 +4,7 @@ import { team } from "../team.js";
 import { Helmet } from "react-helmet";
 import Member from "../components/MemberTiles";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-grid-system";
 
 const teamList = team.map((member) => (
@@ -107,6 +108,7 @@ class About extends React.Component {
             <Row>{teamList}</Row>
           </div>
         </Container>
+        <Footer />
       </div>
     );
   }

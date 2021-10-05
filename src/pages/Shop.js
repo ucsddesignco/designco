@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
 import { setConfiguration } from "react-grid-system";
-import WhiteNavbar from "../components/WhiteNavbar";
+import Navbar from "../components/Navbar";
+import WhiteFooter from "../components/WhiteFooter";
 import Modal from "../components/shop/Modal";
+import ModalItem1 from "../components/shop/ModalItem1";
+import ModalItem2 from "../components/shop/ModalItem2";
+import ModalItem3 from "../components/shop/ModalItem3";
+import Modal2 from "../components/shop/Modal2";
+import Slider from "../components/shop/Slider";
+import { SliderData } from "../components/shop/SliderData";
 
 //import shop items list
 import teapotSticker from "../images/shop/teapot-sticker.png";
@@ -22,13 +29,43 @@ function Shop() {
     setShowModal(true);
   };
 
+  const [showModal1, setShowModal1] = useState(false);
+
+  const display1 = () => {
+    setShowModal1(true);
+  };
+
+  const hideModal1 = () => {
+    setShowModal1(false);
+  };
+
+  const [showModal2, setShowModal2] = useState(false);
+
+  const display2 = () => {
+    setShowModal2(true);
+  };
+
+  const hideModal2 = () => {
+    setShowModal2(false);
+  };
+
+  const [showModal3, setShowModal3] = useState(false);
+
+  const display3 = () => {
+    setShowModal3(true);
+  };
+
+  const hideModal3 = () => {
+    setShowModal3(false);
+  };
+
   // remove any padding from container
   setConfiguration({ gutterWidth: 0 });
 
   return (
-    <div>
-      <div className="background-image"></div>
-      <WhiteNavbar from="shop" />
+    <div className="shop">
+      <div className="shop-background"></div>
+      <Navbar color={"#FFF"} altColor={"#000"} from="shop" />
       <div className="shop-banner">
         <div className="shop-content">
           <h1 className="shopbanner-title">Shop Design Co</h1>
@@ -52,7 +89,7 @@ function Shop() {
                   <div
                     className="shop-item-img"
                     onClick={() => {
-                      display(0);
+                      display1();
                     }}
                   >
                     <img alt="shop-item" src={dcoSticker} />
@@ -66,7 +103,7 @@ function Shop() {
                   <div
                     className="shop-item-img"
                     onClick={() => {
-                      display(1);
+                      display2();
                     }}
                   >
                     <img alt="shop-item" src={teapotSticker} />
@@ -80,7 +117,7 @@ function Shop() {
                   <div
                     className="shop-item-img"
                     onClick={() => {
-                      display(2);
+                      display3();
                     }}
                   >
                     <img alt="shop-item" src={communityShirt} />
@@ -94,13 +131,36 @@ function Shop() {
         </div>
       </div>
 
-      <Modal
+      <Modal2
         show={showModal}
         onHide={() => {
           hideModal();
         }}
         index={index}
       />
+
+      <ModalItem1
+        show={showModal1}
+        onHide={() => {
+          hideModal1();
+        }}
+      />
+
+      <ModalItem2
+        show={showModal2}
+        onHide={() => {
+          hideModal2();
+        }}
+      />
+
+      <ModalItem3
+        show={showModal3}
+        onHide={() => {
+          hideModal3();
+        }}
+      />
+
+      <WhiteFooter></WhiteFooter>
     </div>
   );
 }
