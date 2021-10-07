@@ -64,7 +64,16 @@ function Shop() {
 
   return (
     <div className="shop">
-      <div className="shop-background"></div>
+      <div className="shop-background">
+        <video loop autoPlay className="shop-video">
+          <source
+            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag. I suggest you upgrade
+          your browser.
+        </video>
+      </div>
       <Navbar color={"#FFF"} altColor={"#000"} from="shop" />
       <div className="shop-banner">
         <div className="shop-content">

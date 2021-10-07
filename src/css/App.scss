@@ -858,7 +858,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
+  padding-bottom: 16rem;
 }
 
 .shop-content {
@@ -912,10 +912,10 @@ ol {
 .shop-background {
   position: absolute;
   z-index: -1;
-  background-image: url("../images/events/placeholderbanner.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  // background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -1121,7 +1121,7 @@ ol {
   width: auto;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url("../images/shop/example-cat.png");
 }
 
 .me-item1-image2 {
@@ -1129,7 +1129,7 @@ ol {
   width: auto;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url("../images/shop/example-cat.png");
 }
 
 .me-item1-image3 {
@@ -1137,7 +1137,7 @@ ol {
   width: auto;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url("../images/shop/example-cat.png");
 }
 
 .me-item1-image4 {
@@ -1145,7 +1145,7 @@ ol {
   width: auto;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url("../images/shop/example-cat.png");
 }
 
 /********* Carousel ********/
