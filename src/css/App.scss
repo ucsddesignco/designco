@@ -858,7 +858,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20rem;
+  padding-bottom: 30rem;
 }
 
 .shop-content {
@@ -866,7 +866,7 @@ ol {
   justify-content: center;
   width: 100%;
   margin: 0 18rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .shopbanner-title {
@@ -917,8 +917,9 @@ ol {
   left: 0;
   object-fit: cover;
   // background-size: cover;
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 .shop-item {
