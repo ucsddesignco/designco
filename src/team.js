@@ -51,7 +51,7 @@ export const team = [
   {
     id: "amy",
     name: "Amy An",
-    role: "Industry Relations Coordinator",
+    role: "Industry Relations Director",
     link: "http://amyan.me/",
     gradYear: 2021,
   },
