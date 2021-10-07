@@ -10,6 +10,7 @@ import ModalItem3 from "../components/shop/ModalItem3";
 import Modal2 from "../components/shop/Modal2";
 import Slider from "../components/shop/Slider";
 import { SliderData } from "../components/shop/SliderData";
+import ShopOverlay from "../images/video/shop-overlay.mp4";
 
 //import shop items list
 import teapotSticker from "../images/shop/teapot-sticker.png";
@@ -59,19 +60,14 @@ function Shop() {
     setShowModal3(false);
   };
 
-  // remove any padding from container
+  // remove any padding from container https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
   setConfiguration({ gutterWidth: 0 });
 
   return (
     <div className="shop">
       <div className="shop-background">
-        <video loop autoPlay className="shop-video">
-          <source
-            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag. I suggest you upgrade
-          your browser.
+        <video autoPlay loop muted>
+          <source src={ShopOverlay} type="video/mp4" />
         </video>
       </div>
       <Navbar color={"#FFF"} altColor={"#000"} from="shop" />
