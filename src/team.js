@@ -1,11 +1,11 @@
 export const team = [
-  {
-    id: "jamin",
-    name: "Jamin Capulong",
-    role: "Director of Community, Growth, and Strategy",
-    link: "https://www.linkedin.com/in/jamin-nick-capulong/",
-    gradYear: 2020,
-  },
+  // {
+  //   id: "jamin",
+  //   name: "Jamin Capulong",
+  //   role: "Director of Community, Growth, and Strategy",
+  //   link: "https://www.linkedin.com/in/jamin-nick-capulong/",
+  //   gradYear: 2020,
+  // },
   {
     id: "quinn",
     name: "Quinn Vu",
@@ -66,7 +66,7 @@ export const team = [
   {
     id: "mylinh",
     name: "Mylinh Lac",
-    role: "Community Engagement Coordinator",
+    role: "Director of Community, Growth, and Strategy",
     link: "https://www.linkedin.com/in/mylinh-lac/",
     gradYear: 2022,
   },
@@ -77,13 +77,13 @@ export const team = [
     link: "https://megandinh.github.io/",
     gradYear: 2022,
   },
-  {
-    id: "gisca",
-    name: "Gisca Giancana",
-    role: "Social Media Coordinator",
-    link: "https://www.giscagiancana.com/",
-    gradYear: 2022,
-  },
+  // {
+  //   id: "gisca",
+  //   name: "Gisca Giancana",
+  //   role: "Social Media Coordinator",
+  //   link: "https://www.giscagiancana.com/",
+  //   gradYear: 2022,
+  // },
   {
     id: "leann",
     name: "Leann Gamboa",
@@ -94,7 +94,7 @@ export const team = [
   {
     id: "julie",
     name: "Julie Han",
-    role: "Social Media Coordinator",
+    role: "Marketing Director",
     link: "https://juliehan.webflow.io",
     gradYear: 2022,
   },
