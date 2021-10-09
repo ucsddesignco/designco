@@ -1,28 +1,9 @@
 import React, {useState} from "react";
-import { ShopItems } from "./ShopItems";
 import { Grid } from "@material-ui/core";
-import Carousel from './Carousel';
-import Slider from './Slider';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function ModalItem3(props) {
-    const idx = props.index;
-    const current_item = ShopItems[idx];
-
-    const [current, setCurrent] = useState(0);
-    const length = 3;
-
-    const nextSlide = () => {
-        setCurrent(current === length ? 0 : setCurrent + 1);
-    };
-
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length : setCurrent - 1);
-    };
-
-    if (length <= 0) {
-        return null;
-    }
+    const [clickImage, setClickImage] = useState('me-item1-image1');
 
     return (
         <div>
@@ -34,12 +15,14 @@ function ModalItem3(props) {
                             <Grid item xs={12} sm={6} md={6} lg={6} className="me-left">
                                 <img className="me-x-mobile" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>
                                 <h3 className="me-h3-mobile" id="m1-5b">Design Co Sticker</h3>
-                                <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-image" />
+                                <div className={clickImage}>
+                                    
+                                </div>
                                 <div className="me-img-container">
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
+                                    <img src={require('../../images/shop/example-cat.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image1'))} />
+                                    <img src={require('../../images/shop/community-shirt.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image2'))} />
+                                    <img src={require('../../images/shop/example-cat.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image3'))}  />
+                                    <img src={require('../../images/shop/example-cat.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image4'))} />
                                 </div>
                             </Grid>
                             <Grid item xs={12} sm={6} md={6} lg={6} className="me-right">

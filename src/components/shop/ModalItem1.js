@@ -1,13 +1,10 @@
 import React, {useState} from "react";
-import { ShopItems } from "./ShopItems";
 import { Grid } from "@material-ui/core";
-import Carousel from './Carousel';
-import Slider from './Slider';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function ModalItem1(props) {
 
-    const [image, setImage] = useState('me-item1-image1');
+    const [clickImage, setClickImage] = useState('me-item1-image1');
 
     return (
         <div>
@@ -19,19 +16,21 @@ function ModalItem1(props) {
                             <Grid item xs={12} sm={6} md={6} lg={6} className="me-left">
                                 <img className="me-x-mobile" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>
                                 <h3 className="me-h3-mobile" id="m1-5b">Design Co Sticker</h3>
-                                <div className='me-item1-image1' />
+                                <div className={clickImage}>
+                                    
+                                </div>
                                 <div className="me-img-container">
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small"  />
-                                    <img src={require('../../images/shop/example-cat.png').default} alt="" className="me-img-small" />
+                                    <img src={require('../../images/shop/example-cat.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image1'))} />
+                                    <img src={require('../../images/shop/community-shirt.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image2'))} />
+                                    <img src={require('../../images/shop/example-cat.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image3'))}  />
+                                    <img src={require('../../images/shop/example-cat.png').default} className="me-img-small" onClick={(() => setClickImage('me-item1-image4'))} />
                                 </div>
                             </Grid>
                             <Grid item xs={12} sm={6} md={6} lg={6} className="me-right">
                                 <img className="me-x" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>
                                 <h3 className="me-h3-desktop" id="m1-5b">Design Co Sticker</h3>
                                 <p id="m3b">$20</p>
-                                <div className="me-button">
+                                <div className="me-button" >
                                     <p>Order Form</p>
                                 </div>
                                 <p id="m1-5b" className="bold-text">Sizes Available</p>

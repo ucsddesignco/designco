@@ -1181,3 +1181,40 @@ ol {
   cursor: pointer;
   user-select: none;
 }
+
+/********* Modal Images ********/
+.me-item1-image1 {
+  height: 20vw;
+  width: 25vw;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+  background-position: center center;
+}
+
+.me-item1-image2 {
+  height: 20vw;
+  width: 25vw;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/community-shirt.png');
+  background-position: center center;
+}
+
+.me-item1-image3 {
+  height: 20vw;
+  width: 25vw;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+  background-position: center center;
+}
+
+.me-item1-image4 {
+  height: 20vw;
+  width: 25vw;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/example-cat.png');
+  background-position: center center;
+}
