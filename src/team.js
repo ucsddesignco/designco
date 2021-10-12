@@ -42,13 +42,6 @@ export const team = [
     gradYear: 2022,
   },
   {
-    id: "julia-c",
-    name: "Julia Chu",
-    role: "Community Engagement Coordinator",
-    link: "https://www.juliachudesign.com/",
-    gradYear: 2021,
-  },
-  {
     id: "amy",
     name: "Amy An",
     role: "Industry Relations Director",
@@ -245,6 +238,13 @@ export const team = [
   //   name: "Nicolette Shin",
   //   role: "Social Media Coordinator",
   //   link: "http://linkedin.com/in/nicoletteshin526/",
+  //   gradYear: 2021,
+  // },
+  // {
+  //   id: "julia-c",
+  //   name: "Julia Chu",
+  //   role: "Community Engagement Coordinator",
+  //   link: "https://www.juliachudesign.com/",
   //   gradYear: 2021,
   // },
 ];
