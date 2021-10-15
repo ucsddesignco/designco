@@ -11,7 +11,7 @@ export const team = [
     name: "Quinn Vu",
     role: "Marketing Director",
     link: "https://quinn-vu.com/",
-    gradYear: 2022,
+    gradYear: 2021,
   },
   {
     id: "stella",
@@ -37,7 +37,7 @@ export const team = [
   {
     id: "adam",
     name: "Adam Syed",
-    role: "Web Developer",
+    role: "Web Developer & Industry Relations Director",
     link: "https://syedadam.com/",
     gradYear: 2022,
   },
@@ -54,7 +54,7 @@ export const team = [
     name: "Braeanne Oribello",
     role: "Visual + Brand Designer",
     link: "http://braeanneori.com/",
-    gradYear: 2022,
+    gradYear: 2021,
   },
   {
     id: "mylinh",
@@ -96,7 +96,7 @@ export const team = [
     name: "Samantha Cheung",
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/cheung-samantha/",
-    gradYear: 2022,
+    gradYear: 2021,
   },
   {
     id: "amber",
