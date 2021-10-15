@@ -65,7 +65,7 @@ class Role extends React.Component {
             </span>
           </a>
           <a onClick={this.handlePanel}>
-            <img src={require("../images/join/arrow.svg")} />
+            <img src={require("../images/join/arrow.svg").default} />
           </a>
         </Col>
 
@@ -159,7 +159,10 @@ class Role extends React.Component {
                   style={{ marginBottom: spacer3 }}
                 >
                   <img
-                    src={require("../images/join/" + this.props.name + ".png")}
+                    src={
+                      require("../images/join/" + this.props.name + ".png")
+                        .default
+                    }
                     width="100%"
                     alt={this.props.name}
                   />
