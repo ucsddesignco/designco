@@ -1008,8 +1008,8 @@ ol {
 }
 
 .me-img-small {
-  height: 7vw;
-  width: 7vw;
+  height: 7rem;
+  width: 7rem;
   object-fit: contain;
   margin-right: 0.5rem;
 }
@@ -1118,8 +1118,8 @@ ol {
     display: none;
   }
   .me-img-small {
-    height: 15vw;
-    width: 15vw;
+    height: 8rem;
+    width: 8rem;
   }
 }
 
@@ -1161,8 +1161,8 @@ ol {
 
 /********* Modal Images ********/
 .me-item1-image1 {
-  height: 20vw;
-  width: 25vw;
+  height: 24rem;
+  width: 28rem;
   background-size: cover;
   position: relative;
   background-image: url('../images/shop/example-cat.png');
@@ -1199,16 +1199,16 @@ ol {
 /********* Modal Images Media Query ********/
 @media (max-width: 600px) {
   .me-item1-image1 {
-    height: 40vw;
-    width: 45vw;
+    height: 20rem;
+    width: 23rem;
     background-size: cover;
     position: relative;
     background-image: url('../images/shop/example-cat.png');
     background-position: center center;
   }
   .me-item1-image2 {
-    height: 40vw;
-    width: 45vw;
+    height: 20rem;
+    width: 23rem;
     background-size: cover;
     position: relative;
     background-image: url('../images/shop/community-shirt.png');
@@ -1216,8 +1216,8 @@ ol {
   }
   
   .me-item1-image3 {
-    height: 40vw;
-    width: 45vw;
+    height: 20rem;
+    width: 23rem;
     background-size: cover;
     position: relative;
     background-image: url('../images/shop/example-cat.png');
@@ -1225,8 +1225,8 @@ ol {
   }
   
   .me-item1-image4 {
-    height: 40vw;
-    width: 45vw;
+    height: 20rem;
+    width: 23rem;
     background-size: cover;
     position: relative;
     background-image: url('../images/shop/example-cat.png');
