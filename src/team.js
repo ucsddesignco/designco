@@ -37,7 +37,7 @@ export const team = [
   {
     id: "adam",
     name: "Adam Syed",
-    role: "Web Developer & Industry Relations Director",
+    role: "Web Developer & Industry Relations Coordinator",
     link: "https://syedadam.com/",
     gradYear: 2022,
   },
