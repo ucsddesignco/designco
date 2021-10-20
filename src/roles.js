@@ -24,7 +24,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Mylinh",
+    name: "Amy",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "I’ve been introduced to a group of people on board that are genuinely always willing to help, whether that’s design-related, for classes, or life in general. I have also learned what really goes into putting together these large scale events and initiatives, and am continually impressed by how we can come together and make these come to life.",
     q2: "How have you grown during your time on the Design Co board?",
@@ -159,7 +159,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Mylinh",
+    name: "Megan",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "I’ve been introduced to a group of people on board that are genuinely always willing to help, whether that’s design-related, for classes, or life in general. I have also learned what really goes into putting together these large scale events and initiatives, and am continually impressed by how we can come together and make these come to life.",
     q2: "How have you grown during your time on the Design Co board?",
@@ -168,39 +168,6 @@ export const roles = [
     a3: "Everyone brings a different perspective and skill set to the table, and when we’re in the thick of brainstorming our next initiative, we consider everyone’s ideas. We also place a lot of trust in each other; you definitely won’t be micromanaged if you join us. Each team is their own powerhouse, but there’s always opportunities to explore work beyond what your role normally does too.",
     q4: "Fun fact?",
     a4: "My name is a combination of my parents’ names (-:",
-  },
-  {
-    team: "Marketing",
-    position: "Social Media Coordinator",
-    description:
-      "You love social media. You want to create an online presence for Design Co. You are the master of all influencers.",
-    duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team, curate, and execute marketing campaigns &lt;/li&gt; \
-      &lt;li&gt; Helping the marketing team determine quarterly and year-long marketing strategies that increase reach, engagement, and impressions &lt;/li&gt; \
-      &lt;li&gt; Managing our social media channels (e.g. Facebook, Instagram, LinkedIn, Snapchat) and ensuring a consistent flow of media posts &lt;/li&gt; \
-      &lt;li&gt; Using social media marketing strategies to boost attendance at our events &lt;/li&gt; \
-      &lt;li&gt; Creating marketing plans for small to large scale events &lt;/li&gt; &lt;/ol&gt;  ",
-    general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own or in collaboration with another board member or others in the design community &lt;/li&gt; \
-      &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
-    offer:
-      "&lt;ol&gt; &lt;li&gt; Experience managing social media platforms &lt;/li&gt; \
-      &lt;li&gt; Experience using different methods and strategies to increase engagement on social media channels &lt;/li&gt; \
-      &lt;li&gt; Experience scheduling posts on social media platforms &lt;/li&gt; \
-      &lt;li&gt; Understanding of best practices for strong social media presence &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Prior experience developing a marketing plan for small to large scaled events &lt;/li&gt; \
-      &lt;li&gt; Prior experience managing social media for student organization or company &lt;/li&gt; \
-      &lt;li&gt; Prior experience launching Facebook or LinkedIn advertisements &lt;/li&gt; \
-      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
-      &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Mylinh",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
-    q2: "How would you describe how the Design Co board works together?",
-    a2: "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs",
   },
   {
     team: "Marketing",
@@ -227,7 +194,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Mylinh",
+    name: "Amy",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
     q2: "How would you describe how the Design Co board works together?",
@@ -262,7 +229,40 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Mylinh",
+    name: "Megan",
+    q1: "What have you gained from being part of the Design Co board?",
+    a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
+    q2: "How would you describe how the Design Co board works together?",
+    a2: "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
+    q3: "Fun fact?",
+    a3: "I can sing along to almost any Disney songs",
+  },
+  {
+    team: "Marketing",
+    position: "Social Media Coordinator",
+    description:
+      "You love social media. You want to create an online presence for Design Co. You are the master of all influencers.",
+    duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team, curate, and execute marketing campaigns &lt;/li&gt; \
+      &lt;li&gt; Helping the marketing team determine quarterly and year-long marketing strategies that increase reach, engagement, and impressions &lt;/li&gt; \
+      &lt;li&gt; Managing our social media channels (e.g. Facebook, Instagram, LinkedIn, Snapchat) and ensuring a consistent flow of media posts &lt;/li&gt; \
+      &lt;li&gt; Using social media marketing strategies to boost attendance at our events &lt;/li&gt; \
+      &lt;li&gt; Creating marketing plans for small to large scale events &lt;/li&gt; &lt;/ol&gt;  ",
+    general:
+      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+    offer:
+      "&lt;ol&gt; &lt;li&gt; Experience managing social media platforms &lt;/li&gt; \
+      &lt;li&gt; Experience using different methods and strategies to increase engagement on social media channels &lt;/li&gt; \
+      &lt;li&gt; Experience scheduling posts on social media platforms &lt;/li&gt; \
+      &lt;li&gt; Understanding of best practices for strong social media presence &lt;/li&gt; &lt;/ol&gt;",
+    ec: "&lt;ol&gt; &lt;li&gt; Prior experience developing a marketing plan for small to large scaled events &lt;/li&gt; \
+      &lt;li&gt; Prior experience managing social media for student organization or company &lt;/li&gt; \
+      &lt;li&gt; Prior experience launching Facebook or LinkedIn advertisements &lt;/li&gt; \
+      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
+      &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
+    name: "Amy",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
     q2: "How would you describe how the Design Co board works together?",
