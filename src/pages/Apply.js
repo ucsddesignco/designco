@@ -51,7 +51,7 @@ class Apply extends React.Component {
     return (
       <div>
         <Helmet>
-          <title> Join Our Team | Design Co </title>
+          <title> Apply | Design Co </title>
         </Helmet>
         <Navbar color={"#000"} altColor={"#FFF"} from="apply" />
         <Container className="outerContainer" style={{ marginBottom: spacer4 }}>
@@ -133,10 +133,10 @@ class Apply extends React.Component {
           <div className="scrollContainer">
             <div className="imageDiv">
               <img src={require("../images/join/3.jpg").default} />
-              <img src={require("../images/join/1.jpg").default} />
               <img src={require("../images/join/4.gif").default} />
+              <img src={require("../images/join/6.jpg").default} />
+              <img src={require("../images/join/1.jpg").default} />
               <img src={require("../images/join/2.jpg").default} />
-              <img src={require("../images/join/5.jpg").default} />
             </div>
           </div>
         </div>
