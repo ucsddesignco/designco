@@ -28,7 +28,7 @@ function ModalItem4(props) {
                                     </div>
                                 </a>
                                 
-                                <p id="m1-5b" className="smaller-text">Once upon a time, there was a budding sprout who did not know much about the world ahead of it. With an encouraging community of flowers…and a little bit of water... it grew and bloomed so gracefully, the sun smiled. </p>
+                                <p id="m1-5b" className="smaller-text">Post up a little piece of Design Co on your wall! If you stare at the lightbulb, maybe it’ll give you a spark of creativity ;)</p>
                                 <p className="smaller-text">Dimensions: 4”x5” </p>
                                 <p id="m1-5b"  className="smaller-text">Double-sided glossy cardstock </p>
                                 <p id="m1-5b" className="smaller-text">Designed by Juna Kim</p>
