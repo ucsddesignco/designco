@@ -12,7 +12,7 @@ export const faq = [
   {
     question: "I won't be living near campus this year, can I still apply?",
     answer:
-      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. However, we have moved back to in-person events recently and would prefer for you to be physically present for the events and meetings.",
+      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. However, we have moved back to in-person events recently and would prefer for you to be physically present for Design Co events and meetings.",
   },
   {
     question: "When is the application due?",
