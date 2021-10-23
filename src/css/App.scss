@@ -875,6 +875,11 @@ ol {
   width: 90%;
 }
 
+.shop-item img:hover {
+  opacity: 0.6;
+  transition: 0.3s ease-in-out;
+}
+
 .carousel .control-dots .dot {
   box-shadow: none;
 }
