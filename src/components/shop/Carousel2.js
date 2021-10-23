@@ -17,7 +17,7 @@ function Carousel2(props) {
                 <img src={require('../../images/shop/teapot.jpg').default} className="sticker"/>
             </div>
             <div>
-                <div className="me-image2-2" />
+            <img src={require('../../images/shop/dco9.jpg').default} className="sticker"/>
             </div>
         
         </Carousel>
