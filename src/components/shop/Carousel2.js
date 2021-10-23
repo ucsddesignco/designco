@@ -2,7 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import { ShopItems } from './ShopItems';
 
-function ImageCarousel(props) {
+function Carousel2(props) {
 
     const idx = props.index;
     const current_item = ShopItems[idx];
@@ -10,23 +10,17 @@ function ImageCarousel(props) {
     return (
         <Carousel 
             showThumbs={false} 
-            className="me-image" 
+            className="me-image2" 
             infiniteLoop>
             <div>
-                <img src={current_item.img1.default} />
+                <img src={require('../../images/shop/item2big.jpg').default} />
             </div>
             <div>
-                <img src={current_item.img2.default} />
-            </div>
-            <div>
-                <img src={current_item.img3.default} />
-            </div>
-            <div>
-                <img src={current_item.img4.default} />
+                <div className="me-image2-2" />
             </div>
         
         </Carousel>
     )
 }
 
-export default ImageCarousel;
+export default Carousel2;

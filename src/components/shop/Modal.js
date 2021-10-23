@@ -34,42 +34,8 @@ function Modal(props) {
                             <Grid item xs={12} sm={6} md={6} lg={6} className="me-left">
                                 <img className="me-x-mobile" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>
                                 <h3 className="me-h3-mobile" id="m1-5b">{current_item.merch_item}</h3>
-                                <div>
-                                <img src={require('../../images/shop/left-arrow.svg').default} className='left-arrow' onClick={() => setCurrent(current-1)} />
-                                <img src={require('../../images/shop/right-arrow.svg').default} className='right-arrow' onClick={() => setCurrent(current+1)} />
-      
-                                    {ShopItems.map((slide, index) => {
-                                        return (
-                                        <div
-                                            className={index === current ? 'slide active' : 'slide'}
-                                            key={index}
-                                        >
-                                            {index === current && (
-                                            <img  src={slide.yes[{current}].default} alt='travel image' className='slider-image' >
-                                                
-                                            </img>
-                                            )}
-                                            {/* {slide.small_images.map((imgs) => {
-                                                return (
-                                                    <div>
-                                                        <img src={imgs.sm_img.default} />
-                                                    </div>
-                                                );
-                                            })} */}
-                                        </div>
-                                        );
-                                    })}
-                                    </div>
-                                <div className="me-img-container">
-                                    {/* {current_item.small_images.map(item => {
-                                        return (
-                                            <div>
-                                                <img src={item.sm_img.default} className="me-img-small"></img>
-                                            </div>
-                                                
-                                        );
-                                    })} */}
-                                </div>
+                                
+                                <Carousel index={props.index} />
                             </Grid>
                             <Grid item xs={12} sm={6} md={6} lg={6} className="me-right">
                                 <img className="me-x" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>

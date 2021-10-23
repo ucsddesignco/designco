@@ -858,10 +858,13 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30rem;
+  padding-bottom: 18rem;
 }
 
 .shop-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   justify-content: center;
   width: 100%;
@@ -885,12 +888,13 @@ ol {
   color: #191919;
   width: 220px;
   text-transform: uppercase;
-  padding: 1rem 0;
-  margin: 0 auto;
+  padding: 1.5rem 0;
+  margin: 1.25rem 1rem;
 }
 
 .order-form p {
   font-size: 2rem;
+  font-family: "NB International Mono";
 }
 
 .shop-gallery {
@@ -945,6 +949,18 @@ ol {
   }
 }
 
+.shop-container-button {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
+
+@media (max-width: 600px) {
+  .shop-container-button {
+    flex-direction: column;
+  }
+}
+
 /********* Modal ********/
 .me-background {
   position: fixed;
@@ -975,13 +991,6 @@ ol {
   justify-content: space-between;
 }
 
-.me-image {
-  height: 20vw;
-  width: auto;
-  object-fit: cover;
-  position: relative;
-}
-
 .me-left {
   display: flex;
   flex-direction: column;
@@ -998,7 +1007,26 @@ ol {
 .me-right {
   display: flex;
   flex-direction: column;
-  padding: 3.75rem;
+  padding: 3.75rem 15rem 3.75rem 3.75rem;
+}
+
+.me-image2 {
+  height: 24vw;
+  width: 36vw;
+}
+
+.me-image2-2 {
+  background-image: url('/images/shop/item2big2.jpg');
+  height: 24vw;
+  width: 16vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+
+.me-image3 {
+  height: 24vw;
+  width: 16vw;
 }
 
 .me-img-container {
@@ -1020,6 +1048,7 @@ ol {
   height: 21px;
   width: 21px;
   cursor: pointer;
+  transform: translateX(8.25rem);
 }
 
 .me-x-mobile {
@@ -1092,6 +1121,7 @@ ol {
   width: auto;
   background-color: black;
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 .me-button p {
@@ -1121,6 +1151,18 @@ ol {
     height: 8rem;
     width: 8rem;
   }
+  .me-right {
+    padding: 3.75rem;
+  }
+
+  .me-h3-mobile {
+    margin-bottom: 5rem;
+  }
+
+  .me-image3 {
+    width: auto;
+    height: auto;
+  }
 }
 
 
@@ -1129,7 +1171,7 @@ ol {
 
 /********* Carousel ********/
 .carousel .slide {
-  background-color: red;
+  background-color: white;
 }
 
 .carousel li.thumb {
@@ -1165,34 +1207,34 @@ ol {
   width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url('../images/shop/img5.jpg');
   background-position: center center;
 }
 
 .me-item1-image2 {
-  height: 20vw;
-  width: 25vw;
+  height: 24rem;
+  width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/community-shirt.png');
+  background-image: url('../images/shop/img6.jpg');
   background-position: center center;
 }
 
 .me-item1-image3 {
-  height: 20vw;
-  width: 25vw;
+  height: 24rem;
+  width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url('../images/shop/img7.jpg');
   background-position: center center;
 }
 
 .me-item1-image4 {
-  height: 20vw;
-  width: 25vw;
+  height: 24rem;
+  width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/example-cat.png');
+  background-image: url('../images/shop/img8.jpg');
   background-position: center center;
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
+import { Grid } from "@material-ui/core";
 import { setConfiguration } from "react-grid-system";
 import Navbar from "../components/Navbar";
 import WhiteFooter from "../components/WhiteFooter";
@@ -7,15 +8,17 @@ import Modal from "../components/shop/Modal";
 import ModalItem1 from "../components/shop/ModalItem1";
 import ModalItem2 from "../components/shop/ModalItem2";
 import ModalItem3 from "../components/shop/ModalItem3";
+import ModalItem4 from "../components/shop/ModalItem4";
 import Modal2 from "../components/shop/Modal2";
 import Slider from "../components/shop/Slider";
 import { SliderData } from "../components/shop/SliderData";
 import ShopOverlay from "../images/video/shop-overlay.mp4";
 
 //import shop items list
-import teapotSticker from "../images/shop/teapot-sticker.png";
+import teapotSticker from "../images/shop/item2thumb.jpg";
 import dcoSticker from "../images/shop/dco-sticker.png";
-import communityShirt from "../images/shop/community-shirt.png";
+import communityShirt from "../images/shop/dco1.jpg";
+import playPrint from "../images/shop/cardthumb.jpg";
 
 function Shop() {
   const [showModal, setShowModal] = useState(false);
@@ -60,6 +63,16 @@ function Shop() {
     setShowModal3(false);
   };
 
+  const [showModal4, setShowModal4] = useState(false);
+
+  const display4 = () => {
+    setShowModal4(true);
+  };
+
+  const hideModal4 = () => {
+    setShowModal4(false);
+  };
+
   // remove any padding from container https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
   setConfiguration({ gutterWidth: 0 });
 
@@ -75,49 +88,28 @@ function Shop() {
         <div className="shop-content">
           <h1 className="shopbanner-title">Shop Design Co</h1>
           <p className="shopbanner-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-            pellentesque in dignissim nisl arcu eget. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit.{" "}
+          From DSGN 1 to design degree, you’ll have to explain what you do all the time. Start your conversations with the Design Co Starter Pack. We promise it’s easier than reciting your lecture notes (if you actually took any).
           </p>
-          <div className="order-form">
-            <p>Order Form</p>
+          <div className="shop-container-button">
+            <a href="https://forms.gle/gQnXjP4ENVaXoKGn9" target="_blank">
+              <div className="order-form">
+                <p>Order Form</p>
+              </div>
+            </a>
+            <a href="https://forms.gle/gQnXjP4ENVaXoKGn9" target="_blank">
+              <div className="order-form">
+                <p>Lookbook</p>
+              </div>
+            </a>
           </div>
+          
         </div>
       </div>
       <div className="shop-gallery">
         <h2 className="shop-gallery-title">Browse Our Collection</h2>
         <div className="shop-gallery-items">
-          <Container>
-            <Row>
-              <Col>
-                <div className="shop-item">
-                  <div
-                    className="shop-item-img"
-                    onClick={() => {
-                      display1();
-                    }}
-                  >
-                    <img alt="shop-item" src={dcoSticker} />
-                  </div>
-                  <h3>Design Co Sticker</h3>
-                  <p>$20</p>
-                </div>
-              </Col>
-              <Col>
-                <div className="shop-item">
-                  <div
-                    className="shop-item-img"
-                    onClick={() => {
-                      display2();
-                    }}
-                  >
-                    <img alt="shop-item" src={teapotSticker} />
-                  </div>
-                  <h3>Teapot Sticker</h3>
-                  <p>$20</p>
-                </div>
-              </Col>
-              <Col>
+          <Grid container>
+          <Grid item xs={12} sm={6} md={6}>
                 <div className="shop-item">
                   <div
                     className="shop-item-img"
@@ -127,16 +119,57 @@ function Shop() {
                   >
                     <img alt="shop-item" src={communityShirt} />
                   </div>
-                  <h3>Grow With Us</h3>
-                  <p>$20</p>
+                  <h3>A Design Co Story(board) Tee</h3>
+                  <p>$15</p>
                 </div>
-              </Col>
-            </Row>
-          </Container>
+              </Grid>
+              <Grid item xs={12} sm={6} md={6}>
+                <div className="shop-item">
+                  <div
+                    className="shop-item-img"
+                    onClick={() => {
+                      display2();
+                    }}
+                  >
+                    <img alt="shop-item" src={teapotSticker} />
+                  </div>
+                  <h3>Design Co Holographic Nanna Teapot Sticker</h3>
+                  <p>$2</p>
+                </div>
+              </Grid>
+              <Grid item xs={12} sm={6} md={6}>
+                <div className="shop-item">
+                  <div
+                    className="shop-item-img"
+                    onClick={() => {
+                      display1();
+                    }}
+                  >
+                    <img alt="shop-item" src={dcoSticker} />
+                  </div>
+                  <h3>Design Co Holographic Logo Sticker</h3>
+                  <p>$2</p>
+                </div>
+              </Grid>
+              <Grid item xs={12} sm={6} md={6}>
+                <div className="shop-item">
+                  <div
+                    className="shop-item-img"
+                    onClick={() => {
+                      display4();
+                    }}
+                  >
+                    <img alt="shop-item" src={playPrint} />
+                  </div>
+                  <h3>DCo PLAY Print</h3>
+                  <p>$1</p>
+                </div>
+              </Grid>
+          </Grid>
         </div>
       </div>
 
-      <Modal2
+      <Modal
         show={showModal}
         onHide={() => {
           hideModal();
@@ -162,6 +195,13 @@ function Shop() {
         show={showModal3}
         onHide={() => {
           hideModal3();
+        }}
+      />
+
+<ModalItem4
+        show={showModal4}
+        onHide={() => {
+          hideModal4();
         }}
       />
 

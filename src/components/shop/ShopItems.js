@@ -1,6 +1,9 @@
 export const ShopItems = [
     {
-        img: require('../../images/shop/example-cat.png'),
+        img1: require('../../images/shop/img5.jpg'),
+        img2: require('../../images/shop/img6.jpg'),
+        img3: require('../../images/shop/img7.jpg'),
+        img4: require('../../images/shop/img8.jpg'),
         merch_item: "Design Co Sticker",
         price: "$20",
         description: "Description of merch design + material",
@@ -38,6 +41,10 @@ export const ShopItems = [
     },
     {
         img: require('../../images/shop/community-shirt.png'),
+        img1: require('../../images/shop/img5.jpg'),
+        img2: require('../../images/shop/img6.jpg'),
+        img3: require('../../images/shop/img7.jpg'),
+        img4: require('../../images/shop/img8.jpg'),
         merch_item: "Teapot Sticker",
         price: "$20",
         description: "Description of merch design + material",
