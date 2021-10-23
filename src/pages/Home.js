@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import Event from "../components/Event";
 import { Container, Row, Col } from "react-grid-system";
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
+import Footer from "../components/Footer";
 
 import intuit from "../images/sponsors/intuit.png";
 import sony from "../images/sponsors/sony.png";
@@ -147,6 +148,7 @@ class Home extends React.Component {
             </Row>
           </div>
         </Container>
+        <Footer />
       </div>
     );
   }

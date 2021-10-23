@@ -1,7 +1,6 @@
 import React from "react";
 import { setConfiguration } from "react-grid-system";
 import { spacer1, spacer2, spacer3, spacer4 } from "./constants";
-import Footer from "./components/Footer";
 import { BrowserRouter } from "react-router-dom";
 import Main from "./components/Main";
 
@@ -20,7 +19,6 @@ function App() {
           <Main />
         </BrowserRouter>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { spacer3, spacer4, spacer2 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
 import Event from "../components/Event";
+import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-grid-system";
 
 import { events } from "../events.js";
@@ -101,6 +102,7 @@ class AllEvents extends React.Component {
             </h2>
           </div>
         </Container>
+        <Footer />
       </div>
     );
   }

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Button from "../components/Button";
 import { spacer2, spacer3, spacer4 } from "../constants";
 import TablePage from "../components/SponsorshipTable";
+import Footer from "../components/Footer";
 
 class Partnership extends React.Component {
   render() {
@@ -237,6 +238,7 @@ class Partnership extends React.Component {
             </Row>
           </Container>
         </div>
+        <Footer />
       </div>
     );
   }

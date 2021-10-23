@@ -47,6 +47,76 @@ html {
   right: auto;
   left: auto;
 }
+/************************* NAV + FOOTER ***************************/
+
+.nav {
+  text-align: right;
+}
+
+.footerLinks {
+  text-align: center;
+  @media screen and (min-width: $lg) {
+    text-align: right;
+  }
+}
+
+.whitenav,
+.footerLinks {
+  list-style: none;
+  margin-top: -0.3rem;
+  li {
+    display: inline-block;
+    &:not(:first-child) {
+      margin-left: $spacer2;
+    }
+    @media screen and (max-width: 400px) {
+      h4 {
+        font-size: 70%;
+      }
+      &:not(:first-child) {
+        margin-left: 2.4rem;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.5 !important;
+      }
+    }
+  }
+}
+
+.logo {
+  transition: 0.3s;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.5 !important;
+    }
+  }
+}
+
+.whitenav {
+  text-align: right;
+  color: white;
+}
+
+.white-footer {
+  background-color: black;
+  color: white;
+}
+
+.dco-logo {
+  width: 150px;
+  height: 30px;
+  background-image: url("../images/shop/dco-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 /************************* NAV + FOOTER ***************************/
 
@@ -778,5 +848,463 @@ ol {
 
   .grey_table {
     background-color: #282828;
+  }
+}
+
+/**************** SHOP ***********************/
+.shop-banner {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 18rem;
+}
+
+.shop-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 18rem;
+}
+
+.shop-item {
+  width: 90%;
+}
+
+.carousel .control-dots .dot {
+  box-shadow: none;
+}
+
+.shopbanner-title {
+  margin-bottom: 2.6rem;
+}
+
+.shopbanner-description {
+  margin-bottom: 5.6rem;
+}
+
+.order-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #191919;
+  width: 220px;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+  margin: 1.25rem 1rem;
+}
+
+.order-form p {
+  font-size: 2rem;
+  font-family: "NB International Mono";
+}
+
+.shop-gallery {
+  background: #000000;
+  color: white;
+  padding-top: 8rem;
+  padding-bottom: 16rem;
+}
+
+.shop-gallery-title {
+  color: #fff;
+  margin: auto 11rem;
+  margin-bottom: 6rem;
+}
+
+.shop-gallery-items {
+  margin: auto 11rem;
+}
+
+.shop-background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  // background-size: cover;
+  // height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.shop-item {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  .shop-item-img {
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin-bottom: 2rem;
+  }
+  transition: 0.3s ease-in-out;
+}
+
+.shop-item:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+
+
+.shop-item-img {
+  height: 34rem;
+  display: flex;
+
+  img {
+    height: 100%;
+  }
+}
+
+.shop-container-button {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
+
+@media (max-width: 600px) {
+  .shop-container-button {
+    flex-direction: column;
+  }
+  .shop-item {
+    margin-bottom: 3rem;
+  }
+  .shop-item {
+    display: flex;
+    align-self: flex-start;
+    width: 85%;
+  }
+}
+
+/********* Modal ********/
+.me-background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 80%;
+  top: 0;
+  z-index: 1000;
+}
+
+.me {
+  position: fixed;
+  background-color: white;
+  top: calc(10vh);
+  left: 5vw;
+  right: 5vw;
+  z-index: 1000;
+  height: calc(80vh);
+  width: 90vw;
+  overflow-y: scroll;
+}
+
+.me-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.me-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.75rem;
+  padding-top: 5.75rem;
+}
+
+.me-small {
+  height: 30px;
+  width: 30px;
+}
+
+.me-right {
+  display: flex;
+  flex-direction: column;
+  padding: 3.75rem 15rem 3.75rem 3.75rem;
+}
+
+.me-image2 {
+  height: 24vw;
+  width: 36vw;
+}
+
+.sticker {
+  transform: scaleX(99%);
+}
+
+.me-image2-2 {
+  background-image: url('/images/shop/item2big2.jpg');
+  height: 24vw;
+  width: 16vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+
+.me-image3 {
+  height: 30vw;
+  width: 20vw;
+}
+
+.me-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.me-img-small {
+  height: 7rem;
+  width: 7rem;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+
+.me-x {
+  display: flex;
+  align-self: flex-end;
+  height: 21px;
+  width: 21px;
+  cursor: pointer;
+  transform: translateX(8.25rem);
+}
+
+.me-x-mobile {
+  height: 0;
+  cursor: pointer;
+}
+
+.me h3 {
+  font-family: "Neue Plak Extended";
+  font-size: 2rem;
+  font-weight: normal;
+  color: black;
+  letter-spacing: 4%;
+}
+
+.me-h3-desktop {
+  display: flex;
+}
+
+.me-h3-mobile {
+  display: none;
+}
+
+.me p {
+  font-family: "NB International Pro";
+  font-size: 1.25rem;
+  color: black;
+  letter-spacing: 2%;
+}
+
+.smaller-text {
+  font-size: 1.125rem;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+#m3r {
+  margin-right: 3rem;
+}
+
+#m1-5b {
+  margin-bottom: 1.5rem;
+}
+
+#m1-875b {
+  margin-bottom: 1.875rem;
+}
+
+#m2b {
+  margin-bottom: 2rem;
+}
+
+#m3b {
+  margin-bottom: 3rem;
+}
+
+.me-container-sizes {
+  display: flex;
+  flex-direction: row;
+}
+
+.me-button {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: auto;
+  background-color: black;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.me-button p {
+  font-family: "NB International Mono";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .me-x-mobile {
+    display: flex;
+    align-self: flex-end;
+    height: 21px;
+    width: 21px;
+  }
+  .me-x {
+    display: none;
+  }
+  .me-h3-mobile {
+    display: flex;
+  }
+  .me-h3-desktop {
+    display: none;
+  }
+  .me-img-small {
+    height: 8rem;
+    width: 8rem;
+  }
+  .me-right {
+    padding: 3.75rem;
+  }
+
+  .me-h3-mobile {
+    margin-bottom: 5rem;
+  }
+
+  .me-image3 {
+    width: auto;
+    height: auto;
+  }
+  .me-image2 {
+    width: auto;
+    height: auto;
+  }
+  .me-image2-2 {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+
+
+
+
+/********* Carousel ********/
+.carousel .slide {
+  background-color: white;
+}
+
+.carousel li.thumb {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/********* Slider ********/
+.slider-image {
+  width: 30rem;
+  height: 30rem;
+  object-fit: contain;
+}
+
+.right-arrow {
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+/********* Modal Images ********/
+.me-item1-image1 {
+  height: 24rem;
+  width: 28rem;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/img5.jpg');
+  background-position: center center;
+}
+
+.me-item1-image2 {
+  height: 24rem;
+  width: 28rem;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/img6.jpg');
+  background-position: center center;
+}
+
+.me-item1-image3 {
+  height: 24rem;
+  width: 28rem;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/img7.jpg');
+  background-position: center center;
+}
+
+.me-item1-image4 {
+  height: 24rem;
+  width: 28rem;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/shop/img8.jpg');
+  background-position: center center;
+}
+
+/********* Modal Images Media Query ********/
+@media (max-width: 600px) {
+  .me-item1-image1 {
+    height: 20rem;
+    width: 23rem;
+    background-size: cover;
+    position: relative;
+    background-image: url('../images/shop/example-cat.png');
+    background-position: center center;
+  }
+  .me-item1-image2 {
+    height: 20rem;
+    width: 23rem;
+    background-size: cover;
+    position: relative;
+    background-image: url('../images/shop/community-shirt.png');
+    background-position: center center;
+  }
+  
+  .me-item1-image3 {
+    height: 20rem;
+    width: 23rem;
+    background-size: cover;
+    position: relative;
+    background-image: url('../images/shop/example-cat.png');
+    background-position: center center;
+  }
+  
+  .me-item1-image4 {
+    height: 20rem;
+    width: 23rem;
+    background-size: cover;
+    position: relative;
+    background-image: url('../images/shop/example-cat.png');
+    background-position: center center;
   }
 }
