@@ -19,6 +19,7 @@ import teapotSticker from "../images/shop/item2thumb.jpg";
 import dcoSticker from "../images/shop/item4thumb.jpg";
 import communityShirt from "../images/shop/dco8.jpg";
 import playPrint from "../images/shop/cardthumb.jpg";
+import carrot from "../images/shop/downchevron.svg";
 
 function Shop() {
   const [showModal, setShowModal] = useState(false);
@@ -102,10 +103,14 @@ function Shop() {
               </div>
             </a>
           </div>
+
+          <a href="#gallery-section">
+            <img src={carrot} alt="" className="carrot" />
+          </a>
           
         </div>
       </div>
-      <div className="shop-gallery">
+      <div className="shop-gallery" id="gallery-section">
         <h2 className="shop-gallery-title">Browse Our Collection</h2>
         <div className="shop-gallery-items">
           <Grid container spacing={8}>
