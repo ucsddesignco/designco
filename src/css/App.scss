@@ -1097,7 +1097,7 @@ ol {
 
 .me h3 {
   font-family: "Neue Plak Extended";
-  font-size: 2rem;
+  font-size: 2.75rem;
   font-weight: normal;
   color: black;
   letter-spacing: 4%;
@@ -1161,11 +1161,17 @@ ol {
   background-color: black;
   cursor: pointer;
   margin-bottom: 2rem;
+  
+}
+
+.me-button:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
 }
 
 .me-button p {
   font-family: "NB International Mono";
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   color: white;
 }
