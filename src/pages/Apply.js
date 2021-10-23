@@ -62,7 +62,7 @@ class Apply extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications extended til Saturday, April 3rd at 11:59PM.
+                  Applications open til Sunday, November 14th at 11:59PM.
                 </p>
                 <Button
                   link="#roles"
@@ -88,10 +88,10 @@ class Apply extends React.Component {
                 <h1 style={{ marginBottom: spacer2 }}>We're cool people.</h1>
                 <p>
                   Like you, we’re aspiring designers. We’re the ones who plan
-                  GBMs, Stride, Design Frontiers, and all that other cool stuff.
-                  At the end of the day we’re tired and our necks are sore from
-                  pushing pixels, but we’re students, we’re happy, and we're a
-                  family.
+                  GBMs, Stride, Power Up, Design Frontiers, and all that other
+                  cool stuff. At the end of the day we’re tired and our necks
+                  are sore from pushing pixels, but we’re students, we’re happy,
+                  and we're a family.
                 </p>
               </div>
             </div>

@@ -7,16 +7,16 @@ export const faq = [
   {
     question: "How long is the role period?",
     answer:
-      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring and Fall 2021 quarters, and the 2021-22 school year (4 quarters total).",
+      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Winter and Spring 2022 quarters, and the 2022-23 school year (4 quarters total).",
   },
   {
     question: "I won't be living near campus this year, can I still apply?",
     answer:
-      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. All events and meetings are currently held virtually, but we plan to move to in-person events next school year when possible.",
+      "Worry not! Our team is currently working from different areas of the world and is working to accommodate people who live abroad. However, we have moved back to in-person events recently and would prefer for you to be physically present for the events and meetings.",
   },
   {
     question: "When is the application due?",
-    answer: "Applications are due Saturday, April 3rd at 11:59PM.",
+    answer: "Applications are due Sunday, November 14th at 11:59PM.",
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
@@ -26,7 +26,7 @@ export const faq = [
   {
     question: "What is the application & interview process like?",
     answer:
-      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Thursday 04/01 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Wednesday 04/07 - Friday 04/09. Offers will be sent out shortly after.",
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Thursday 11/18 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 11/22 - Saturday 11/27. Offers will be sent out shortly after.",
   },
   {
     question:
