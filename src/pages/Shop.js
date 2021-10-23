@@ -16,7 +16,7 @@ import ShopOverlay from "../images/video/shop-overlay.mp4";
 
 //import shop items list
 import teapotSticker from "../images/shop/item2thumb.jpg";
-import dcoSticker from "../images/shop/dco-sticker.png";
+import dcoSticker from "../images/shop/item4thumb.jpg";
 import communityShirt from "../images/shop/dco1.jpg";
 import playPrint from "../images/shop/cardthumb.jpg";
 
@@ -96,7 +96,7 @@ function Shop() {
                 <p>Order Form</p>
               </div>
             </a>
-            <a href="https://forms.gle/gQnXjP4ENVaXoKGn9" target="_blank">
+            <a href="https://www.youtube.com/watch?v=B6xcCJxP1Wg" target="_blank">
               <div className="order-form">
                 <p>Lookbook</p>
               </div>
@@ -108,8 +108,8 @@ function Shop() {
       <div className="shop-gallery">
         <h2 className="shop-gallery-title">Browse Our Collection</h2>
         <div className="shop-gallery-items">
-          <Grid container>
-          <Grid item xs={12} sm={6} md={6}>
+          <Grid container spacing={8}>
+          <Grid item xs={12} sm={6} md={4} className="item">
                 <div className="shop-item">
                   <div
                     className="shop-item-img"
@@ -123,7 +123,7 @@ function Shop() {
                   <p>$15</p>
                 </div>
               </Grid>
-              <Grid item xs={12} sm={6} md={6}>
+              <Grid item xs={12} sm={6} md={4} className="item">
                 <div className="shop-item">
                   <div
                     className="shop-item-img"
@@ -137,7 +137,7 @@ function Shop() {
                   <p>$2</p>
                 </div>
               </Grid>
-              <Grid item xs={12} sm={6} md={6}>
+              <Grid item xs={12} sm={6} md={4} className="item">
                 <div className="shop-item">
                   <div
                     className="shop-item-img"
@@ -151,7 +151,7 @@ function Shop() {
                   <p>$2</p>
                 </div>
               </Grid>
-              <Grid item xs={12} sm={6} md={6}>
+              <Grid item xs={12} sm={6} md={4} className="item">
                 <div className="shop-item">
                   <div
                     className="shop-item-img"

@@ -23,11 +23,14 @@ function ModalItem1(props) {
                                 <img className="me-x" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>
                                 <h3 className="me-h3-desktop" id="m1-5b">Design Co Holographic Logo Sticker</h3>
                                 <p id="m3b">$2</p>
-                                <div className="me-button" >
-                                    <p>Order Form</p>
-                                </div>
+                                <a href="https://forms.gle/gQnXjP4ENVaXoKGn9" target="_blank">
+                                    <div className="me-button">
+                                        <p>Order Form</p>
+                                    </div>
+                                </a>
                                 
-                                <p id="m1-5b" className="smaller-text">Rep Design Co with your very own DCo logo sticker! It’s perfect for your laptop, water bottle, and everything in between!</p>
+                                <p id="m1-5b" className="smaller-text">Rep Design Co with your very own DCo logo sticker! It’s perfect for your laptop, water bottle, and everything in between.</p>
+                                <p id="m1-5b" className="smaller-text">Dimensions: 2”x2”</p>
                             </Grid>
                             
                         </Grid>

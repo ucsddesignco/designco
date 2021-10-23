@@ -10,10 +10,11 @@ function Carousel2(props) {
     return (
         <Carousel 
             showThumbs={false} 
+            showStatus={false}
             className="me-image2" 
             infiniteLoop>
             <div>
-                <img src={require('../../images/shop/item2big.jpg').default} />
+                <img src={require('../../images/shop/teapot.jpg').default} className="sticker"/>
             </div>
             <div>
                 <div className="me-image2-2" />

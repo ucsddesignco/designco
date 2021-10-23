@@ -13,7 +13,7 @@ function Carousel1(props) {
             showStatus={false}
             showIndicators={false}
             infiniteLoop>
-            <img src={require('../../images/shop/item4big.jpg').default} />
+            <img src={require('../../images/shop/holosticker.jpg').default} />
         
         </Carousel>
     )

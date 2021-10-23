@@ -7,6 +7,7 @@ function Carousel4() {
     return (
         <Carousel 
             showThumbs={false} 
+            showStatus={false}
             infiniteLoop
             className="me-image3">
                 <div>

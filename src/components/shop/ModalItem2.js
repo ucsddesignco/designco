@@ -22,21 +22,16 @@ function ModalItem2(props) {
                                 <img className="me-x" id="m3b" src={require('../../images/shop/cross.svg').default} onClick={props.onHide}></img>
                                 <h3 className="me-h3-desktop" id="m1-5b">Design Co Holographic Nanna Teapot Sticker</h3>
                                 <p id="m3b">$2</p>
-                                <div className="me-button">
-                                    <p>Order Form</p>
-                                </div>
-                                <p id="m1-5b" className="bold-text">Sizes Available</p>
-                                <div id="m2b" className="me-container-sizes">
-                                    <p id="m3r" className="smaller-text">S</p>
-                                    <p id="m3r" className="smaller-text">M</p>
-                                    <p id="m3r" className="smaller-text">L</p>
-                                    <p id="m3r" className="smaller-text">XL</p>
-                                    <p id="m3r" className="smaller-text">XXL</p>
-                                </div>
-                                <p id="m1-5b" className="smaller-text">Rep Design Co with your very own DCo logo sticker! It’s perfect for your laptop, water bottle, and everything</p>
-                                <p id="m1-5b" className="smaller-text">Designed by Cornpuppy</p>
-                                <p id="m1-5b" className="smaller-text">Model is 5'6" and is wearing size Medium</p>
-                            </Grid>
+                                <a href="https://forms.gle/gQnXjP4ENVaXoKGn9" target="_blank">
+                                    <div className="me-button">
+                                        <p>Order Form</p>
+                                    </div>
+                                </a>
+                               
+                                <p id="m1-5b" className="smaller-text">See something familiar? Snag a holographic Nanna teapot sticker to take you back to your DSGN 1 experience with The Design of Everyday Things!</p>
+                                <p id="m1-5b" className="smaller-text">Dimensions: 2”x2.7”</p>
+                                <p id="m1-5b" className="smaller-text">Designed by Leann Gamboa</p>
+                                </Grid>
                             
                         </Grid>
                     </div>
