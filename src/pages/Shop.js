@@ -17,7 +17,7 @@ import ShopOverlay from "../images/video/shop-overlay.mp4";
 //import shop items list
 import teapotSticker from "../images/shop/item2thumb.jpg";
 import dcoSticker from "../images/shop/item4thumb.jpg";
-import communityShirt from "../images/shop/dco1.jpg";
+import communityShirt from "../images/shop/dco8.jpg";
 import playPrint from "../images/shop/cardthumb.jpg";
 
 function Shop() {

@@ -11,7 +11,7 @@ function Carousel3() {
             infiniteLoop
             className="me-image3">
             <div>
-                <img src={require('../../images/shop/dco2.jpg').default} />
+                <img src={require('../../images/shop/dco7.jpg').default} />
             </div>
             
             <div>
