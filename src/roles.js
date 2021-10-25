@@ -91,15 +91,15 @@ export const roles = [
       &lt;li&gt; Relevant web development and/or design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Sold a startup, Olympic athlete, Guinness World-Record holder, produced music for Ariana Grande and Khalid &lt;/li&gt; &lt;/ol&gt;",
-    name: "Adam",
+    name: "Tracey",
     q1: "How have your grown by being on board?",
-    a1: "I’ve learned so much being on the Creative Team – I’ve worked on updating our very own community page and the main website. I’ve been equipped with knowledge in multiple programming languages and this has helped me understand the limitations of some frameworks, and the potential of implementing new technologies to create better experiences for users.",
+    a1: "I have gained a supportive network of inspiring, like-minded individuals who are extremely passionate about design, as well as new friends to have memorable adventures with!",
     q2: "What have you learned from being on the Design Co board?",
-    a2: "There’s so many moving components that goes on behind the scenes in creating an event or preparing for a workshop. Before joining Design Co, I looked forward to every single event hosted because of how engaging and how well those events were planned; now I clearly see why those events are AMAZING.",
+    a2: "Being a part of Design Co board as the web developer has constantly pushed me to learn new web technologies and continuously expand my skill set - there’s always something new I learn with every project that I take on! It has also allowed me to greatly grow my leadership skills through planning and hosting design-related workshops.",
     q3: "How would you describe how the Design Co board works together?",
-    a3: "Every single team member is paramount for Design Co’s mission to be fulfilled. Our meetings are filled with insightful discussions and fun conversations that it never feels like a chore to be a part of the mission.",
+    a3: "Made up of several different teams, Design Co board works as a collaborative cross-functional unit, with each team contributing their own unique perspective.",
     q4: "Fun fact?",
-    a4: " I'm a National Fencer and am originally from Malaysia!",
+    a4: "I got stung by 3 bees on a roller coaster once :’-)",
   },
   {
     team: "Industry Relations",
@@ -123,16 +123,16 @@ export const roles = [
       &lt;li&gt; Prior experience working in a role where you interface with multiple partners, departments, and student organizations across UC San Diego and the greater San Diego community &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; If you know any funny jokes, can teach sick dance moves, and have great food recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Amy",
+      &lt;li&gt; Sold a startup, Olympic athlete, Guinness World-Record holder, produced music for Ariana Grande and Khalid &lt;/li&gt; &lt;/ol&gt;",
+    name: "Adam",
     q1: "What have you gained from being part of the Design Co board?",
-    a1: "Through connecting with different industry professionals and leading design co gbm's I've gained a lot of confidence in myself as a designer and student leader on campus. Design Co board is a great way to gain a lot of new friends and an awesome support system!",
+    a1: "I’ve learned so much being on the on the team – I’ve garnered connections with industry professionals from multiple companies and have gained a lot of insight into running and executing successful industry partnered events for Design Co.",
     q2: "How have you grown during your time on the Design Co board?",
-    a2: "I used to be nervous about things like networking and speaking with professional designers. However, during my time as a industry relations coordinator on board, I've definitely grown to be more confident in my ability to connect with others!",
+    a2: "There’s so many moving components that goes on behind the scenes in creating an event or preparing for a workshop. Before joining Design Co, I looked forward to every single event hosted because of how engaging and how well those events were planned; now I clearly see why those events are AMAZING.",
     q3: "How would you describe how the Design Co board works together?",
-    a3: "Although Design Co board is made up of several teams, we also individually work with everyone in order to plan GBM's. That way, everyone gets to work with everyone and as a result we've all grown closer as board.",
+    a3: "Every single team member is paramount for Design Co’s mission to be fulfilled. Our meetings are filled with insightful discussions and fun conversations that it never feels like a chore to be a part of the mission.",
     q4: "Fun fact?",
-    a4: "I was born in Montreal, Canada!",
+    a4: "I'm a National Fencer and am originally from Malaysia!",
   },
   {
     team: "Internal",
@@ -159,7 +159,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Megan",
+    name: "Logo",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "I’ve been introduced to a group of people on board that are genuinely always willing to help, whether that’s design-related, for classes, or life in general. I have also learned what really goes into putting together these large scale events and initiatives, and am continually impressed by how we can come together and make these come to life.",
     q2: "How have you grown during your time on the Design Co board?",
