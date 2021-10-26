@@ -1005,6 +1005,23 @@ ol {
     position: absolute;
     transform: translateY(-1.4rem) translateX(-0.8rem) rotate(-45deg);
   }
+  .shop-gallery-title {
+    color: #fff;
+    margin: auto 5rem;
+    margin-bottom: 6rem;
+  }
+  
+  .shop-gallery-items {
+    margin: auto 5rem;
+  }
+  .shop-item-img {
+    height: 43rem;
+    display: flex;
+  
+    img {
+      height: 100%;
+    }
+  }
 }
 
 /********* Modal ********/
