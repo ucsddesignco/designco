@@ -976,6 +976,15 @@ ol {
   justify-self: center;
 }
 
+.line {
+  height: 2px;
+  width: 20px;
+  background-image: url("../images/shop/line.svg");
+  background-size: cover;
+  position: absolute;
+  transform: translateY(-1.4rem) translateX(-0.7rem) rotate(-45deg);
+}
+
 @media (max-width: 600px) {
   .shop-container-button {
     flex-direction: column;
@@ -987,6 +996,14 @@ ol {
     display: flex;
     align-self: flex-start;
     width: 85%;
+  }
+  .line {
+    height: 2px;
+    width: 20px;
+    background-image: url("../images/shop/line.svg");
+    background-size: cover;
+    position: absolute;
+    transform: translateY(-1.4rem) translateX(-0.8rem) rotate(-45deg);
   }
 }
 
@@ -1114,6 +1131,11 @@ ol {
 
 .smaller-text {
   font-size: 1.125rem;
+}
+
+.smaller-text-size {
+  font-size: 1.125rem;
+  margin: 0 3rem;
 }
 
 .bold-text {

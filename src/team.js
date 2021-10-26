@@ -14,13 +14,6 @@ export const team = [
     gradYear: 2021,
   },
   {
-    id: "stella",
-    name: "Stella Seki",
-    role: "Emotional Support Cat",
-    link: "https://www.stellaseki.com/",
-    gradYear: 2022,
-  },
-  {
     id: "megan",
     name: "Megan Tan",
     role: "Creative Director",
@@ -154,6 +147,13 @@ export const team = [
     role: "Web Developer",
     link: "https://www.linkedin.com/in/traceydu/",
     gradYear: 2024,
+  },
+  {
+    id: "stella",
+    name: "Stella Seki",
+    role: "Emotional Support Cat",
+    link: "https://www.stellaseki.com/",
+    gradYear: 2022,
   },
 
   // {
