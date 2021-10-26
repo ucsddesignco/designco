@@ -576,6 +576,14 @@ export const events = [
     time: 1830,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Ice Skating Social",
+    link: "https://www.facebook.com/events/4287775598016203",
+    image: "20211029",
+    date: 20211029,
+    time: 1900,
+    location: "UTC ICE",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
