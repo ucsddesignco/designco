@@ -265,7 +265,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Amy",
+    name: "Julie",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
     q2: "How would you describe how the Design Co board works together?",
