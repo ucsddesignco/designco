@@ -36,7 +36,7 @@ export const roles = [
   },
   {
     team: "Creative",
-    position: "Visual Designer",
+    position: "Visual + Brand Designer",
     description:
       "You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.",
     duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums &lt;/li&gt; \
@@ -135,26 +135,25 @@ export const roles = [
     a4: "I'm a National Fencer and am originally from Malaysia!",
   },
   {
-    team: "Internal",
+    team: "(NEW) Internal",
     position: "Operations Coordinator",
     description:
-      "You are sociable and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.",
-    duty: "&lt;ol&gt; &lt;li&gt; Working with our team to plan and execute large scale events such as Design Frontiers and Stride Design Career Fair &lt;/li&gt; \
-      &lt;li&gt; Ideating, planning, and coordinating social events that engage the design community &lt;/li&gt; \
-      &lt;li&gt; Facilitating the community engagement programs for students, including, but not limited to Design Buds and the Design Co Fellowship, as well as initiatives for our alumni &lt;/li&gt;\
-      &lt;li&gt; Serving as a general Events Coordinator (securing rooms/booking spaces, catering, etc.) &lt;/li&gt; &lt;/ol&gt;",
+      "You are detail oriented and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. You see yourself as a huge backbone to Design Co’s operations. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.",
+    duty: "&lt;ol&gt; &lt;li&gt; Working closely with all teams in Design Co to help kickstart initiatives that may require advanced logistics &lt;/li&gt; \
+      &lt;li&gt; Executing logistics including TAP forms, tabling, room reservations, booking flights (for retreats, Bay Area trip, etc), merchandise details, inventory &lt;/li&gt; \
+      &lt;li&gt; Coordinating with Finance Coordinators to ensure logistics and costs are well aligned &lt;/li&gt;\
+      &lt;li&gt; Assisting with general event planning (securing rooms/booking spaces, catering, etc) &lt;/li&gt; &lt;/ol&gt;",
     general:
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
-      &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
+      &lt;li&gt; Attend weekly GBMs, board meetings, and large scale events (~7 to 10 hours per week) &lt;/li&gt; \
       &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
     offer:
-      "&lt;ol&gt; &lt;li&gt; Prior experience with event planning &lt;/li&gt; \
+      "&lt;ol&gt; &lt;li&gt; Attention to detail and a love for Google Sheets &lt;/li&gt; \
+      &lt;li&gt; Prior experience with event planning &lt;/li&gt; \
       &lt;li&gt; Organization skills and the ability to stay on top of deadlines &lt;/li&gt; \
-      &lt;li&gt; Awesome and innovative ice breaker and social ideas &lt;/li&gt; \
       &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Proficient knowledge in completing TAP forms, reserving spaces through OneStop & applying for AS funding &lt;/li&gt; \
+    ec: "&lt;ol&gt; &lt;li&gt; Prior exposure to student org operations (completing TAP forms, reserving spaces through OneStop & applying for AS funding) &lt;/li&gt; \
       &lt;li&gt; Prior experience with large scale event planning (100+ attendees) &lt;/li&gt; \
-      &lt;li&gt; Prior experience creating mentorship programs &lt;/li&gt; \
       &lt;li&gt; Prior experience working with multiple partners, departments, and student organizations across UC San Diego and the greater San Diego community &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
@@ -194,13 +193,15 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Amy",
+    name: "Megan",
     q1: "What have you gained from being part of the Design Co board?",
-    a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
-    q2: "How would you describe how the Design Co board works together?",
-    a2: "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs",
+    a1: "More friends! My heart is constantly warm from seeing the design community thrive and learn together <3",
+    q2: "How have you grown during your time on the Design Co board?",
+    a2: "Pixel perfect is no longer in my dictionary. I’ve learned that my best work comes from trying something new and asking for help.",
+    q3: "How would you describe how the Design Co board works together?",
+    a3: "If the mitochondria is the powerhouse of the cell, Design Co is the cell, and board members are the other organelles.",
+    q4: "Fun fact?",
+    a4: "Cutting fruit is my love language.",
   },
   {
     team: "Marketing",
@@ -229,13 +230,15 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Megan",
+    name: "Tiffany",
     q1: "What have you gained from being part of the Design Co board?",
-    a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
-    q2: "How would you describe how the Design Co board works together?",
-    a2: "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs",
+    a1: "A community of amazing people with good vibes! I’m constantly inspired by the passion for design within board to further the design community at UCSD. The generosity within board to provide guidance and resources to one another is beyond heartwarming to experience. ",
+    q2: "How have you grown during your time on the Design Co board?",
+    a2: "From attending DCo GBMs to actually organizing them, was a complete 180° in my experience. I have definitely grown to be more comfortable in my own skin with the help of other board members through leading GBMs and organizing initiatives. The whole team is genuinely supportive and welcoming when it comes to designers, regardless of their level of experience.",
+    q3: "How would you describe how the Design Co board works together?",
+    a3: "Design Co board works together as a collective, with each individual bringing their own expertise and personalities to the table",
+    q4: "Fun Fact",
+    a4: "If I say I know all the lyrics to a song, it probably means I only know the last word of every line.",
   },
   {
     team: "Marketing",
