@@ -31,7 +31,7 @@ class About extends React.Component {
           <div className="innerContainer">
             <h1>
               We started in a tiny classroom in 2012. Now we're a growing
-              community of over 200 designers.
+              community of over 300 designers.
             </h1>
           </div>
         </Container>
