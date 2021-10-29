@@ -28,20 +28,19 @@ export const team = [
     gradYear: 2022,
   },
   {
-    id: "adam",
-    name: "Adam Syed",
-    role: "Web Developer & Industry Relations Coordinator",
-    link: "https://syedadam.com/",
-    gradYear: 2022,
-  },
-  {
     id: "amy",
     name: "Amy An",
     role: "Industry Relations Director",
     link: "http://amyan.me/",
     gradYear: 2021,
   },
-
+  {
+    id: "adam",
+    name: "Adam Syed",
+    role: "Web Developer & Industry Relations Coordinator",
+    link: "https://syedadam.com/",
+    gradYear: 2022,
+  },
   {
     id: "braeanne",
     name: "Braeanne Oribello",
