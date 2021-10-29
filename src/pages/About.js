@@ -87,8 +87,8 @@ class About extends React.Component {
                 </h2>
                 <p>
                   Anyone can be a member of our community. We host events
-                  weekly, on Wednesdays at 6:30PM over Zoom. Sometimes things
-                  change, so we suggest following our{" "}
+                  weekly, on Wednesdays at 6:30PM at Dolores Huerta Room.
+                  Sometimes things change, so we suggest following our{" "}
                   <a
                     href="https://www.facebook.com/ucsddesignco"
                     target="_blank"
