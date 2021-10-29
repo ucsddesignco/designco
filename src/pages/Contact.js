@@ -172,16 +172,14 @@ class Contact extends React.Component {
           <div className="innerContainer">
             <Row>
               <Col md={6}>
-                <h2 style={{ marginBottom: spacer2 }}>HSS 1346</h2>
+                <h2 style={{ marginBottom: spacer2 }}>Dolores Huerta Room</h2>
                 <p style={{ marginBottom: spacer2 }}>
-                  Humanities and Social Sciences Building <br />
-                  Muir Lane and Scholars Lane <br />
-                  Muir College <br />
-                  UC San Diego <br />
+                  Student Services Center <br />
+                  (Next to Triton Food Pantry) <br />
                   La Jolla, CA 92093 <br />
                 </p>
                 <Button
-                  link="https://goo.gl/maps/Mw8uudK1gh4AYd4Q6"
+                  link="https://drive.google.com/file/d/1jKeToqyLlRYpeHjE-M2VZrbGvygAqWD-/view?usp=sharing"
                   text="Map Me"
                 ></Button>
                 <Visible xs sm>
