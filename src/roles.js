@@ -24,7 +24,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Amy",
+    name: "Amber",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "I’ve been introduced to a group of people on board that are genuinely always willing to help, whether that’s design-related, for classes, or life in general. I have also learned what really goes into putting together these large scale events and initiatives, and am continually impressed by how we can come together and make these come to life.",
     q2: "How have you grown during your time on the Design Co board?",
@@ -60,7 +60,7 @@ export const roles = [
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Megan",
+    name: "Juna",
     q1: "What have you gained from being part of the Design Co board?",
     a1: "I’ve gained long-lasting friendships and get to work with an insanely talented group of people who are always willing to support each other in any way possible. My fellow board members continuously inspire me through initiatives to grow the design community, and by being part of the Design Co board, I’ve gotten the chance to take part in the behind-the-scenes work that goes along in crafting these initiatives and events.",
     q2: "How have you grown during your time on the Design Co board?",
