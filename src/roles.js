@@ -138,7 +138,7 @@ export const roles = [
     team: "(NEW) Internal",
     position: "Operations Coordinator",
     description:
-      "You are detail oriented and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. You see yourself as a huge backbone to Design Co’s operations. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.",
+      "You are detail oriented and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. You see yourself as a huge backbone to Design Co’s operations and will play an important part in shaping the way Design Co runs. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.",
     duty: "&lt;ol&gt; &lt;li&gt; Working closely with all teams in Design Co to help kickstart initiatives that may require advanced logistics &lt;/li&gt; \
       &lt;li&gt; Executing logistics including TAP forms, tabling, room reservations, booking flights (for retreats, Bay Area trip, etc), merchandise details, inventory &lt;/li&gt; \
       &lt;li&gt; Coordinating with Finance Coordinators to ensure logistics and costs are well aligned &lt;/li&gt;\

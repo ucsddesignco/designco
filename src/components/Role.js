@@ -93,7 +93,7 @@ class Role extends React.Component {
               <span className="x" onClick={this.handlePanel}></span>
               <div className="apply">
                 <a
-                  href="https://forms.gle/2g6EjNJUxQngHha46"
+                  href="https://forms.gle/Si6AR9UQwQngZfcs7"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
