@@ -263,11 +263,13 @@ export const roles = [
       &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
     name: "Julie",
     q1: "What have you gained from being part of the Design Co board?",
-    a1: "Being on board connects me to so many interesting people from our design community, whom I may have never met in a lecture setting. Everyone is so unique in their own way and it’s somewhat inspiring seeing how we all share the same goal.",
-    q2: "How would you describe how the Design Co board works together?",
-    a2: "The way we work together is a perfect combination between professional and casual. We work most closely with the people in our team, but everyone always takes the initiative to help out each other across teams.",
-    q3: "Fun fact?",
-    a3: "I can sing along to almost any Disney songs",
+    a1: "I’ve gained not just friends, but a family! Design Co is a place where I feel safe to make mistakes, learn, and push myself to be the best version I can  be. Besides that, I’ve gained lots of cool stickers to put on my computer and endless laughter.",
+    q2: "How have you grown during your time on the Design Co board?",
+    a2: "Being constantly surrounded by such driven individuals has helped me grow in confidence as both a designer and person through being able to work with such unique and talented people and having them support and believe in you 100% of the time.",
+    q3: "How would you describe how the Design Co board works together?",
+    a3: "Design Co is a place where anyone from all walks of life are welcomed whether you’re just getting into design or have been pushing pixels your whole life.",
+    q4: "Fun fact?",
+    a4: "I once went on stage for a dance performance and forgot all the moves.",
   },
 
   // {
