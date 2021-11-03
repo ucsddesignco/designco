@@ -91,7 +91,22 @@ class Role extends React.Component {
           <div className="panel">
             <div className="panelNav">
               <span className="x" onClick={this.handlePanel}></span>
-              <div className="apply">
+              {/* <div className="apply">
+                <a
+                  href="https://forms.gle/Si6AR9UQwQngZfcs7"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
+                  Apply
+                </a>
+              </div> */}
+            </div>
+            <div className="panel-content-container">
+              <h1 style={{ marginBottom: spacer3 }}>
+                {this.props.team} Team – {this.props.position}
+              </h1>
+              <p style={{ marginBottom: spacer3 }}>{this.props.description}</p>
+              <div className="apply-v2">
                 <a
                   href="https://forms.gle/Si6AR9UQwQngZfcs7"
                   target="_blank"
@@ -100,13 +115,6 @@ class Role extends React.Component {
                   Apply
                 </a>
               </div>
-            </div>
-            <div className="panel-content-container">
-              <h1 style={{ marginBottom: spacer3 }}>
-                {this.props.team} Team – {this.props.position}
-              </h1>
-              <p style={{ marginBottom: spacer3 }}>{this.props.description}</p>
-
               <h2 style={{ marginBottom: spacer2 }}>You Will Be</h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
                 <p

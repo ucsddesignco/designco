@@ -552,6 +552,24 @@ p.partner-with-us {
     }
   }
 }
+
+.apply-v2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1.7rem 2.4rem;
+  width: fit-content;
+  margin-top: -4.2rem;
+  margin-bottom: 7.8rem;
+}
+
+.apply-v2:hover {
+  opacity: 0.9;
+}
+
 .panel-content-container {
   max-width: 1200px;
   margin-left: auto;
@@ -959,8 +977,6 @@ ol {
   cursor: pointer;
 }
 
-
-
 .shop-item-img {
   height: 34rem;
   display: flex;
@@ -1027,14 +1043,14 @@ ol {
     margin: auto 5rem;
     margin-bottom: 6rem;
   }
-  
+
   .shop-gallery-items {
     margin: auto 5rem;
   }
   .shop-item-img {
     height: 43rem;
     display: flex;
-  
+
     img {
       height: 100%;
     }
@@ -1100,7 +1116,7 @@ ol {
 }
 
 .me-image2-2 {
-  background-image: url('/images/shop/item2big2.jpg');
+  background-image: url("/images/shop/item2big2.jpg");
   height: 24vw;
   width: 16vw;
   background-repeat: no-repeat;
@@ -1211,7 +1227,6 @@ ol {
   background-color: black;
   cursor: pointer;
   margin-bottom: 2rem;
-  
 }
 
 .me-button:hover {
@@ -1269,10 +1284,6 @@ ol {
   }
 }
 
-
-
-
-
 /********* Carousel ********/
 .carousel .slide {
   background-color: white;
@@ -1311,7 +1322,7 @@ ol {
   width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/img5.jpg');
+  background-image: url("../images/shop/img5.jpg");
   background-position: center center;
 }
 
@@ -1320,7 +1331,7 @@ ol {
   width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/img6.jpg');
+  background-image: url("../images/shop/img6.jpg");
   background-position: center center;
 }
 
@@ -1329,7 +1340,7 @@ ol {
   width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/img7.jpg');
+  background-image: url("../images/shop/img7.jpg");
   background-position: center center;
 }
 
@@ -1338,7 +1349,7 @@ ol {
   width: 28rem;
   background-size: cover;
   position: relative;
-  background-image: url('../images/shop/img8.jpg');
+  background-image: url("../images/shop/img8.jpg");
   background-position: center center;
 }
 
@@ -1349,7 +1360,7 @@ ol {
     width: 23rem;
     background-size: cover;
     position: relative;
-    background-image: url('../images/shop/example-cat.png');
+    background-image: url("../images/shop/example-cat.png");
     background-position: center center;
   }
   .me-item1-image2 {
@@ -1357,25 +1368,25 @@ ol {
     width: 23rem;
     background-size: cover;
     position: relative;
-    background-image: url('../images/shop/community-shirt.png');
+    background-image: url("../images/shop/community-shirt.png");
     background-position: center center;
   }
-  
+
   .me-item1-image3 {
     height: 20rem;
     width: 23rem;
     background-size: cover;
     position: relative;
-    background-image: url('../images/shop/example-cat.png');
+    background-image: url("../images/shop/example-cat.png");
     background-position: center center;
   }
-  
+
   .me-item1-image4 {
     height: 20rem;
     width: 23rem;
     background-size: cover;
     position: relative;
-    background-image: url('../images/shop/example-cat.png');
+    background-image: url("../images/shop/example-cat.png");
     background-position: center center;
   }
 }
