@@ -590,6 +590,14 @@ export const events = [
     image: "20211103",
     date: 20211103,
     time: 1830,
+    location: "Zoom",
+  },
+  {
+    title: "Design Co: Portfolio Workshop",
+    link: "https://www.facebook.com/events/1965944596916950",
+    image: "20211110",
+    date: 20211110,
+    time: 1830,
     location: "Dolores Huerta Room",
   },
 ];
