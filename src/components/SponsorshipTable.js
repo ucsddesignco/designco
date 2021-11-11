@@ -44,9 +44,8 @@ const marketing_rows = [
       + General Post <br />
       + Email blast <br />+ Instructional / Teaching Assistants help market
       through classrooms <br />
-      + Collaboration with other universities <br />
-      <br />
-      Number of posts on social media platforms (Facebook, Instagram, Linkedin)
+      + Collaboration with other universities <br />+ Posts on social media
+      platforms (Facebook, Instagram, Linkedin)
     </p>,
     true,
     true,
@@ -120,7 +119,7 @@ const talks_rows = [
     true
   ),
   createData(
-    <p>Personalized post-event social media content articles (Medium)</p>,
+    <p>Stride Event (Design- Centric Student Career Fair)</p>,
     false,
     false,
     false,
