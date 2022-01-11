@@ -616,6 +616,14 @@ export const events = [
     time: 1830,
     location: "Dolores Huerta Room",
   },
+  {
+    title: "Design Co: A Student Survival Guide to HCI Research",
+    link: "https://www.facebook.com/events/444872923955182",
+    image: "20220113",
+    date: 20220113,
+    time: 1830,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
