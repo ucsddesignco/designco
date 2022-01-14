@@ -141,6 +141,13 @@ export const team = [
     gradYear: 2023,
   },
   {
+    id: "meshach",
+    name: "Meshach Adoe",
+    role: "Web Developer",
+    link: "https://www.linkedin.com/in/meshachadoe",
+    gradYear: 2023,
+  },
+  {
     id: "kayla",
     name: "Kayla Luong",
     role: "Content Strategist/Writer",
