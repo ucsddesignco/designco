@@ -38,9 +38,9 @@ class MemberTiles extends React.Component {
                     .default
                 : require(`../images/team/${this.props.id}.jpg`).default
             }
-            alt={this.props.name}
+            alt={this.props.name}/* 
             onMouseOver={this.removeDuotone}
-            onMouseOut={this.addDuotone}
+            onMouseOut={this.addDuotone} */
           />
         </a>
 
