@@ -14,13 +14,6 @@ export const team = [
     gradYear: 2023,
   },
   {
-    id: "staci",
-    name: "Staci Lin",
-    role: "Industry Relations Director",
-    link: "http://stacilin.com/",
-    gradYear: 2022,
-  },
-  {
     id: "maria",
     name: "Maria Dhilla",
     role: "Industry Relations Director",
@@ -44,7 +37,7 @@ export const team = [
   {
     id: "adam",
     name: "Adam Syed",
-    role: "Web Developer & Industry Relations Coordinator",
+    role: "Industry Relations Coordinator",
     link: "https://syedadam.com/",
     gradYear: 2022,
   },
@@ -210,6 +203,13 @@ export const team = [
     role: "Visual + Brand Designer",
     link: "https://www.linkedin.com/in/thoa-nguyen-99a473217/",
     gradYear: 2025,
+  },
+  {
+    id: "staci",
+    name: "Staci Lin",
+    role: "Senior Advisor",
+    link: "http://stacilin.com/",
+    gradYear: 2022,
   },
   
   
