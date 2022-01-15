@@ -624,6 +624,14 @@ export const events = [
     time: 1830,
     location: "Zoom",
   },
+  {
+    title: "Design Co: World Wide Web(flow) Portfolio Workshop",
+    link: "https://www.facebook.com/events/909874739894266",
+    image: "20220120",
+    date: 20220120,
+    time: 1830,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
