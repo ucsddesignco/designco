@@ -214,7 +214,7 @@ export const team = [
   {
     id: "staci",
     name: "Staci Lin",
-    role: "Senior Advisor",
+    role: "Industry Relations Advisor",
     link: "http://stacilin.com/",
     gradYear: 2022,
   },
