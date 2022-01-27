@@ -632,6 +632,14 @@ export const events = [
     time: 1830,
     location: "Zoom",
   },
+  {
+    title: "Design Co: A Crash Course in After Effects Animation",
+    link: "https://www.facebook.com/events/322160259840292",
+    image: "20220127",
+    date: 20220127,
+    time: 1830,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
