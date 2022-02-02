@@ -640,6 +640,14 @@ export const events = [
     time: 1830,
     location: "Zoom",
   },
+  {
+    title: "Design Co: UCSD x UCD Designer Speed Dating Social",
+    link: "https://www.facebook.com/events/4826416914132949",
+    image: "20220202",
+    date: 20220202,
+    time: 1800,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass

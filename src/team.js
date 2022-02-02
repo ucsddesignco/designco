@@ -136,7 +136,7 @@ export const team = [
   {
     id: "ricky",
     name: "Ricardo Sedano",
-    role: "Visual + Graphic Designer",
+    role: "Visual + Brand Designer",
     link: "linkedin.com/in/ricardo-sedano",
     gradYear: 2023,
   },
@@ -187,7 +187,7 @@ export const team = [
     id: "esther",
     name: "Esther Liu",
     role: "Industry Relations Coordinator",
-    link: "www.linkedin.com/in/esther--liu",
+    link: "https://www.linkedin.com/in/esther--liu",
     gradYear: 2025,
   },
   {
