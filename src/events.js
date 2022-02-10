@@ -648,6 +648,14 @@ export const events = [
     time: 1800,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Figma: Beyond the Classroom",
+    link: "https://www.facebook.com/events/367731578063795",
+    image: "20220210",
+    date: 20220210,
+    time: 1830,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
