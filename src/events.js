@@ -656,6 +656,14 @@ export const events = [
     time: 1830,
     location: "Zoom",
   },
+  {
+    title: "Design Co: Reppin' Your Voice: A Personal Branding Workshop",
+    link: "https://www.facebook.com/events/468905758016557",
+    image: "20220217",
+    date: 20220217,
+    time: 1830,
+    location: "Warren College Room in Price Center",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
