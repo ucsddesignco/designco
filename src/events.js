@@ -664,6 +664,14 @@ export const events = [
     time: 1830,
     location: "Warren College Room in Price Center",
   },
+  {
+    title: "Design Co: Minor Dilemma, Major Decisions",
+    link: "https://www.facebook.com/events/934098794136920",
+    image: "20220224",
+    date: 20220224,
+    time: 1830,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
