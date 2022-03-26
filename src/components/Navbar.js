@@ -197,13 +197,13 @@ class Navbar extends React.Component {
                       </a>
                     </h4>
                   </li> */}
-                  {/* <li>
+                  <li>
                     <h4>
                       <a href="/apply" id="apply">
                         Apply
                       </a>
                     </h4>
-                  </li> */}
+                  </li>
                   {/* <li>
                     <h4>
                       <a href="/headphone-ux-review" id="headphone-ux-review">
@@ -298,13 +298,13 @@ class Navbar extends React.Component {
                             </a>
                           </h4>
                         </li> */}
-                        {/* <li>
+                        <li>
                           <h4>
                             <a href="/apply" id="apply">
                               Apply
                             </a>
                           </h4>
-                        </li> */}
+                        </li>
                         {/* <li>
                           <h4>
                             <a
