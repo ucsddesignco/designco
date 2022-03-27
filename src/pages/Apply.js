@@ -63,7 +63,7 @@ class Apply extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications open til Sunday, November 14th at 11:59PM.
+                  Applications open til Sunday, April 10th at 11:59PM.
                 </p>
                 <Button
                   link="#roles"
@@ -133,6 +133,7 @@ class Apply extends React.Component {
         <div className="scrollWrapper" style={{ marginBottom: spacer4 }}>
           <div className="scrollContainer">
             <div className="imageDiv">
+              <img src={require("../images/join/8.png").default} />
               <img src={require("../images/join/3.jpg").default} />
               <img src={require("../images/join/4.gif").default} />
               <img src={require("../images/join/7.jpg").default} />
