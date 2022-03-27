@@ -175,7 +175,7 @@ export const roles = [
       "You are detail oriented and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. You see yourself as a huge backbone to Design Co’s operations. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.",
     duty: "&lt;ol&gt; &lt;li&gt; Working closely with all teams in Design Co to help kickstart initiatives that may require advanced logistics &lt;/li&gt; \
       &lt;li&gt; Allocating and managing budgets for Design Co initiatives and documenting transactions &lt;/li&gt; \
-      &lt;li&gt; Coordinating with Operations Coordinator to ensure logistics and costs are well aligned &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Coordinating with Operations Coordinators to ensure logistics and costs are well aligned &lt;/li&gt; &lt;/ol&gt;",
     general:
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, and large scale events (~7 to 10 hours per week) &lt;/li&gt; \

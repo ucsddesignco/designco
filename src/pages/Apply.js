@@ -133,6 +133,7 @@ class Apply extends React.Component {
         <div className="scrollWrapper" style={{ marginBottom: spacer4 }}>
           <div className="scrollContainer">
             <div className="imageDiv">
+              <img src={require("../images/join/8.png").default} />
               <img src={require("../images/join/3.jpg").default} />
               <img src={require("../images/join/4.gif").default} />
               <img src={require("../images/join/7.jpg").default} />
