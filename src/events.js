@@ -696,6 +696,46 @@ export const events = [
     time: 1830,
     location: "Discord",
   },
+  {
+    title: "Design Co: Extending Your Design Career",
+    link: "https://www.facebook.com/events/1036907350364499",
+    image: "20220406",
+    date: 20220406,
+    time: 1830,
+    location: "Discord",
+  },
+  {
+    title: "Design Co: Wushiland Boba Run",
+    link: "https://www.facebook.com/events/552192462943348",
+    image: "20220413",
+    date: 20220413,
+    time: 1730,
+    location: "Wushiland Boba Utc",
+  },
+  {
+    title: "DCO Accessibility and Inclusivity in Design",
+    link: "https://www.facebook.com/events/521416189579095",
+    image: "20220427",
+    date: 20220427,
+    time: 1830,
+    location: "Warren College Room",
+  },
+  {
+    title: "Design Co: Alumni Panel",
+    link: "https://www.facebook.com/events/3101969066690163",
+    image: "20220505",
+    date: 20220505,
+    time: 1830,
+    location: "Design & Innovation Building: The Basement",
+  },
+  {
+    title: "Design Co: Design Frontiers 2022",
+    link: "https://www.facebook.com/events/502392784948300",
+    image: "20220514",
+    date: 20220514,
+    time: 1000,
+    location: "Design & Innovation Building Room 202",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
