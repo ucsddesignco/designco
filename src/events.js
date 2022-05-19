@@ -736,6 +736,22 @@ export const events = [
     time: 1000,
     location: "Design & Innovation Building Room 202",
   },
+  {
+    title: "Design Co x Design at UCI: Cross-Functional Design",
+    link: "https://www.facebook.com/events/428050045321324",
+    image: "20220518",
+    date: 20220518,
+    time: 2000,
+    location: "Zoom",
+  },
+  {
+    title: "Design Co x WIC: Designer <> Developer Handoff",
+    link: "https://www.facebook.com/events/698174264792306",
+    image: "20220525",
+    date: 20220525,
+    time: 1830,
+    location: "CSE Building Basement",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
