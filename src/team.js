@@ -180,7 +180,7 @@ export const team = [
     id: "emilyjao",
     name: "Emily Jao",
     role: "Social Media Coordinator",
-    link: "https://emilysjao.wixsite.com/my-site",
+    link: "https://www.linkedin.com/in/emily-jao/",
     gradYear: 2024,
   },
   {
