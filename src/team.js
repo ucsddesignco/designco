@@ -172,7 +172,7 @@ export const team = [
     id: "brian",
     name: "Brian Liu",
     role: "Media Coordinator",
-    link: "https://brianliu1.myportfolio.com",
+    link: "https://www.linkedin.com/in/brianliu1412/",
     gradYear: 2024,
   },
   
