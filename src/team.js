@@ -51,7 +51,7 @@ export const team = [
   {
     id: "leann",
     name: "Leann Gamboa",
-    role: "Visual + Brand Designer",
+    role: "Visual + Web Developer",
     link: "https://www.linkedin.com/in/leanngamboa/",
     gradYear: 2022,
   },
