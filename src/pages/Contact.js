@@ -197,26 +197,11 @@ class Contact extends React.Component {
           <div className="innerContainer">
             <Row>
               <Col md={6}>
-                <h2 style={{ marginBottom: spacer2 }}>Dolores Huerta Room</h2>
-                <p style={{ marginBottom: spacer2 }}>
-                  Student Services Center <br />
-                  (Next to Triton Food Pantry) <br />
-                  La Jolla, CA 92093 <br />
-                </p>
-                <Button
-                  link="https://drive.google.com/file/d/1jKeToqyLlRYpeHjE-M2VZrbGvygAqWD-/view?usp=sharing"
-                  text="Map Me"
-                ></Button>
-                <Visible xs sm>
-                  <div style={{ marginBottom: spacer3 }}></div>
-                </Visible>
-              </Col>
-              <Col md={6}>
                 <h2 style={{ marginBottom: spacer2 }}>The Design Lab</h2>
                 <p style={{ marginBottom: spacer2 }}>
-                  Atkinson Hall
+                  Design and Innovation Building
                   <br />
-                  Voigt Drive and Engineer Lane
+                  Innovation and Lyman Lane
                   <br />
                   Warren College
                   <br />
@@ -225,14 +210,14 @@ class Contact extends React.Component {
                   La Jolla, CA 92093
                 </p>
                 <Button
-                  link="https://goo.gl/maps/PAozsX5jUWuetaTd8"
+                  link="https://goo.gl/maps/WyeMqAixhBtiTfAHA"
                   text="Map Me"
                 ></Button>
               </Col>
             </Row>
           </div>
         </Container>
-        <Container className="outerContainer">
+        {/* <Container className="outerContainer">
           <div className="innerContainer">
             <h1 style={{ marginBottom: spacer3 }}>Partner with us:</h1>
           </div>
@@ -270,7 +255,7 @@ class Contact extends React.Component {
               </Col>
             </Row>
           </div>
-        </Container>
+        </Container> */}
         <Footer />
       </div>
     );
