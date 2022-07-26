@@ -750,7 +750,9 @@ export const events = [
     image: "20220525",
     date: 20220525,
     time: 1830,
-    location: "CSE Building Basement",
+    location: "CSE Building Basement"
+  },
+  {
     title: "Design Co: Yogurt World Social",
     link: "https://www.facebook.com/events/3287346151499148",
     image: "20220601",
