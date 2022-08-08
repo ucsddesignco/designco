@@ -2,6 +2,7 @@ import React from "react";
 import Splash from "../components/Splash";
 import Button from "../components/Button";
 import Event from "../components/Event";
+import UpcomingHome from "../components/UpcomingHome";
 import { Container, Row, Col } from "react-grid-system";
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
 import Footer from "../components/Footer";
@@ -42,7 +43,7 @@ const eventList =
       // Load events occurring today or later
       return (
         <Col xs={12} style={{ marginBottom: spacer2 }}>
-          <Event
+          <UpcomingHome
             title={event.title}
             link={event.link}
             image={event.image}
