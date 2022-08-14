@@ -87,14 +87,21 @@ class About extends React.Component {
                 </h2>
                 <p>
                   Anyone can be a member of our community. We host events
-                  weekly, on Wednesdays at 6:30pm at the Warren College Room.
-                  Sometimes things change, so we suggest following our{" "}
-                  <a
+                  weekly, on Wednesdays at 6:30pm at the Design & Innovation Building Room 202.
+                  Sometimes things change, so we suggest following our
+                  {" "}<a
+                    href="https://www.instagram.com/ucsddesignco/"
+                    target="_blank"
+                    >
+                    Instagram page
+                    </a>{" "}
+                  or
+                  {" "}<a
                     href="https://www.facebook.com/ucsddesignco"
                     target="_blank"
                   >
                     Facebook page
-                  </a>{" "}
+                  </a>{" "} 
                   to stay up-to-date.
                 </p>
               </Col>
