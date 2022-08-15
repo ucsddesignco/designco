@@ -468,25 +468,6 @@ export const events = [
     time: 1830,
     location: "Yogurt World",
   },
-  {
-    title: "Yogurt World Social",
-    link: "https://www.instagram.com/p/CeNPhELLTt9/?igshid=YmMyMTA2M2Y=",
-    image: "20220601",
-    date: 20220827,
-    time: 1830,
-    location: "Yogurt World",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."
-  },
-  {
-    title: "Design Co x WIC: Designer <> Developer Handoff",
-    link: "https://www.instagram.com/p/CduUiXuhvvK/?igshid=YmMyMTA2M2Y=",
-    image: "20220525",
-    date: 20220925,
-    time: 1830,
-    location: "CSE Building Basement",
-    slidelink: "https://docs.google.com/presentation/d/1jF7S5XlbRgQg8PwNS39G4E4v4IEy1zplbJbcFywacRs/edit?usp=sharing",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."
-  },
 ];
 
 // if npm start fails you npm rebuild node-sass

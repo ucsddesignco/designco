@@ -509,11 +509,25 @@ p.partner-with-us {
   visibility: visible;
 }
 
+button h4 {
+  line-height: 2rem;
+  vertical-align: middle;
+}
+
 .close-accordion {
-  display: none;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  overflow-y: hidden;
 }
 .open-accordion {
-  display: block;
+  max-height: 5000px;
+  opacity: 1;
+  transition: all 0.5s ease;
+
+  @media screen and (max-width: $md) {
+    max-height: 100000px;
+  }
 }
 
 .hide-link {
@@ -533,8 +547,8 @@ p.partner-with-us {
   transform: rotate(180deg) !important;
 }
 
-.eventsInnerContainer button {
-  padding: 1rem 1.5rem;
+.eventsInnerContainer button:not(.carousel.carousel-slider .control-arrow) {
+  padding: 1rem 1.5rem 1.25rem;
   border-radius: 40px;
   border: 1.5px solid #191919;
   cursor: pointer;
@@ -548,6 +562,46 @@ p.partner-with-us {
 .clicked {
   color: white;
   background-color: #191919;
+}
+
+.carousel .slide {
+  padding: 0 $spacer2;
+
+  @media screen and (min-width: $md) {
+    padding: 0 $spacer2+$spacer3 0 $spacer2+$spacer3;
+  }
+}
+
+button.control-arrow {
+  @media screen and (max-width: $md) {
+    display: none;
+  }
+}
+
+.carousel .control-prev.control-arrow:before {
+  content: url("../images/events/prev-arrow.png");
+  border-right: none;
+  margin-left: 2rem;
+  transform: scale(.7);
+}
+
+.carousel .control-next.control-arrow:before {
+  content: url("../images/events/next-arrow.png");
+  border-left: none;
+  margin-right: 2rem;
+  transform: scale(.7);
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  opacity: 1;
+}
+
+.carousel .control-next.control-arrow {
+  background-color: #191919;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: #191919;
 }
 
 .carousel .slide {

@@ -172,7 +172,7 @@ class AllEvents extends React.Component {
     this.state = {
       show: true,
       show2: true,
-      show3: false,
+      show3: true,
       activeBtn: 0
     };
 
@@ -222,9 +222,9 @@ class AllEvents extends React.Component {
 
   toggleAccordion3 = () => {
     if (!this.state.show3) {
-      document.getElementById("acc-arrow3").classList.add("close-arrow");
-    } else {
       document.getElementById("acc-arrow3").classList.remove("close-arrow");
+    } else {
+      document.getElementById("acc-arrow3").classList.add("close-arrow");
     }
 
     this.setState({
@@ -248,7 +248,6 @@ class AllEvents extends React.Component {
             </h1>
           </div>
           <div
-            className="events eventsInnerContainer"
             style={{ 
               paddingTop: spacer3, 
               paddingBottom: spacer3,
@@ -256,10 +255,11 @@ class AllEvents extends React.Component {
               backgroundColor: '#191919' 
             }}
           >
-            <h2 style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
+            <h2 className="eventsInnerContainer" style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
             <Carousel
               showThumbs={false}
               showStatus={false}
+              showIndicators={(eventList.length > 1) ? true : false}
             >
               {eventList}
             </Carousel>
@@ -269,7 +269,7 @@ class AllEvents extends React.Component {
             style={{ paddingBottom: spacer3, paddingTop: spacer3 }}
           >
             <h2 style={{ marginBottom: spacer2 }}>Past Events</h2>
-            <div style={{ marginBottom: spacer2 }}>
+            <div style={{ marginBottom: spacer3 }}>
               <button  
                 style={{ display: 'inline-block', marginRight: spacer1 }}
                 onClick={() => this.toggleBtn()}
@@ -285,7 +285,7 @@ class AllEvents extends React.Component {
                 <h4>Large-Scale Events</h4>
               </button>
             </div>
-            <div style={{ marginBottom: spacer4 }}>
+            {/*<div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
                 <h3 style={{ display: 'inline-block' }}>2022-2023</h3>
                 <img 
@@ -298,14 +298,14 @@ class AllEvents extends React.Component {
               <div className={
                 this.state.show ? "open-accordion" : "close-accordion"
               }>
-                <div className={this.state.activeBtn === 0 ? "open-accordion" : "close-accordion"} >
+                <div className={this.state.activeBtn === 0 ? null : "hide-link"} >
                   <Row>{pastEventList1}</Row>
                 </div>
-                <div className={this.state.activeBtn === 1 ? "open-accordion" : "close-accordion"} >
+                <div className={this.state.activeBtn === 1 ? null : "hide-link"} >
                   <Row>{largeEventList1}</Row>
                 </div>
               </div>
-            </div>
+            </div>*/}
             <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
                 <h3 style={{ display: 'inline-block' }}>2021-2022</h3>
@@ -319,10 +319,10 @@ class AllEvents extends React.Component {
               <div className={
                 this.state.show2 ? "open-accordion" : "close-accordion"
               }>
-                <div className={this.state.activeBtn === 0 ? "open-accordion" : "close-accordion"} >
+                <div className={this.state.activeBtn === 0 ? null : "hide-link"} >
                   <Row>{pastEventList2}</Row>
                 </div>
-                <div className={this.state.activeBtn === 1 ? "open-accordion" : "close-accordion"} >
+                <div className={this.state.activeBtn === 1 ? null : "hide-link"} >
                   <Row>{largeEventList2}</Row>
                 </div>
               </div>
@@ -332,7 +332,7 @@ class AllEvents extends React.Component {
                 <h3 style={{ display: 'inline-block' }}>2020-2021</h3>
                 <img 
                   onClick={this.toggleAccordion3}
-                  src={require(`../images/events/open-arrow.svg`).default}
+                  src={require(`../images/events/close-arrow.svg`).default}
                   style={{ width: '30px', display: 'inline-block' }}
                   id="acc-arrow3"
                 />
@@ -340,10 +340,10 @@ class AllEvents extends React.Component {
               <div className={
                 this.state.show3 ? "open-accordion" : "close-accordion"
               }>
-                <div className={this.state.activeBtn === 0 ? "open-accordion" : "close-accordion"} >
+                <div className={this.state.activeBtn === 0 ? null : "hide-link"} >
                   <Row>{pastEventList3}</Row>
                 </div>
-                <div className={this.state.activeBtn === 1 ? "open-accordion" : "close-accordion"} >
+                <div className={this.state.activeBtn === 1 ? null : "hide-link"} >
                   <Row>{largeEventList3}</Row>
                 </div>
               </div>
