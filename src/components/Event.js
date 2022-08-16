@@ -96,11 +96,11 @@ class Event extends React.Component {
           <br></br>
           {this.props.location}
         </p>
-        <div className="text_small" >
+        <div id="event-links">
           <a
             href={this.props.slidelink} 
             target="_blank" 
-            style={{ display: 'inline-block' }}
+            style={{ display: 'inline-block', fontSize: "1.5rem" }}
           >
             <p
               className={ (this.props.slidelink == "" ? true: false) ? "hide-link" : "show-link" }
@@ -108,7 +108,7 @@ class Event extends React.Component {
               SLIDES
             </p>
           </a>
-          <a href={this.props.videolink} target="_blank" style={{ display: 'inline-block' }}>
+          <a href={this.props.videolink} target="_blank" style={{ display: 'inline-block', fontSize: "1.5rem" }}>
             <p
               className={ (this.props.videolink == "" ? true: false) ? "hide-link" : null }
             >

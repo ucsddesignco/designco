@@ -254,6 +254,7 @@ class AllEvents extends React.Component {
               color: 'white',
               backgroundColor: '#191919' 
             }}
+            className={(eventList.length > 0) ? null : "hide-link"}
           >
             <h2 className="eventsInnerContainer" style={{ marginBottom: spacer3 }}>Upcoming Events</h2>
             <Carousel
