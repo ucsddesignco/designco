@@ -28,9 +28,25 @@ html {
   padding: 0 $spacer2 0 $spacer2 !important;
 }
 
+.eventsOuterContainer {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0 !important;
+}
+
 .innerContainer {
   @media screen and (min-width: $md) {
     padding: 0 $spacer3 0 $spacer3;
+  }
+}
+
+.eventsInnerContainer {
+  padding: 0 $spacer2;
+
+  @media screen and (min-width: $md) {
+    padding: 0 $spacer2+$spacer3 0 $spacer2+$spacer3;
   }
 }
 
@@ -491,6 +507,114 @@ p.partner-with-us {
   transform: translateX(0%);
   transition: 0.3s ease-out;
   visibility: visible;
+}
+
+button h4 {
+  line-height: 2rem;
+  vertical-align: middle;
+}
+
+#event-links p {
+  font-family: "NB International Mono";
+}
+
+.close-accordion {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  overflow-y: hidden;
+}
+.open-accordion {
+  max-height: 5000px;
+  opacity: 1;
+  transition: all 0.5s ease;
+
+  @media screen and (max-width: $md) {
+    max-height: 100000px;
+  }
+}
+
+.hide-link {
+  display: none;
+}
+
+.show-link {
+  margin-right: $base;
+}
+
+#acc-arrow, #acc-arrow2, #acc-arrow3 {
+  cursor: pointer;
+  transform: rotate(0deg);
+}
+
+.close-arrow {
+  transform: rotate(180deg) !important;
+}
+
+.eventsInnerContainer button:not(.carousel.carousel-slider .control-arrow) {
+  padding: 1rem 1.5rem 1.25rem;
+  border-radius: 40px;
+  border: 1.5px solid #191919;
+  cursor: pointer;
+}
+
+.normal {
+  color: #191919;
+  background-color: white;
+}
+
+.clicked {
+  color: white;
+  background-color: #191919;
+}
+
+.carousel .slide {
+  padding: 0 $spacer2;
+
+  @media screen and (min-width: $md) {
+    padding: 0 $spacer2+$spacer3 0 $spacer2+$spacer3;
+  }
+}
+
+button.control-arrow {
+  @media screen and (max-width: $md) {
+    display: none;
+  }
+}
+
+.carousel .control-prev.control-arrow:before {
+  content: url("../images/events/prev-arrow.png");
+  border-right: none;
+  margin-left: 2rem;
+  transform: scale(.7);
+}
+
+.carousel .control-next.control-arrow:before {
+  content: url("../images/events/next-arrow.png");
+  border-left: none;
+  margin-right: 2rem;
+  transform: scale(.7);
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  opacity: 1;
+}
+
+.carousel .control-next.control-arrow {
+  background-color: #191919;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: #191919;
+}
+
+.carousel .slide {
+  background-color: #191919 !important;
+  text-align: left !important;
+}
+
+.carousel img {
+  pointer-events: all;
 }
 
 .panel {

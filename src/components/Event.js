@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import { spacer1, spacer2 } from "../constants";
+import { base, spacer1, spacer2 } from "../constants";
 
 function formatTime(time) {
   // Check that time is a number
@@ -74,6 +74,8 @@ class Event extends React.Component {
     date: "",
     time: "",
     location: "",
+    slidelink: "",
+    videolink: ""
   };
 
   render() {
@@ -82,20 +84,38 @@ class Event extends React.Component {
         <a href={this.props.link} target="_blank">
           <img
             style={{ marginBottom: spacer1 }}
-            src={require(`../images/events/${this.props.image}.jpg`).default}
+            src={require(`../images/events/${this.props.image}.png`).default}
             alt=""
           ></img>
         </a>
         <a href={this.props.link} target="_blank">
           <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
         </a>
-        <p className="text_small">
+        <p className="text_small" style={{ marginBottom: base }}>
           {formatDate(this.props.date)}
           <br></br>
           {this.props.location}
-          <br></br>
-          {formatTime(this.props.time)}
         </p>
+        <div id="event-links">
+          <a
+            href={this.props.slidelink} 
+            target="_blank" 
+            style={{ display: 'inline-block', fontSize: "1.5rem" }}
+          >
+            <p
+              className={ (this.props.slidelink == "" ? true: false) ? "hide-link" : "show-link" }
+            >
+              SLIDES
+            </p>
+          </a>
+          <a href={this.props.videolink} target="_blank" style={{ display: 'inline-block', fontSize: "1.5rem" }}>
+            <p
+              className={ (this.props.videolink == "" ? true: false) ? "hide-link" : null }
+            >
+              RECORDING
+            </p>
+          </a>
+        </div>
       </>
     );
   }
