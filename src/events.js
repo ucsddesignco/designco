@@ -468,6 +468,14 @@ export const events = [
     time: 1830,
     location: "Yogurt World",
   },
+  {
+    title: "Build Up: DEI Speaker Series",
+    link: "https://www.instagram.com/p/Cgzn5zTts9F/?igshid=YmMyMTA2M2Y=",
+    image: "20220804",
+    date: 20220804,
+    time: 1600,
+    location: "Zoom",
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
