@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { spacer3, spacer4, spacer2, spacer1 } from "../constants.js";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
@@ -11,6 +11,8 @@ import { Carousel } from "react-responsive-carousel";
 
 import { events } from "../events.js";
 import { eventsLarge } from "../events-large.js";
+
+import { fetchEvents } from "../api/EventsAPI.js";
 
 // Get today's date
 const d = new Date();
@@ -27,6 +29,8 @@ let upcomingEvents = [];
 let pastEvents1 = [];
 let pastEvents2 = [];
 let pastEvents3 = [];
+
+let pastEvents2122 = [];
 
 let largeEvents1 = [];
 let largeEvents2 = [];
@@ -112,25 +116,28 @@ const eventList = upcomingEvents.map(function (event) {
   );
 });
 
-const pastEventList1 = pastEvents1.map(function (event) {
-  // Load events occurring today or later
-  return (
-    <Col sm={4} style={{ marginBottom: spacer2 }}>
-      <Event
-        title={event.title}
-        link={event.link}
-        image={event.image}
-        date={event.date}
-        time={event.time}
-        location={event.location}
-        slidelink={event.slidelink}
-        videolink={event.videolink}
-      />
-    </Col>
-  );
-});
+const renderEventList = (eventData) => {
+  const arr = eventData.map(function (event) {
+    return (
+      <Col sm={4} style={{ marginBottom: spacer2 }}>
+        <Event
+          title={event.title}
+          link={event.link}
+          image={event.image}
+          date={event.date}
+          time={event.time}
+          location={event.location}
+          slidelink={event.slidelink}
+          videolink={event.videolink}
+        />
+      </Col>
+    );
+  })
+  console.log(arr)
+  return arr;
+}
 
-const pastEventList2 = pastEvents2.map(function (event) {
+const pastEventList2122 = pastEvents2122.map(function (event) {
   // Load events occurring today or later
   return (
     <Col sm={4} style={{ marginBottom: spacer2 }}>
@@ -173,6 +180,7 @@ class AllEvents extends React.Component {
       show: true,
       show2: true,
       show3: true,
+      pastEventList2122: [],
       activeBtn: 0
     };
 
@@ -182,6 +190,15 @@ class AllEvents extends React.Component {
     this.toggleAccordion.bind(this);
     this.toggleAccordion2.bind(this);
     this.toggleAccordion3.bind(this);
+  }
+
+  async componentDidMount() {
+    fetchEvents
+      .then((data) => {
+        this.setState(() => {
+          return {pastEventList2122: renderEventList(data)}
+        })        
+      });
   }
 
   toggleBtn = () => {
@@ -320,7 +337,7 @@ class AllEvents extends React.Component {
                 this.state.show2 ? "open-accordion" : "close-accordion"
               }>
                 <div className={this.state.activeBtn === 0 ? null : "hide-link"} >
-                  <Row>{pastEventList2}</Row>
+                  <Row>{pastEventList2122}</Row>
                 </div>
                 <div className={this.state.activeBtn === 1 ? null : "hide-link"} >
                   <Row>{largeEventList2}</Row>
