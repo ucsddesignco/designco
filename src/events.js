@@ -168,7 +168,7 @@ export const events = [
     location: "Zoom",
   },
   {
-    title: "Live on Discord",
+    title: "Design Co: Live on Discord",
     link: "https://www.instagram.com/p/CNYeYTUhX8F/?igshid=YmMyMTA2M2Y=",
     image: "20210408",
     date: 20210408,

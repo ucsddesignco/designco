@@ -514,6 +514,14 @@ button h4 {
   vertical-align: middle;
 }
 
+#event-title {
+  text-decoration: none;
+}
+
+#event-title:hover {
+  text-decoration: underline;
+}
+
 #event-links p {
   font-family: "NB International Mono";
 }

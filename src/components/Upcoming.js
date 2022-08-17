@@ -81,7 +81,7 @@ class Upcoming extends React.Component {
       <>
       <Row>
         <Col md={6} style={{ marginBottom: spacer1 }}>
-            <a href={this.props.link} target="_blank">
+            <a href={this.props.link} target="_blank" id="event-title">
                 <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
             </a>
             <p className="text_small" style={{ marginBottom: spacer1 }}>

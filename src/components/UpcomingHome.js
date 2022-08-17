@@ -86,7 +86,7 @@ class UpcomingHome extends React.Component {
             alt=""
           ></img>
         </a>
-        <a href={this.props.link} target="_blank">
+        <a href={this.props.link} target="_blank" id="event-title">
           <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
         </a>
         <p className="text_small" style={{ marginBottom: base }}>
