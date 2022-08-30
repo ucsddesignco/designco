@@ -144,7 +144,8 @@ export default function TablePage() {
           <TableRow>
             <StyledTableCell></StyledTableCell>
             <StyledTableCell align="center" className="grey_table">
-              <p>Friends of Design Co</p>
+              <p className="title">Friends of Design Co</p>
+              <p className="price" >$500 - $1,000</p>
               <br />
               {/* <p className="numbers">
                 <span className="strike">$500 - $1,000</span>
@@ -153,7 +154,8 @@ export default function TablePage() {
               </p> */}
             </StyledTableCell>
             <StyledTableCell align="center">
-              <p>Supporter</p>
+              <p className="title">Supporter</p>
+              <p className="price" >$1,500 - $3,000</p>
               <br />
               {/* <p className="numbers">
                 <span className="strike">$1,500 - $3,000</span>
@@ -162,7 +164,8 @@ export default function TablePage() {
               </p> */}
             </StyledTableCell>
             <StyledTableCell align="center" className="grey_table">
-              <p>Partner</p>
+              <p className="title">Partner</p>
+              <p className="price" >$3,500 - $5,000</p>
               <br />
               {/* <p className="numbers">
                 <span className="strike">$3,500 - $5,000</span>
@@ -171,7 +174,8 @@ export default function TablePage() {
               </p> */}
             </StyledTableCell>{" "}
             <StyledTableCell align="center">
-              <p>Collaborator</p>
+              <p className="title">Collaborator</p>
+              <p className="price" >$3,500 - $7,000</p>
               <br />
               {/* <p className="numbers">
                 <span className="strike">$3,500 - $7,000</span>
@@ -180,7 +184,8 @@ export default function TablePage() {
               </p> */}
             </StyledTableCell>{" "}
             <StyledTableCell align="center" className="grey_table">
-              <p>Premier Collaborator</p>
+              <p className="title">Premier Collaborator</p>
+              <p className="price" >$7,500+</p>
               <br />
               {/* <p className="numbers">
                 <span className="strike">$7,500+</span>

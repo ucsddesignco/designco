@@ -20,7 +20,7 @@ class Partnership extends React.Component {
             <Row className="innerContainer">
               <Col sm={9} className="splashText">
                 <h1 style={{ marginTop: spacer2 }}>
-                  Partnership Offerings <br /> 2021-2022
+                  Partnership Offerings <br /> 2022-2023
                 </h1>
                 <p style={{ marginTop: spacer2 }}>
                   Design Co is a pre-professional student organization at UC San
