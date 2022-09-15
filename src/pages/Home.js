@@ -7,10 +7,19 @@ import { Container, Row, Col } from "react-grid-system";
 import { spacer1, spacer2, spacer3, spacer4 } from "../constants";
 import Footer from "../components/Footer";
 
-import intuit from "../images/sponsors/intuit.png";
-import sony from "../images/sponsors/sony.png";
-import servicenow from "../images/sponsors/servicenow.png";
-import dlab from "../images/sponsors/dlab.png";
+import google from "../images/work-companies/google.png";
+import microsoft from "../images/work-companies/microsoft.png";
+import meta from "../images/work-companies/meta.png";
+import adobe from "../images/work-companies/adobe.png";
+import uber from "../images/work-companies/uber.png";
+import disney from "../images/work-companies/disney.png";
+import slack from "../images/work-companies/slack.png";
+import servicenow from "../images/work-companies/servicenow.png";
+import amazon from "../images/work-companies/amazon.png";
+import robinhood from "../images/work-companies/robinhood.png";
+import twitch from "../images/work-companies/twitch.png";
+import mongo from "../images/work-companies/mongo.png";
+
 import { Helmet } from "react-helmet";
 
 import { events } from "../events.js";
@@ -91,20 +100,19 @@ class Home extends React.Component {
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h2 style={{ marginBottom: spacer3 }}>News</h2>
                 <h3 style={{ marginBottom: spacer1 }}>
-                  From Small Business to Big Impact: How Power Up Teams
-                  Transformed Blendees & Café X
+                  Alumni Panel 2022 Recap
                 </h3>
                 <p style={{ marginBottom: spacer2 }}>
-                  Featuring the owners of Blendees & Café X.
+                  Five Design Co alumni share their experiences as full-time designers and researchers.
                   <br></br>
                   <a
-                    href="https://medium.com/@ucsddesignco/from-small-business-to-big-impact-how-power-up-teams-transformed-blendees-caf%C3%A9-x-7a8903a72e38"
+                    href="https://medium.com/@ucsddesignco/alumni-panel-2022-recap-ecf6d3917a31"
                     target="_blank"
                   >
                     Read More
                   </a>
                 </p>
-                <p className="text_caption">Sept. 8, 2021</p>
+                <p className="text_caption">Aug. 22, 2022</p>
               </Col>
             </Row>
           </div>
@@ -124,27 +132,47 @@ class Home extends React.Component {
                 ></Button>
               </Col>
             </Row> */}
-            <h2 style={{ marginBottom: spacer3 }}>Sponsors</h2>
+            <h2 style={{ marginBottom: spacer3 }}>Our members have gone on to work at</h2>
             <Row>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
-                <a href="https://www.intuit.com/" target="_blank">
-                  <img src={intuit} alt="Intuit"></img>
-                </a>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={google} alt="Google"></img>
               </Col>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
-                <a href="https://www.sony.com/" target="_blank">
-                  <img src={sony} alt="Sony"></img>
-                </a>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={microsoft} alt="Microsoft"></img>
               </Col>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
-                <a href="https://www.servicenow.com/" target="_blank">
-                  <img src={servicenow} alt="ServiceNow"></img>
-                </a>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={meta} alt="Meta"></img>
               </Col>
-              <Col xs={6} md={3} style={{ marginBottom: spacer2 }}>
-                <a href="https://designlab.ucsd.edu/" target="_blank">
-                  <img src={dlab} alt="The Design Lab at UC San Diego"></img>
-                </a>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={adobe} alt="Adobe"></img>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={uber} alt="Uber"></img>
+              </Col>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={disney} alt="Disney"></img>
+              </Col>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={slack} alt="Slack"></img>
+              </Col>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={servicenow} alt="ServiceNow"></img>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={amazon} alt="Amazon"></img>
+              </Col>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={robinhood} alt="Robinhood"></img>
+              </Col>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={twitch} alt="Twitch"></img>
+              </Col>
+              <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
+                <img className="work-company" src={mongo} alt="MongoDB"></img>
               </Col>
             </Row>
           </div>
