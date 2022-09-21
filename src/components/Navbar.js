@@ -187,7 +187,7 @@ class Navbar extends React.Component {
                   </li>
                   <li>
                     <h4>
-                      <a href="http://community.ucsddesign.co/">Community</a>
+                      <a href="/community" id="community">Community</a>
                     </h4>
                   </li>
                   {/* <li>
@@ -286,7 +286,7 @@ class Navbar extends React.Component {
                         </li>
                         <li>
                           <h4>
-                            <a href="http://community.ucsddesign.co/">
+                            <a href="/community" id="community">
                               Community
                             </a>
                           </h4>
