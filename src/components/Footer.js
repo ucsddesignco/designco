@@ -6,7 +6,12 @@ class Footer extends React.Component {
   render() {
     return (
       <div style={{ paddingBottom: spacer2 }}>
-        <Container className="outerContainer">
+        <Container 
+          className="outerContainer"
+          style={{
+            color: this.props.color || "#000",
+          }}
+        >
           <Row>
             <Visible lg xl>
               <Col md={4}>
@@ -24,7 +29,7 @@ class Footer extends React.Component {
                   <h4>
                     <a
                       href="https://www.facebook.com/ucsddesignco"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Facebook
                     </a>
@@ -34,7 +39,7 @@ class Footer extends React.Component {
                   <h4>
                     <a
                       href="https://www.instagram.com/ucsddesignco/"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Instagram
                     </a>
@@ -45,7 +50,7 @@ class Footer extends React.Component {
                   <h4>
                     <a
                       href="https://www.linkedin.com/company/ucsddesignco/"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       LinkedIn
                     </a>
@@ -53,14 +58,14 @@ class Footer extends React.Component {
                 </li>
                 <li>
                   <h4>
-                    <a href="https://medium.com/ucsddesignco/" target="_blank">
+                    <a href="https://medium.com/ucsddesignco/" target="_blank" rel="noreferrer">
                       Medium
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="https://discord.com/invite/ZZEp4WNWK3" target="_blank">
+                    <a href="https://discord.com/invite/ZZEp4WNWK3" target="_blank" rel="noreferrer">
                       Discord
                     </a>
                   </h4>

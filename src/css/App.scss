@@ -1536,3 +1536,535 @@ ol {
     background-position: center center;
   }
 }
+
+/********* Community ********/
+
+.community__container {
+  background-color: #191919;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.community {
+  position: relative;
+  padding: 0 8vw;
+
+}
+
+.community h1,
+.community h2 {
+  font-family: "Neue Plak Extended";
+  font-size: 5.7rem;
+  text-align: center;
+  color: white;
+}
+
+.community p {
+  font-size: 2rem;
+}
+
+.community__hero__info {
+  padding: 40px 5% 170px 5%;
+  width: 90%;
+}
+
+.community__hero__info-mobile {
+  display: none;
+}
+
+.community__hero__info > img{
+  position: absolute;
+  width: 100%;
+  top: -120px;
+  z-index: -1;
+  left: 0;
+}
+
+.affordance::after,
+.problem::after,
+.creatives::after {
+  display: block;
+}
+
+.creatives,
+.affordance, .affordance-2,
+.problem, .problem-2 {
+  position: relative;
+}
+
+.creatives::after {
+  content: url('../images/community/blue-squiggly.svg');
+  position: absolute;
+  bottom: -1.4rem;
+  left: 0.4rem;
+}
+
+.affordance::after {
+  content: url('../images/community/red-line.svg');
+  position: absolute;
+  white-space: nowrap;
+  bottom: -0.8rem;
+  left: 0.4rem;
+}
+
+.affordance-2::after {
+  position: absolute;
+  display: none;
+  content: url('../images/community/mobile/red-line-1.svg');
+  bottom: -0.6rem;
+  right: 0.4rem;
+}
+
+.problem::after {
+  content: url('../images/community/green-zigzag.svg');
+  position: absolute;
+  white-space: pre;
+  bottom: -1.4rem;
+  left: 0.6rem;
+}
+
+.problem-2::after {
+  position: absolute;
+  display: none;
+  content: url('../images/community/mobile/green-zigzag-1.svg');
+  bottom: -0.6rem;
+  right: -0.4rem;
+}
+
+@media (max-width: 780px) {
+  .community__hero__info {
+    display: none;
+  }
+
+  .community__hero__info-mobile {
+    display: block;
+  }
+  
+  .creatives::after {
+    content: url('../images/community/mobile/blue-squiggly.svg');
+    bottom: -0.8rem;
+  }
+  .affordance-2::after,
+  .problem-2::after {
+    display: block;
+  }
+  .affordance::after {
+    content: url('../images/community/mobile/red-line.svg');
+    bottom: -0.6rem;
+  }
+  .problem::after {
+    content: url('../images/community/mobile/green-zigzag.svg');
+    bottom: -0.8rem;
+  }
+}
+
+.community h3 {
+  color: white;
+}
+
+.community__hero {
+  padding-bottom: 100px;
+}
+
+.community__hero h2 {
+  margin-bottom: 32px;
+}
+
+.community__hero h3 {
+  margin-bottom: 18px;
+  color: white;
+}
+
+.community__hero p {
+  font-family: "NB International";
+  color: white;
+}
+
+.community__hero a {
+  padding: 14px 18px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'NB International Mono';
+}
+
+.community__hero__grid {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+  color: white;
+}
+
+.community__hero__grid > div {
+  position: relative;
+}
+
+.community__hero__grid > div > p {
+  margin-bottom: 40px;
+}
+
+.community__hero__grid a {
+  display: inline-block;
+  background-color: white;
+  color: #191919;
+}
+
+.community__hero__discord {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community__hero__discord > p {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.community__hero__discord a {
+  color: white;
+  border: solid 1px white;
+}
+
+.community__hero__discord-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 780px) {
+  .community__hero {
+    padding-bottom: 0;
+  }
+  .community__hero h1 {
+    font-size: 4rem;
+  }
+  .community__hero h3 {
+    font-size: 3.4rem;
+  }
+  .community__hero__grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 60px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .community__hero__grid img {
+    width: 320px;
+  }
+
+  .community__hero__grid a {
+    width: 90%;
+  }
+
+  .community__hero__grid p {
+    font-size: 2rem;
+  }
+
+  .community__hero__info {
+    padding-top: 100px;
+  }
+
+  .community__hero__discord {
+    display: none;
+  }
+
+  .community__hero__discord-mobile {
+    display: block;
+  }
+}
+
+.community__gallery {
+  display: grid;
+  margin-bottom: 100px;
+}
+
+.community__gallery h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.community__gallery__section-1 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 30px;
+  width: 84vw;
+}
+
+.community__gallery__section-1 img,
+.community__gallery__section-3 img,
+.community__gallery__section-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.community__gallery__subsection {
+  display: grid;
+  gap: 30px
+}
+
+.community__gallery__section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px 0;
+  width: 84vw;
+}
+
+.community__gallery__section-3 {
+  margin-bottom: 30px;
+}
+
+.community__gallery__section-2 img {
+  width: 100%;
+}
+
+.community__gallery__section-4 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 30px;
+  width: 84vw;
+}
+
+@media screen and (max-width: 780px) {
+  .community__gallery h2 {
+    font-size: 3.4rem;
+    margin-bottom: 60px;
+  }
+
+  .community__gallery__section-1,
+  .community__gallery__section-2,
+  .community__gallery__section-3,
+  .community__gallery__section-4 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.sticker-prompt {
+  position: absolute;
+  font-family: 'NB International Mono';
+  display: flex;
+  flex-direction: row;
+  top: 290px;
+  right: 15%;
+}
+
+.sticker-prompt > span {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.sticker-prompt > img {
+  padding: 0.8rem 0.4rem;
+  width: 3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.community > .smiley-blue {
+  top: 300px;
+  right: 12%;
+  transform: rotate(-20deg);
+  position: absolute;
+}
+
+.community > .plant-green {
+  top: 180px;
+  right: 5%;
+  height: 200px;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+.community > .smiley-red {
+  top: 1080px;
+  left: 7%;
+  position: absolute;
+}
+
+.community > .smiley-green {
+  top: 1000px;
+  left: 15%;
+  position: absolute;
+}
+
+.community > .arrow-blue {
+  top: 720px;
+  right: 5%;
+  position: absolute;
+}
+
+.community > .plant-blue {
+  top: 1880px;
+  right: 3%;
+  position: absolute;
+}
+
+.community > .arrow-red {
+  top: 2770px;
+  left: 13%;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+
+.community > .arrow-green {
+  top: 2670px;
+  left: 2%;
+  position: absolute;
+}
+
+.community > .plant-red {
+  bottom: -20px;
+  left: 3%;
+  position: absolute;
+}
+
+.community > .active {
+  display: block;
+}
+
+.community__hero__stickers-mobile {
+  display: none;
+  justify-content: center;
+}
+
+.community__hero__stickers-mobile > img {
+  height: 100px;
+}
+
+.community__hero__stickers-mobile > img:first-of-type {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.community__hero__stickers > img:nth-child(2) {
+  padding-bottom: 30px;
+}
+
+.community__hero__stickers-mobile-2 {
+  display: none;
+  position: absolute;
+  right: -15%;
+  bottom: -120px;
+  justify-content: flex-end;
+}
+
+.community__hero__stickers-mobile-2 > img {
+  width: 100px;
+}
+
+.community__hero__stickers-mobile-2 > img:first-of-type {
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1180px) {
+  .sticker-prompt {
+    right: 17%;
+    top: 390px;
+  }
+
+  .community > .smiley-blue {
+    right: 14%;
+    top: 400px;
+  }
+
+  .community > .plant-green {
+    top: 280px;
+  }
+
+  .community > .smiley-red {
+    top: 1100px;
+  }
+  
+  .community > .smiley-green {
+    top: 1020px;
+  }
+  
+  .community > .arrow-blue {
+    top: 820px;
+  }
+
+  .community > .arrow-red {
+    top: 2290px;
+  }
+  
+  .community > .arrow-green {
+    top: 2230px;
+  }
+
+  .community > .plant-red {
+    bottom: -20px;
+    left: 1%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .community > .smiley-red {
+    top: 1150px;
+  }
+  
+  .community > .smiley-green {
+    top: 1070px;
+  }
+  
+  .community > .arrow-blue {
+    top: 870px;
+  }
+
+  .community > .arrow-red {
+    height: 100px;
+    top: 2390px;
+  }
+  
+  .community > .arrow-green {
+    height: 100px;
+    top: 2330px;
+  }
+}
+
+@media (max-width: 780px) {
+  .sticker-prompt,
+  .plant-green,
+  .smiley-blue,
+  .smiley-red,
+  .smiley-green,
+  .arrow-blue,
+  .arrow-green,
+  .arrow-red,
+  .plant-blue,
+  .plant-red {
+    display: none;
+  }
+
+  .community__hero__stickers-mobile,
+  .community__hero__stickers-mobile-2 {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .community__hero__stickers-mobile > img,
+  .community__hero__stickers-mobile-2 > img {
+    width: 70px;
+  }
+
+  .community__hero__stickers-mobile > img:first-of-type {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .community__hero__stickers > img:nth-child(2) {
+    padding-bottom: 30px;
+  }
+
+  .community__hero__stickers-mobile-2 {
+    right: -25%;
+    bottom: -80px;
+  }
+}

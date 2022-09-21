@@ -9,6 +9,7 @@ import Contact from "../pages/Contact";
 import Shop from "../pages/Shop";
 // import Sony from "../pages/sony/Sony";
 import Partnership from "../pages/Partnership";
+import Community from "../pages/Community";
 
 class Main extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class Main extends React.Component {
           <Route exact path="/gbm" component={GBM} />
           <Route exact path="/shop" component={Shop} />
           <Route path="/contact" component={Contact} />
+          <Route path="/community" component={Community} />
           {/* <Route path="/headphone-ux-review" component={Sony} /> */}
           <Route path="/partnership" component={Partnership} />
         </Switch>
