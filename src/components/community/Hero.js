@@ -13,7 +13,7 @@ function Hero() {
                 <h1>We are the <span className="creatives">creatives,</span> the <span className="affordance">affordance&#8209;finders,</span> and the next wave of <span className="problem">problem&#8209;solvers</span> – we are designers from UCSD.</h1>
             </div>
             <div className="community__hero__info-mobile">
-                <h1>We are the <span className="creatives">creatives,</span> the <span className="affordance">affordance-</span><span className="affordance-2">finders,</span> and the next wave of <span className="problem">problem-</span><span className="problem-2">solvers</span> – we are designers from UCSD.</h1>
+                <h1>We are the <span className="creatives">creatives,&nbsp;the</span> <span className="affordance">affordance-</span><span className="affordance-2">finders,</span> and the next wave of <span className="problem">problem-</span><span className="problem-2">solvers</span> – we are designers from UCSD.</h1>
             </div>
             <div className="community__hero__stickers-mobile">
                 <img src={SmileyRed} alt="Red Smiley Sticker"/>
