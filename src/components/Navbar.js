@@ -175,7 +175,7 @@ class Navbar extends React.Component {
                   </li>
                   <li>
                     <h4>
-                      <a href="/gbm">GBM</a>
+                      <a href="/community" id="community">Community</a>
                     </h4>
                   </li>
                   <li>
@@ -183,11 +183,6 @@ class Navbar extends React.Component {
                       <a href="/shop" id="shop">
                         Shop
                       </a>
-                    </h4>
-                  </li>
-                  <li>
-                    <h4>
-                      <a href="http://community.ucsddesign.co/">Community</a>
                     </h4>
                   </li>
                   {/* <li>
@@ -274,20 +269,15 @@ class Navbar extends React.Component {
                         </li>
                         <li>
                           <h4>
-                            <a href="/gbm">GBM</a>
+                            <a href="/community" id="community">
+                              Community
+                            </a>
                           </h4>
                         </li>
                         <li>
                           <h4>
                             <a href="/shop" id="shop">
                               Shop
-                            </a>
-                          </h4>
-                        </li>
-                        <li>
-                          <h4>
-                            <a href="http://community.ucsddesign.co/">
-                              Community
                             </a>
                           </h4>
                         </li>
