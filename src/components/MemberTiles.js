@@ -34,13 +34,13 @@ class MemberTiles extends React.Component {
           <img
             src={
               this.state.duotone
-                ? require(`../images/team/duotone/${this.props.id}-duotone.jpg`)
+                ? require(`../images/about/team-photos/${this.props.id}.png`)
                     .default
-                : require(`../images/team/${this.props.id}.jpg`).default
+                : require(`../images/about/team-gifs/${this.props.id}.gif`).default
             }
-            alt={this.props.name}/* 
+            alt={this.props.name}
             onMouseOver={this.removeDuotone}
-            onMouseOut={this.addDuotone} */
+            onMouseOut={this.addDuotone}
           />
         </a>
 
