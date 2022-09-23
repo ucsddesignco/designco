@@ -5,6 +5,7 @@ export const team = [
     role: "Co-Creative Director",
     link: "http://linkedin.com/in/megan-tan-31a2471a5",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837980/designco/about/team-gifs/megan_cpulwb.gif",
   },
   {
     id: "maria",
@@ -12,6 +13,7 @@ export const team = [
     role: "Industry Relations Director",
     link: "https://mariadhilla.myportfolio.com/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837979/designco/about/team-gifs/maria_ew1spu.gif",
   },
   {
     id: "juna",
@@ -19,6 +21,7 @@ export const team = [
     role: "Co-Creative Director",
     link: "https://www.junakim.design",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837926/designco/about/team-gifs/juna_lsgx1m.gif",
   },
   {
     id: "tiffany",
@@ -26,6 +29,7 @@ export const team = [
     role: "Co-Marketing Director + Media Coordinator",
     link: "https://www.linkedin.com/in/tiffany-zhong-2841a718b/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837948/designco/about/team-gifs/tiffany_zsbavy.gif",
   },
   {
     id: "jodie",
@@ -33,6 +37,7 @@ export const team = [
     role: "Internal Director",
     link: "https://www.jodieli.site/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837969/designco/about/team-gifs/jodie_r35qrx.gif",
   },
   {
     id: "emilyjao",
@@ -40,6 +45,7 @@ export const team = [
     role: "Co-Marketing Director",
     link: "https://emilysjao.wixsite.com/my-site",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837888/designco/about/team-gifs/emilyjao_t51mwq.gif",
   },
   {
     id: "emilyyu",
@@ -47,6 +53,7 @@ export const team = [
     role: "Director of Community",
     link: "https://www.linkedin.com/in/emily-yu-365943225/",
     gradYear: 2025,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837892/designco/about/team-gifs/emilyyu_zp81xq.gif",
   },
   {
     id: "leann",
@@ -54,20 +61,23 @@ export const team = [
     role: "Visual + Web Developer",
     link: "https://www.linkedin.com/in/leanngamboa/",
     gradYear: 2022,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837972/designco/about/team-gifs/leann_ijibfs.gif",
   },
-  {
+  /* {
     id: "tracy",
     name: "Tracy Nguyen",
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/tracy-trang-nguyen/",
     gradYear: 2023,
-  },
+    gif: "",
+  }, */
   {
     id: "shawn",
     name: "Shawn Kim",
     role: "Web Developer",
     link: "https://www.linkedin.com/in/shawn-j-kim/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831878/designco/about/team-gifs/shawn_up1ai3.gif",
   },
   {
     id: "rainee",
@@ -75,6 +85,7 @@ export const team = [
     role: "Media Coordinator",
     link: "https://www.raineepei.com/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837933/designco/about/team-gifs/rainee_btufff.gif",
   },
   {
     id: "hannah",
@@ -82,6 +93,7 @@ export const team = [
     role: "Content Strategist/Writer",
     link: "https://www.linkedin.com/in/hannahyick/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837899/designco/about/team-gifs/hannah_a8eu18.gif",
   },
   {
     id: "donna",
@@ -89,6 +101,7 @@ export const team = [
     role: "Operations Coordinator",
     link: "https://www.linkedin.com/in/dawnakim/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837953/designco/about/team-gifs/donna_rfkg32.gif",
   },
   {
     id: "ricky",
@@ -96,6 +109,7 @@ export const team = [
     role: "Visual + Brand Designer",
     link: "linkedin.com/in/ricardo-sedano",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837932/designco/about/team-gifs/ricky_ennyxu.gif",
   },
   {
     id: "meshach",
@@ -103,6 +117,7 @@ export const team = [
     role: "Web Developer",
     link: "https://www.linkedin.com/in/meshachadoe",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837984/designco/about/team-gifs/meshach_oujofy.gif",
   },
   {
     id: "grace",
@@ -110,6 +125,7 @@ export const team = [
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/graceerya/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837895/designco/about/team-gifs/grace_oswykx.gif",
   },
   {
     id: "jonathan",
@@ -117,20 +133,23 @@ export const team = [
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/jonathan-lum/",
     gradYear: 2023,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837918/designco/about/team-gifs/jonathan_xodsgp.gif",
   },
-  {
+  /* {
     id: "catherine",
     name: "Catherine Oei",
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/catherine-oei/",
     gradYear: 2023,
-  },
+    gif: "",
+  }, */
   {
     id: "tracey",
     name: "Tracey Du",
     role: "Web Developer",
     link: "https://www.linkedin.com/in/traceydu/",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837866/designco/about/team-gifs/tracey_jwzaar.gif",
   },
   {
     id: "kayla",
@@ -138,6 +157,7 @@ export const team = [
     role: "Content Strategist/Writer",
     link: "https://www.linkedin.com/in/kayla-l-a12641199/",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837920/designco/about/team-gifs/kayla_zf0mgd.gif",
   },
   {
     id: "jocelyn",
@@ -145,6 +165,7 @@ export const team = [
     role: "Operations Coordinator",
     link: "https://www.linkedin.com/in/jocelyn-horng-2b84121b1/",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837957/designco/about/team-gifs/jocelyn_jkigbr.gif",
   },
   {
     id: "brian",
@@ -152,6 +173,7 @@ export const team = [
     role: "Media Coordinator + Web Developer",
     link: "https://brianliu1.myportfolio.com",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837867/designco/about/team-gifs/brian_figech.gif",
   },
   {
     id: "sabrina",
@@ -159,6 +181,7 @@ export const team = [
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/sabrina-mao-2aba501b8/",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837929/designco/about/team-gifs/sabrina_ibfl8t.gif",
   },
   {
     id: "sujana",
@@ -166,20 +189,23 @@ export const team = [
     role: "Operations Coordinator",
     link: "https://www.linkedin.com/in/sujana-nagasuri-943493238/",
     gradYear: 2024,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837859/designco/about/team-gifs/sujana_liqfys.gif",
   },
-  {
+  /* {
     id: "esther",
     name: "Esther Liu",
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/esther--liu",
     gradYear: 2025,
-  },
+    gif: "",
+  }, */
   {
     id: "frances",
     name: "Frances Sy",
     role: "Social Media Coordinator",
     link: "https://www.linkedin.com/in/frances-sy/",
     gradYear: 2025,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831907/designco/about/team-gifs/frances_keifip.gif",
   },
   {
     id: "thoa",
@@ -187,6 +213,7 @@ export const team = [
     role: "Visual + Brand Designer",
     link: "https://www.linkedin.com/in/thoa-nguyen-99a473217/",
     gradYear: 2025,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837874/designco/about/team-gifs/thoa_irqejb.gif",
   },
   {
     id: "elise",
@@ -194,6 +221,7 @@ export const team = [
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/elisekim999/",
     gradYear: 2025,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837886/designco/about/team-gifs/elise_kvjf38.gif",
   },
   {
     id: "mandy",
@@ -201,6 +229,7 @@ export const team = [
     role: "Finance Coordinator",
     link: "https://www.linkedin.com/in/mandy-lai-4179b91a1/",
     gradYear: 2025,
+    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837968/designco/about/team-gifs/mandy_bebrif.gif",
   },
 
   
@@ -210,6 +239,7 @@ export const team = [
       role: "Director of Community, Growth, and Strategy",
       link: "https://www.linkedin.com/in/mylinh-lac/",
       gradYear: 2022,
+  
     },
     {
       id: "julie",
@@ -217,6 +247,7 @@ export const team = [
       role: "Marketing Director",
       link: "https://juliehan.webflow.io",
       gradYear: 2022,
+  
     },
     {
       id: "adam",
@@ -224,6 +255,7 @@ export const team = [
       role: "Industry Relations Coordinator",
       link: "https://syedadam.com/",
       gradYear: 2022,
+  
     },
     {
       id: "megandinh",
@@ -231,6 +263,7 @@ export const team = [
       role: "Content Strategist/Writer",
       link: "https://megandinh.github.io/",
       gradYear: 2022,
+  
     },
     {
       id: "amber",
@@ -238,6 +271,7 @@ export const team = [
       role: "Community Engagement Coordinator",
       link: "https://www.linkedin.com/in/amberlu1226/",
       gradYear: 2022,
+  
     },
     {
       id: "sergio",
@@ -245,6 +279,7 @@ export const team = [
       role: "Community Engagement Coordinator",
       link: "https://www.linkedin.com/in/sramirez2292/",
       gradYear: 2022,
+  
     },
     {
       id: "staci",
@@ -252,6 +287,7 @@ export const team = [
       role: "Industry Relations Advisor",
       link: "http://stacilin.com/",
       gradYear: 2022,
+  
     },
     {
   //   id: "jamin",
@@ -296,29 +332,25 @@ export const team = [
   //   name: "Steven Chen",
   //   role: "Director of Industry Relations",
   //   link: "https://www.stevenychen.com/",
-  //   gradYear: 2020
-  // },
+  //   gradYear: 2020  // },
   // {
   //   id: "vicky",
   //   name: "Vicky Ly",
   //   role: "Director of Marketing and Operations",
   //   link: "https://vickyly.co",
-  //   gradYear: 2020
-  // },
+  //   gradYear: 2020  // },
   // {
   //   id: "andrew",
   //   name: "Andrew Zhen",
   //   role: "Web Developer",
   //   link: "https://ajzhen.com",
-  //   gradYear: 2020
-  // },
+  //   gradYear: 2020  // },
   // {
   //   id: "brittany",
   //   name: "Brittany Newton",
   //   role: "Director of Community, Growth and Strategy",
   //   link: "https://www.linkedin.com/in/brittany-newton-648452133/",
-  //   gradYear: 2020
-  // },
+  //   gradYear: 2020  // },
   // {
   //   id: "julia-n",
   //   name: "Julia Nguyen",
