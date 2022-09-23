@@ -1564,7 +1564,7 @@ ol {
 }
 
 .community__hero__info {
-  padding: 40px 5% 170px 5%;
+  padding: 0 5% 170px 5%;
   width: 90%;
 }
 
@@ -1721,15 +1721,16 @@ ol {
   margin-bottom: 32px;
 }
 
-.community__hero__discord a {
+.community__hero__discord a,
+.community__hero__discord-mobile a {
   color: white;
+  background-color: transparent;
   border: solid 1px white;
 }
 
 .community__hero__discord-mobile {
   display: none;
 }
-
 
 @media screen and (max-width: 780px) {
   .community__hero {
@@ -1847,7 +1848,7 @@ ol {
   font-family: 'NB International Mono';
   display: flex;
   flex-direction: row;
-  top: 290px;
+  top: 250px;
   right: 15%;
 }
 
@@ -1866,14 +1867,14 @@ ol {
 }
 
 .community > .smiley-blue {
-  top: 300px;
+  top: 260px;
   right: 12%;
   transform: rotate(-20deg);
   position: absolute;
 }
 
 .community > .plant-green {
-  top: 180px;
+  top: 140px;
   right: 5%;
   height: 200px;
   transform: rotate(10deg);
@@ -1881,38 +1882,38 @@ ol {
 }
 
 .community > .smiley-red {
-  top: 1080px;
+  top: 1040px;
   left: 7%;
   position: absolute;
 }
 
 .community > .smiley-green {
-  top: 1000px;
+  top: 960px;
   left: 15%;
   position: absolute;
 }
 
 .community > .arrow-blue {
-  top: 720px;
+  top: 680px;
   right: 5%;
   position: absolute;
 }
 
 .community > .plant-blue {
-  top: 1880px;
+  top: 1840px;
   right: 3%;
   position: absolute;
 }
 
 .community > .arrow-red {
-  top: 2770px;
+  top: 2730px;
   left: 13%;
   position: absolute;
   transform: rotate(-30deg);
 }
 
 .community > .arrow-green {
-  top: 2670px;
+  top: 2630px;
   left: 2%;
   position: absolute;
 }
@@ -1962,39 +1963,43 @@ ol {
   padding-bottom: 10px;
 }
 
+#green-plant-mobile {
+  display: none;
+}
+
 @media (max-width: 1180px) {
   .sticker-prompt {
     right: 17%;
-    top: 390px;
+    top: 350px;
   }
 
   .community > .smiley-blue {
     right: 14%;
-    top: 400px;
+    top: 360px;
   }
 
   .community > .plant-green {
-    top: 280px;
+    top: 240px;
   }
 
   .community > .smiley-red {
-    top: 1100px;
+    top: 1060px;
   }
   
   .community > .smiley-green {
-    top: 1020px;
+    top: 980px;
   }
   
   .community > .arrow-blue {
-    top: 820px;
+    top: 780px;
   }
 
   .community > .arrow-red {
-    top: 2290px;
+    top: 2250px;
   }
   
   .community > .arrow-green {
-    top: 2230px;
+    top: 2190px;
   }
 
   .community > .plant-red {
@@ -2005,25 +2010,25 @@ ol {
 
 @media (max-width: 1030px) {
   .community > .smiley-red {
-    top: 1150px;
+    top: 1110px;
   }
   
   .community > .smiley-green {
-    top: 1070px;
+    top: 1030px;
   }
   
   .community > .arrow-blue {
-    top: 870px;
+    top: 830px;
   }
 
   .community > .arrow-red {
     height: 100px;
-    top: 2390px;
+    top: 2350px;
   }
   
   .community > .arrow-green {
     height: 100px;
-    top: 2330px;
+    top: 2290px;
   }
 }
 
@@ -2045,6 +2050,14 @@ ol {
   .community__hero__stickers-mobile-2 {
     display: flex;
   }
+
+  #green-plant-mobile {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    right: 2%;
+    bottom: -60px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2063,7 +2076,7 @@ ol {
   }
 
   .community__hero__stickers-mobile-2 {
-    right: -25%;
+    right: 0;
     bottom: -80px;
   }
 }

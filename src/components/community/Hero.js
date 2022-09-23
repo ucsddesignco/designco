@@ -3,7 +3,6 @@ import React from "react";
 import SmileyGreen from "../../images/community/stickers/smiley-green.svg";
 import SmileyRed from "../../images/community/stickers/smiley-red.svg";
 import SmileyBlue from "../../images/community/stickers/smiley-blue.svg";
-import PlantGreen from "../../images/community/stickers/plant-green.svg";
 
 function Hero() {
 
@@ -31,8 +30,7 @@ function Hero() {
                     <p>Grow your design network and blossom new friendships with our social mentorship program, Cursors & Pixels!</p>
                     <a href="https://forms.gle/eZcmChmWNrSmiAs28" target="_blank" rel="noreferrer">Interest Form</a>
                     <div className="community__hero__stickers-mobile-2">
-                        <img src={SmileyBlue} alt="Red Smiley Sticker"/>
-                        <img src={PlantGreen} alt="Green Smiley Sticker"/>
+                        <img src={SmileyBlue} alt="Blue Smiley Sticker"/>
                     </div>
                 </div>
                 <div className="community__hero__discord-mobile">
