@@ -132,7 +132,7 @@ class Home extends React.Component {
                 ></Button>
               </Col>
             </Row> */}
-            <h2 style={{ marginBottom: spacer3 }}>Our community have gone on to work at</h2>
+            <h2 style={{ marginBottom: spacer3 }}>Our community has gone on to work at</h2>
             <Row>
               <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
                 <img className="work-company" src={google} alt="Google"></img>

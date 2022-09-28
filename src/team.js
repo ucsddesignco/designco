@@ -135,14 +135,14 @@ export const team = [
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837918/designco/about/team-gifs/jonathan_xodsgp.gif",
   },
-  /* {
+  {
     id: "catherine",
     name: "Catherine Oei",
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/catherine-oei/",
     gradYear: 2023,
     gif: "",
-  }, */
+  },
   {
     id: "tracey",
     name: "Tracey Du",
@@ -191,14 +191,14 @@ export const team = [
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837859/designco/about/team-gifs/sujana_liqfys.gif",
   },
-  /* {
+  {
     id: "esther",
     name: "Esther Liu",
     role: "Industry Relations Coordinator",
     link: "https://www.linkedin.com/in/esther--liu",
     gradYear: 2025,
     gif: "",
-  }, */
+  },
   {
     id: "frances",
     name: "Frances Sy",
