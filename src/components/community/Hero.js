@@ -20,7 +20,6 @@ function Hero() {
             </div>
             <div className="community__hero__grid">
                 <div>
-                    {/* <img draggable="false" src={DesignCommunityLogo} alt="Design Community Logo"/> */}
                     <h3>Community Page</h3>
                     <p>Connect with a wide network of student designers and alumni from Design Co! It’s like LinkedIn, but exclusively for our UCSD community.</p>
                     <a href="https://community.ucsddesign.co">Meet the Community</a>
@@ -28,7 +27,7 @@ function Hero() {
                 <div>
                     <h3>DCO: Cursors & Pixels</h3>
                     <p>Grow your design network and blossom new friendships with our social mentorship program, Cursors & Pixels!</p>
-                    <a href="https://forms.gle/eZcmChmWNrSmiAs28" target="_blank" rel="noreferrer">Interest Form</a>
+                    <a href="https://bit.ly/pnc-app" target="_blank" rel="noreferrer">Apply Now</a>
                     <div className="community__hero__stickers-mobile-2">
                         <img src={SmileyBlue} alt="Blue Smiley Sticker"/>
                     </div>
