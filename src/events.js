@@ -483,6 +483,34 @@ export const events = [
     date: 20220928,
     time: 1830,
     location: "Design & Innovation Building 202",
+    slidelink: "https://docs.google.com/presentation/d/1LGiWS70HZk82z1HRrOHVE4QfQ9MwX2Df4NULWm5Nwzg/edit?usp=sharing"
+  },
+  {
+    title: "Branches of UX",
+    link: "https://www.instagram.com/p/CjJ72FCsL5Z/?igshid=YmMyMTA2M2Y=",
+    image: "20221005",
+    date: 20221005,
+    time: 1830,
+    location: "Design & Innovation Building 202",
+    slidelink: "https://docs.google.com/presentation/d/1_DbEYgN_LIToWagwtFJHG18dhHqv2jkfqWlKEPyB0ko/edit?usp=sharing"
+  },
+  {
+    title: "Camp DCo",
+    link: "https://www.instagram.com/p/CjUIIeVvXyK/?igshid=YmMyMTA2M2Y=",
+    image: "20221010",
+    date: 20221010,
+    time: 1830,
+    location: "Design & Innovation Building 202",
+    description: "Calling all aspiring designers, developers, and researchers! Take the first plunge into various topics in design at Camp DCo, our annual introduction series for beginners."
+  },
+  {
+    title: "Design Lab x Design Co Mixer",
+    link: "https://www.instagram.com/p/CjRqM6Ovvgj/?igshid=YmMyMTA2M2Y=",
+    image: "20221013",
+    date: 20221013,
+    time: 1100,
+    location: "Design & Innovation Building 3rd Floor",
+    description: "Meet DLab faculty, interns, alumni, and company representatives at the 3rd floor of the Design and Innovation Building. We’ll have speed networking activities, speakers from the Design Lab and Design Co, gift bag giveaways, company info booths, and more! Complimentary food and refreshments will be provided."
   },
 ];
 

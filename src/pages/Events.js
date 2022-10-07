@@ -286,7 +286,7 @@ class AllEvents extends React.Component {
                 <h4>Large-Scale Events</h4>
               </button>
             </div>
-            {/*<div style={{ marginBottom: spacer4 }}>
+            <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
                 <h3 style={{ display: 'inline-block' }}>2022-2023</h3>
                 <img 
@@ -306,7 +306,7 @@ class AllEvents extends React.Component {
                   <Row>{largeEventList1}</Row>
                 </div>
               </div>
-            </div>*/}
+            </div>
             <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
                 <h3 style={{ display: 'inline-block' }}>2021-2022</h3>

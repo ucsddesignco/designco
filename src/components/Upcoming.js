@@ -74,6 +74,7 @@ class Upcoming extends React.Component {
     date: "",
     time: "",
     location: "",
+    description: ""
   };
 
   render() {

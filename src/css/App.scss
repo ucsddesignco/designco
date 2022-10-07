@@ -592,6 +592,15 @@ button.control-arrow {
   }
 }
 
+.carousel .slide img:hover {
+  transform: scale(0.95);
+  transition: 0.3s;
+}
+
+.carousel .slide img {
+  transition: 0.3s;
+}
+
 .carousel .control-prev.control-arrow:before {
   content: url("../images/events/prev-arrow.png");
   border-right: none;
