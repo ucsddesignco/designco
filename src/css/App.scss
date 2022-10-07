@@ -412,8 +412,6 @@ img.work-company:hover {
   display: flex;
   //align-items: center;
   img {
-    -webkit-filter: grayscale(100%); /* safari6.0 - 9.0  */
-    filter: grayscale(100%);
     height: 100%;
     margin-right: $spacer2;
     &:nth-child(3n -1) {
@@ -2078,5 +2076,133 @@ ol {
   .community__hero__stickers-mobile-2 {
     right: 0;
     bottom: -80px;
+  }
+}
+
+/************************* ABOUT ***************************/
+.about {
+
+  .headingContainer {
+    display: flex;
+    justify-content: center;
+
+    .innerContainer {
+      width: 68vw;
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+  .faqContainer {
+
+    .linkContainer {
+      width: calc(30rem + 4px);
+      overflow: hidden;
+
+      a {
+        text-decoration: none;
+  
+        .newButton {
+          display: flex;
+          width: 30rem;
+          height: 7rem;
+          border: 1px solid black;
+    
+          p {
+            font-size: 1.75rem;
+            font-family: "NB International Mono";
+            text-transform: uppercase;
+            margin: auto;
+          }
+        }
+      }
+
+      @media (max-width: $md) {
+        display: none;
+      }
+    }
+    .linkContainer:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+  .accordionContainer {
+    background-color: black;
+
+    .innerContainer {
+      padding-top: 7.2rem;
+      padding-bottom: 7.2rem;
+
+      h1 {
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+  .spotifyContainer {
+    background-color: white;
+
+    .innerContainer {
+      padding-top: 7.2rem;
+      padding-bottom: 7.2rem;
+
+      h2 {
+        text-align: center;
+      }
+      .flexContainer {
+        margin-top: 7.2rem;
+        display: flex;
+        flex-direction: row;
+
+        @media (max-width: 500px) {
+          flex-direction: column-reverse;
+        }
+        .musicContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          background-color: #191919;
+          color: white;
+          width: auto;
+          padding: 0 3rem;
+
+          @media (max-width: 500px) {
+            text-align: center;
+            padding: 2rem 8rem;
+          }
+          h2 {
+            text-align: left;
+
+            @media (max-width: $lg) {
+              font-size: 2rem;
+            }
+            @media (max-width: 500px) {
+              text-align: center;
+              font-size: 3rem;
+            }
+          }
+          a {
+            font-family: "NB International Mono";
+            text-transform: uppercase;
+            font-size: 2rem;
+
+            @media (max-width: $lg) {
+              font-size: 1.5rem;
+            }
+            @media (max-width: 500px) {
+              margin-top: 2rem;
+              font-size: 2rem;
+            }
+          }
+        }
+        img {
+          width: 50vw;
+
+          @media (max-width: 500px) {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }
