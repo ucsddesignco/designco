@@ -9,7 +9,7 @@ function Gallery() {
             <div className="community__gallery__subsection">
                 <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/q_auto/v1663745909/community-gallery/community-1_pptbud.jpg" alt="Community Image 1"/>
                 <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/q_auto/v1663745891/community-gallery/community-2_sqfykd.jpg" alt="Community Image 2"/>
-                <img src={PlantGreen} alt="Green Plant Sticker" id="green-plant-mobile"/>
+                <img src={PlantGreen} alt="Green Plant Sticker" id="plant-green-mobile"/>
             </div>
             <div className="community__gallery__subsection">
                 <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/q_auto/v1663745881/community-gallery/community-3_htsucv.jpg" alt="Community Image 3"/>

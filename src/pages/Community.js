@@ -16,6 +16,7 @@ import PlantBlue from "../images/community/stickers/plant-blue.svg";
 import CurlyArrow from "../images/community/curly-arrow.svg";
 import Gallery from "../components/community/Gallery";
 import Footer from "../components/Footer";
+import Feedback from "../components/community/Feedback";
 
 function Community() {
     const [stickerDragged, setStickerDragged] = useState(false);
@@ -56,6 +57,7 @@ function Community() {
                 </Draggable>
                 <Hero />
                 <Gallery />
+                <Feedback />
             </div>
             <Footer color="#FFF"/>
         </div>

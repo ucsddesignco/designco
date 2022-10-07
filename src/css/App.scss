@@ -1663,23 +1663,28 @@ ol {
 }
 
 .community__hero {
-  padding-bottom: 100px;
+  .community__c2a > p {
+    width: 45%;
+  }
 }
 
-.community__hero h2 {
+.community__c2a h2 {
   margin-bottom: 32px;
 }
 
-.community__hero h3 {
+.community h3 {
   margin-bottom: 18px;
   color: white;
 }
 
-.community__hero p {
+.community__hero p,
+.community__c2a p {
   color: white;
 }
 
-.community__hero a {
+.community__hero a,
+.community__c2a a,
+.community__c2a-mobile a {
   padding: 14px 18px;
   font-size: 1.4rem;
   text-decoration: none;
@@ -1687,7 +1692,7 @@ ol {
   font-family: 'NB International Mono';
 }
 
-.community__hero__grid {
+.community__grid {
   margin-top: 40px;
   margin-bottom: 100px;
   display: grid;
@@ -1696,39 +1701,42 @@ ol {
   color: white;
 }
 
-.community__hero__grid > div {
+.community__grid > div {
   position: relative;
 }
 
-.community__hero__grid > div > p {
+.community__grid > div > p {
   margin-bottom: 40px;
 }
 
-.community__hero__grid a {
+.community__grid a,
+.community__c2a a {
   display: inline-block;
   background-color: white;
   color: #191919;
 }
 
-.community__hero__discord {
+.community__c2a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
 }
 
-.community__hero__discord > p {
+.community__c2a > p {
   text-align: center;
   margin-bottom: 32px;
+  width: 55%;
 }
 
-.community__hero__discord a,
-.community__hero__discord-mobile a {
+.community__c2a a,
+.community__c2a-mobile a {
   color: white;
   background-color: transparent;
   border: solid 1px white;
 }
 
-.community__hero__discord-mobile {
+.community__c2a-mobile {
   display: none;
 }
 
@@ -1739,10 +1747,10 @@ ol {
   .community__hero h1 {
     font-size: 4rem;
   }
-  .community__hero h3 {
+  .community h3 {
     font-size: 3.4rem;
   }
-  .community__hero__grid {
+  .community__grid {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 60px;
@@ -1750,15 +1758,15 @@ ol {
     margin-top: 0;
   }
 
-  .community__hero__grid img {
+  .community__grid img {
     width: 320px;
   }
 
-  .community__hero__grid a {
+  .community__grid a {
     width: 90%;
   }
 
-  .community__hero__grid p {
+  .community__grid p {
     font-size: 2rem;
   }
 
@@ -1766,11 +1774,11 @@ ol {
     padding-top: 100px;
   }
 
-  .community__hero__discord {
+  .community__c2a {
     display: none;
   }
 
-  .community__hero__discord-mobile {
+  .community__c2a-mobile {
     display: block;
   }
 }
@@ -1826,6 +1834,10 @@ ol {
   grid-template-columns: 3fr 2fr;
   gap: 30px;
   width: 84vw;
+}
+
+.community__feedback {
+  padding-bottom: 25px;
 }
 
 @media screen and (max-width: 780px) {
@@ -1919,7 +1931,7 @@ ol {
 }
 
 .community > .plant-red {
-  bottom: -20px;
+  bottom: 260px;
   left: 3%;
   position: absolute;
 }
@@ -1963,7 +1975,7 @@ ol {
   padding-bottom: 10px;
 }
 
-#green-plant-mobile {
+#plant-green-mobile {
   display: none;
 }
 
@@ -2003,7 +2015,7 @@ ol {
   }
 
   .community > .plant-red {
-    bottom: -20px;
+    bottom: 260px;
     left: 1%;
   }
 }
@@ -2051,12 +2063,12 @@ ol {
     display: flex;
   }
 
-  #green-plant-mobile {
+  #plant-green-mobile {
     display: inline-block;
     position: absolute;
     width: 80px;
     right: 2%;
-    bottom: -60px;
+    bottom: 380px;
   }
 }
 
