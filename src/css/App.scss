@@ -2149,6 +2149,18 @@ ol {
       h2 {
         text-align: center;
       }
+      .mobileFlexContainer {
+        display: none;
+
+        @media (max-width: 500px) {
+          display: flex;
+        }
+      }
+      .desktopFlexContainer {
+        @media (max-width: 500px) {
+          display: none;
+        }
+      }
       .flexContainer {
         margin-top: 7.2rem;
         display: flex;

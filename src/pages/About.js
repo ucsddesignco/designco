@@ -131,12 +131,23 @@ class About extends React.Component {
         <div className="outerContainer spotifyContainer">
           <div className="innerContainer">
             <h2>What our board is listening to</h2>
-            <div className="flexContainer">
-              <div className="musicContainer">
-                <h2>Board Bopz Spotify Playlist</h2>
-                <a href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231" target="_blank">LISTEN NOW</a>
+            <a className="mobileFlexContainer" href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231" target="_blank" >
+              <div className="flexContainer">
+                <div className="musicContainer">
+                  <h2>Board Bopz Spotify Playlist</h2>
+                  <a href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231" target="_blank">LISTEN NOW</a>
+                </div>
+                <img src={Walkman} alt="" />
               </div>
-              <img src={Walkman} alt="" />
+            </a>
+            <div className="desktopFlexContainer">
+              <div className="flexContainer">
+                <div className="musicContainer">
+                  <h2>Board Bopz Spotify Playlist</h2>
+                  <a href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231" target="_blank">LISTEN NOW</a>
+                </div>
+                <img src={Walkman} alt="" />
+              </div>
             </div>
           </div>
         </div>
