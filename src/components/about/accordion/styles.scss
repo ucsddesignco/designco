@@ -1,0 +1,409 @@
+@import "../../../css/Reset.scss";
+@import "../../../css/constants.scss";
+@import "../../../css/Typography.scss";
+@import "../../../css/Mixins.scss";
+
+/********* Accordion ********/
+.teams {
+    text-align: left;
+    color: white;
+  }
+  
+  .team-header {
+    font-size: 3rem;
+    color: white;
+    font-family: "Neue Plak Extended";
+    margin: 0 0 2rem 8vw;
+  }
+  
+  .team-card {
+  }
+  
+  .team-card-image {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .team-card-name {
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Neue Plak Extended";
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .team-card-title {
+    font-size: 1.75rem;
+    color: white;
+    font-family: "NB International Pro";
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .team-card-year {
+    font-size: 1.25rem;
+    color: white;
+    font-family: "NB International Mono";
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  
+  .team {
+    text-align: left;
+  }
+  
+  .team-border {
+    border: 0.5px solid white;
+    border-bottom: none;
+    cursor: pointer;
+  }
+  
+  .team-container-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+  }
+  
+  .team-cross-open {
+    transform: rotate(135deg);
+    transition: 0.15s;
+  }
+  
+  .team-cross {
+    transition: 0.15s;
+  }
+  
+  .team-border-container {
+    border: 0.5px solid white;
+    border-top: none;
+  }
+  
+  .team-title {
+    position: relative;
+    font-size: 1.75rem;
+    font-family: "NB International Mono";
+    padding: 3rem 0;
+    text-transform: uppercase;
+  
+    transition: all 0.2s ease;
+  }
+  
+  .team-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .team .team-container {
+    display: flex;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.2s ease;
+    font-family: "Inter";
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0 4vw;
+    overflow-y: hidden;
+  }
+  
+  .team.open .team-title {
+    margin-bottom: 15px;
+  }
+  
+  .team .cross {
+    transform: translate(300px);
+  }
+  
+  .team.open .team-title::after {
+    transform: translateY(-50%) rotate(135deg);
+  }
+  
+  .team.open .team-container {
+    max-height: 1000rem;
+    opacity: 1;
+  }
+  
+  /**** Accordion Media Query ***/
+  @media (max-width: 768px) {
+    .faq-title {
+      font-size: 3rem;
+      letter-spacing: 0.05rem;
+      margin: 0 auto;
+      -webkit-text-stroke: 1px #e0d9d5;
+      color: #292929;
+    }
+    .team .team-title {
+      font-size: 1.25rem;
+    }
+    .team .team-container {
+      font-size: 1rem;
+    }
+  }
+  
+  /********* Accordion Modal ********/
+  .modal-background {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.85 !important;
+    z-index: 1000;
+  }
+  
+  .modal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 70vw;
+    height: 90vh;
+    position: fixed;
+    top: 5vh;
+    left: 15vw;
+    z-index: 10000;
+    overflow-x: hidden;
+  }
+  
+  .modal-card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    border-bottom: #191919 1.5px solid;
+  }
+  
+  .modal-card-middle {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3rem;
+  }
+  
+  .modal-card-bottom {
+    margin: 0 3rem 2rem; 
+  }
+  
+  .modal-middle-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .modal-smiley {
+    padding: 0 0.5rem;
+    transform: translateY(0.25rem);
+  }
+  
+  .modal-arrow {
+    margin-right: 1.5rem;
+  }
+  
+  .modal-symbol {
+    position: absolute;
+    top: 2rem;
+    right: 6rem;
+  }
+  
+  .modal-x {
+    cursor: pointer;
+  }
+  
+  .modal-card-img {
+    margin: 2rem 4rem 2rem 0;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .modal-card h2 {
+    font-family: "Neue Plak Extended";
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 130%;
+    letter-spacing: 4%;
+    color: #191919;
+  }
+  
+  .modal-card h3 {
+    font-family: "Neue Plak Extended";
+    font-weight: normal;
+    font-size: 1.3125rem;
+    letter-spacing: 4%;
+    color: #191919;
+  }
+  
+  .modal-links-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .modal-card-mono {
+    font-family: "NB International Mono";
+    font-size: 0.8125rem;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-right: 0.5rem;
+  }
+  
+  .modal-text-position {
+    font-family: "NB International Pro";
+    font-size: 1rem;
+    letter-spacing: 2%;
+    color: #191919;
+    margin: 1rem 0;
+  }
+  
+  .modal-text-year {
+    font-family: "NB International Mono";
+    font-size: 0.6875rem;
+    letter-spacing: 2%;
+    color: #191919;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-text-body {
+    font-family: "NB International Pro";
+    font-size: 0.9rem;
+    line-height: 300%;
+    letter-spacing: 2%;
+    color: #191919;
+    padding: 0 0.25rem;
+    display: inline-flex;
+    text-align: left;
+  }
+  
+  .modal-text-body-underline {
+    font-family: "NB International Pro";
+    font-size: 0.9rem;
+    line-height: 300%;
+    letter-spacing: 2%;
+    color: #191919;
+    padding: 0 0.25rem;
+    display: inline-flex;
+    text-underline-offset: 12px;
+    text-align: center;
+    text-decoration: underline solid 1px black;
+  }
+  
+  .modal-madlib-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-0.6rem);
+  }
+  
+  .modal-madlib-underline {
+    display: inline-flex;
+    width: 100%;
+    border-bottom: #191919 solid 1px;
+    transform: translateY(-0.4rem);
+  }
+  
+  .modal-madlib-underword {
+    display: inline-flex;
+    font-family: "NB International Pro";
+    font-size: 0.9rem;
+    line-height: 300%;
+    letter-spacing: 2%;
+    color: #191919;
+    transform: translateY(-0.6rem);
+    text-decoration: underline 1px solid black;
+    text-underline-offset: -21px;
+    text-align: center;
+  }
+  
+  #modal-underline {
+    text-decoration: underline;
+  }
+  
+  .modal-tape {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    white-space: nowrap;
+  }
+  
+  .modal-tape p {
+    position: absolute;
+    font-size: 0.6875rem;
+    font-family: "NB International Mono";
+    color: #191919;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+  }
+  
+  #cec {
+    background-color: #FFAB40;
+  }
+  
+  #creative {
+    background-color: #C6FF00;
+  }
+  
+  #ir {
+    background-color: #B9F6CA;
+  }
+  
+  #marketing {
+    background-color: #8C9EFF;
+  }
+  
+  #operations {
+    background-color: #FF7043;
+  }
+  
+  /********* Accordion Modal Media Query ********/
+  @media (max-width: 768px) {
+    .modal-card-middle {
+      flex-direction: column;
+      align-items: center;
+    }
+    .modal-card-img {
+      margin: 2rem;
+      height: 50vw;
+      width: 50vw;
+    }
+    .modal-card h2 {
+      font-size: 1.5rem;
+    }
+    .modal-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: white;
+      width: 90vw;
+      height: 95vh;
+      position: fixed;
+      top: 2.5vh;
+      left: 5vw;
+      z-index: 10000;
+      overflow-x: hidden;
+    }
+    .modal-symbol {
+      position: absolute;
+      top: 4rem;
+      right: 2rem;
+      height: 6rem;
+      width: 6rem;
+    }
+  }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  width: 100%;
+  padding: 2rem 0;
+
+  @media (max-width: $md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
