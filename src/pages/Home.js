@@ -51,7 +51,7 @@ const eventList =
     upcomingEvents.map(function (event) {
       // Load events occurring today or later
       return (
-        <Col xs={12} style={{ marginBottom: spacer2 }}>
+        <Col sm={upcomingEvents.length > 1 ? 6 : 12} style={{ marginBottom: spacer2 }}>
           <UpcomingHome
             title={event.title}
             link={event.link}
@@ -80,7 +80,7 @@ class Home extends React.Component {
           >
             <Row>
               <Col
-                sm={6}
+                sm={upcomingEvents.length > 1 ? 12 : 6}
                 className="events innerContainer"
                 style={{ marginBottom: spacer3 }}
               >
