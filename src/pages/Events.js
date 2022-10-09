@@ -288,7 +288,7 @@ class AllEvents extends React.Component {
             </div>
             <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
-                <h3 style={{ display: 'inline-block' }}>2022-2023</h3>
+                <h3 onClick={this.toggleAccordion} style={{ display: 'inline-block', cursor: 'pointer' }}>2022-2023</h3>
                 <img 
                   onClick={this.toggleAccordion}
                   src={require(`../images/events/close-arrow.svg`).default}
@@ -309,7 +309,7 @@ class AllEvents extends React.Component {
             </div>
             <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
-                <h3 style={{ display: 'inline-block' }}>2021-2022</h3>
+                <h3 onClick={this.toggleAccordion2} style={{ display: 'inline-block', cursor: 'pointer' }}>2021-2022</h3>
                 <img 
                   onClick={this.toggleAccordion2}
                   src={require(`../images/events/close-arrow.svg`).default}
@@ -330,7 +330,7 @@ class AllEvents extends React.Component {
             </div>
             <div>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
-                <h3 style={{ display: 'inline-block' }}>2020-2021</h3>
+                <h3 onClick={this.toggleAccordion3} style={{ display: 'inline-block', cursor: 'pointer' }}>2020-2021</h3>
                 <img 
                   onClick={this.toggleAccordion3}
                   src={require(`../images/events/close-arrow.svg`).default}
