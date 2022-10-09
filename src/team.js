@@ -6,6 +6,7 @@ export const team = [
     link: "http://linkedin.com/in/megan-tan-31a2471a5",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837980/designco/about/team-gifs/megan_cpulwb.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182835/designco/about/team-photos/megan_vom41e.png",
   },
   {
     id: "maria",
@@ -14,6 +15,7 @@ export const team = [
     link: "https://mariadhilla.myportfolio.com/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837979/designco/about/team-gifs/maria_ew1spu.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182906/designco/about/team-photos/maria_kgqecb.png",
   },
   {
     id: "juna",
@@ -22,6 +24,7 @@ export const team = [
     link: "https://www.junakim.design",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837926/designco/about/team-gifs/juna_lsgx1m.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182837/designco/about/team-photos/juna_wkpohp.png",
   },
   {
     id: "tiffany",
@@ -30,6 +33,7 @@ export const team = [
     link: "https://www.linkedin.com/in/tiffany-zhong-2841a718b/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837948/designco/about/team-gifs/tiffany_zsbavy.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182963/designco/about/team-photos/tiffany_ymj4mq.png",
   },
   {
     id: "jodie",
@@ -38,6 +42,7 @@ export const team = [
     link: "https://www.jodieli.site/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837969/designco/about/team-gifs/jodie_r35qrx.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182884/designco/about/team-photos/jodie_j3lvvh.png",
   },
   {
     id: "emilyjao",
@@ -46,6 +51,7 @@ export const team = [
     link: "https://emilysjao.wixsite.com/my-site",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837888/designco/about/team-gifs/emilyjao_t51mwq.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182963/designco/about/team-photos/emilyjao_tyq2je.png",
   },
   {
     id: "emilyyu",
@@ -54,6 +60,7 @@ export const team = [
     link: "https://www.linkedin.com/in/emily-yu-365943225/",
     gradYear: 2025,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837892/designco/about/team-gifs/emilyyu_zp81xq.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182776/designco/about/team-photos/emilyyu_roxviz.png",
   },
   {
     id: "leann",
@@ -62,6 +69,7 @@ export const team = [
     link: "https://www.linkedin.com/in/leanngamboa/",
     gradYear: 2022,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837972/designco/about/team-gifs/leann_ijibfs.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182835/designco/about/team-photos/leann_y4oc0e.png",
   },
   /* {
     id: "tracy",
@@ -70,7 +78,8 @@ export const team = [
     link: "https://www.linkedin.com/in/tracy-trang-nguyen/",
     gradYear: 2023,
     gif: "",
-  }, */
+  
+  img: "",}, */
   {
     id: "shawn",
     name: "Shawn Kim",
@@ -78,6 +87,7 @@ export const team = [
     link: "https://www.linkedin.com/in/shawn-j-kim/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831878/designco/about/team-gifs/shawn_up1ai3.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182845/designco/about/team-photos/shawn_soi3ap.png",
   },
   {
     id: "rainee",
@@ -86,6 +96,7 @@ export const team = [
     link: "https://www.raineepei.com/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837933/designco/about/team-gifs/rainee_btufff.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182955/designco/about/team-photos/rainee_axawij.png",
   },
   {
     id: "hannah",
@@ -94,6 +105,7 @@ export const team = [
     link: "https://www.linkedin.com/in/hannahyick/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837899/designco/about/team-gifs/hannah_a8eu18.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182962/designco/about/team-photos/hannah_qd4xba.png",
   },
   {
     id: "donna",
@@ -102,6 +114,7 @@ export const team = [
     link: "https://www.linkedin.com/in/dawnakim/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837953/designco/about/team-gifs/donna_rfkg32.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182885/designco/about/team-photos/donna_x8myvy.png",
   },
   {
     id: "ricky",
@@ -110,6 +123,7 @@ export const team = [
     link: "linkedin.com/in/ricardo-sedano",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837932/designco/about/team-gifs/ricky_ennyxu.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182844/designco/about/team-photos/ricky_p6o1js.png",
   },
   {
     id: "meshach",
@@ -118,6 +132,7 @@ export const team = [
     link: "https://www.linkedin.com/in/meshachadoe",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837984/designco/about/team-gifs/meshach_oujofy.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182834/designco/about/team-photos/meshach_czxqsg.png",
   },
   {
     id: "grace",
@@ -126,6 +141,7 @@ export const team = [
     link: "https://www.linkedin.com/in/graceerya/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837895/designco/about/team-gifs/grace_oswykx.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182777/designco/about/team-photos/grace_u1acws.png",
   },
   {
     id: "jonathan",
@@ -134,6 +150,7 @@ export const team = [
     link: "https://www.linkedin.com/in/jonathan-lum/",
     gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837918/designco/about/team-gifs/jonathan_xodsgp.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182779/designco/about/team-photos/jonathan_pzoksh.png",
   },
   {
     id: "catherine",
@@ -142,6 +159,7 @@ export const team = [
     link: "https://www.linkedin.com/in/catherine-oei/",
     gradYear: 2023,
     gif: "",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182905/designco/about/team-photos/catherine_xiodce.png",
   },
   {
     id: "tracey",
@@ -150,6 +168,7 @@ export const team = [
     link: "https://www.linkedin.com/in/traceydu/",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837866/designco/about/team-gifs/tracey_jwzaar.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182853/designco/about/team-photos/tracey_tdaqmd.png",
   },
   {
     id: "kayla",
@@ -158,6 +177,7 @@ export const team = [
     link: "https://www.linkedin.com/in/kayla-l-a12641199/",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837920/designco/about/team-gifs/kayla_zf0mgd.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182959/designco/about/team-photos/kayla_seeskl.png",
   },
   {
     id: "jocelyn",
@@ -166,6 +186,7 @@ export const team = [
     link: "https://www.linkedin.com/in/jocelyn-horng-2b84121b1/",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837957/designco/about/team-gifs/jocelyn_jkigbr.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182886/designco/about/team-photos/jocelyn_etsjxs.png",
   },
   {
     id: "brian",
@@ -174,6 +195,7 @@ export const team = [
     link: "https://brianliu1.myportfolio.com",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837867/designco/about/team-gifs/brian_figech.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182850/designco/about/team-photos/brian_hh46rt.png",
   },
   {
     id: "sabrina",
@@ -182,6 +204,7 @@ export const team = [
     link: "https://www.linkedin.com/in/sabrina-mao-2aba501b8/",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837929/designco/about/team-gifs/sabrina_ibfl8t.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182779/designco/about/team-photos/sabrina_kmq1v0.png",
   },
   {
     id: "sujana",
@@ -190,6 +213,7 @@ export const team = [
     link: "https://www.linkedin.com/in/sujana-nagasuri-943493238/",
     gradYear: 2024,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837859/designco/about/team-gifs/sujana_liqfys.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182885/designco/about/team-photos/sujana_ebknos.png",
   },
   {
     id: "esther",
@@ -198,6 +222,7 @@ export const team = [
     link: "https://www.linkedin.com/in/esther--liu",
     gradYear: 2025,
     gif: "",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182899/designco/about/team-photos/esther_cnazjg.png",
   },
   {
     id: "frances",
@@ -206,6 +231,7 @@ export const team = [
     link: "https://www.linkedin.com/in/frances-sy/",
     gradYear: 2025,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831907/designco/about/team-gifs/frances_keifip.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182962/designco/about/team-photos/frances_szutcr.png",
   },
   {
     id: "thoa",
@@ -214,6 +240,7 @@ export const team = [
     link: "https://www.linkedin.com/in/thoa-nguyen-99a473217/",
     gradYear: 2025,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837874/designco/about/team-gifs/thoa_irqejb.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182850/designco/about/team-photos/thoa_guvldl.png",
   },
   {
     id: "elise",
@@ -222,6 +249,7 @@ export const team = [
     link: "https://www.linkedin.com/in/elisekim999/",
     gradYear: 2025,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837886/designco/about/team-gifs/elise_kvjf38.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182908/designco/about/team-photos/elise_oclfeo.png",
   },
   {
     id: "mandy",
@@ -230,6 +258,7 @@ export const team = [
     link: "https://www.linkedin.com/in/mandy-lai-4179b91a1/",
     gradYear: 2025,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837968/designco/about/team-gifs/mandy_bebrif.gif",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182884/designco/about/team-photos/mandy_izsnqe.png",
   },
 
   
