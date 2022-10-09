@@ -15,13 +15,13 @@ class Footer extends React.Component {
           <Row>
             <Visible lg xl>
               <Col md={4}>
-                <h4>Design Co © 2021</h4>
+                <h4>Design Co © 2022</h4>
               </Col>
             </Visible>
             <Col lg={8}>
               <Hidden lg xl>
                 <h4 style={{ textAlign: "center", marginBottom: spacer1 }}>
-                  Design Co © 2021
+                  Design Co © 2022
                 </h4>
               </Hidden>
               <ul className="footerLinks">
