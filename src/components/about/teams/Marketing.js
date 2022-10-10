@@ -13,6 +13,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/tiffany-zhong-2841a718b/",
         gradYear: 2023,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837948/designco/about/team-gifs/tiffany_zsbavy.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182963/designco/about/team-photos/tiffany_ymj4mq.png",
       },
       {
         id: "emilyjao",
@@ -21,6 +22,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://emilysjao.wixsite.com/my-site",
         gradYear: 2024,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837888/designco/about/team-gifs/emilyjao_t51mwq.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182963/designco/about/team-photos/emilyjao_tyq2je.png",
       },
       {
         id: "frances",
@@ -29,6 +31,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/frances-sy/",
         gradYear: 2025,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831907/designco/about/team-gifs/frances_keifip.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182962/designco/about/team-photos/frances_szutcr.png",
       },
       {
         id: "hannah",
@@ -37,6 +40,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/hannahyick/",
         gradYear: 2023,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837899/designco/about/team-gifs/hannah_a8eu18.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182962/designco/about/team-photos/hannah_qd4xba.png",
       },
       {
         id: "kayla",
@@ -45,6 +49,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/kayla-l-a12641199/",
         gradYear: 2024,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837920/designco/about/team-gifs/kayla_zf0mgd.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182959/designco/about/team-photos/kayla_seeskl.png",
       },
       {
         id: "rainee",
@@ -53,6 +58,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://www.raineepei.com/",
         gradYear: 2023,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837933/designco/about/team-gifs/rainee_btufff.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182955/designco/about/team-photos/rainee_axawij.png",
       },
       {
         id: "brian",
@@ -61,6 +67,7 @@ function Marketing({ member, index, toggleTEAM }) {
         link: "https://brianliu1.myportfolio.com",
         gradYear: 2024,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837867/designco/about/team-gifs/brian_figech.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182850/designco/about/team-photos/brian_hh46rt.png",
       },
   ]
 
@@ -83,7 +90,7 @@ function Marketing({ member, index, toggleTEAM }) {
                         {MarketingTeam.map((item) => (
                           <div className="team-card">
                             <a href={item.link} target="_blank">
-                              <img className="team-card-image" src={require(`../../../images/about/team-photos/${item.id}.png`).default} alt="" />
+                              <img className="team-card-image" src={item.img} alt="" />
                             </a>
                             <div className="team-card-name">{item.name}</div>
                             <div className="team-card-title">{item.role}</div>

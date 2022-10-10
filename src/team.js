@@ -60,7 +60,7 @@ export const team = [
     name: "Leann Gamboa",
     role: "Visual + Web Developer",
     link: "https://www.linkedin.com/in/leanngamboa/",
-    gradYear: 2022,
+    gradYear: 2023,
     gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837972/designco/about/team-gifs/leann_ijibfs.gif",
   },
   /* {

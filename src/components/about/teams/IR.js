@@ -13,6 +13,7 @@ function IR({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/esther--liu",
         gradYear: 2025,
         gif: "",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182899/designco/about/team-photos/esther_cnazjg.png",
       },
       {
         id: "maria",
@@ -21,6 +22,7 @@ function IR({ member, index, toggleTEAM }) {
         link: "https://mariadhilla.myportfolio.com/",
         gradYear: 2023,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837979/designco/about/team-gifs/maria_ew1spu.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182906/designco/about/team-photos/maria_kgqecb.png",
       },
       {
         id: "catherine",
@@ -29,6 +31,7 @@ function IR({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/catherine-oei/",
         gradYear: 2023,
         gif: "",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182905/designco/about/team-photos/catherine_xiodce.png",
       },
       {
         id: "elise",
@@ -37,6 +40,7 @@ function IR({ member, index, toggleTEAM }) {
         link: "https://www.linkedin.com/in/elisekim999/",
         gradYear: 2025,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837886/designco/about/team-gifs/elise_kvjf38.gif",
+        img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182908/designco/about/team-photos/elise_oclfeo.png",
       },
     ]
 
@@ -59,7 +63,7 @@ function IR({ member, index, toggleTEAM }) {
                         {IRTeam.map((item) => (
                           <div className="team-card">
                             <a href={item.link} target="_blank">
-                              <img className="team-card-image" src={require(`../../../images/about/team-photos/${item.id}.png`).default} alt="" />
+                              <img className="team-card-image" src={item.img} alt="" />
                             </a>
                             <div className="team-card-name">{item.name}</div>
                             <div className="team-card-title">{item.role}</div>

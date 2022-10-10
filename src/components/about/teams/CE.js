@@ -74,7 +74,7 @@ function CE({ member, index, toggleTEAM }) {
                         {CETeam.map((item) => (
                           <div className="team-card">
                             <a href={item.link} target="_blank">
-                              <img className="team-card-image" src={require(`../../../images/about/team-photos/${item.id}.png`).default} alt="" />
+                              <img className="team-card-image" src={item.img} alt="" />
                             </a>
                             <div className="team-card-name">{item.name}</div>
                             <div className="team-card-title">{item.role}</div>
