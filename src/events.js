@@ -500,7 +500,7 @@ export const events = [
     image: "20221010",
     date: 20221010,
     time: 1830,
-    location: "Design & Innovation Building 202",
+    location: "Design & Innovation Building 306, 307, Zoom",
     description: "Calling all aspiring designers, developers, and researchers! Take the first plunge into various topics in design at Camp DCo, our annual introduction series for beginners."
   },
   {

@@ -185,6 +185,13 @@ class Navbar extends React.Component {
                       </a>
                     </h4>
                   </li>
+                  <li>
+                    <h4>
+                      <a href="/gbm" id="gbm">
+                        GBM
+                      </a>
+                    </h4>
+                  </li>
                   {/* <li>
                     <h4>
                       <a href="/partnership" id="partnership">
