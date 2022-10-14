@@ -513,6 +513,15 @@ export const events = [
     location: "Design & Innovation Building 3rd Floor",
     description: "Meet DLab faculty, interns, alumni, and company representatives at the 3rd floor of the Design and Innovation Building. We’ll have speed networking activities, speakers from the Design Lab and Design Co, gift bag giveaways, company info booths, and more! Complimentary food and refreshments will be provided."
   },
+  {
+    title: "Intern Panel",
+    link: "https://www.instagram.com/p/CjrTgglSRQv",
+    image: "20221019",
+    date: 20221019,
+    time: 1830,
+    location: "Design & Innovation Building 202",
+    description: "Interns today, industry professionals tomorrow. Get ready for our annual Intern Panel, where you’ll meet product design, UX research, and graphic design interns from companies like Meta, HP, Evil Geniuses, and more!"
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
