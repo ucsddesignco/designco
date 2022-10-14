@@ -501,6 +501,7 @@ export const events = [
     date: 20221010,
     time: 1830,
     location: "Design & Innovation Building 121",
+    slidelink: "https://drive.google.com/drive/folders/1Xl9-A3mCHAx6GiRN0A7YsaSzPV6413ok?usp=sharing",
     description: "Calling all aspiring designers, developers, and researchers! Take the first plunge into various topics in design at Camp DCo, our annual introduction series for beginners."
   },
   {
