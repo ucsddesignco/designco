@@ -33,7 +33,7 @@ function CE({ member, index, toggleTEAM }) {
       {
         id: "grace",
         name: "Grace Lin",
-        role: "Community Engagement Director",
+        role: "Community Engagement Coordinator",
         link: "https://www.linkedin.com/in/graceerya/",
         gradYear: 2023,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837895/designco/about/team-gifs/grace_oswykx.gif",
@@ -42,7 +42,7 @@ function CE({ member, index, toggleTEAM }) {
       {
         id: "jonathan",
         name: "Jonathan Lum",
-        role: "Community Engagement Director",
+        role: "Community Engagement Coordinator",
         link: "https://www.linkedin.com/in/jonathan-lum/",
         gradYear: 2023,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837918/designco/about/team-gifs/jonathan_xodsgp.gif",
@@ -51,7 +51,7 @@ function CE({ member, index, toggleTEAM }) {
       {
         id: "sabrina",
         name: "Sabrina Mao",
-        role: "Community Engagement Director",
+        role: "Community Engagement Coordinator",
         link: "https://www.linkedin.com/in/sabrina-mao-2aba501b8/",
         gradYear: 2024,
         gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837929/designco/about/team-gifs/sabrina_ibfl8t.gif",
