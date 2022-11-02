@@ -520,7 +520,26 @@ export const events = [
     date: 20221019,
     time: 1830,
     location: "Design & Innovation Building 202",
+    slidelink: "https://docs.google.com/presentation/d/14BEv5Y7s27nHCI0eF9tLgJwQd-vtM675F3BKYj0lXsY/edit?usp=sharing",
     description: "Interns today, industry professionals tomorrow. Get ready for our annual Intern Panel, where you’ll meet product design, UX research, and graphic design interns from companies like Meta, HP, Evil Geniuses, and more!"
+  },
+  {
+    title: "Revamp Your Resume with Deloitte",
+    link: "https://www.instagram.com/p/CkTv5T0hwkX/?igshid=YmMyMTA2M2Y=",
+    image: "20221102",
+    date: 20221102,
+    time: 1830,
+    location: "Design & Innovation Building 202",
+    description: "The spooky season can be full of jump scares, but don’t let job applications be one of them! To prepare for our annual design career fair, Stride, Design Co is hosting a resume workshop with Deloitte to share the best practices for designing your resume and impressing recruiters."
+  },
+  {
+    title: "Portfolio Day",
+    link: "https://www.instagram.com/p/CkZwc4QBYV4",
+    image: "20221105",
+    date: 20221105,
+    time: 1300,
+    location: "Design & Innovation Building 202",
+    description: "Prepping for Stride? Applying for internships? Need one last push to finally tackle your portfolio? Join Design Co at our upcoming Portfolio Day to build out and get feedback on your portfolio—all experience levels welcome!"
   },
 ];
 

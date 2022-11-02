@@ -242,9 +242,8 @@ class AllEvents extends React.Component {
         <Container className="eventsOuterContainer" style={{ marginBottom: spacer4 }}>
           <div className="eventsInnerContainer" style={{ marginBottom: spacer3 }}>
             <h1>
-              Learn about design beyond the scope of the classroom, and connect 
-              with fellow student designers at our workshops, socials, and 
-              large-scale events.
+              Build your design skills and connect with fellow designers at our workshops, 
+              socials, and large-scale events.
             </h1>
           </div>
           <div
