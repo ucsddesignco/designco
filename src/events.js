@@ -541,15 +541,6 @@ export const events = [
     location: "Design & Innovation Building 202",
     description: "Prepping for Stride? Applying for internships? Need one last push to finally tackle your portfolio? Join Design Co at our upcoming Portfolio Day to build out and get feedback on your portfolio—all experience levels welcome!"
   },
-  {
-    title: "Stride",
-    link: "https://www.instagram.com/p/Cke-ZDvLqqQ/",
-    image: "20221108",
-    date: 20221108,
-    time: 1000,
-    location: "Zoom",
-    description: "Gear up for Stride, our annual design-centric career fair! Stride aims to connect aspiring designers with company representatives by providing a space for meaningful conversation and engagement."
-  },
 ];
 
 // if npm start fails you npm rebuild node-sass
