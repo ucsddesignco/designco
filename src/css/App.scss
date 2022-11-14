@@ -1800,6 +1800,10 @@ ol {
   margin-bottom: 80px;
 }
 
+.community__gallery__section-0 {
+  margin-bottom: 30px;
+}
+
 .community__gallery__section-1 {
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -1807,6 +1811,7 @@ ol {
   width: 84vw;
 }
 
+.community__gallery__section-0 img,
 .community__gallery__section-1 img,
 .community__gallery__section-3 img,
 .community__gallery__section-4 img {

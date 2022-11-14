@@ -5,9 +5,11 @@ function Gallery() {
   return (
     <section className="community__gallery">
         <h2>View Our Community</h2>
+        <div className="community__gallery__section-0">
+            <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/q_auto/v1668148923/community-gallery/PCReveal_knr0d0.jpg" alt="Community Image 0"/>
+        </div>
         <div className="community__gallery__section-1">
             <div className="community__gallery__subsection">
-                <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/v1668148923/community-gallery/PCReveal_knr0d0.jpg" alt="Community Image 1"/>
                 <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/q_auto/v1663745909/community-gallery/community-1_pptbud.jpg" alt="Community Image 1"/>
                 <img src="https://res.cloudinary.com/design-co-ucsd/image/upload/q_auto/v1663745891/community-gallery/community-2_sqfykd.jpg" alt="Community Image 2"/>
                 <img src={PlantGreen} alt="Green Plant Sticker" id="plant-green-mobile"/>
