@@ -530,7 +530,8 @@ export const events = [
     date: 20221102,
     time: 1830,
     location: "Design & Innovation Building 202",
-    description: "The spooky season can be full of jump scares, but don’t let job applications be one of them! To prepare for our annual design career fair, Stride, Design Co is hosting a resume workshop with Deloitte to share the best practices for designing your resume and impressing recruiters."
+    description: "The spooky season can be full of jump scares, but don’t let job applications be one of them! To prepare for our annual design career fair, Stride, Design Co is hosting a resume workshop with Deloitte to share the best practices for designing your resume and impressing recruiters.",
+    slidelink: "https://docs.google.com/presentation/d/1lUq0VUg2SjV8pHCVn6GBn2mluGfqfnPAbP8p9lw7UqI/edit?usp=sharing",
   },
   {
     title: "Portfolio Day",
@@ -539,8 +540,20 @@ export const events = [
     date: 20221105,
     time: 1300,
     location: "Design & Innovation Building 202",
-    description: "Prepping for Stride? Applying for internships? Need one last push to finally tackle your portfolio? Join Design Co at our upcoming Portfolio Day to build out and get feedback on your portfolio—all experience levels welcome!"
+    description: "Prepping for Stride? Applying for internships? Need one last push to finally tackle your portfolio? Join Design Co at our upcoming Portfolio Day to build out and get feedback on your portfolio—all experience levels welcome!",
+    slidelink: "https://docs.google.com/presentation/d/1lXD3DUfr_PrdvOs7q8CP9o-Td_BnyiXMXl5wtxYpFKA/edit?usp=sharing",
   },
+  {
+    title: "Intro to Print Design",
+    link: "https://www.instagram.com/p/CkzgZsPNr8u",
+    image: "20221116",
+    date: 20221116,
+    time: 1830,
+    location: "Design & Innovation Building 202",
+    description: "Design is about bringing ideas to life – not only on screens, but in the physical world as well. At our upcoming Intro to Print Design GBM, we’ll be introducing print design and its basics."
+  },
+
+  
 ];
 
 // if npm start fails you npm rebuild node-sass
