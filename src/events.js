@@ -550,9 +550,25 @@ export const events = [
     date: 20221116,
     time: 1830,
     location: "Design & Innovation Building 202",
+    slidelink: "https://docs.google.com/presentation/d/109f7qN-OV3WoiKg73QKcp1WKRpnM9JqKRpWNwoBfdAI/edit?usp=sharing",
     description: "Design is about bringing ideas to life – not only on screens, but in the physical world as well. At our upcoming Intro to Print Design GBM, we’ll be introducing print design and its basics."
   },
-
+  {
+    title: "CSSA x Design Co Boba Run",
+    link: "https://www.instagram.com/p/ClDNN9zOJWe/?igshid=YmMyMTA2M2Y=",
+    image: "20221121",
+    date: 20221121,
+    time: 1830,
+    location: "BenGong's Tea San Diego",
+  },
+  {
+    title: "End-of-Quarter Study Jam",
+    link: "https://www.instagram.com/p/ClVJEAbr5Jt/?igshid=YmMyMTA2M2Y=",
+    image: "20221130",
+    date: 20221130,
+    time: 1830,
+    location: "Design & Innovation Building 208",
+  },
   
 ];
 
