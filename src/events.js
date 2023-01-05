@@ -569,7 +569,15 @@ export const events = [
     time: 1830,
     location: "Design & Innovation Building 208",
   },
-  
+  {
+    title: "Winter Kickoff",
+    link: "https://www.instagram.com/p/CnBS2j4NA4J/",
+    image: "20230111",
+    date: 20230111,
+    time: 1830,
+    location: "Design & Innovation Building 208",
+    description: "Design Co is excited to welcome everyone back for another great quarter! Join us at our Winter Kickoff next Wednesday, 1/11 at 6:30 PM in DIB Room 208 to learn about what we have in store for the weeks ahead, including our winter event schedule. Meet new design buds and get to know the board during a game tournament at the end!"
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
