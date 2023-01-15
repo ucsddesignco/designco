@@ -9,14 +9,14 @@ export const faq = [
     answer:
       "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2022 quarter and the 2022-23 school year (4 quarters total).",
   },
-  {
+  /* {
     question: "I won't be living near campus this year, can I still apply?",
     answer:
       "Worry not! Although we have moved back to in-person events recently and would prefer for you to be physically present for Design Co events and meetings, we will work to accommodate people who live abroad.",
-  },
+  }, */
   {
     question: "When is the application due?",
-    answer: "Applications are due Sunday, April 10th at 11:59PM.",
+    answer: "Applications are due Saturday, February 4th at 11:59PM.",
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
@@ -26,7 +26,7 @@ export const faq = [
   {
     question: "What is the application & interview process like?",
     answer:
-      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Saturday 4/16 latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 4/18 - Friday 4/22 over Zoom. Offers will be sent out shortly after.",
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Saturday 2/11 (Week 5)  latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 2/20 - Friday 2/24 (Week 7) over Zoom, and some roles will require a design challenge. Offers will be sent out shortly after.",
   },
   {
     question:
@@ -43,7 +43,7 @@ export const faq = [
     &lt;ol&gt; \
     &lt;li&gt; Our industry relations team will be tasked with finding the industry partners and managing communications. They then communicate everything industry partners want/need to the community team, creative team, and marketing. &lt;/li&gt;\
     &lt;li&gt; Our community team works with the community to figure out what students actually want. What they want to learn, what they want to hear, see, do. This may involve surveying our community on Discord, crafting the actual day-of experience etc. &lt;/li&gt;\
-    &lt;li&gt; Our internal team is involved with the logistics of the recruiting session, which includes budgeting for the event, booking event spaces etc. They will be in contact with all the teams to ensure our event caters towards our growing community and runs smoothly. &lt;/li&gt;\
+    &lt;li&gt; Our operations team is involved with the logistics of the recruiting session, which includes budgeting for the event, booking event spaces etc. They will be in contact with all the teams to ensure our event caters towards our growing community and runs smoothly. &lt;/li&gt;\
     &lt;li&gt; The designers on the creative team create all the visual and brand collateral for the event. From digital to print, they do all of the pixel pushing. &lt;/li&gt;\
     &lt;li&gt; The developers on the creative team will build a website for the event, and update it when needed. &lt;/li&gt \
     &lt;li&gt; Finally the marketing team uses social media, emailing, ads, posters and a ton of other tactics to ensure that you and all your friends know about the event and want to come out. This is how we collaborate at a high level, but it changes from day to day. &lt;/li&gt; &lt;/li&gt;&lt;br/&gt;\
