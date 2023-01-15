@@ -7,7 +7,7 @@ export const faq = [
   {
     question: "How long is the role period?",
     answer:
-      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2022 quarter and the 2022-23 school year (4 quarters total).",
+      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2023 quarter and the 2023-24 school year (4 quarters total).",
   },
   /* {
     question: "I won't be living near campus this year, can I still apply?",
