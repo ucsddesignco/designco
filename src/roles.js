@@ -218,7 +218,7 @@ export const roles = [
     a4: "I’m slightly above average (or maybe not) at recreational Minesweepers.",
   },
   {
-    team: "Operations",
+    team: "(NEW) Operations",
     position: "Project Coordinator",
     description:
       "You are a team player and bubbling with ideas. You are excited to give students more opportunities to work through the design process outside of the classroom. You and your team will take the reins in creating cool project-based programs you would like to offer our design community. If you are an aspiring project manager or if you’re itching to make an impact on a large scale, this is the perfect role for you! ",
