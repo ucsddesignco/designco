@@ -89,7 +89,7 @@ class Apply extends React.Component {
                 <h1 style={{ marginBottom: spacer2 }}>We're cool people.</h1>
                 <p>
                   Like you, we’re aspiring designers. We’re the ones who plan
-                  GBMs, Stride, Power Up, Design Frontiers, and all that other
+                  GBMs, Stride, Build Up, Design Frontiers, and all that other
                   cool stuff. At the end of the day we’re tired and our necks
                   are sore from pushing pixels, but we’re students, we’re happy,
                   and we're a family.
@@ -137,8 +137,8 @@ class Apply extends React.Component {
               <img src={require("../images/join/9.jpg").default} />
               <img src={require("../images/join/4.gif").default} />
               <img src={require("../images/join/7.jpg").default} />
-              <img src={require("../images/join/6.jpg").default} />
-              <img src={require("../images/join/2.jpg").default} />
+              <img src={require("../images/join/9.jpg").default} />
+              <img src={require("../images/join/10.jpg").default} />
             </div>
           </div>
         </div>
