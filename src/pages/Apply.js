@@ -138,7 +138,7 @@ class Apply extends React.Component {
               <img src={require("../images/join/4.gif").default} />
               <img src={require("../images/join/7.jpg").default} />
               <img src={require("../images/join/9.jpg").default} />
-              <img src={require("../images/join/10.jpg").default} />
+              <img src={require("../images/join/11.jpg").default} />
             </div>
           </div>
         </div>
