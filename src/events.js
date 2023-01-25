@@ -578,6 +578,54 @@ export const events = [
     location: "Design & Innovation Building 208",
     description: "Design Co is excited to welcome everyone back for another great quarter! Join us at our Winter Kickoff next Wednesday, 1/11 at 6:30 PM in DIB Room 208 to learn about what we have in store for the weeks ahead, including our winter event schedule. Meet new design buds and get to know the board during a game tournament at the end!"
   },
+  {
+    title: "Ice Skating Social",
+    link: "https://www.instagram.com/p/CnIJHgmOSg5/?igshid=YmMyMTA2M2Y=",
+    image: "20230113",
+    date: 20230113,
+    time: 1900,
+    location: "UTC Ice",
+    description: "Looking to make new friends and winter memories? Join Design Co at UTC Ice for some ice skating fun on Friday, 1/13. Meet us at the Central Campus Trolley Station at 7 PM to head over with friends, or join us later on the rink at 7:30 PM. Tickets will be $20 if purchased online 24 hours in advance or $25 on-site."
+  },
+  {
+    title: "Figma Day",
+    link: "https://www.instagram.com/p/CnfUneaSWr-/?igshid=YmMyMTA2M2Y=",
+    image: "20230118",
+    date: 20230118,
+    time: 1830,
+    location: "Design & Innovation Building 208",
+    description: "Figma is a designer’s best friend—join us for Design Co’s Figma Day this Wednesday, 1/18 at 6:30 PM in DIB 208 for Beginner and Advanced Figma Workshops! No matter your skill level, get some hands-on practice with the industry’s favorite prototyping tool. Be sure to have a Figma account ready and bring your computer!<br>BEGINNER: Get started with an overview of Figma, an introduction of tools and simple prototyping.<br>ADVANCED: Up your skills with auto layout, components, and scrolling with your prototypes.",
+    slidelink: "https://docs.google.com/presentation/d/1oq7Mdx0geWqVK3oxzg_QSKbPIV6T_Z7hptpFdTyh3YU/edit?usp=sharing",
+  },
+  {
+    title: "Coffee (Chats) & (Study) Jam",
+    link: "https://www.instagram.com/p/CnnAXv5S31T/?igshid=YmMyMTA2M2Y=",
+    image: "20230120",
+    date: 20230120,
+    time: 1200,
+    location: "Design & Innovation Building 306",
+    description: "Procaffeination and winter blues hit hard this quarter – boost your energy (and motivation) by studying with your design buddies! Come study, snack, or jam with friends at our joint Coffee Chat & Study Jam session this Friday, 1/20 from 12-2PM in DIB 306. Hope to see you all there!",
+  },
+  {
+    title: "TapEx Fundraiser",
+    link: "https://www.instagram.com/p/Cns6EPar-fq/?igshid=YmMyMTA2M2Y=",
+    image: "202301252",
+    date: 20230125,
+    time: 1930,
+    location: "Price Center",
+    description: "Sip for a cause! TapEx is supporting Design Co with a fundraiser next Wednesday, 1/25. Come through from 7:30-9:30 PM, show this flyer, and get 5% off your order. Satisfy your boba cravings and support your favorite design org all in one!",
+  },
+  {
+    title: "Speed Networking",
+    link: "https://www.instagram.com/p/CnqeWN2Lb4q/?igshid=YmMyMTA2M2Y=",
+    image: "202301251",
+    date: 20230125,
+    time: 1830,
+    location: "Design & Innovation Building 306",
+    description: "Recruiting 101: Sometimes, it’s not about who you know, but who knows YOU. How can you put yourself out there and connect with people outside your current circle? At our next GBM, we’ll be going over networking essentials such as how to schedule coffee chats with industry professionals, email recruiters, and make yourself stand out amongst the sea of applicants. Join us on Wednesday, 11/25 at 6:30PM in DIB 208 to learn how to present yourself and network with others!",
+  },
+  
+
 ];
 
 // if npm start fails you npm rebuild node-sass
