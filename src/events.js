@@ -621,7 +621,7 @@ export const events = [
     image: "202301251",
     date: 20230125,
     time: 1830,
-    location: "Design & Innovation Building 306",
+    location: "Design & Innovation Building 208",
     description: "Recruiting 101: Sometimes, it’s not about who you know, but who knows YOU. How can you put yourself out there and connect with people outside your current circle? At our next GBM, we’ll be going over networking essentials such as how to schedule coffee chats with industry professionals, email recruiters, and make yourself stand out amongst the sea of applicants. Join us on Wednesday, 11/25 at 6:30PM in DIB 208 to learn how to present yourself and network with others!",
   },
   
