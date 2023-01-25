@@ -596,6 +596,7 @@ export const events = [
     location: "Design & Innovation Building 208",
     description: "Figma is a designer’s best friend—join us for Design Co’s Figma Day this Wednesday, 1/18 at 6:30 PM in DIB 208 for Beginner and Advanced Figma Workshops! No matter your skill level, get some hands-on practice with the industry’s favorite prototyping tool. Be sure to have a Figma account ready and bring your computer!<br>BEGINNER: Get started with an overview of Figma, an introduction of tools and simple prototyping.<br>ADVANCED: Up your skills with auto layout, components, and scrolling with your prototypes.",
     slidelink: "https://docs.google.com/presentation/d/1oq7Mdx0geWqVK3oxzg_QSKbPIV6T_Z7hptpFdTyh3YU/edit?usp=sharing",
+    videolink: "https://drive.google.com/file/d/1YILMyA_nkPYyar9dLSJE0t7W4oCeZ5oC/view?usp=sharing",
   },
   {
     title: "Coffee (Chats) & (Study) Jam",
