@@ -152,7 +152,7 @@ export const roles = [
       "You are creative and insightful. You understand tone and voice. You want to write content that captivates an audience. You are grammar.",
     duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team to curate and execute marketing campaigns that increase reach, engagement, and impressions &lt;/li&gt; \
       &lt;li&gt; Writing captions and event descriptions for our social media platforms that perfectly capture Design Co’s voice and tone &lt;/li&gt; \
-      &lt;li&gt; Planning, writing, and executing articles for our Medium publication (e.g. Alumni Spotlight) &lt;/li&gt; \
+      &lt;li&gt; Planning, writing, and executing articles for our publications &lt;/li&gt; \
       &lt;li&gt; Writing copy for new initiatives and any relevant collaterals (e.g. branding, website) to ensure they align with our visual language &lt;/li&gt; \
       &lt;li&gt; Creating, establishing, and iterating our content and writing guidelines &lt;/li&gt; &lt;/ol&gt;",
     general:
@@ -190,7 +190,8 @@ export const roles = [
       &lt;li&gt; Taking photographs and videos for all events &lt;/li&gt; \
       &lt;li&gt; Working closely with our Creative Team to ensure that our video and photo editing aligns with our visual language &lt;/li&gt; \
       &lt;li&gt; Curating marketing videos for our social media channels (e.g. Design Frontiers Video, Intro to Design Co, etc.) &lt;/li&gt; \
-      &lt;li&gt; Editing and sharing photos and videos after events &lt;/li&gt; &lt;/ol&gt;  ",
+      &lt;li&gt; Editing and sharing photos and videos after events &lt;/li&gt;  \
+      &lt;li&gt; Creating and editing short-form videos &lt;/ol&gt;",
     general:
       "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
