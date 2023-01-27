@@ -45,7 +45,7 @@ for (let i = 0; i < events.length; i++) {
 const eventList =
   upcomingEvents.length === 0 ? (
     <p style={{ marginLeft: spacer1 }}>
-      Keep an eye out for Fall quarter updates!
+      Keep an eye out for Winter quarter updates!
     </p>
   ) : (
     upcomingEvents.map(function (event) {

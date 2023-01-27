@@ -329,7 +329,7 @@ class AllEvents extends React.Component {
             </div>
             <div>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
-                <h3 onClick={this.toggleAccordion3} style={{ display: 'inline-block', cursor: 'pointer' }}>2020-2021</h3>
+                <h3 onClick={this.toggleAccordion3} style={{ display: 'inline-block', cursor: 'pointer' }}>Archive</h3>
                 <img 
                   onClick={this.toggleAccordion3}
                   src={require(`../images/events/close-arrow.svg`).default}

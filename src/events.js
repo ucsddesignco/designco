@@ -576,7 +576,8 @@ export const events = [
     date: 20230111,
     time: 1830,
     location: "Design & Innovation Building 208",
-    description: "Design Co is excited to welcome everyone back for another great quarter! Join us at our Winter Kickoff next Wednesday, 1/11 at 6:30 PM in DIB Room 208 to learn about what we have in store for the weeks ahead, including our winter event schedule. Meet new design buds and get to know the board during a game tournament at the end!"
+    description: "Design Co is excited to welcome everyone back for another great quarter! Join us at our Winter Kickoff next Wednesday, 1/11 at 6:30 PM in DIB Room 208 to learn about what we have in store for the weeks ahead, including our winter event schedule. Meet new design buds and get to know the board during a game tournament at the end!",
+    slidelink: "https://docs.google.com/presentation/d/1G1J8GZaivtLWYx6M7mJIbwj3EX06krSzmRA425n28hs/edit?usp=sharing"
   },
   {
     title: "Ice Skating Social",
@@ -623,6 +624,7 @@ export const events = [
     date: 20230125,
     time: 1830,
     location: "Design & Innovation Building 208",
+    slidelink: "https://docs.google.com/presentation/d/19hXbB_rlgKlW8kF_dEJWbbNeqx5X-ns3DqILpAyjOCg/edit?usp=sharing",
     description: "Recruiting 101: Sometimes, it’s not about who you know, but who knows YOU. How can you put yourself out there and connect with people outside your current circle? At our next GBM, we’ll be going over networking essentials such as how to schedule coffee chats with industry professionals, email recruiters, and make yourself stand out amongst the sea of applicants. Join us on Wednesday, 11/25 at 6:30PM in DIB 208 to learn how to present yourself and network with others!",
   },
   

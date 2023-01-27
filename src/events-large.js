@@ -41,4 +41,11 @@ export const eventsLarge = [
         date: "November 2022",
         year: 2023
     },
+    {
+        title: "Visual Design Apprenticeship",
+        link: "https://vda2023.ucsddesign.co/",
+        image: "20230123",
+        date: "Jan - Apr 2023",
+        year: 2023
+    },
 ];
