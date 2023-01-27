@@ -9,7 +9,7 @@ function Internal({ member, index, toggleTEAM }) {
         {
           id: "jodie",
           name: "Jodie Li",
-          role: "Internal Director",
+          role: "Operations Director",
           link: "https://www.jodieli.site/",
           gradYear: 2023,
           gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837969/designco/about/team-gifs/jodie_r35qrx.gif",
@@ -27,7 +27,7 @@ function Internal({ member, index, toggleTEAM }) {
         {
           id: "jocelyn",
           name: "Jocelyn Horng",
-          role: "Operations Coordinator, Finance Coordinator",
+          role: "Operations Coordinator",
           link: "https://www.linkedin.com/in/jocelyn-horng-2b84121b1/",
           gradYear: 2024,
           gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837957/designco/about/team-gifs/jocelyn_jkigbr.gif",

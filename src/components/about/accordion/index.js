@@ -37,7 +37,7 @@ function Accordion() {
 
   const [internal, setinternal] = useState([
     {
-      team: "Internal",
+      team: "Operations",
       open: false,
     }
   ]);
