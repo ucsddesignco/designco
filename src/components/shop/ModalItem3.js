@@ -49,6 +49,7 @@ function ModalItem3(props) {
                   </p>
                   <p className="smaller-text-size">
                     M
+                    <div className="line-xl"></div>
                   </p>
                   <p className="smaller-text-size">
                       L
