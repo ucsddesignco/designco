@@ -1,5 +1,12 @@
 export const eventsLarge = [
     {
+        title: "Level Up",
+        link: "https://levelup.ucsddesign.co/",
+        image: "20200701",
+        date: "July - Sept 2020",
+        year: 2020
+    },
+    {
         title: "Design Frontiers",
         link: "https://frontiers2021.ucsddesign.co/",
         image: "20210520",
