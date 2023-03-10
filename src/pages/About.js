@@ -7,7 +7,6 @@ import Navbar from "../components/Navbar";
 import Accordion from "../components/about/accordion";
 import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-grid-system";
-import Walkman from "../images/about/walkman.svg";
 
 const teamList = team.map((member) => (
   <Col sm={6} md={4}>
@@ -155,7 +154,7 @@ class About extends React.Component {
                     LISTEN NOW
                   </a>
                 </div>
-                <img src={Walkman} alt="" />
+                <img src={"/about/walkman.png"} alt="" />
               </div>
             </a>
             <div className="desktopFlexContainer">
