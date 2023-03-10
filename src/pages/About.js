@@ -40,12 +40,13 @@ class About extends React.Component {
         <div className="scrollWrapper" style={{ marginBottom: spacer4 }}>
           <div className="scrollContainer">
             <div className="imageDiv">
-              <img src={require("../images/about/1.jpg").default} />
-              <img src={require("../images/about/2.jpg").default} />
-              <img src={require("../images/about/3.jpg").default} />
-              <img src={require("../images/about/4.jpg").default} />
-              <img src={require("../images/about/5.jpg").default} />
-              <img src={require("../images/about/6.jpg").default} />
+              <img src={require("../images/about/7.jpg").default} />
+              <img src={require("../images/about/8.jpg").default} />
+              <img src={require("../images/about/9.jpg").default} />
+              <img src={require("../images/about/10.jpg").default} />
+              <img src={require("../images/about/11.jpg").default} />
+              <img src={require("../images/about/12.jpg").default} />
+              <img src={require("../images/about/13.jpg").default} />
             </div>
           </div>
         </div>
