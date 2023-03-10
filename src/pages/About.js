@@ -1,13 +1,13 @@
-import React from 'react';
-import { spacer2, spacer3, spacer4 } from '../constants.js';
-import { team } from '../team.js';
-import { Helmet } from 'react-helmet';
-import Member from '../components/MemberTiles';
-import Navbar from '../components/Navbar';
-import Accordion from '../components/about/accordion';
-import Footer from '../components/Footer';
-import { Container, Row, Col } from 'react-grid-system';
-import Walkman from '../images/about/walkman.svg';
+import React from "react";
+import { spacer2, spacer3, spacer4 } from "../constants.js";
+import { team } from "../team.js";
+import { Helmet } from "react-helmet";
+import Member from "../components/MemberTiles";
+import Navbar from "../components/Navbar";
+import Accordion from "../components/about/accordion";
+import Footer from "../components/Footer";
+import { Container, Row, Col } from "react-grid-system";
+import Walkman from "../images/about/walkman.svg";
 
 const teamList = team.map((member) => (
   <Col sm={6} md={4}>
@@ -28,7 +28,7 @@ class About extends React.Component {
         <Helmet>
           <title> About | Design Co </title>
         </Helmet>
-        <Navbar color={'#000'} altColor={'#FFF'} from="about" />
+        <Navbar color={"#000"} altColor={"#FFF"} from="about" />
         <Container
           className="headingContainer"
           style={{ marginBottom: spacer4 }}
@@ -43,13 +43,13 @@ class About extends React.Component {
         <div className="scrollWrapper" style={{ marginBottom: spacer4 }}>
           <div className="scrollContainer">
             <div className="imageDiv">
-              <img src={'/about/7.jpg'} />
-              <img src={'/about/8.jpg'} />
-              <img src={'/about/9.jpg'} />
-              <img src={'/about/10.jpg'} />
-              <img src={'/about/11.jpg'} />
-              <img src={'/about/12.jpg'} />
-              <img src={'/about/13.jpg'} />
+              <img src={"/about/7.jpg"} />
+              <img src={"/about/8.jpg"} />
+              <img src={"/about/9.jpg"} />
+              <img src={"/about/10.jpg"} />
+              <img src={"/about/11.jpg"} />
+              <img src={"/about/12.jpg"} />
+              <img src={"/about/13.jpg"} />
             </div>
           </div>
         </div>
@@ -106,20 +106,22 @@ class About extends React.Component {
                   Anyone can be a member of our community. We host events
                   weekly, on Wednesdays at 6:30pm at the Design & Innovation
                   Building Room 208. Sometimes things change, so we suggest
-                  following our{' '}
+                  following our{" "}
                   <a
                     href="https://www.instagram.com/ucsddesignco/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Instagram page
-                  </a>{' '}
-                  or{' '}
+                  </a>{" "}
+                  or{" "}
                   <a
                     href="https://www.facebook.com/ucsddesignco"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Facebook page
-                  </a>{' '}
+                  </a>{" "}
                   to stay up-to-date.
                 </p>
               </Col>
@@ -140,6 +142,7 @@ class About extends React.Component {
               className="mobileFlexContainer"
               href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="flexContainer">
                 <div className="musicContainer">
@@ -147,6 +150,7 @@ class About extends React.Component {
                   <a
                     href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     LISTEN NOW
                   </a>
@@ -161,11 +165,12 @@ class About extends React.Component {
                   <a
                     href="https://open.spotify.com/playlist/5OTpI667X3PLcCNKJJIZeN?si=ebf21c7e1e9a4231"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     LISTEN NOW
                   </a>
                 </div>
-                <img src={Walkman} alt="" />
+                <img src={"/about/walkman.png"} alt="" />
               </div>
             </div>
           </div>
