@@ -651,6 +651,7 @@ export const events = [
     date: 20230222,
     time: 1500,
     location: "Zoom",
+    slidelink: "https://drive.google.com/file/d/1Twds0im9cAxqkxHNGN0JD2ZdGA6YcR3j/view?usp=sharing"
   },
   {
     title: "The Laws of Notion",
@@ -659,7 +660,43 @@ export const events = [
     date: 20230301,
     time: 1830,
     location: "Design & Innovation Building 208",
+    slidelink: "https://drive.google.com/file/d/14PBhcM6oyd1Nc2oqWotxW2wMjrppMODo/view?usp=sharing"
   },
+  {
+    title: "Sony Office Tour & Audio Workshop",
+    link: "https://www.instagram.com/p/Co3wMYhL5jI/?igshid=YmMyMTA2M2Y=",
+    image: "20230307",
+    date: 20230307,
+    time: 900,
+    location: "Sony Electronics, San Diego",
+  },
+  {
+    title: "Interviewing Like a Pro",
+    link: "https://www.instagram.com/p/CpdO5pdvvk0/?igshid=YmMyMTA2M2Y=",
+    image: "20230308",
+    date: 20230308,
+    time: 1830,
+    location: "Design & Innovation Building 208",
+    slidelink: "https://docs.google.com/presentation/d/1dDKN8K-6GjcM3ba1nAjfOlVFbtFGUVSGGbD8O8n82rQ/edit?usp=sharing"
+  },
+  {
+    title: "End-of-Quarter Gelato Run",
+    link: "https://www.instagram.com/p/CpmI-VUupl-/?igshid=YmMyMTA2M2Y=",
+    image: "20230315",
+    date: 20230315,
+    time: 1830,
+    location: "Little Italy",
+    description: "Finish the last stretch of the quarter on a sweet note at Design Co’s Gelato Run in Little Italy! Come chill with friends and indulge in gelato at Bobboi in the Little Italy Food Hall. Meet at the Central Campus trolley station on Wednesday, 3/15 at 6:30 PM to head over together and celebrate the end of the quarter!"
+  },
+  /*{
+    title: "Twitch Office Tour",
+    link: "https://www.instagram.com/p/Co_iqXvuT9_/?igshid=YmMyMTA2M2Y=",
+    image: "20230317",
+    date: 20230317,
+    time: 800,
+    location: "Twitch Office, Irvine",
+    description: "Coming up on Friday, 3/17 from 8AM-5PM, 11 Design Co members will have the opportunity to grab lunch with Twitch designers, attend workshops, and learn about a day in the life of a full-time designer."
+  },*/
 
 ];
 
