@@ -697,6 +697,15 @@ export const events = [
     location: "Twitch Office, Irvine",
     description: "Coming up on Friday, 3/17 from 8AM-5PM, 11 Design Co members will have the opportunity to grab lunch with Twitch designers, attend workshops, and learn about a day in the life of a full-time designer."
   },*/
+  {
+    title: "Mario Kart Tournament",
+    link: "https://www.instagram.com/p/CqnvNOnpLgW/",
+    image: "20230405",
+    date: 20230405,
+    time: 1830,
+    location: "DIB 208",
+    description: "Kick off spring quarter with a bang at Design Co’s Mario Kart tournament! Join us on Wednesday, 4/5 at 6:30PM in DIB 208 to enjoy delicious ReThink ice cream as you put your Mario Kart skills to the test and assert dominance as the best player (within DCo). See you at the starting line!"
+  },
 
 ];
 
