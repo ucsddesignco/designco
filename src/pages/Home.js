@@ -18,7 +18,7 @@ import servicenow from "../images/work-companies/servicenow.png";
 import amazon from "../images/work-companies/amazon.png";
 import robinhood from "../images/work-companies/robinhood.png";
 import twitch from "../images/work-companies/twitch.png";
-import mongo from "../images/work-companies/mongo.png";
+import webflow from "../images/work-companies/webflow.png";
 
 import { Helmet } from "react-helmet";
 
@@ -45,7 +45,7 @@ for (let i = 0; i < events.length; i++) {
 const eventList =
   upcomingEvents.length === 0 ? (
     <p style={{ marginLeft: spacer1 }}>
-      Keep an eye out for Winter quarter updates!
+      Keep an eye out for Spring quarter updates!
     </p>
   ) : (
     upcomingEvents.map(function (event) {
@@ -100,19 +100,36 @@ class Home extends React.Component {
               <Col sm={6} style={{ marginBottom: spacer3 }}>
                 <h2 style={{ marginBottom: spacer3 }}>News</h2>
                 <h3 style={{ marginBottom: spacer1 }}>
-                  Alumni Panel 2022 Recap
+                  Design Co Visits Twitch's Irvine Office
                 </h3>
                 <p style={{ marginBottom: spacer2 }}>
-                  Five Design Co alumni share their experiences as full-time designers and researchers.
+                  13 Design Co members got the opportunity to visit the Twitch office — 
+                  getting a taste of the day-in-the-life of a full-time designer.
                   <br></br>
                   <a
-                    href="https://medium.com/@ucsddesignco/alumni-panel-2022-recap-ecf6d3917a31"
+                    href="https://medium.com/@ucsddesignco/design-co-visits-twitchs-irvine-office-720b12337b4f"
                     target="_blank"
                   >
                     Read More
                   </a>
                 </p>
-                <p className="text_caption">Aug. 22, 2022</p>
+
+                <h3 style={{ marginBottom: spacer1 }}>
+                  From Apprentice to Master: The VDA 2023 Experience
+                </h3>
+                <p style={{ marginBottom: spacer2 }}>
+                  Student designers worked on assignments focusing on visual, graphic, and brand design 
+                  in Design Co’s first ever visual-based program.
+                  <br></br>
+                  <a
+                    href="https://medium.com/@ucsddesignco/from-apprentice-to-master-the-vda-2023-experience-e19c946f7de"
+                    target="_blank"
+                  >
+                    Read More
+                  </a>
+                </p>
+
+                <p className="text_caption">Apr. 18, 2023</p>
               </Col>
             </Row>
           </div>
@@ -172,7 +189,7 @@ class Home extends React.Component {
                 <img className="work-company" src={twitch} alt="Twitch"></img>
               </Col>
               <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
-                <img className="work-company" src={mongo} alt="MongoDB"></img>
+                <img className="work-company" src={webflow} alt="Webflow"></img>
               </Col>
             </Row>
           </div>

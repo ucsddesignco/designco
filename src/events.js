@@ -688,15 +688,15 @@ export const events = [
     location: "Little Italy",
     description: "Finish the last stretch of the quarter on a sweet note at Design Co’s Gelato Run in Little Italy! Come chill with friends and indulge in gelato at Bobboi in the Little Italy Food Hall. Meet at the Central Campus trolley station on Wednesday, 3/15 at 6:30 PM to head over together and celebrate the end of the quarter!"
   },
-  /*{
+  {
     title: "Twitch Office Tour",
     link: "https://www.instagram.com/p/Co_iqXvuT9_/?igshid=YmMyMTA2M2Y=",
     image: "20230317",
     date: 20230317,
     time: 800,
     location: "Twitch Office, Irvine",
-    description: "Coming up on Friday, 3/17 from 8AM-5PM, 11 Design Co members will have the opportunity to grab lunch with Twitch designers, attend workshops, and learn about a day in the life of a full-time designer."
-  },*/
+    videolink: "https://youtu.be/tgVnX7-PN3Y"
+  },
   {
     title: "Mario Kart Tournament",
     link: "https://www.instagram.com/p/CqnvNOnpLgW/",
@@ -706,6 +706,31 @@ export const events = [
     location: "DIB 208",
     description: "Kick off spring quarter with a bang at Design Co’s Mario Kart tournament! Join us on Wednesday, 4/5 at 6:30PM in DIB 208 to enjoy delicious ReThink ice cream as you put your Mario Kart skills to the test and assert dominance as the best player (within DCo). See you at the starting line!"
   },
+  {
+    title: "Intro to Inclusive Design",
+    link: "https://www.instagram.com/p/Cq3lzcTP4OU/",
+    image: "20230412",
+    date: 20230412,
+    time: 1830,
+    location: "DIB 208",
+  },
+  {
+    title: "FigJam Ideation Workshop",
+    link: "https://www.instagram.com/p/CrKExOJPG0M/",
+    image: "20230419",
+    date: 20230419,
+    time: 1830,
+    location: "DIB 208",
+  },
+  /*{
+    title: "Humane Physical Product Design Workshop",
+    link: "",
+    image: "20230426",
+    date: 20230426,
+    time: 1830,
+    location: "DIB 208",
+    description: ""
+  },*/
 
 ];
 
