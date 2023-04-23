@@ -713,6 +713,7 @@ export const events = [
     date: 20230412,
     time: 1830,
     location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1_CTI6eTLt9VUW07vvLrLec3f0or4F1eXUM76j-QOnkU/edit?usp=sharing"
   },
   {
     title: "FigJam Ideation Workshop",
@@ -721,6 +722,7 @@ export const events = [
     date: 20230419,
     time: 1830,
     location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1-VfgsXoXqzEI9slKhpgSLtBL5rZ2Zw9vd2xrK6NXNrU/edit?usp=sharing"
   },
   /*{
     title: "Humane Physical Product Design Workshop",
