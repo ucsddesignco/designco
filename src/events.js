@@ -724,15 +724,15 @@ export const events = [
     location: "DIB 208",
     slidelink: "https://docs.google.com/presentation/d/1-VfgsXoXqzEI9slKhpgSLtBL5rZ2Zw9vd2xrK6NXNrU/edit?usp=sharing"
   },
-  /*{
+  {
     title: "Humane Physical Product Design Workshop",
-    link: "",
+    link: "https://www.instagram.com/p/CrXYMLdOr5H",
     image: "20230426",
     date: 20230426,
     time: 1830,
     location: "DIB 208",
-    description: ""
-  },*/
+    description: "Humane — an AI startup founded by former members of Apple’s design and engineering team — will be tuning in virtually to teach us about physical product design."
+  },
 
 ];
 
