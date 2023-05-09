@@ -68,13 +68,15 @@ function Shop() {
       </div>
       <div className="shop-gallery" id="gallery-section">
         <h2 className="shop-gallery-title">Browse Our Collection</h2>
-        <AutoTiles minWidth={250} style={{ padding: "0 99px" }} space={40}>
-          {shopItems.map((i) => (
-            <AutoTile>
-              <ShopItem title={i.title} price={i.price} />
-            </AutoTile>
-          ))}
-        </AutoTiles>
+        <div className="shop-gallery-items">
+          <AutoTiles minWidth={250} space={40}>
+            {shopItems.map((i) => (
+              <AutoTile>
+                <ShopItem title={i.title} price={i.price} />
+              </AutoTile>
+            ))}
+          </AutoTiles>
+        </div>
       </div>
 
       <WhiteFooter />
