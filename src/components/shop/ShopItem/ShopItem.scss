@@ -1,8 +1,8 @@
 .dco-shop-item {
-  background: pink;
   display: flex;
   flex-direction: column;
   gap: 8px;
+  font-size: 21px;
 
   .dco-shop-item_image-wrapper {
     position: relative;
@@ -18,15 +18,15 @@
       inset: 0;
     }
   }
+
   .dco-shop-item_image-overlay {
     opacity: 0;
   }
-  &:hover {
-    background: blue;
 
+  &:hover {
     .dco-shop-item_image-wrapper {
       img {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
     .dco-shop-item_image-overlay {
@@ -40,4 +40,9 @@
 .dco-shop-item:hover,
 .dco-shop-item:hover * {
   transition: all 0.3s ease-in-out;
+}
+
+.dco-shop-item_title {
+  font-family: "Neue Plak Extended";
+  font-weight: bold;
 }

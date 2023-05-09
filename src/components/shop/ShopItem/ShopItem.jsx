@@ -4,14 +4,14 @@ export const ShopItem = ({ title = "Unset Title", price = "Unset Price" }) => {
   return (
     <div className="dco-shop-item">
       <div className="dco-shop-item_image-wrapper">
-        <img src="https://placehold.co/600x400" alt="" />
+        <img src="https://placehold.co/400x600" alt="" />
         <img
           className="dco-shop-item_image-overlay"
-          src="https://placehold.co/99x99"
+          src="https://placehold.co/600x400"
           alt=""
         />
       </div>
-      <span>{title}</span>
+      <span className="dco-shop-item_title">{title}</span>
       <span>{price}</span>
     </div>
   );
