@@ -113,7 +113,6 @@ class Home extends React.Component {
                     Read More
                   </a>
                 </p>
-                <p className="text_caption" style={{ marginBottom: spacer2 }}>Apr. 11, 2023</p>
 
                 <h3 style={{ marginBottom: spacer1 }}>
                   From Apprentice to Master: The VDA 2023 Experience
@@ -129,6 +128,7 @@ class Home extends React.Component {
                     Read More
                   </a>
                 </p>
+
                 <p className="text_caption">Apr. 18, 2023</p>
               </Col>
             </Row>
