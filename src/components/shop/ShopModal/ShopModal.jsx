@@ -20,6 +20,8 @@ export const ShopModal = ({
         <div className="shop-modal_box">
           <AutoTiles minWidth={250} space={40}>
             <AutoTile className="shop-modal_photos">
+              <button className="shop-modal_close" onClick={onCloseClick} />
+              <h1>{title}</h1>
               <ShopPhotoGallery images={images} />
             </AutoTile>
             <AutoTile>

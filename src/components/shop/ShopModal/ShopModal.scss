@@ -71,6 +71,13 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  @media screen and (max-width: 700px) {
+    position: static;
+    h1,
+    .shop-modal_close {
+      display: none;
+    }
+  }
 }
 
 .shop-modal_available-sizes-icons {
@@ -95,7 +102,18 @@
 .shop-modal_photos {
   position: sticky;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  h1,
+  .shop-modal_close {
+    display: none;
+  }
   @media screen and (max-width: 700px) {
     position: static;
+    h1,
+    .shop-modal_close {
+      display: block;
+    }
   }
 }
