@@ -8,13 +8,14 @@
   top: calc(50% - 20px);
   padding: 0;
   border: none;
-  background-image: url("https://placehold.co/40x40");
   cursor: pointer;
   &.left {
     left: 16px;
+    background-image: url("https://placehold.co/40x40?text=<-");
   }
   &.right {
     right: 16px;
+    background-image: url("https://placehold.co/40x40?text=->");
   }
 }
 .shop-photo-gallery_main-image-wrapper {
@@ -47,6 +48,7 @@
   padding: 0;
   border-radius: 0;
   border: none;
+  cursor: pointer;
   img {
     display: block;
     width: 100%;

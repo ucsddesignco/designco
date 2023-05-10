@@ -13,6 +13,12 @@ const shopItems = [
   {
     title: "PLAY3 Embroidered Crewneck",
     price: "$35,000",
+    images: [
+      "https://placehold.co/600x400/orange/white?text=Crewneck",
+      "https://placehold.co/600x400/blue/white?text=Crewneck",
+      "https://placehold.co/600x400/green/white?text=Crewneck",
+    ],
+    overlayImage: "https://placehold.co/600x400/red/white?text=Crewneck%20Zoom",
     description: (
       <>
         <p>
@@ -38,6 +44,12 @@ const shopItems = [
   {
     title: "It’s OK to Make Mistakes Shirt",
     price: "$18,000",
+    images: [
+      "https://placehold.co/600x400/blue/white?text=Shirt",
+      "https://placehold.co/600x400/magenta/white?text=Shirt",
+    ],
+    overlayImage: "https://placehold.co/600x400/orange/white?text=Shirt%20Zoom",
+
     description: (
       <>
         <p>
@@ -56,27 +68,35 @@ const shopItems = [
     ),
     sizes: [
       { size: "S", available: true },
-      { size: "M", available: false },
-      { size: "L", available: false },
+      { size: "M", available: true },
     ],
   },
   {
+    images: [
+      "https://placehold.co/600x400/green/white?text=Logo%20Sticker",
+      "https://placehold.co/600x400/blue/white?text=Logo%20Sticker",
+    ],
+    overlayImage:
+      "https://placehold.co/600x400/orange/white?text=Logo%20Sticker%20Zoom",
     title: "Design Co Black Holographic Logo Sticker",
     price: "$2,000",
     description: (
       <>
-        <p>Very cool sticker.</p>
+        <p>Very cool logo sticker.</p>
         <p>80/20 cotton/polyester blend; Alpine green</p>
       </>
     ),
     sizes: [],
   },
   {
+    images: ["https://placehold.co/600x400/red/white?text=Playtime%20Sticker"],
+    overlayImage:
+      "https://placehold.co/600x400/orange/white?text=Playtime%20Sticker%20Zoom",
     title: "It’s Playtime! Holographic Sticker",
     price: "$3,000",
     description: (
       <>
-        <p>Very cool sticker.</p>
+        <p>Very cool playtime sticker.</p>
         <p>80/20 cotton/polyester blend; Alpine green</p>
       </>
     ),
@@ -137,6 +157,8 @@ function Shop() {
             {shopItems.map((i, index) => (
               <AutoTile>
                 <ShopItem
+                  image={i.images[0]}
+                  overlayImage={i.overlayImage}
                   index={index}
                   title={i.title}
                   price={i.price}
@@ -152,12 +174,12 @@ function Shop() {
           title={shopItems[modalIndex].title}
           price={shopItems[modalIndex].price}
           sizes={shopItems[modalIndex].sizes}
+          images={shopItems[modalIndex].images}
           description={shopItems[modalIndex].description}
           onOverlayClick={hideModal}
           onCloseClick={hideModal}
         />
       )}
-
       <WhiteFooter />
     </div>
   );

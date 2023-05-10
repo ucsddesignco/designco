@@ -11,6 +11,7 @@ export const ShopModal = ({
   sizes,
   onCloseClick = () => {},
   onOverlayClick = () => {},
+  images,
 }) => {
   return (
     <div className="shop-modal">
@@ -19,7 +20,7 @@ export const ShopModal = ({
         <div className="shop-modal_box">
           <AutoTiles minWidth={250} space={40}>
             <AutoTile className="shop-modal_photos">
-              <ShopPhotoGallery />
+              <ShopPhotoGallery images={images} />
             </AutoTile>
             <AutoTile>
               <div className="shop-modal_details">
