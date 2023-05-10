@@ -46,7 +46,7 @@ html {
   padding: 0 $spacer2;
 
   @media screen and (min-width: $md) {
-    padding: 0 $spacer2+$spacer3 0 $spacer2+$spacer3;
+    padding: 0 $spacer2 + $spacer3 0 $spacer2 + $spacer3;
   }
 }
 
@@ -552,7 +552,9 @@ button h4 {
   margin-right: $base;
 }
 
-#acc-arrow, #acc-arrow2, #acc-arrow3 {
+#acc-arrow,
+#acc-arrow2,
+#acc-arrow3 {
   cursor: pointer;
   transform: rotate(0deg);
 }
@@ -582,7 +584,7 @@ button h4 {
   padding: 0 $spacer2;
 
   @media screen and (min-width: $md) {
-    padding: 0 $spacer2+$spacer3 0 $spacer2+$spacer3;
+    padding: 0 $spacer2 + $spacer3 0 $spacer2 + $spacer3;
   }
 }
 
@@ -605,17 +607,18 @@ button.control-arrow {
   content: url("../images/events/prev-arrow.png");
   border-right: none;
   margin-left: 2rem;
-  transform: scale(.7);
+  transform: scale(0.7);
 }
 
 .carousel .control-next.control-arrow:before {
   content: url("../images/events/next-arrow.png");
   border-left: none;
   margin-right: 2rem;
-  transform: scale(.7);
+  transform: scale(0.7);
 }
 
-.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
   opacity: 1;
 }
 
@@ -1012,15 +1015,14 @@ ol {
     background-color: #282828;
   }
   p {
-    
   }
   .title {
     margin: 1rem 0 4rem;
   }
   .price {
-      font-family: 'NB International Mono';
-      margin: 4rem 0 1rem;
-    }
+    font-family: "NB International Mono";
+    margin: 4rem 0 1rem;
+  }
 }
 
 /**************** SHOP ***********************/
@@ -1096,6 +1098,7 @@ ol {
   color: #fff;
   margin: auto 11rem;
   margin-bottom: 6rem;
+  text-align: center;
 }
 
 .shop-gallery-items {
@@ -1556,7 +1559,6 @@ ol {
 .community {
   position: relative;
   padding: 0 8vw;
-
 }
 
 .community h1,
@@ -1580,7 +1582,7 @@ ol {
   display: none;
 }
 
-.community__hero__info > img{
+.community__hero__info > img {
   position: absolute;
   width: 100%;
   top: -120px;
@@ -1595,20 +1597,22 @@ ol {
 }
 
 .creatives,
-.affordance, .affordance-2,
-.problem, .problem-2 {
+.affordance,
+.affordance-2,
+.problem,
+.problem-2 {
   position: relative;
 }
 
 .creatives::after {
-  content: url('../images/community/blue-squiggly.svg');
+  content: url("../images/community/blue-squiggly.svg");
   position: absolute;
   bottom: -1.4rem;
   left: 0.4rem;
 }
 
 .affordance::after {
-  content: url('../images/community/red-line.svg');
+  content: url("../images/community/red-line.svg");
   position: absolute;
   white-space: nowrap;
   bottom: -0.8rem;
@@ -1618,13 +1622,13 @@ ol {
 .affordance-2::after {
   position: absolute;
   display: none;
-  content: url('../images/community/mobile/red-line-1.svg');
+  content: url("../images/community/mobile/red-line-1.svg");
   bottom: -0.6rem;
   right: 0.4rem;
 }
 
 .problem::after {
-  content: url('../images/community/green-zigzag.svg');
+  content: url("../images/community/green-zigzag.svg");
   position: absolute;
   white-space: pre;
   bottom: -1.4rem;
@@ -1634,7 +1638,7 @@ ol {
 .problem-2::after {
   position: absolute;
   display: none;
-  content: url('../images/community/mobile/green-zigzag-1.svg');
+  content: url("../images/community/mobile/green-zigzag-1.svg");
   bottom: -0.6rem;
   right: -0.4rem;
 }
@@ -1647,9 +1651,9 @@ ol {
   .community__hero__info-mobile {
     display: block;
   }
-  
+
   .creatives::after {
-    content: url('../images/community/mobile/blue-squiggly.svg');
+    content: url("../images/community/mobile/blue-squiggly.svg");
     bottom: -0.8rem;
   }
   .affordance-2::after,
@@ -1657,11 +1661,11 @@ ol {
     display: block;
   }
   .affordance::after {
-    content: url('../images/community/mobile/red-line.svg');
+    content: url("../images/community/mobile/red-line.svg");
     bottom: -0.6rem;
   }
   .problem::after {
-    content: url('../images/community/mobile/green-zigzag.svg');
+    content: url("../images/community/mobile/green-zigzag.svg");
     bottom: -0.8rem;
   }
 }
@@ -1697,7 +1701,7 @@ ol {
   font-size: 1.4rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'NB International Mono';
+  font-family: "NB International Mono";
 }
 
 .community__grid {
@@ -1823,7 +1827,7 @@ ol {
 
 .community__gallery__subsection {
   display: grid;
-  gap: 30px
+  gap: 30px;
 }
 
 .community__gallery__section-2 {
@@ -1870,7 +1874,7 @@ ol {
 
 .sticker-prompt {
   position: absolute;
-  font-family: 'NB International Mono';
+  font-family: "NB International Mono";
   display: flex;
   flex-direction: row;
   top: 250px;
@@ -2010,11 +2014,11 @@ ol {
   .community > .smiley-red {
     top: 1060px;
   }
-  
+
   .community > .smiley-green {
     top: 980px;
   }
-  
+
   .community > .arrow-blue {
     top: 780px;
   }
@@ -2022,7 +2026,7 @@ ol {
   .community > .arrow-red {
     top: 2250px;
   }
-  
+
   .community > .arrow-green {
     top: 2190px;
   }
@@ -2037,11 +2041,11 @@ ol {
   .community > .smiley-red {
     top: 1110px;
   }
-  
+
   .community > .smiley-green {
     top: 1030px;
   }
-  
+
   .community > .arrow-blue {
     top: 830px;
   }
@@ -2050,7 +2054,7 @@ ol {
     height: 100px;
     top: 2350px;
   }
-  
+
   .community > .arrow-green {
     height: 100px;
     top: 2290px;
@@ -2095,7 +2099,7 @@ ol {
     padding-top: 30px;
     padding-bottom: 10px;
   }
-  
+
   .community__hero__stickers > img:nth-child(2) {
     padding-bottom: 30px;
   }
@@ -2108,7 +2112,6 @@ ol {
 
 /************************* ABOUT ***************************/
 .about {
-
   .headingContainer {
     display: flex;
     justify-content: center;
@@ -2121,20 +2124,19 @@ ol {
     }
   }
   .faqContainer {
-
     .linkContainer {
       width: calc(30rem + 4px);
       overflow: hidden;
 
       a {
         text-decoration: none;
-  
+
         .newButton {
           display: flex;
           width: 30rem;
           height: 7rem;
           border: 1px solid black;
-    
+
           p {
             font-size: 1.75rem;
             font-family: "NB International Mono";

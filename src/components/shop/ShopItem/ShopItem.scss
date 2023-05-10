@@ -1,9 +1,15 @@
 .dco-shop-item {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0;
+  border: none;
+  color: white;
+  text-align: left;
   gap: 8px;
   font-size: 21px;
-
+  background: none;
+  cursor: pointer;
   .dco-shop-item_image-wrapper {
     position: relative;
     width: 100%;

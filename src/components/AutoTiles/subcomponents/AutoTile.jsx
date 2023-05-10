@@ -1,7 +1,11 @@
 import React from "react";
 
-const AutoTile = ({ style, children }) => {
-  return <div className="dc-auto-tile">{children}</div>;
+const AutoTile = ({ style = {}, children, className }) => {
+  return (
+    <div className={"dc-auto-tile " + className} style={style}>
+      {children}
+    </div>
+  );
 };
 
 export default AutoTile;

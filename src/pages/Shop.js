@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import WhiteFooter from "../components/WhiteFooter";
 import ShopOverlay from "../images/video/shop-overlay.mp4";
@@ -8,7 +8,8 @@ import carrot from "../images/shop/downchevron.svg";
 import AutoTiles from "../components/AutoTiles/AutoTiles";
 import AutoTile from "../components/AutoTiles/subcomponents/AutoTile";
 import { ShopItem } from "../components/shop/ShopItem/ShopItem";
-
+import { ShopModal } from "../components/shop/ShopModal/ShopModal";
+import { RemoveScroll } from "react-remove-scroll";
 const shopItems = [
   {
     title: "PLAY3 Embroidered Crewneck",
@@ -33,6 +34,18 @@ const shopItems = [
 ];
 
 function Shop() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalIndex, setModalIndex] = useState(0);
+
+  const handleShopItemClick = (index) => {
+    setModalIndex(index);
+    setIsModalOpen(true);
+  };
+
+  const handleOverlayClick = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="shop">
       <div className="shop-background">
@@ -70,14 +83,22 @@ function Shop() {
         <h2 className="shop-gallery-title">Browse Our Collection</h2>
         <div className="shop-gallery-items">
           <AutoTiles minWidth={250} space={40}>
-            {shopItems.map((i) => (
+            {shopItems.map((i, index) => (
               <AutoTile>
-                <ShopItem title={i.title} price={i.price} />
+                <ShopItem
+                  index={index}
+                  title={i.title}
+                  price={i.price}
+                  onClick={handleShopItemClick}
+                />
               </AutoTile>
             ))}
           </AutoTiles>
         </div>
       </div>
+      <RemoveScroll enabled={isModalOpen} removeScrollBar={false}>
+        {isModalOpen && <ShopModal onOverlayClick={handleOverlayClick} />}
+      </RemoveScroll>
 
       <WhiteFooter />
     </div>

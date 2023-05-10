@@ -1,0 +1,86 @@
+.shop-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+}
+
+.shop-modal_overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  inset: 0;
+}
+
+.shop-modal_box-wrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  padding: 16px;
+}
+.shop-modal_box {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  background-color: white;
+  pointer-events: all;
+  padding: 50px;
+  display: block;
+  max-height: 600px;
+  overflow-y: auto;
+  a {
+    background: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    @media screen and (max-width: 480px) {
+      padding: 12px 0;
+    }
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 24px;
+    overflow-y: auto;
+  }
+}
+
+.shop-modal_details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.shop-modal_available-sizes-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.shop-modal_available-sizes-title {
+  font-weight: bold;
+}
+
+.shop-modal_description {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 16px;
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
+}
+
+.shop-modal_photos {
+  position: sticky;
+  top: 0;
+  @media screen and (max-width: 480px) {
+    position: static;
+  }
+}
