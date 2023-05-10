@@ -5,6 +5,10 @@ import AutoTile from "../../AutoTiles/subcomponents/AutoTile";
 import ShopSize from "../ShopSize/ShopSize";
 import ShopPhotoGallery from "../ShopPhotoGallery/ShopPhotoGallery";
 export const ShopModal = ({
+  title,
+  price,
+  description,
+  sizes,
   onCloseClick = () => {},
   onOverlayClick = () => {},
 }) => {
@@ -20,38 +24,22 @@ export const ShopModal = ({
             <AutoTile>
               <div className="shop-modal_details">
                 <button className="shop-modal_close" onClick={onCloseClick} />
-                <h1>Design Co Black Holographic Logo Sticker</h1>
-                <span>$2,500</span>
+                <h1>{title}</h1>
+                <span>{price}</span>
                 <a href="https://example.com">Order Form</a>
-                <div className="shop-modal_available-sizes">
-                  <span className="shop-modal_available-sizes-title">
-                    Sizes Available
-                  </span>
-                  <div className="shop-modal_available-sizes-icons">
-                    <ShopSize />
-                    <ShopSize />
-                    <ShopSize />
+                {sizes.length > 1 && (
+                  <div className="shop-modal_available-sizes">
+                    <span className="shop-modal_available-sizes-title">
+                      Sizes Available
+                    </span>
+                    <div className="shop-modal_available-sizes-icons">
+                      {sizes.map((i) => (
+                        <ShopSize size={i.size} available={i.available} />
+                      ))}
+                    </div>
                   </div>
-                </div>
-                <div className="shop-modal_description">
-                  <p>
-                    Don’t be afraid to play around! It’s time to play, play,
-                    play to your heart’s content. Grab your pencils and crayons
-                    — on your mark, get set, design!
-                  </p>
-                  <p>80/20 cotton/polyester blend; Alpine green</p>
-                  <p>Embroidered front design, screen-printed back design</p>
-                  <p>Designed by Juna Kim</p>
-                  <p>
-                    Models in order of appearance: Khoi is 5’6” wearing size M,
-                    Brooke is _’_” wearing size M,{" "}
-                  </p>
-                  <p>Designed by Juna Kim</p>
-                  <p>
-                    Models in order of appearance: Khoi is 5’6” wearing size M,
-                    Brooke is _’_” wearing size M,{" "}
-                  </p>
-                </div>
+                )}
+                <div className="shop-modal_description">{description}</div>
               </div>
             </AutoTile>
           </AutoTiles>

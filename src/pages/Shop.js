@@ -13,22 +13,74 @@ const shopItems = [
   {
     title: "PLAY3 Embroidered Crewneck",
     price: "$35,000",
-    description: "My description...",
+    description: (
+      <>
+        <p>
+          Don’t be afraid to play around! It’s time to play, play, play to your
+          heart’s content. Grab your pencils and crayons — on your mark, get
+          set, design!
+        </p>
+        <p>80/20 cotton/polyester blend; Alpine green</p>
+        <p>Embroidered front design, screen-printed back design</p>
+        <p>Designed by Juna Kim</p>
+        <p>
+          Models in order of appearance: Khoi is 5’6” wearing size M, Brooke is
+          _’_” wearing size M.
+        </p>
+      </>
+    ),
+    sizes: [
+      { size: "S", available: true },
+      { size: "M", available: false },
+      { size: "L", available: false },
+    ],
   },
   {
     title: "It’s OK to Make Mistakes Shirt",
-    price: "$1,800",
-    description: "My description...",
+    price: "$18,000",
+    description: (
+      <>
+        <p>
+          Don’t be afraid to play around! It’s time to play, play, play to your
+          heart’s content. Grab your pencils and crayons — on your mark, get
+          set, design!
+        </p>
+        <p>80/20 cotton/polyester blend; Alpine green</p>
+        <p>Embroidered front design, screen-printed back design</p>
+        <p>Designed by Juna Kim</p>
+        <p>
+          Models in order of appearance: Khoi is 5’6” wearing size M, Brooke is
+          _’_” wearing size M.
+        </p>
+      </>
+    ),
+    sizes: [
+      { size: "S", available: true },
+      { size: "M", available: false },
+      { size: "L", available: false },
+    ],
   },
   {
     title: "Design Co Black Holographic Logo Sticker",
     price: "$2,000",
-    description: "My description...",
+    description: (
+      <>
+        <p>Very cool sticker.</p>
+        <p>80/20 cotton/polyester blend; Alpine green</p>
+      </>
+    ),
+    sizes: [],
   },
   {
     title: "It’s Playtime! Holographic Sticker",
     price: "$3,000",
-    description: "My description...",
+    description: (
+      <>
+        <p>Very cool sticker.</p>
+        <p>80/20 cotton/polyester blend; Alpine green</p>
+      </>
+    ),
+    sizes: [],
   },
 ];
 
@@ -96,7 +148,14 @@ function Shop() {
         </div>
       </div>
       {isModalOpen && (
-        <ShopModal onOverlayClick={hideModal} onCloseClick={hideModal} />
+        <ShopModal
+          title={shopItems[modalIndex].title}
+          price={shopItems[modalIndex].price}
+          sizes={shopItems[modalIndex].sizes}
+          description={shopItems[modalIndex].description}
+          onOverlayClick={hideModal}
+          onCloseClick={hideModal}
+        />
       )}
 
       <WhiteFooter />
