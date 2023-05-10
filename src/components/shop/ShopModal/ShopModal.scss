@@ -10,6 +10,21 @@
   inset: 0;
 }
 
+.shop-modal_close {
+  padding: 0;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  margin-bottom: -32px;
+  align-self: flex-end;
+  border: none;
+  background-color: unset;
+  background-image: url("https://placehold.co/16x16");
+  background-repeat: no-repeat;
+  background-position: center right;
+  cursor: pointer;
+}
+
 .shop-modal_box-wrapper {
   position: absolute;
   inset: 0;

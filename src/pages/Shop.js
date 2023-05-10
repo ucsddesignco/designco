@@ -9,7 +9,6 @@ import AutoTiles from "../components/AutoTiles/AutoTiles";
 import AutoTile from "../components/AutoTiles/subcomponents/AutoTile";
 import { ShopItem } from "../components/shop/ShopItem/ShopItem";
 import { ShopModal } from "../components/shop/ShopModal/ShopModal";
-import { RemoveScroll } from "react-remove-scroll";
 const shopItems = [
   {
     title: "PLAY3 Embroidered Crewneck",
@@ -42,7 +41,7 @@ function Shop() {
     setIsModalOpen(true);
   };
 
-  const handleOverlayClick = () => {
+  const hideModal = () => {
     setIsModalOpen(false);
   };
 
@@ -96,9 +95,9 @@ function Shop() {
           </AutoTiles>
         </div>
       </div>
-      <RemoveScroll enabled={isModalOpen} removeScrollBar={false}>
-        {isModalOpen && <ShopModal onOverlayClick={handleOverlayClick} />}
-      </RemoveScroll>
+      {isModalOpen && (
+        <ShopModal onOverlayClick={hideModal} onCloseClick={hideModal} />
+      )}
 
       <WhiteFooter />
     </div>

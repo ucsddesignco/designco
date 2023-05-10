@@ -4,7 +4,10 @@ import AutoTiles from "../../AutoTiles/AutoTiles";
 import AutoTile from "../../AutoTiles/subcomponents/AutoTile";
 import ShopSize from "../ShopSize/ShopSize";
 import ShopPhotoGallery from "../ShopPhotoGallery/ShopPhotoGallery";
-export const ShopModal = ({ onOverlayClick = () => {} }) => {
+export const ShopModal = ({
+  onCloseClick = () => {},
+  onOverlayClick = () => {},
+}) => {
   return (
     <div className="shop-modal">
       <div className="shop-modal_overlay" onClick={onOverlayClick} />
@@ -16,6 +19,7 @@ export const ShopModal = ({ onOverlayClick = () => {} }) => {
             </AutoTile>
             <AutoTile>
               <div className="shop-modal_details">
+                <button className="shop-modal_close" onClick={onCloseClick} />
                 <h1>Design Co Black Holographic Logo Sticker</h1>
                 <span>$2,500</span>
                 <a href="https://example.com">Order Form</a>
