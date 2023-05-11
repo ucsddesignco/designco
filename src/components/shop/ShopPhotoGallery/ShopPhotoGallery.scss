@@ -1,4 +1,10 @@
 .shop-photo-gallery {
+  display: flex;
+  gap: 24px;
+  flex-direction: row-reverse;
+  @media screen and (max-width: 480px) {
+    gap: 16px;
+  }
 }
 
 .shop-photo-gallery_control {
@@ -17,12 +23,23 @@
     right: 16px;
     background-image: url("https://placehold.co/40x40?text=->");
   }
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }
+
+.shop-photo-gallery_preview {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 3;
+}
+
 .shop-photo-gallery_main-image-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 66.66%;
+  padding-top: 150%;
   overflow: hidden;
+
   img {
     display: block;
     width: 100%;
@@ -34,15 +51,19 @@
 }
 
 .shop-photo-gallery_thumbnail-image-row {
-  padding-top: 24px;
   display: flex;
+  flex-direction: column;
   gap: 24px;
+  flex-shrink: 1;
+  @media screen and (max-width: 480px) {
+    gap: 16px;
+  }
 }
 
 .shop-photo-gallery_thumbnail-image-wrapper {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
   overflow: hidden;
   background: none;
   padding: 0;
