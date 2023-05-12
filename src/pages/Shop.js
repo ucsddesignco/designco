@@ -58,6 +58,7 @@ const shopItems = [
       { size: "S", available: true },
       { size: "M", available: true },
       { size: "L", available: true },
+      { size: "XL", available: true },
     ],
   },
   {
@@ -85,7 +86,6 @@ const shopItems = [
         </p>
         <p>100% ring spun cotton; Bay green</p>
         <p>Screen-printed front and back design</p>
-        <p>Designed by Juna Kim</p>
         <p>
           Models in order of appearance: Nel is 5’5” wearing size S, Brooke is 5’0” wearing size L, 
           Khoi is 5’6” wearing size M, Sahil is 6’1” wearing size M.
@@ -96,6 +96,9 @@ const shopItems = [
     sizes: [
       { size: "S", available: true },
       { size: "M", available: true },
+      { size: "L", available: true },
+      { size: "XL", available: true },
+      { size: "XXL", available: true },
     ],
   },
   {
@@ -105,7 +108,7 @@ const shopItems = [
     ],
     overlayImage: stickers[0].default,
     title: "Design Co Black Holographic Logo Sticker",
-    price: "$2",
+    price: "$3.50",
     description: (
       <>
         <p>Rep Design Co with your very own DCo logo sticker – this time, in dark mode.</p>
@@ -118,7 +121,7 @@ const shopItems = [
     images: [stickers[2].default, stickers[3].default,],
     overlayImage: stickers[3].default,
     title: "It’s Playtime! Holographic Sticker",
-    price: "$3",
+    price: "$4",
     description: (
       <>
         <p>There’s no time to clean up your desk when your brain is working on overdrive 
@@ -162,7 +165,7 @@ function Shop() {
             mistakes along the way!
           </p>
           <div className="shop-container-button">
-            <a href="https://forms.gle/4ZTtJcvWq7RFNwPq6" target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSecWPKCjcOJ-Y5PvOUOEoLFXhgVHiHK-M6D8Wgiaw8dyHtnuw/viewform" target="_blank" rel="noreferrer">
               <div className="order-form">
                 <p>Order Form</p>
               </div>

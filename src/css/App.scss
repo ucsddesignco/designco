@@ -1214,6 +1214,10 @@ ol {
     color: #fff;
     margin: auto 5rem;
     margin-bottom: 6rem;
+
+    @media (max-width: 600px) {
+      text-align: left;
+    }
   }
 
   .shop-gallery-items {

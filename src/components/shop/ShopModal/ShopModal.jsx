@@ -22,13 +22,14 @@ export const ShopModal = ({
             <AutoTile className="shop-modal_photos">
               <button className="shop-modal_close" onClick={onCloseClick} />
               <h1>{title}</h1>
-              <ShopPhotoGallery images={images} />
+              <span className="shop-modal-price-mobile">{price}</span>
+              <ShopPhotoGallery images={images} price={price} />
             </AutoTile>
             <AutoTile>
               <div className="shop-modal_details">
                 <button className="shop-modal_close" onClick={onCloseClick} />
-                <h1>{title}</h1>
-                <span>{price}</span>
+                <h1 dangerouslySetInnerHTML={{ __html: title }} />
+                <span className="shop-modal-price-desktop">{price}</span>
                 <a href="https://forms.gle/4ZTtJcvWq7RFNwPq6">Order Form</a>
                 {sizes.length > 1 && (
                   <div className="shop-modal_available-sizes">

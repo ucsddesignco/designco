@@ -2,7 +2,7 @@ import React from "react";
 import "./ShopPhotoGallery.scss";
 import { useState } from "react";
 
-const ShopPhotoGallery = ({ images = [] }) => {
+const ShopPhotoGallery = ({ images = [], price }) => {
   const [photoIndex, setPhotoIndex] = useState(0);
   return (
     <div className="shop-photo-gallery">

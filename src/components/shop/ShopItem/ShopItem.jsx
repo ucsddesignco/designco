@@ -25,7 +25,7 @@ export const ShopItem = ({
           alt=""
         />
       </div>
-      <span className="dco-shop-item_title">{title}</span>
+      <span className="dco-shop-item_title" dangerouslySetInnerHTML={{ __html: title }} />
       <span>{price}</span>
     </button>
   );
