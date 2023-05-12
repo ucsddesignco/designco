@@ -29,7 +29,7 @@ export const ShopModal = ({
                 <button className="shop-modal_close" onClick={onCloseClick} />
                 <h1>{title}</h1>
                 <span>{price}</span>
-                <a href="https://example.com">Order Form</a>
+                <a href="https://forms.gle/4ZTtJcvWq7RFNwPq6">Order Form</a>
                 {sizes.length > 1 && (
                   <div className="shop-modal_available-sizes">
                     <span className="shop-modal_available-sizes-title">
