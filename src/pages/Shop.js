@@ -24,7 +24,7 @@ const stickers = importAll(require.context('../images/newshop/sticker/', false, 
 
 const shopItems = [
   {
-    title: "PLAY3 Embroidered Crewneck",
+    title: "PLAY^3 Embroidered Crewneck",
     price: "$35",
     images: [
       crewneck[0].default,
