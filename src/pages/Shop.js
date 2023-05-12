@@ -148,7 +148,7 @@ function Shop() {
   return (
     <div className="shop">
       <div className="shop-background">
-        <video autoPlay loop muted>
+        <video autoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true">
           <source src={herovid} type="video/mp4" />
         </video>
       </div>
