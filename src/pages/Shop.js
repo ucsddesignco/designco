@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import WhiteFooter from "../components/WhiteFooter";
 import ShopOverlay from "../images/video/shop-overlay.mp4";
-import herovid from "../images/video/hero.mp4";
+import heroviddesktop from "../images/video/herodesktop.mp4";
+import herovidmobile from "../images/video/heromobile.mp4"
 
 //import shop items list
 import carrot from "../images/shop/downchevron.svg";
@@ -150,9 +151,13 @@ function Shop() {
   return (
     <div className="shop">
       <div className="shop-background">
-        <video autoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true">
-          <source src={herovid} type="video/mp4" />
+        <video className="desktop" autoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true">
+          <source src={heroviddesktop} type="video/mp4" />
         </video>
+        <video className="mobile" autoPlay="autoplay" playsInLine="playsinline" loop="true" muted="true">
+          <source src={herovidmobile} type="video/mp4" />
+        </video>
+        
       </div>
       <Navbar color={"#FFF"} altColor={"#000"} from="shop" />
       <div className="shop-banner">

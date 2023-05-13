@@ -1122,19 +1122,48 @@ ol {
   overflow: hidden;
 }
 */
+
+
+
 .shop-background {
   position: absolute;
   z-index: -1;
-  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: contain;
   background-size: cover;
   width: 100%;
-  transform: translateY(-200px);
+  
+  
+
+  > .mobile {
+    display: none;
+    width: 120vw;
+    transform: translateX(-12vw);
+    
+  }
+  > .desktop {
+    display: flex;
+    object-fit: contain;
+    transform: translate(-200px, -140px);
+  }
   
 }
+
+@media (max-width: 600px) {
+  .shop-background {
+    > .mobile {
+      display: inline;
+    }
+    > .desktop {
+      display: none;
+    }
+  }
+}
+
+
+
 
 .shop-item {
   margin-right: 2rem;
