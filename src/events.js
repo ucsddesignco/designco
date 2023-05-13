@@ -724,9 +724,9 @@ export const events = [
     location: "DIB 208",
     slidelink: "https://docs.google.com/presentation/d/1-VfgsXoXqzEI9slKhpgSLtBL5rZ2Zw9vd2xrK6NXNrU/edit?usp=sharing"
   },
-  {
+  /*{
     title: "Humane Physical Product Design Workshop",
-    link: "https://www.instagram.com/p/CrXYMLdOr5H",
+    link: "",
     image: "20230426",
     date: 20230426,
     time: 1830,
@@ -752,6 +752,9 @@ export const events = [
     location: "DIB 208",
     description: "Wondering when your dedication to the arduous COGS and DSGN series will practically pay off? Want to see what a future job in the design and tech industry might resemble? Gain first-hand insight from 6 of UCSD’s very own alumni on how to land a job and succeed in the industry post-college!"
   },
+    description: ""
+  },*/
+
 ];
 
 // if npm start fails you npm rebuild node-sass

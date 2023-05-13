@@ -1,0 +1,54 @@
+.dco-shop-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: none;
+  color: white;
+  text-align: left;
+  gap: 16px;
+  font-size: 21px;
+  background: none;
+  cursor: pointer;
+  .dco-shop-item_image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      inset: 0;
+    }
+  }
+
+  .dco-shop-item_image-overlay {
+    opacity: 0;
+  }
+
+  &:hover {
+    .dco-shop-item_image-wrapper {
+      img {
+        transform: scale(1.1);
+      }
+    }
+    .dco-shop-item_image-overlay {
+      opacity: 1;
+    }
+  }
+}
+
+.dco-shop-item,
+.dco-shop-item *,
+.dco-shop-item:hover,
+.dco-shop-item:hover * {
+  transition: all 0.3s ease-in-out;
+}
+
+.dco-shop-item_title {
+  font-family: "Neue Plak Extended";
+  font-weight: bold;
+}

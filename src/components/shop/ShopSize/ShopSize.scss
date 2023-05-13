@@ -1,0 +1,14 @@
+.shop-size {
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.shop-size_line {
+  position: absolute;
+  inset: 0;
+}
