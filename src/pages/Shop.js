@@ -174,7 +174,7 @@ function Shop() {
                 <p>Order Form</p>
               </div>
             </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer">
+            <a href="https://youtu.be/OxLXdaMO0Zc" target="_blank" rel="noreferrer">
               <div className="order-form">
                 <p>Lookbook</p>
               </div>
