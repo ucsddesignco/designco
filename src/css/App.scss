@@ -1034,6 +1034,10 @@ ol {
   align-items: center;
   padding-bottom: 4rem;
   height: 50vh;
+
+  @media (max-width: 600px) {
+    height: 70vh;
+  }
 }
 
 .shop-content {
@@ -1043,7 +1047,7 @@ ol {
   text-align: center;
   justify-content: center;
   width: 100%;
-  margin: 0 18rem;
+  margin: 0 8rem;
 }
 
 .shop-item {

@@ -23,16 +23,18 @@ const ShopPhotoGallery = ({ images = [], price }) => {
           />
         </div>
       </div>
-      <div className="shop-photo-gallery_thumbnail-image-row">
-        {images.map((i, index) => (
-          <button
-            className="shop-photo-gallery_thumbnail-image-wrapper"
-            style={{ opacity: index === photoIndex ? 0.25 : 1 }}
-            onClick={() => setPhotoIndex(index)}
-          >
-            <img src={i} alt="" />
-          </button>
-        ))}
+      <div className="shop-photo-gallery_thumbnail-container">
+        <div className="shop-photo-gallery_thumbnail-image-row">
+          {images.map((i, index) => (
+            <button
+              className="shop-photo-gallery_thumbnail-image-wrapper"
+              style={{ opacity: index === photoIndex ? 0.25 : 1 }}
+              onClick={() => setPhotoIndex(index)}
+            >
+              <img src={i} alt="" />
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );

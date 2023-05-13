@@ -19,7 +19,7 @@
   align-self: flex-end;
   border: none;
   background-color: unset;
-  background-image: url("https://placehold.co/16x16?text=X");
+  background-image: url(../../../images/shop/cross.svg);
   background-repeat: no-repeat;
   background-position: center right;
   cursor: pointer;
@@ -65,6 +65,15 @@
   @media screen and (max-width: 480px) {
     padding: 24px;
     overflow-y: auto;
+  }
+}
+
+.shop-modal_details-container {
+  max-height: 600px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar{
+    display: none;
   }
 }
 

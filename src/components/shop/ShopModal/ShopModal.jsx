@@ -26,24 +26,26 @@ export const ShopModal = ({
               <ShopPhotoGallery images={images} price={price} />
             </AutoTile>
             <AutoTile>
-              <div className="shop-modal_details">
-                <button className="shop-modal_close" onClick={onCloseClick} />
-                <h1 dangerouslySetInnerHTML={{ __html: title }} />
-                <span className="shop-modal-price-desktop">{price}</span>
-                <a href="https://forms.gle/4ZTtJcvWq7RFNwPq6">Order Form</a>
-                {sizes.length > 1 && (
-                  <div className="shop-modal_available-sizes">
-                    <span className="shop-modal_available-sizes-title">
-                      Sizes Available
-                    </span>
-                    <div className="shop-modal_available-sizes-icons">
-                      {sizes.map((i) => (
-                        <ShopSize size={i.size} available={i.available} />
-                      ))}
+              <div className="shop-modal_details-container">
+                <div className="shop-modal_details">
+                  <button className="shop-modal_close" onClick={onCloseClick} />
+                  <h1 dangerouslySetInnerHTML={{ __html: title }} />
+                  <span className="shop-modal-price-desktop">{price}</span>
+                  <a href="https://forms.gle/4ZTtJcvWq7RFNwPq6">Order Form</a>
+                  {sizes.length > 1 && (
+                    <div className="shop-modal_available-sizes">
+                      <span className="shop-modal_available-sizes-title">
+                        Sizes Available
+                      </span>
+                      <div className="shop-modal_available-sizes-icons">
+                        {sizes.map((i) => (
+                          <ShopSize size={i.size} available={i.available} />
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )}
-                <div className="shop-modal_description">{description}</div>
+                  )}
+                  <div className="shop-modal_description">{description}</div>
+                </div>
               </div>
             </AutoTile>
           </AutoTiles>
