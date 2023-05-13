@@ -731,6 +731,27 @@ export const events = [
     date: 20230426,
     time: 1830,
     location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1VgUmbclWL2JtkngQR_XzuNId1lanf2lTcG6WYBToebU/edit#slide=id.g63751c60fc_0_180",
+    description: "Humane — an AI startup founded by former members of Apple’s design and engineering team — will be tuning in virtually to teach us about physical product design."
+  },
+  {
+    title: "Diversity & Design with Airbnb",
+    link: "https://www.instagram.com/p/CrwFSIJPPbL/",
+    image: "20230503",
+    date: 20230503,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1AcKEO2wLfvARB-BZtQZ31Zmea3i8vNAd5YEdsBSLd-s/edit#slide=id.g23e3acf936a_1_16"
+  },
+  {
+    title: "Alumni Panel",
+    link: "https://www.instagram.com/p/Cr-F_OTuq80/",
+    image: "20230510",
+    date: 20230510,
+    time: 1830,
+    location: "DIB 208",
+    description: "Wondering when your dedication to the arduous COGS and DSGN series will practically pay off? Want to see what a future job in the design and tech industry might resemble? Gain first-hand insight from 6 of UCSD’s very own alumni on how to land a job and succeed in the industry post-college!"
+  },
     description: ""
   },*/
 

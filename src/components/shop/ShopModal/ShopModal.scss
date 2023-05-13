@@ -61,7 +61,9 @@
   h1 {
     font-size: 32px;
   }
-
+  @media screen and (max-width: 600px) {
+    max-height: 90vh;
+  }
   @media screen and (max-width: 480px) {
     padding: 24px;
     overflow-y: auto;

@@ -134,7 +134,6 @@ const shopItems = [
   },
 ];
 
-
 function Shop() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalIndex, setModalIndex] = useState(0);
