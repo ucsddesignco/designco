@@ -1032,11 +1032,11 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 4rem;
-  height: 50vh;
+  padding-bottom: 0rem;
+  height: 30vh;
 
   @media (max-width: 600px) {
-    height: 70vh;
+    height: clamp(300px, 50vh, 700px);
   }
 }
 
@@ -1047,7 +1047,8 @@ ol {
   text-align: center;
   justify-content: center;
   width: 100%;
-  margin: 0 8rem;
+  margin: 0 3.2rem;
+  height: 70vh;
 }
 
 .shop-item {
@@ -1095,7 +1096,8 @@ ol {
 .shop-gallery {
   background: #000000;
   color: white;
-  padding-top: 8rem;
+  margin-top: clamp(6rem, -4vw, 3rem);
+  padding-top: 6rem;
   padding-bottom: 16rem;
 }
 
@@ -1122,8 +1124,9 @@ ol {
   overflow: hidden;
 }
 */
-.shop-background {
+.shop-background1 {
   position: absolute;
+  filter: brightness(60%);
   z-index: -1;
   display: flex;
   justify-content: center;
@@ -1131,9 +1134,40 @@ ol {
   overflow: hidden;
   object-fit: cover;
   background-size: cover;
-  width: 100%;
-  transform: translateY(-200px);
+
+  > .desktop {
+    transform: translate(0, -100px);
+    overflow: hidden;
+    width: 100%;
+  }
   
+}
+
+.shop-background2 {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .shop-background2 { 
+    position: absolute;
+    filter: brightness(50%);
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+    > .mobile {
+      display: inline;
+      width: 100%;
+      transform: translate(0, -60px);
+    }
+  }
+
+  .shop-background1 {
+    display: none;
+  }
 }
 
 .shop-item {
