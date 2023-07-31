@@ -55,4 +55,18 @@ export const eventsLarge = [
         date: "Jan - Apr 2023",
         year: 2023
     },
+    {
+        title: "Design Frontiers",
+        link: "https://www.df23.ucsddesign.co/",
+        image: "20230520",
+        date: "May 2023",
+        year: 2023
+    },
+    {
+        title: "UP-Grade",
+        link: "https://upgrade23.ucsddesign.co/",
+        image: "20230701",
+        date: "July - Sept 2023",
+        year: 2023
+    },
 ];

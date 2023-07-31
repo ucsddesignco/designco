@@ -724,7 +724,7 @@ export const events = [
     location: "DIB 208",
     slidelink: "https://docs.google.com/presentation/d/1-VfgsXoXqzEI9slKhpgSLtBL5rZ2Zw9vd2xrK6NXNrU/edit?usp=sharing"
   },
-  /*{
+  {
     title: "Humane Physical Product Design Workshop",
     link: "",
     image: "20230426",
@@ -750,10 +750,50 @@ export const events = [
     date: 20230510,
     time: 1830,
     location: "DIB 208",
-    description: "Wondering when your dedication to the arduous COGS and DSGN series will practically pay off? Want to see what a future job in the design and tech industry might resemble? Gain first-hand insight from 6 of UCSD’s very own alumni on how to land a job and succeed in the industry post-college!"
+    slidelink: "https://docs.google.com/presentation/d/1DtSEk6Z6ozAxvTrYDYWnmiHY6Bld4d-f77xuNOP0YBQ/edit?usp=sharing"
   },
-    description: ""
-  },*/
+  {
+    title: "Cruising Through Design Frontiers",
+    link: "https://www.instagram.com/p/CsSjyDou5dT/",
+    image: "20230517",
+    date: 20230517,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1cNkkdJDcEzCd95dAZVkDhIDVRjwoXxfUQTS-Jqt3i60/edit?usp=sharing"
+  },
+  {
+    title: "Blink UX Office Tour",
+    link: "https://www.instagram.com/p/CsAmr1WOWZJ",
+    image: "20230524",
+    date: 20230524,
+    time: 900,
+    location: "Blink UX SD Office",
+  },
+  {
+    title: "TSE X Design Co: Design to Developer Handoff",
+    link: "https://www.instagram.com/p/CsaOEBqrKVa/",
+    image: "20230524-1",
+    date: 20230524,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1PB1SQgEZZUIWprQcRWt-abinBGAlek2QjYXxEYMIaL4/edit?usp=sharing"
+  },
+  {
+    title: "UXGO Spring Sendoff Panel",
+    link: "https://www.instagram.com/p/CsuUg8Pv3u1/",
+    image: "20230602",
+    date: 20230602,
+    time: 1830,
+    location: "The Loft",
+  },
+  {
+    title: "End-of-Year Bonfire Celebration",
+    link: "https://www.instagram.com/p/CtHsrAgPuwC/",
+    image: "20230609",
+    date: 20230609,
+    time: 1930,
+    location: "La Jolla Shores",
+  },
 
 ];
 
