@@ -10,29 +10,18 @@ const CETeam = [
   {
     id: "emilyyu",
     name: "Emily Yu",
-    role: "Director of Community",
+    role: "Director of Community Engagement",
     link: "https://www.linkedin.com/in/emily-yu-365943225/",
     gradYear: 2025,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837892/designco/about/team-gifs/emilyyu_zp81xq.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182776/designco/about/team-photos/emilyyu_roxviz.png",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822357/designco/about/sp23-photos/EmilyYu_b4wdlu.webp",
   },
   {
-    id: "grace",
-    name: "Grace Lin",
+    id: "hieu",
+    name: "Hieu Phan",
     role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/graceerya/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837895/designco/about/team-gifs/grace_oswykx.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182777/designco/about/team-photos/grace_u1acws.png",
-  },
-  {
-    id: "jonathan",
-    name: "Jonathan Lum",
-    role: "Community Engagement Coordinator",
-    link: "https://www.linkedin.com/in/jonathan-lum/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837918/designco/about/team-gifs/jonathan_xodsgp.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182779/designco/about/team-photos/jonathan_pzoksh.png",
+    link: "https://www.linkedin.com/in/hieuphanv",
+    gradYear: 2025,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822359/designco/about/sp23-photos/Hieu_k7uug7.webp",
   },
   {
     id: "sabrina",
@@ -40,8 +29,15 @@ const CETeam = [
     role: "Community Engagement Coordinator",
     link: "https://www.linkedin.com/in/sabrina-mao-2aba501b8/",
     gradYear: 2024,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837929/designco/about/team-gifs/sabrina_ibfl8t.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182779/designco/about/team-photos/sabrina_kmq1v0.png",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822359/designco/about/sp23-photos/Sabrina_nosaqb.webp",
+  },
+  {
+    id: "fiona",
+    name: "Fiona Tang",
+    role: "Community Engagement Coordinator",
+    link: "https://www.linkedin.com/in/fionaltang",
+    gradYear: 2024,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822358/designco/about/sp23-photos/Fiona_crzgx9.webp",
   },
 ];
 
@@ -52,7 +48,7 @@ function CE({ member, index, toggleTEAM }) {
         <a href={item.link} target="_blank" rel="noreferrer">
           <img
             className="team-card-image"
-            src={`/team-photos/${item.id}.jpg`}
+            src={item.img}
             alt=""
             loading="lazy"
           />

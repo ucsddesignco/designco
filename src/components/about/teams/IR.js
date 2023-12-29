@@ -5,41 +5,38 @@ import cross from "../../../images/about/icon-plus.svg";
 
 const IRTeam = [
   {
-    id: "esther",
-    name: "Esther Liu",
-    role: "Industry Relations Director",
-    link: "https://www.linkedin.com/in/esther--liu",
-    gradYear: 2025,
-    gif: "",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182899/designco/about/team-photos/esther_cnazjg.png",
-  },
-  {
-    id: "maria",
-    name: "Maria Dhilla",
-    role: "Senior Advisor",
-    link: "https://mariadhilla.myportfolio.com/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837979/designco/about/team-gifs/maria_ew1spu.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182906/designco/about/team-photos/maria_kgqecb.png",
-  },
-  {
-    id: "catherine",
-    name: "Catherine Oei",
-    role: "Industry Relations Coordinator",
-    link: "https://www.linkedin.com/in/catherine-oei/",
-    gradYear: 2023,
-    gif: "",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182905/designco/about/team-photos/catherine_xiodce.png",
+    id: "winston",
+    name: "Winston Jeffries",
+    role: "Director of Industry Relations",
+    link: "https://www.linkedin.com/in/winstonjeffries",
+    gradYear: 2026,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822353/designco/about/sp23-photos/Winston_fdsez0.webp",
   },
   {
     id: "elise",
     name: "Elise Kim",
-    role: "Industry Relations Coordinator",
-    link: "https://www.linkedin.com/in/elisekim999/",
+    role: "Former Industry Relations Director",
+    link: "https://www.linkedin.com/in/eliserosek",
     gradYear: 2025,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837886/designco/about/team-gifs/elise_kvjf38.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182908/designco/about/team-photos/elise_oclfeo.png",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822352/designco/about/sp23-photos/Elise_l0fvst.webp",
   },
+  {
+    id: "kairi",
+    name: "Kairi Tanaka",
+    role: "Industry Relations Coordinator",
+    link: "https://www.linkedin.com/in/kairi-tanaka",
+    gradYear: 2025,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822353/designco/about/sp23-photos/Kairi_esabn8.webp",
+  },
+  {
+    id: "micah",
+    name: "Micah Andres",
+    role: "Industry Relations Coordinator",
+    link: "https://www.linkedin.com/in/micah-andres213",
+    gradYear: 2026,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822364/designco/about/sp23-photos/Micah_i0dgib.webp",
+  },
+  
 ];
 
 function IR({ member, index, toggleTEAM }) {
@@ -49,7 +46,7 @@ function IR({ member, index, toggleTEAM }) {
         <a href={item.link} target="_blank" rel="noreferrer">
           <img
             className="team-card-image"
-            src={`/team-photos/${item.id}.jpg`}
+            src={item.img}
             alt=""
             loading="lazy"
           />

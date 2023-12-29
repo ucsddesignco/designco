@@ -1,89 +1,64 @@
-import React, { useMemo } from "react";
-import Members from "../Members";
-import { Grid } from "@material-ui/core";
-import cross from "../../../images/about/icon-plus.svg";
+import React, { useMemo } from 'react';
+import Members from '../Members';
+import { Grid } from '@material-ui/core';
+import cross from '../../../images/about/icon-plus.svg';
 
 const CreativeTeam = [
   {
-    id: "megan",
-    name: "Megan Tan",
-    role: "Co-Creative Director",
-    link: "http://linkedin.com/in/megan-tan-31a2471a5",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837980/designco/about/team-gifs/megan_cpulwb.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182835/designco/about/team-photos/megan_vom41e.png",
-  },
-  {
-    id: "juna",
-    name: "Juna Kim",
-    role: "Co-Creative Director",
-    link: "https://www.junakim.design",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837926/designco/about/team-gifs/juna_lsgx1m.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182837/designco/about/team-photos/juna_wkpohp.png",
-  },
-  {
-    id: "leann",
-    name: "Leann Gamboa",
-    role: "Visual + Brand Designer, Web Developer",
-    link: "https://www.linkedin.com/in/leanngamboa/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837972/designco/about/team-gifs/leann_ijibfs.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182835/designco/about/team-photos/leann_y4oc0e.png",
-  },
-  {
-    id: "ricky",
-    name: "Ricardo Sedano",
-    role: "Visual + Brand Designer",
-    link: "linkedin.com/in/ricardo-sedano",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837932/designco/about/team-gifs/ricky_ennyxu.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182844/designco/about/team-photos/ricky_p6o1js.png",
-  },
-  {
-    id: "thoa",
-    name: "Thoa Nguyen",
-    role: "Visual + Brand Designer",
-    link: "https://www.linkedin.com/in/thoa-nguyen-99a473217/",
+    id: 'thoa',
+    name: 'Thoa Nguyen',
+    role: 'Director of Creative',
+    link: 'https://www.linkedin.com/in/thoanguyen',
     gradYear: 2025,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837874/designco/about/team-gifs/thoa_irqejb.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182850/designco/about/team-photos/thoa_guvldl.png",
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822365/designco/about/sp23-photos/Thoa_rwbx6w.webp',
   },
   {
-    id: "shawn",
-    name: "Shawn Kim",
-    role: "Web Dev Lead",
-    link: "https://www.linkedin.com/in/shawn-j-kim/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831878/designco/about/team-gifs/shawn_up1ai3.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182845/designco/about/team-photos/shawn_soi3ap.png",
-  },
-  {
-    id: "meshach",
-    name: "Meshach Adoe",
-    role: "Web Developer",
-    link: "https://www.linkedin.com/in/meshachadoe",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837984/designco/about/team-gifs/meshach_oujofy.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182834/designco/about/team-photos/meshach_czxqsg.png",
-  },
-  {
-    id: "tracey",
-    name: "Tracey Du",
-    role: "Web Developer",
-    link: "https://www.linkedin.com/in/traceydu/",
+    id: 'widya',
+    name: 'Made Widyadhari',
+    role: 'Visual + Brand Designer',
+    link: 'https://www.linkedin.com/in/made-widyadhari',
     gradYear: 2024,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837866/designco/about/team-gifs/tracey_jwzaar.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182853/designco/about/team-photos/tracey_tdaqmd.png",
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822366/designco/about/sp23-photos/Widya_fqrqpx.webp',
   },
   {
-    id: "brian",
-    name: "Brian Liu",
-    role: "Web Developer",
-    link: "https://brianliu1.myportfolio.com",
+    id: 'katie',
+    name: 'Katie Murakoshi',
+    role: 'Visual + Brand Designer',
+    link: 'https://www.linkedin.com/in/katie-murakoshi-571280273',
+    gradYear: 2025,
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822369/designco/about/sp23-photos/Katie_rexdfv.webp',
+  },
+  {
+    id: 'luca',
+    name: 'Luca Pfister',
+    role: 'Visual + Brand Designer',
+    link: 'https://www.linkedin.com/in/lucapfister021',
+    gradYear: 2026,
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822363/designco/about/sp23-photos/Luca_smobnb.webp',
+  },
+  {
+    id: 'tracey',
+    name: 'Tracey Du',
+    role: 'Web Developer',
+    link: 'https://www.linkedin.com/in/traceydu/',
     gradYear: 2024,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837867/designco/about/team-gifs/brian_figech.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182850/designco/about/team-photos/brian_hh46rt.png",
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822366/designco/about/sp23-photos/Tracey_gcsxws.webp',
+  },
+  {
+    id: 'brian',
+    name: 'Brian Liu',
+    role: 'Web Developer',
+    link: 'https://www.linkedin.com/in/brianliu1412',
+    gradYear: 2024,
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822363/designco/about/sp23-photos/Brian_akb62f.webp',
+  },
+  {
+    id: 'aaron',
+    name: 'Aaron Chan',
+    role: 'Web Developer',
+    link: 'https://www.linkedin.com/in/aaronchan32/',
+    gradYear: 2025,
+    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822367/designco/about/sp23-photos/Aaron_royi1n.webp',
   },
 ];
 
@@ -94,7 +69,7 @@ function Creative({ member, index, toggleTEAM }) {
         <a href={item.link} target="_blank" rel="noreferrer">
           <img
             className="team-card-image"
-            src={`/team-photos/${item.id}.jpg`}
+            src={item.img}
             alt=""
             loading="lazy"
           />
@@ -116,12 +91,12 @@ function Creative({ member, index, toggleTEAM }) {
         <div className="team-container-top">
           <div className="team-title">{member.team}</div>
           <img
-            className={"team-cross" + (member.open ? "-open" : "")}
+            className={'team-cross' + (member.open ? '-open' : '')}
             src={cross}
           />
         </div>
       </div>
-      <div className={"team " + (member.open ? "open" : "")}>
+      <div className={'team ' + (member.open ? 'open' : '')}>
         <div className="team-border-container">
           <div className="team-container">
             <div className="gridContainer">{teamList}</div>

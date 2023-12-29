@@ -5,67 +5,52 @@ import cross from "../../../images/about/icon-plus.svg";
 
 const MarketingTeam = [
   {
-    id: "tiffany",
-    name: "Tiffany Zhong",
-    role: "Co-Marketing Director",
-    link: "https://www.linkedin.com/in/tiffany-zhong-2841a718b/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837948/designco/about/team-gifs/tiffany_zsbavy.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182963/designco/about/team-photos/tiffany_ymj4mq.png",
+    id: "frances",
+    name: "Frances Sy",
+    role: "Director of Marketing",
+    link: "https://www.linkedin.com/in/francesasy",
+    gradYear: 2025,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822370/designco/about/sp23-photos/Frances_fljypo.webp",
   },
   {
     id: "emilyjao",
     name: "Emily Jao",
-    role: "Co-Marketing Director",
-    link: "https://emilysjao.wixsite.com/my-site",
+    role: "Former Director of Marketing",
+    link: "https://www.linkedin.com/in/emily-jao",
     gradYear: 2024,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837888/designco/about/team-gifs/emilyjao_t51mwq.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182963/designco/about/team-photos/emilyjao_tyq2je.png",
-  },
-  {
-    id: "frances",
-    name: "Frances Sy",
-    role: "Social Media Coordinator",
-    link: "https://www.linkedin.com/in/frances-sy/",
-    gradYear: 2025,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663831907/designco/about/team-gifs/frances_keifip.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182962/designco/about/team-photos/frances_szutcr.png",
-  },
-  {
-    id: "hannah",
-    name: "Hannah Yick",
-    role: "Content Strategist/Writer",
-    link: "https://www.linkedin.com/in/hannahyick/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837899/designco/about/team-gifs/hannah_a8eu18.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182962/designco/about/team-photos/hannah_qd4xba.png",
-  },
-  {
-    id: "kayla",
-    name: "Kayla Luong",
-    role: "Content Strategist/Writer",
-    link: "https://www.linkedin.com/in/kayla-l-a12641199/",
-    gradYear: 2024,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837920/designco/about/team-gifs/kayla_zf0mgd.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182959/designco/about/team-photos/kayla_seeskl.png",
-  },
-  {
-    id: "rainee",
-    name: "Rainee Pei",
-    role: "Media Coordinator",
-    link: "https://www.raineepei.com/",
-    gradYear: 2023,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837933/designco/about/team-gifs/rainee_btufff.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182955/designco/about/team-photos/rainee_axawij.png",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822369/designco/about/sp23-photos/Emily_ynky2j.webp",
   },
   {
     id: "brian",
     name: "Brian Liu",
     role: "Media Coordinator",
-    link: "https://brianliu1.myportfolio.com",
+    link: "https://www.linkedin.com/in/brianliu1412",
     gradYear: 2024,
-    gif: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1663837867/designco/about/team-gifs/brian_figech.gif",
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1665182850/designco/about/team-photos/brian_hh46rt.png",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822363/designco/about/sp23-photos/Brian_akb62f.webp",
+  },
+  {
+    id: "teresea",
+    name: "Teresa Nguyen",
+    role: "Media Coordinator",
+    link: "https://www.linkedin.com/in/teresatnguyen",
+    gradYear: 2025,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822361/designco/about/sp23-photos/Teresa_ypnpye.webp",
+  },
+  {
+    id: "sophie",
+    name: "Sophie Huynh",
+    role: "Content Writer",
+    link: "https://www.linkedin.com/in/sophiehuynhh",
+    gradYear: 2026,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822372/designco/about/sp23-photos/Sophie_zvfrvh.webp",
+  },
+  {
+    id: "lauren",
+    name: "Lauren Pak",
+    role: "Content Writer",
+    link: "https://www.linkedin.com/in/lauren-pak-18b9a7229",
+    gradYear: 2025,
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822372/designco/about/sp23-photos/Lauren_m9zx4e.webp",
   },
 ];
 
@@ -76,7 +61,7 @@ function Marketing({ member, index, toggleTEAM }) {
         <a href={item.link} target="_blank" rel="noreferrer">
           <img
             className="team-card-image"
-            src={`/team-photos/${item.id}.jpg`}
+            src={item.img}
             alt=""
             loading="lazy"
           />
