@@ -50,10 +50,13 @@ class Role extends React.Component {
   }
   componentDidMount() {
     document.addEventListener("keydown", this.escFunction, false);
+  console.log(this.props);
+
   }
   componentWillUnmount() {
     document.removeEventListener("keydown", this.escFunction, false);
   }
+
 
   render() {
     return (
@@ -168,12 +171,19 @@ class Role extends React.Component {
                 >
                   <img
                     src={
+                      this.props.image
+                    }
+                    width="100%"
+                    alt={this.props.name}
+                  />
+                  {/* <img
+                    src={
                       require("../images/join/" + this.props.name + ".png")
                         .default
                     }
                     width="100%"
                     alt={this.props.name}
-                  />
+                  /> */}
                 </Col>
                 <Col md={6}>
                   <h3 style={{ marginBottom: spacer2 }}>{this.props.q1}</h3>

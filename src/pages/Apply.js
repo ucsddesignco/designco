@@ -24,6 +24,7 @@ const roleList = roles.map((item) => (
     offer={item.offer}
     ec={item.ec}
     name={item.name}
+    image={item.image}
     q1={item.q1}
     a1={item.a1}
     q2={item.q2}
@@ -63,7 +64,7 @@ class Apply extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications open til Saturday, February 4th at 11:59PM
+                  Applications open until Sunday, January 21st at 11:59PM
                 </p>
                 <Button
                   link="#roles"
