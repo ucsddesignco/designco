@@ -50,10 +50,13 @@ class Role extends React.Component {
   }
   componentDidMount() {
     document.addEventListener("keydown", this.escFunction, false);
+  console.log(this.props);
+
   }
   componentWillUnmount() {
     document.removeEventListener("keydown", this.escFunction, false);
   }
+
 
   render() {
     return (
@@ -106,15 +109,15 @@ class Role extends React.Component {
                 {this.props.team} Team – {this.props.position}
               </h1>
               <p style={{ marginBottom: spacer3 }}>{this.props.description}</p>
-              <div className="apply-v2">
                 <a
-                  href="https://forms.gle/dAfW39wmEVdjKv9Q7"
+                className="apply-v2"
+                  href="https://forms.gle/CsYm2czA7poxref49"
                   target="_blank"
+                  rel="noreferrer"
                   style={{ textDecoration: "none" }}
                 >
                   Apply
                 </a>
-              </div>
               <h2 style={{ marginBottom: spacer2 }}>You Will Be</h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
                 <p
@@ -168,12 +171,19 @@ class Role extends React.Component {
                 >
                   <img
                     src={
+                      this.props.image
+                    }
+                    width="100%"
+                    alt={this.props.name}
+                  />
+                  {/* <img
+                    src={
                       require("../images/join/" + this.props.name + ".png")
                         .default
                     }
                     width="100%"
                     alt={this.props.name}
-                  />
+                  /> */}
                 </Col>
                 <Col md={6}>
                   <h3 style={{ marginBottom: spacer2 }}>{this.props.q1}</h3>

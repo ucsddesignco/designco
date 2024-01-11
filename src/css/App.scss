@@ -710,12 +710,16 @@ button.control-arrow {
   padding: 1.7rem 2.4rem;
   width: fit-content;
   margin-top: -4.2rem;
+  display: block;
   margin-bottom: 7.8rem;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
 }
 
-.apply-v2:hover {
-  opacity: 0.9;
-}
+
 
 .panel-content-container {
   max-width: 1200px;
