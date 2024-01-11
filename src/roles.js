@@ -1,94 +1,96 @@
 export const roles = [
   {
-    team: "Community",
-    position: "Community Engagement Coordinator",
+    team: 'Community',
+    position: 'Community Engagement Coordinator',
     description:
-      "You are sociable and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.",
-    duty: "&lt;ol&gt; &lt;li&gt; Facilitating the community engagement programs for students, including, but not limited to Pixels & Cursors and Open Study Jams &lt;/li&gt; \
+      'You are sociable and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.',
+    duty: '&lt;ol&gt; &lt;li&gt; Facilitating the community engagement programs for students, including, but not limited to Pixels & Cursors and Open Study Jams &lt;/li&gt; \
       &lt;li&gt; Working with our team to plan and execute large scale events  &lt;/li&gt; \
       &lt;li&gt; Ideating, planning, and coordinating social events that engage the design community  &lt;/li&gt;\
-      &lt;li&gt; Facilitating large scale board social events/activities such as board retreat &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Facilitating large scale board social events/activities such as board retreat &lt;/li&gt; &lt;/ol&gt;',
     general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
     offer:
-      "&lt;ol&gt; &lt;li&gt; Prior experience with event planning &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Prior experience with event planning &lt;/li&gt; \
       &lt;li&gt; Organization skills and the ability to stay on top of deadlines &lt;/li&gt; \
       &lt;li&gt; Awesome and innovative ice breaker and social ideas &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Proficient knowledge in managing large scale Discord servers &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Proficient knowledge in managing large scale Discord servers &lt;/li&gt; \
       &lt;li&gt; Prior experience with large scale event planning (100+ attendees) &lt;/li&gt; \
       &lt;li&gt; Prior experience creating mentorship programs &lt;/li&gt; \
       &lt;li&gt; Prior experience working with multiple partners, departments, and student organizations across UC San Diego and the greater San Diego community &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Jonathan",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1: "Being a part of Design Co board has given me so much confidence as a designer. As a transfer student, I had major imposter syndrome. I didn’t feel like I could get involved with the design community at UCSD because of the limited time I had. However, I took a leap of faith and applied to be a Community Engagement Coordinator. Now, I can say without a doubt that the imposter syndrome has dissipated. Being in a group of ambitious designers pushing the bounds of what the UCSD design community can achieve has allowed me to grow so much.",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2: "As a Community Engagement Coordinator, I have grown in my event-planning skills. From hosting various socials to creating a mentor-mentee program with the CEC team, I have learned what it takes to plan various events large and small.",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "I would say the Design Co board works collaboratively and cross-functionally. Board is separated into various specialized teams that all serve different functions. We come together cross-functionally to ensure that Design Co can operate. While we do have separate teams, board members all work together on various initiatives no matter what team you are a part of.",
-    q4: "Fun fact?",
-    a4: "I have 110+ playlists on Spotify :D",
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Fiona',
+    image: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822358/designco/about/sp23-photos/Fiona_crzgx9.webp",
+    q1: "What are you looking forward to the most in your time on Design Co board?",
+    a1: "I think I’m looking forward to board retreat! Last year’s board retreat was a really great way to get to know everyone else in board and become closer with them, which I really enjoyed.",
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: "I think that I’ve become a lot more confident and comfortable as a designer and leader. From working together with other board members on projects and leading gbms, I’ve learned a lot this past year.",
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: "I would describe Design Co. board as separate but together! Each team works relatively independently, but there is a lot of collaboration within teams and across teams in larger initiatives. Everyone is super supportive of each other!",
+    q4: 'Fun fact?',
+    a4: "Coconut Mall was my 8th most listened to song in 2023",
   },
   {
-    team: "Creative",
-    position: "Visual + Brand Designer",
+    team: 'Creative',
+    position: 'Visual + Brand Designer',
     description:
-      "You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.",
-    duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums &lt;/li&gt; \
+      'You are talented. You are inquisitive. You are a creative individual passionate about creating unique visual experiences. As a design organization, we strongly believe in delivering the highest caliber of visual and brand collateral to market and represent our community.',
+    duty: '&lt;ol&gt; &lt;li&gt; Working in collaboration with the Creative team to produce visual collateral across multiple mediums &lt;/li&gt; \
       &lt;li&gt; Working within an established and maturing brand and visual identity &lt;/li&gt; \
       &lt;li&gt; Working with the Creative team to strengthen our brand and establish clear guidelines &lt;/li&gt; \
       &lt;li&gt; Designing and evolving new and existing sub-brands (e.g. Design Frontiers, Stride, Pixels & Cursors etc) &lt;/li&gt; \
-      &lt;li&gt; Creating website mockups and collaborate with web developers to design and execute new websites &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Creating website mockups and collaborate with web developers to design and execute new websites &lt;/li&gt; &lt;/ol&gt;',
     general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
     offer:
-      "&lt;ol&gt; &lt;li&gt; Knowledge of basic graphic design principles &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Knowledge of basic graphic design principles &lt;/li&gt; \
       &lt;li&gt; Prior experience with either Illustrator, InDesign, and/or Figma &lt;/li&gt; \
       &lt;li&gt; Good team player and communicator &lt;/li&gt; \
       &lt;li&gt; Highly organized and self-driven individual who is able to balance multiple projects at once &lt;/li&gt; \
       &lt;li&gt; Ability to adapt and work under our brand guidelines as well as other company guidelines &lt;/li&gt; \
       &lt;li&gt; Ability to take feedback and make multiple iterations &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Prior experience with design systems and/or branding &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Prior experience with design systems and/or branding &lt;/li&gt; \
       &lt;li&gt; Experience creating motion graphics &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Ricky",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1: "I like to say being in Design Co board has given me the complete pre-professional university design experience. I gain the ground to expand my design knowledge, learn from fellow board members, and showcase and be valued for the design work I produce. Additionally, Design Co board presence also gives me networking, feedback, and guidance skills. These attributes help me feel significantly more confident furthering my design career both in and after UCSD. ",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2: "Coming from a Mathematics major, being on Design Co board allowed me to elevate my hobby design experience into an educated, solidified, and professional design style. As a Visual + Brand Designer, I’ve gained fluency in Figma from working on branding deliverables, such as social media graphics. Plus, I've also expanded my ‘eye’ for design in the world from being on board; I can better decipher effective design. ",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "Design Co’s board is composed of members with team-specific roles. Board members collaborate in ideation and execution of Design Co events, initiatives, and products, with each role playing a part in contributing. On a peer level, Design Co board members are my best friends. I know if I have a stress-related concern, or really any concern, that board members are here to listen.",
-    q4: "Fun fact?",
-    a4: "I’m always 1st place, undefeated at Mario Kart 200cc and my favorite color is beige.",
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Luca',
+    image: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822363/designco/about/sp23-photos/Luca_smobnb.webp',
+    q1: "What are you looking forward to the most in your time on Design Co board?",
+    a1: 'I like to say being in Design Co board has given me the complete pre-professional university design experience. I gain the ground to expand my design knowledge, learn from fellow board members, and showcase and be valued for the design work I produce. Additionally, Design Co board presence also gives me networking, feedback, and guidance skills. These attributes help me feel significantly more confident furthering my design career both in and after UCSD. ',
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: "Joining board has made me feel more confident in my path in life. I have become more skilled in visual design and have experience working with others to promote and reinforce the Design Co brand.",
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: 'Design Co meets frequently and has reliable communication via slack. With this, our various teams collaborate to create events, posts, invite guests, and more. Our communication excels when we have members from every team ready to go, sometimes even at a moment’s notice!',
+    q4: 'Fun fact?',
+    a4: 'I’m Left handed!',
   },
   {
-    team: "Creative",
-    position: "Web Developer",
+    team: 'Creative',
+    position: 'Web Developer',
     description:
-      "You are fascinated with pushing pixels to code. You are always up for a challenge. You aspire to push the boundaries of your own skills to build amazing digital experiences for our design community.",
-    duty: "&lt;ol&gt; &lt;li&gt; Building and maintaining all Design Co websites (e.g. ucsddesign.co, Design Frontiers, Build Up, Stride, VDA, etc) &lt;/li&gt; \
-      &lt;li&gt; Work closely with our visual designers to bring their visions to life (aka implementing Figma mockups and cool interactions) &lt;/li&gt; &lt;/ol&gt;",
+      'You are fascinated with pushing pixels to code. You are always up for a challenge. You aspire to push the boundaries of your own skills to build amazing digital experiences for our design community.',
+    duty: '&lt;ol&gt; &lt;li&gt; Building and maintaining all Design Co websites (e.g. ucsddesign.co, Design Frontiers, Build Up, Stride, VDA, etc) &lt;/li&gt; \
+      &lt;li&gt; Work closely with our visual designers to bring their visions to life (aka implementing Figma mockups and cool interactions) &lt;/li&gt; &lt;/ol&gt;',
     general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
     offer:
-      "&lt;ol&gt; &lt;li&gt; Fluent in basic front-end web development technologies such as HTML/CSS/JavaScript &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Fluent in basic front-end web development technologies such as HTML/CSS/JavaScript &lt;/li&gt; \
       &lt;li&gt; Prior experience with responsive web design &lt;/li&gt; \
       &lt;li&gt; Ability to take mockups and turn them into beautiful web pages &lt;/li&gt; \
       &lt;li&gt; Ability to stay on top of deadlines and work quickly when needed &lt;/li&gt; \
-      &lt;li&gt; Portfolio or Github showing relevant web design projects &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Experience with front-end frameworks + tools (e.g. React, Sass, Gulp, etc.) &lt;/li&gt; \
+      &lt;li&gt; Portfolio or Github showing relevant web design projects &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Experience with front-end frameworks + tools (e.g. React, Sass, Gulp, etc.) &lt;/li&gt; \
       &lt;li&gt; Interest in a UX Engineering or Design Technologist Role &lt;/li&gt; \
       &lt;li&gt; Experience with Jekyll and Github Pages &lt;/li&gt; \
       &lt;li&gt; Experience with back-end development and APIs &lt;/li&gt; \
@@ -96,166 +98,241 @@ export const roles = [
       &lt;li&gt; Knowledge of visual design and UX best practices &lt;/li&gt; \
       &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; \
       &lt;li&gt; Interest in data and analytics &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations  &lt;/li&gt; &lt;/ol&gt;",
-    name: "Brian",
-    q1: "How have your grown by being on board?",
-    a1: "I’ve learned a lot about how a larger organization manages to stay focused and efficient in addition to being more confident in my work in a pre-professional setting. ",
-    q2: "What have you learned from being on the Design Co board?",
-    a2: "As both a Media Coordinator and Web Developer, I’ve been blessed to be a part of multiple teams. Through this, I’ve learned to juggle two different schedules and manage my time efficiently in order to complete my work in a timely manner. In addition, I’ve been able to pursue my passion for programming and photography for Design Co’s benefit! ",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "Design Co is an organization that is dependent on its cross-functional teams. This means that the club’s success relies on all its members. Each board member plays a critical role internally or externally. This encourages  and ensures constant communication between teams to meet deadlines and plan events. ",
-    q4: "Fun fact?",
-    a4: "My favorite food is some nice mac & cheese :3",
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations  &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Aaron',
+    image: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822367/designco/about/sp23-photos/Aaron_royi1n.webp',
+    q1: "What are you looking forward to the most in your time on Design Co board?",
+    a1: 'I’m looking forward to building fun websites for our large initiatives and improving our technical workflow to improve productivity.',
+    q2: 'What have you learned from being on the Design Co board?',
+    a2: 'I have learned how to better communicate and collaborate with designers and other web developers. I also learned various new frontend concepts and had the opportunity to experience solving unique design challenges.',
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: 'Design Co is an organization that’s made up of cross-functional teams that work together to bring meaningful initiatives to life. We collectively foster an environment where we each lift one another up and fully utilize our valuable skills and expertise.',
+    q4: 'Fun fact?',
+    a4: 'I like eating grapefruit and bittermelon c:',
   },
   {
-    team: "Industry Relations",
-    position: "Industry Relations Coordinator",
+    team: 'Industry Relations',
+    position: 'Industry Relations Coordinator',
     description:
-      "You are bold and personable. You are an individual deeply interested in helping Design Co curate strong industry partnerships and events. At Design Co, we believe that creating opportunities for students to interface with industry is key in preparing our community for life in the industry.",
-    duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the industry relations team to develop and maintain partnerships with a wide range of different companies &lt;/li&gt; \
+      'You are bold and personable. You are an individual deeply interested in helping Design Co curate strong industry partnerships and events. At Design Co, we believe that creating opportunities for students to interface with industry is key in preparing our community for life in the industry.',
+    duty: '&lt;ol&gt; &lt;li&gt; Working in collaboration with the industry relations team to develop and maintain partnerships with a wide range of different companies &lt;/li&gt; \
       &lt;li&gt; Conversing with and pitching to new and partner companies over video calls to ensure that the needs of both the companies’ and our community are met as soon as possible &lt;/li&gt; \
       &lt;li&gt; Helping to continuously discover, build, and improve event and sponsorship offerings for industry partners &lt;/li&gt; \
       &lt;li&gt; Pitching event ideas and sponsorship packages to companies and delivering attractive events for students and companies weeks in advance the event date &lt;/li&gt; \
       &lt;li&gt; Working with our team to plan and execute large scale events such as Stride Design Career Fair, Company Tours, and Design Frontiers &lt;/li&gt; \
       &lt;li&gt; Writing many, many new and follow-up emails to company representatives for our outreach or partnership efforts &lt;/li&gt; \
-      &lt;li&gt; Learning how to work with and adjust to a company’s fast-paced timeline  &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Learning how to work with and adjust to a company’s fast-paced timeline  &lt;/li&gt; &lt;/ol&gt;',
     general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
     offer:
-      "&lt;ol&gt; &lt;li&gt; Excellent professional communication skills (via email, phone, etc.) &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Excellent professional communication skills (via email, phone, etc.) &lt;/li&gt; \
       &lt;li&gt; Highly organized, attentive, collaborative, and humble team player &lt;/li&gt; \
       &lt;li&gt; Excitement for ideating, discovering, and iterating on opportunities to help expose students to the skills sought in industry &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Prior experience securing and maintaining industry partnerships &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Prior experience securing and maintaining industry partnerships &lt;/li&gt; \
       &lt;li&gt; Prior experience in creating marketing professional pitches &lt;/li&gt; \
       &lt;li&gt; Prior experience working in a role where you interface with multiple partners, departments, and student organizations across UC San Diego and the greater San Diego community &lt;/li&gt; &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
       &lt;li&gt; Attention-grabbing, avant-garde ideas for future industry events! &lt;/li&gt; \
-      &lt;li&gt; Knowledge of the process behind gaining non-profit status and any experience securing sponsorships with companies through this model &lt;/li&gt; &lt;/ol&gt;",
-    name: "Esther",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1: "The prioritization of planning ahead of planning ahead to meet fast-paced company schedules. The art of pitching student ideas to top-dog industry figures. The ear for listening to my team’s creative thoughts and opinions when making crucial decisions. The understanding and patient heart to work in a brilliant student design community, where everyone is also juggling board responsibilities with school, work, and play.",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2: "In regards to being on the Industry Relations team, I’ve learned a lot about company interactions—-more specifically, how to infuse lightheartedness from my personality into in-depth conversations with company representatives. During my first company meetings, I remember being so scared of going off-script. It was until I began spearheading these meetings that I realized, These representatives aren’t strict robots, they’re still human. Even they joked around sometimes! And that meant I could have a normal conversation with them to complement the meeting agenda. I’m still learning about how to craft my words on the spot, but growth takes time, so I ought to be patient. : )",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "Like a charcuterie board with distinct fruits, cheeses, meats, and crackers (mmmm…. 🤤), Design Co Board is filled with distinct talents and brilliant minds. Each team has their strengths (and weaknesses), but together, we fill in our gaps and work under the same “unit.” All jokes aside, I love how flexible and open-minded everyone is, that we’re always seeking feedback—whether individually or as a student org—since we recognize that Design Co can grow in many ways. Even so, we are still realistic with our own bandwidth as undergraduate students. There are too many things I could say… just ask me in person.",
-    q4: "Fun fact?",
-    a4: "I think I’m starting to talk slower and slower… o.o",
+      &lt;li&gt; Knowledge of the process behind gaining non-profit status and any experience securing sponsorships with companies through this model &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Micah',
+    image:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822364/designco/about/sp23-photos/Micah_i0dgib.webp',
+    q1: "What are you looking forward to the most in your time on Design Co board?",
+    a1: 'I am most looking forward to being able to meet a community of designers and join in company tours!',
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: 'I have grown a lot in terms of organization, project planning, and perspective of job career during my time on design co!',
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: "I believe that Design Co works together like an ecosystem where every contributing members plays a meaningful role in developing and maintaining the design community!",
+    q4: 'Fun fact?',
+    a4: 'I love doing calligraphy and sketching in my free time!',
   },
   {
-    team: "Marketing",
-    position: "Content Strategist",
+    team: 'Operations',
+    position: 'Operations Coordinator',
     description:
-      "You are creative and insightful. You understand tone and voice. You want to write content that captivates an audience. You are grammar.",
-    duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team to curate and execute marketing campaigns that increase reach, engagement, and impressions &lt;/li&gt; \
+      'You are detail oriented and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. You see yourself as a huge backbone to Design Co’s operations and will play an important part in shaping the way Design Co runs. ',
+    duty: '&lt;ol&gt; &lt;li&gt; Working closely with all teams in Design Co to help kickstart initiatives that may require advanced logistics &lt;/li&gt; \
+      &lt;ol&gt; &lt;li&gt; Executing logistics including TAP forms, tabling, room reservations, booking flights (for retreats, Bay Area trip, etc), merchandise details, inventory &lt;/li&gt; \
+      &lt;ol&gt; &lt;li&gt; Coordinating with Finance Coordinators to ensure logistics and costs are well aligned &lt;/li&gt; \
+      &lt;ol&gt; &lt;li&gt; Assisting with general event planning (securing rooms/booking spaces, catering, etc) &lt;/li&gt; &lt;/ol&gt',
+    general:
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBM per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      &lt;ol&gt; &lt;li&gt; Attend weekly GBMs, board meetings, and large scale events (~7 to 10 hours per week) &lt;/li&gt; \
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt;',
+    offer:
+      '&lt;ol&gt; &lt;li&gt; Attention to detail and a love for Google Sheets &lt;/li&gt; \
+      &lt;li&gt; Prior experience with event planning &lt;/li&gt; \
+      &lt;li&gt; Organization skills and the ability to stay on top of deadlines &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt;',
+    ec: 
+      '&lt;ol&gt; &lt;li&gt; Prior exposure to student org operations (completing TAP forms, reserving spaces through OneStop & applying for AS funding) &lt;/li&gt; \
+      &lt;li&gt; Prior experience with large scale event planning (100+ attendees) &lt;/li&gt; \
+      &lt;li&gt; Prior experience working with multiple partners, departments, and student organizations across UC San Diego and the greater San Diego community &lt;/li&gt; \
+      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
+      &lt;ol&gt; &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt;',
+    name: 'Cindy',
+    image:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822353/designco/about/sp23-photos/Cindy_ltoi5h.webp',
+    q1: 'What are you looking forward to the most in your time on Design Co board?',
+    a1: "The thing I am looking forward to the most in my time on Design Co board is managing and hosting big project initiatives including the Design Frontiers and Summer Up programs, as well as leading the weekly GBMs.",
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: "During my time on the Design Co board, I learned so much from my peers and Director for Operations on organizing and managing logistics, communication skills, as well as public speaking during presentations. I also learned a lot about what other branches of the board were doing by socializing with others on board.",
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: "I would describe Design Co board as a tree with different roots, each represented by a different branch (community, creative, ops), and the branch is the final DCO image facing public. All the different groups work together by communicating effectively regarding their requests and needs, and remind each other of what final deliverables are to be completed by certain deadlines to ensure all projects and programs can be run smoothly in the end.",
+    q4: 'Fun fact?',
+    a4: "I love how welcoming DCO board is!! I still remember the first day when I was on board, each one of us got a surprise gift bag and someone put my favorite snack in it (something I mentioned during my interview) and this really shows how much DCO cares about its members ❤️",
+  },
+  {
+    team: 'Operations',
+    position: 'Finance Coordinator',
+    description:
+      'You are detail oriented and motivated. You are excited to help Design Co grow as a pre-professional organization and better support student designers. You see yourself as a huge backbone to Design Co’s operations. At Design Co, we believe that fostering an inclusive design community means collaborating with others and growing with everyone.',
+    duty: '&lt;ol&gt; &lt;li&gt; Working closely with all teams in Design Co to help kickstart initiatives that may require advanced logistics &lt;/li&gt; \
+      &lt;li&gt; Allocating and managing budgets for Design Co initiatives and documenting transactions &lt;/li&gt; \
+      &lt;li&gt; Coordinating with Operations Coordinators to ensure logistics and costs are well aligned &lt;/li&gt; &lt;/ol&gt;',
+    general:
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      &lt;li&gt; Attend weekly GBMs, board meetings, and large scale events (~7 to 10 hours per week) &lt;/li&gt; \
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
+    offer:
+      '&lt;ol&gt; &lt;li&gt; Attention to detail and a love for Google Sheets &lt;/li&gt; \
+      &lt;li&gt; Ability to calculate towards the future, calculate towards our current capacity, determine what’s a good decision to make &lt;/li&gt; \
+      &lt;li&gt; Organization skills and the ability to stay on top of deadlines &lt;/li&gt; \
+      &lt;li&gt; Prior experience with event planning &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Prior exposure to managing finances within a student org/program &lt;/li&gt; \
+      &lt;li&gt; Prior experience with large scale event planning (100+ attendees) &lt;/li&gt; \
+      &lt;li&gt; Prior experience working with multiple partners, departments, and student organizations across UC San Diego and the greater San Diego community &lt;/li&gt; \
+      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
+      &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Mandy',
+    image:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822353/designco/about/sp23-photos/Mandy_ruvmvr.webp',
+    q1: 'What are you looking forward to the most in your time on Design Co board?',
+    a1: 'I’m looking forward to meeting new designers! Whether it’s been chatting with table mates in workshop or building something with a team for a longer-term project, the most memorable part of Design Co has been connecting with people from diverse backgrounds.',
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: 'Design Co board has taught me how to collaborate in cross-functional teams. As Finance Coordinator, I’m responsible for allocating budgets which involves close collaboration with Design Co Marketing, UCSD A.S., and external vendors. If you’d like to improve at personal finances and executing large-scale events, then Finance Coordinator could be a great fit for you.',
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: 'Professional and organized. For a board with 30+ members, we have a great system for keeping everyone in the loop. I also appreciate the culture of inclusivity where different majors and creative talents are embraced.',
+    q4: 'Fun fact?',
+    a4: 'Outside of work, you can find me on the court playing with the UCSD Club Tennis team.',
+  },
+  {
+    team: 'Marketing',
+    position: 'Social Media Coordinator',
+    description:
+      'You love social media. You want to create an online presence for Design Co. You are the master of all influencers.',
+    duty: '&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team, curate, and execute marketing campaigns &lt;/li&gt; \
+      &lt;li&gt; Helping the marketing team determine quarterly and year-long marketing strategies that increase reach, engagement, and impressions &lt;/li&gt; \
+      &lt;li&gt; Managing our social media channels (e.g. Facebook, Instagram, LinkedIn, Snapchat) and ensuring a consistent flow of media posts &lt;/li&gt; \
+      &lt;li&gt; Using social media marketing strategies to boost attendance at our events &lt;/li&gt; \
+      &lt;li&gt; Creating marketing plans for small to large scale events &lt;/li&gt; &lt;/ol&gt;  ',
+    general:
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
+    offer:
+      '&lt;ol&gt; &lt;li&gt; Experience managing social media platforms &lt;/li&gt; \
+      &lt;li&gt; Experience using different methods and strategies to increase engagement on social media channels &lt;/li&gt; \
+      &lt;li&gt; Experience scheduling posts on social media platforms &lt;/li&gt; \
+      &lt;li&gt; Understanding of best practices for strong social media presence &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Prior experience developing a marketing plan for small to large scaled events &lt;/li&gt; \
+      &lt;li&gt; Prior experience managing social media for student organization or company &lt;/li&gt; \
+      &lt;li&gt; Prior experience launching Facebook or LinkedIn advertisements &lt;/li&gt; \
+      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
+      &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Frances',
+    image: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822370/designco/about/sp23-photos/Frances_fljypo.webp',
+    q1: "What are you looking forward to the most in your time on Design Co board?",
+    a1: "I’ve been on board since my freshman year, and seeing how much it’s grown – from the friendships I’ve fostered with my co-board members to the variety of events that our community has enjoyed – has been so rewarding to watch. I am eternally grateful to be a part of this community, and I can’t wait to see how much more DCo will grow as we pass the baton to other students.",
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: "I’m the type of person who needs to have everything in my life planned out. I knew I wanted to get more immersed in design, so joining board was always part of my plan. When I applied for the Media Coordinator position, I was rejected – but to my surprise, I was accepted as a Social Media Coordinator. This role opened other opportunities in marketing for me, like spearheading marketing campaigns for Thurgood Marshall College. My most profound growth, however, came from embracing change. Immersed in an environment of people with a wider array of interests and witnessing the resilience of my co-board members despite the lemons life throws at them, has been a constant source of inspiration for me. Life doesn’t always work out as planned–but that’s the fun in it.",
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: "DCo is our baby, and we are a family. We all bring our unique strengths and quirks to the table when planning campaigns and events. Even during stressful days–or we’re butting heads–we’re still there for each other.",
+    q4: 'Fun fact?',
+    a4: "I have a Husky named Mr. Blue and a German Shepherd named Mr. Ralph!",
+  },
+  {
+    team: 'Marketing',
+    position: 'Content Writer',
+    description:
+      'You are creative and insightful. You understand tone and voice. You want to write content that captivates an audience. You are grammar.',
+    duty: '&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team to curate and execute marketing campaigns that increase reach, engagement, and impressions &lt;/li&gt; \
       &lt;li&gt; Writing captions and event descriptions for our social media platforms that perfectly capture Design Co’s voice and tone &lt;/li&gt; \
       &lt;li&gt; Planning, writing, and executing articles for our publications &lt;/li&gt; \
       &lt;li&gt; Writing copy for new initiatives and any relevant collaterals (e.g. branding, website) to ensure they align with our visual language &lt;/li&gt; \
-      &lt;li&gt; Creating, establishing, and iterating our content and writing guidelines &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Creating, establishing, and iterating our content and writing guidelines &lt;/li&gt; &lt;/ol&gt;',
     general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events**, and other Marketing Team functions (5-6 hours per week)  &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
     offer:
-      "&lt;ol&gt; &lt;li&gt; Knowledge of what tone and voice is and the confidence to help Design Co establish our own &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Knowledge of what tone and voice is and the confidence to help Design Co establish our own &lt;/li&gt; \
       &lt;li&gt; Knowledge of writing and creating content to target specific audiences &lt;/li&gt; \
       &lt;li&gt; Ability to demonstrate writing ability with examples of past work &lt;/li&gt; \
       &lt;li&gt; Knowledge of the Medium.com platform &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Prior experience with writing copy and creating content for an organization or publication &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Prior experience with writing copy and creating content for an organization or publication &lt;/li&gt; \
       &lt;li&gt; Prior experience developing content, tone of voice, and writing guidelines &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Kayla",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1: "I’ve gained a supportive environment to foster my interest in design and grow as a designer. Everyone on board is open to sharing their design experiences, and it creates this space for us to learn and navigate through our college design journey together.",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2: "Creating copy as part of the content team has given me valuable experience writing in a pre-professional setting. I’ve grown more fluent in (verbally) connecting with our community and sharing our latest happenings through our social media posts, website copy, and Medium articles. In addition, hosting GBMs and other events has taught me how to articulate my ​​design experiences and knowledge and improved my presentation skills.",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "We’re a collective voice of students. Design Co’s board is a pretty big group (there’s 28 of us right now c:), and that’s one of our strengths. With the diversity of talents and perspectives, we can work together in smaller teams and come together to push out big initiatives. It’s a collaborative process that relies on both smooth communication and efficient time management, and we do our best to create a dynamic environment to support this.",
-    q4: "Fun fact?",
-    a4: "When I was about 4 or so, my sister told me “You rock,” and I cried because I thought she was calling me a rock.",
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Lauren',
+    image: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822372/designco/about/sp23-photos/Lauren_m9zx4e.webp",
+    q1: "What are you looking forward to the most in your time on Design Co board?",
+    a1: "I am looking most forward to interviewing + onboarding new board!! I can’t wait to expand the content team! Oh and also, helping to organize more career fairs. Those are always an amazing opportunity to network with dream companies and peers, and put your skills to use in real life!",
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: "When I first joined Design Co board, I was still a wide-eyed design student struggling with intense imposter syndrome — how could I possibly mentor students? But over time — with a thorough onboarding process, a tight-knit community, and lots of practice and hands-on application — this quickly shifted. DCo has mentored me and equipped me to mentor others (shoutout to my pixels + more <3), has taught me about the reality of the design industry, has fostered my growth in professionalism, has provided me with the most lovely team and funny friends, and has provided me with invaluable career-growth opportunities.",
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: "Streamlined chaos? With 5 very different teams, each team efficiently goes above and beyond to get their allocated tasks done, yet there’s still a lot of creative freedom within each team and the entire board in general. Communication is A+. Socializing is A+. Time management is A+. DCo brand is A+. Design Co board feels like a big family of like-minded yet chaotic siblings. Love it.",
+    q4: 'Fun fact?',
+    a4: "i could eat spicy tuna avocado rolls breakfast lunch and dinner and dessert everyday for my entire life.",
   },
   {
-    team: "Marketing",
-    position: "Media Coordinator",
+    team: 'Marketing',
+    position: 'Media Coordinator',
     description:
-      "You have an eye for candid moments. You like to use pictures and videos to speak a thousand words. You’re excited to bring video concepts into Design Co’s marketing strategy.",
-    duty: "&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team, curate, and execute marketing campaigns &lt;/li&gt; \
+      'You have an eye for candid moments. You like to use pictures and videos to speak a thousand words. You’re excited to bring video concepts into Design Co’s marketing strategy.',
+    duty: '&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team, curate, and execute marketing campaigns &lt;/li&gt; \
       &lt;li&gt; Helping the marketing team determine quarterly and year-long marketing strategies that increase reach, engagement, and impressions &lt;/li&gt; \
       &lt;li&gt; Taking photographs and videos for all events &lt;/li&gt; \
       &lt;li&gt; Working closely with our Creative Team to ensure that our video and photo editing aligns with our visual language &lt;/li&gt; \
       &lt;li&gt; Curating marketing videos for our social media channels (e.g. Design Frontiers Video, Intro to Design Co, etc.) &lt;/li&gt; \
       &lt;li&gt; Editing and sharing photos and videos after events &lt;/li&gt;  \
-      &lt;li&gt; Creating and editing short-form videos &lt;/ol&gt;",
+      &lt;li&gt; Creating and editing short-form videos &lt;/ol&gt;',
     general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
       &lt;li&gt; Attend weekly GBMs, board meetings, large scale events, and other Industry Relations Team functions (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;",
+      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt; &lt;/ol&gt;',
     offer:
-      "&lt;ol&gt; &lt;li&gt; Knowledge with DSLR cameras is required. You’re not required to have your own DSLR but you need to have access to one for all our events (GBMs, Design Frontiers, Stride) &lt;/li&gt; \
+      '&lt;ol&gt; &lt;li&gt; Knowledge with DSLR cameras is required. You’re not required to have your own DSLR but you need to have access to one for all our events (GBMs, Design Frontiers, Stride) &lt;/li&gt; \
       &lt;li&gt; Prior experience with videography,  photography and creating content for an organization or publication &lt;/li&gt; \
       &lt;li&gt; Ability to demonstrate video/photography ability with examples of past work &lt;/li&gt; \
       &lt;li&gt; Knowledge of the editing software (e.g Adobe Premiere, Adobe Lightroom, Final Cut Pro) &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Prior experience with producing videos for an organization, company, or group &lt;/li&gt; \
+      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; &lt;/ol&gt;',
+    ec: '&lt;ol&gt; &lt;li&gt; Prior experience with producing videos for an organization, company, or group &lt;/li&gt; \
       &lt;li&gt; Prior experience with motion design to make cool animations for videos &lt;/li&gt; \
       &lt;li&gt; You have your own DSLR camera &lt;/li&gt; \
       &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Rainee",
-    q1: "What have you gained from being part of the Design Co board?",
-    a1: "I declared my design major towards the end of my sophomore year, so I had a bit of FOMO since I felt behind other student designers at UC San Diego. Joining Design Co board relieved a lot of those worries since I was able to become more involved in the design community, which has been very motivating and has helped guide my design journey so much! I have also made some very epic friends. ",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2: "Media gets the opportunity to plan photoshoots, create silly videos (like TikToks), and make super swag edits––experiences that have allowed me to learn lots in photography/videography by exercising my creativity in a different way apart from design. I have also grown to become a more confident designer and individual with improvements in leadership, planning, and public speaking skills.",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "Each team is like a fun shaped puzzle piece and we all come together to form the big, cool picture. We contribute a lot as separate teams, but we all make sure to come together as one unit to successfully push out events and initiatives. Because of this, we all try to keep an open-mind and be receptive to feedback from both within board and from the community. ",
-    q4: "Fun Fact",
-    a4: "I’m slightly above average (or maybe not) at recreational Minesweepers.",
-  },
-  {
-    team: "(NEW) Operations",
-    position: "Project Coordinator",
-    description:
-      "You are a team player and bubbling with ideas. You are excited to give students more opportunities to work through the design process outside of the classroom. You and your team will take the reins in creating cool project-based programs you would like to offer our design community. If you are an aspiring project manager or if you’re itching to make an impact on a large scale, this is the perfect role for you! ",
-    duty: "&lt;ol&gt; &lt;li&gt; Organizing ~2 project initiatives/fellowships/programs per year (10-12 weeks long each) centered around design and/or marketing. Past programs include Level Up, Power Up, and Build Up (aka Summer Up). &lt;/li&gt; \
-      &lt;ol&gt; &lt;li&gt; Collaborate with Operations & Industry Relations teams to coordinate Design Frontiers &lt;/li&gt; \
-      &lt;ol&gt; &lt;li&gt; Working with Marketing and Creative teams to coordinate branding and marketing campaigns. &lt;/li&gt; \
-      &lt;ol&gt; &lt;li&gt; Contacting industry designers and mentors for the programs through email and LinkedIn. &lt;/li&gt; &lt;/ol&gt; \
-      &lt;ol&gt; &lt;li&gt; Organizing workshops and all-hands meetings tailored for the student fellows. &lt;/li&gt; &lt;/ol&gt; \
-      &lt;ol&gt; &lt;li&gt; Working with Operations/other project coordinators to determine logistics, timeline, and funding.  &lt;/li&gt; &lt;/ol&gt; \
-      &lt;li&gt; Here’s what a year might look like in your role: Start planning Summer Up (client-based) in the Spring & host it in the Summer. Start planning another project program in the Fall & host it in the Winter. Start planning Design Frontiers in Winter & host it in the Spring. (Disclaimer: If you are in this role, you cannot apply for the programs you host as a participant.) &lt;/li&gt; &lt;/ol&gt;",
-    general:
-      "&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBM per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \
-      &lt;ol&gt; &lt;li&gt; Attend weekly GBMs, board meetings, and large scale events (~7 to 10 hours per week) &lt;/li&gt; \
-      &lt;li&gt; Serve as a student leader within the design community at UC San Diego &lt;/li&gt;",
-    offer:
-      "&lt;ol&gt; &lt;li&gt; Attention to detail and a love for Google Sheets and Google Forms &lt;/li&gt; \
-      &lt;li&gt; Prior experience with event planning, project leading, and/or logistical roles  &lt;/li&gt; \
-      &lt;li&gt; Organization skills and the ability to stay on top of deadlines &lt;/li&gt; \
-      &lt;li&gt; Knowledge of design thinking and the human-centered design process &lt;/li&gt; \
-      &lt;li&gt; Ability to take feedback and implement improvements for future iterations  &lt;/li&gt; \
-      &lt;li&gt; Ability to think ahead and to have a genuine interest in helping others in their design journey &lt;/li&gt; &lt;/ol&gt;",
-    ec: "&lt;ol&gt; &lt;li&gt; Being a previous participant of Build Up, Power Up, or Level Up &lt;/li&gt; \
-      &lt;li&gt; Prior experience with managing or leading a lot of people/teams &lt;/li&gt; \
-      &lt;li&gt; Prior experience working cross-functionally and can communicate effectively &lt;/li&gt; \
-      &lt;li&gt; Relevant design experience in a professional setting &lt;/li&gt; \
-      &lt;li&gt; Knowledge of the design recruiting and job search process &lt;/li&gt; \
-      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;",
-    name: "Jocelyn",
+      &lt;li&gt; Knowing funny jokes, can teach sick dance moves, and have great food or music recommendations &lt;/li&gt; &lt;/ol&gt;',
+    name: 'Teresa',
+    image: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822361/designco/about/sp23-photos/Teresa_ypnpye.webp',
     q1: "What are you looking forward to the most in your time on Design Co board?",
-    a1: "Being in a supportive community and tight-knit team has allowed me to grow confidence in my leadership and communication skills. The accomplishments, charisma, and grit of Design Co board pushes me to work harder and grow as a designer and individual. :,)",
-    q2: "How have you grown during your time on the Design Co board?",
-    a2: "As a Finance Coordinator and Operations Coordinator, I work with strict timelines for event planning as well as managing and creating budgets. These logistic-related tasks have taught me to manage time better, efficiently prioritize items and tasks, and also be patient when things go astray. I have also learned to be more resourceful through finding fundings for the organization and cost-efficient supplies for large-scale events. In addition, leading GBMs and events has taught me to communicate the design process and skillset coherently, and I find myself learning new things about design everytime!",
-    q3: "How would you describe how the Design Co board works together?",
-    a3: "Collaboratively and communicatively. Every team specializes in a unique crucial aspect of the organization, but we all come together to make sure Design Co runs smoothly. We really try to foster open-feedback to make sure that no one feels unheard and that we are a safe environment for not only board but general members as well.",
-    q4: "Fun fact?",
-    a4: "I used to have two pet rats and a hairless guinea pig!",
+    a1: 'I’m definitely looking forward to taking more pictures + videos for the Design Co fam -- it’s really fun capturing everyone’s memories for the year. I’m also excited to hang out with everyone more throughout the year! On top of that, I’m really excited to meet and help new board members feel welcome as they’re onboarding!',
+    q2: 'How have you grown during your time on the Design Co board?',
+    a2: 'I remember at my first Design Co meeting a year ago, I was super nervous since I just switched into Cog Sci D&I from being pre-health. After interacting with that year’s board, I quickly changed that anxiety to excitement and immediately knew I wanted to join board. At first, I simply felt like I wasn’t an experienced designer compared to everyone else to even apply. But, after taking a leap of faith, I’ve been able to meet so many kind, wonderful, and fun individuals from board and others connected to the org. I’ve also understood much more about the design industry and learned about the different routes you can embark with a design. I still can’t believe how much I’ve learned within a year :).',
+    q3: 'How would you describe how the Design Co board works together?',
+    a3: 'All teams and their work is all connected! I like to think of us like different links within a chain. We communicate well with each other, and get our work done in a timely manner, but also make sure to have a lot of fun during the process. Nothing ever feels crazy serious; we’re students that want to help the design community and everyone’s always understanding with each other.',
+    q4: 'Fun Fact',
+    a4: 'I have a Google Maps list of all the takoyaki stands I wanna visit in Japan (15 at the moment, let me know any good ones I should add...)',
   },
   /* {
     team: "Community",
