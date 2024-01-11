@@ -109,15 +109,15 @@ class Role extends React.Component {
                 {this.props.team} Team – {this.props.position}
               </h1>
               <p style={{ marginBottom: spacer3 }}>{this.props.description}</p>
-              <div className="apply-v2">
                 <a
+                className="apply-v2"
                   href="https://forms.gle/CsYm2czA7poxref49"
                   target="_blank"
+                  rel="noreferrer"
                   style={{ textDecoration: "none" }}
                 >
                   Apply
                 </a>
-              </div>
               <h2 style={{ marginBottom: spacer2 }}>You Will Be</h2>
               <div style={{ marginLeft: spacer2, marginBottom: spacer3 }}>
                 <p
