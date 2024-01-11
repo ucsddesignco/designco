@@ -31,7 +31,7 @@ export const roles = [
     q2: 'How have you grown during your time on the Design Co board?',
     a2: "I think that I’ve become a lot more confident and comfortable as a designer and leader. From working together with other board members on projects and leading gbms, I’ve learned a lot this past year.",
     q3: 'How would you describe how the Design Co board works together?',
-    a3: "I would describe Design Co. board as separate but together! Each team works relatively independently, but there is a lot of collaboration within teams and across teams in larger initiatives. Everyone is super supportive of each other!",
+    a3: "I would describe Design Co board as separate but together! Each team works relatively independently, but there is a lot of collaboration within teams and across teams in larger initiatives. Everyone is super supportive of each other!",
     q4: 'Fun fact?',
     a4: "Coconut Mall was my 8th most listened to song in 2023",
   },
@@ -65,7 +65,7 @@ export const roles = [
     name: 'Luca',
     image: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822363/designco/about/sp23-photos/Luca_smobnb.webp',
     q1: "What are you looking forward to the most in your time on Design Co board?",
-    a1: 'I like to say being in Design Co board has given me the complete pre-professional university design experience. I gain the ground to expand my design knowledge, learn from fellow board members, and showcase and be valued for the design work I produce. Additionally, Design Co board presence also gives me networking, feedback, and guidance skills. These attributes help me feel significantly more confident furthering my design career both in and after UCSD. ',
+    a1: "I'm most looking forward to making new members feel comfortable and confident. I want Design Co to be even more welcoming and connected.",
     q2: 'How have you grown during your time on the Design Co board?',
     a2: "Joining board has made me feel more confident in my path in life. I have become more skilled in visual design and have experience working with others to promote and reinforce the Design Co brand.",
     q3: 'How would you describe how the Design Co board works together?',
@@ -90,9 +90,8 @@ export const roles = [
       &lt;li&gt; Ability to take mockups and turn them into beautiful web pages &lt;/li&gt; \
       &lt;li&gt; Ability to stay on top of deadlines and work quickly when needed &lt;/li&gt; \
       &lt;li&gt; Portfolio or Github showing relevant web design projects &lt;/li&gt; &lt;/ol&gt;',
-    ec: '&lt;ol&gt; &lt;li&gt; Experience with front-end frameworks + tools (e.g. React, Sass, Gulp, etc.) &lt;/li&gt; \
+    ec: '&lt;ol&gt; &lt;li&gt; Experience with front-end frameworks + tools (e.g. React, Sass, etc.) &lt;/li&gt; \
       &lt;li&gt; Interest in a UX Engineering or Design Technologist Role &lt;/li&gt; \
-      &lt;li&gt; Experience with Jekyll and Github Pages &lt;/li&gt; \
       &lt;li&gt; Experience with back-end development and APIs &lt;/li&gt; \
       &lt;li&gt; Prior web development experience in a professional setting &lt;/li&gt; \
       &lt;li&gt; Knowledge of visual design and UX best practices &lt;/li&gt; \
@@ -253,7 +252,7 @@ export const roles = [
     q1: "What are you looking forward to the most in your time on Design Co board?",
     a1: "I’ve been on board since my freshman year, and seeing how much it’s grown – from the friendships I’ve fostered with my co-board members to the variety of events that our community has enjoyed – has been so rewarding to watch. I am eternally grateful to be a part of this community, and I can’t wait to see how much more DCo will grow as we pass the baton to other students.",
     q2: 'How have you grown during your time on the Design Co board?',
-    a2: "I’m the type of person who needs to have everything in my life planned out. I knew I wanted to get more immersed in design, so joining board was always part of my plan. When I applied for the Media Coordinator position, I was rejected – but to my surprise, I was accepted as a Social Media Coordinator. This role opened other opportunities in marketing for me, like spearheading marketing campaigns for Thurgood Marshall College. My most profound growth, however, came from embracing change. Immersed in an environment of people with a wider array of interests and witnessing the resilience of my co-board members despite the lemons life throws at them, has been a constant source of inspiration for me. Life doesn’t always work out as planned–but that’s the fun in it.",
+    a2: "I’m the type of person who needs to have everything in my life planned out. I knew I wanted to get more immersed in design, so joining board was always part of my plan. When I applied for the Media Coordinator position, I was rejected – but to my surprise, I was accepted as a Social Media Coordinator. This role opened other opportunities in marketing for me, like spearheading marketing campaigns for Thurgood Marshall College. My most profound growth, however, came from embracing change. Immersed in an environment of people with a wider array of interests and witnessing the resilience of my co-board members, despite the lemons life throws at them, has been a constant source of inspiration for me. Life doesn’t always work out as planned–but that’s the fun in it.",
     q3: 'How would you describe how the Design Co board works together?',
     a3: "DCo is our baby, and we are a family. We all bring our unique strengths and quirks to the table when planning campaigns and events. Even during stressful days–or we’re butting heads–we’re still there for each other.",
     q4: 'Fun fact?',
