@@ -59,8 +59,8 @@ const shopItems = [
     sizes: [
       { size: "S", available: false },
       { size: "M", available: false },
-      { size: "L", available: true },
-      { size: "XL", available: true },
+      { size: "L", available: false },
+      { size: "XL", available: false },
     ],
   },
   {
@@ -96,11 +96,11 @@ const shopItems = [
       </>
     ),
     sizes: [
-      { size: "S", available: true },
-      { size: "M", available: true },
-      { size: "L", available: true },
-      { size: "XL", available: true },
-      { size: "XXL", available: true },
+      { size: "S", available: false },
+      { size: "M", available: false },
+      { size: "L", available: false },
+      { size: "XL", available: false },
+      { size: "XXL", available: false },
     ],
   },
   {
