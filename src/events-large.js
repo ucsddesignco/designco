@@ -69,4 +69,11 @@ export const eventsLarge = [
         date: "July - Sept 2023",
         year: 2023
     },
+    {
+        title: "Stride",
+        link: "https://stride23.ucsddesign.co/",
+        image: "20221108",
+        date: "November 2023",
+        year: 2024
+    },
 ];

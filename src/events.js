@@ -794,6 +794,148 @@ export const events = [
     time: 1930,
     location: "La Jolla Shores",
   },
+   
+  //2023 Fall
+  
+  {
+    title: "Fall Kickoff",
+    link: "https://www.instagram.com/p/Cx1RH2yS395/",
+    image: "20231004",
+    date: 20231004,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1DXIxE7O9FSuYcmK6mlYCULPdEAmLUgdHy2ZwmajLHaU/edit?usp=sharing"
+  },
+  {
+    title: "Paint Night Social",
+    link: "https://www.instagram.com/p/CyKOHfbLb8G/",
+    image: "20231011",
+    date: 20231011,
+    time: 1830,
+    location: "DIB 208" 
+  },
+  {
+    title: "Speed Friending @Yogurtworld",
+    link: "https://www.instagram.com/p/CyXCmtOOUxY/",
+    image: "20231016-1",
+    date: 20231016,
+    time: 1730,
+    location: "Yogurt World"
+  },
+  {
+    title: "Camp DCO",
+    link: "https://www.instagram.com/p/CyZuOW1P-bG/",
+    image: "20231016-2",
+    date: 20231016,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: 'https://linkmix.co/21034215',
+  },
+  {
+    title: "Intern Panel",
+    link: "https://www.instagram.com/p/Cyrpti_gjDZ/",
+    image: "20231025",
+    date: 20231025,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: 'https://docs.google.com/presentation/d/1g8KKooOlruKZy1d93XCs62TDu-zwPWEj0t_ySf62jus/edit?usp=sharing'
+  },
+  {
+    title: "Picnic & Crafts",
+    link: "https://www.instagram.com/p/Cy4FLNzSMbQ/",
+    image: "20231028",
+    date: 20231028,
+    time: 1300,
+    location: "Sungod Lawn"
+  },
+  {
+    title: "Guide to UX Industries",
+    link: "https://www.instagram.com/p/CzFWsgSJgZy/",
+    image: "20231101",
+    date: 20231101,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1HxKamIybheOEuBIQdQrd2V-0Mq7lieUq0_4hL5KLttc/edit?usp=sharing"
+  },
+  {
+    title: "Stride Prep GBM",
+    link: "https://www.instagram.com/p/CzVZArmr0Jl/",
+    image: "20231108",
+    date: 20231108,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/19cNGi-2l4NEuzchRfgujs7W_y-p4djHp4Wmlg1huINw/edit?usp=sharing"
+  },
+  {
+    title: "Stride 2023",
+    link: "https://www.instagram.com/p/CzK1aE3rlx5/",
+    image: "20231113",
+    date: 20231113,
+    time: 1200,
+    location: "Student Center Stage Room and Patio",
+  },
+  {
+    title: "Design Research Principles & Opportunities",
+    link: "https://www.instagram.com/p/C0N2v-KrXt-/",
+    image: "20231129",
+    date: 20231129,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1Ct6MXgQzQf116EBGqUQD1rIJgxVJQIM6PmRWhOhqlis/edit?usp=sharing"
+  },
+  {
+    title: "Holiday Study Jam",
+    link: "https://www.instagram.com/p/C0ck6N6ShtY/",
+    image: "20231206",
+    date: 20231206,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1ryl3z21EbX4JWoVJLWEfVkb5HkJs_gRkOxTjEfvE9oM/edit?usp=sharing"
+  },
+
+  //Winter 2024
+
+  {
+    title: "Winter Kickoff",
+    link: "https://www.instagram.com/p/C13byqsrluk/",
+    image: "20240110",
+    date: 20240110,
+    time: 1830,
+    location: "DIB 208",
+    slidelink: "https://docs.google.com/presentation/d/1wDdfxtmYUzsfDBvXu_h5w5fKdToOd4pHyo5cvxZJFBA/edit?usp=sharing"
+  },
+  {
+    title: "Designing for Healthcare w/One Medical",
+    link: "https://www.instagram.com/p/C2ItQS8y5De/",
+    image: "20240118-1",
+    date: 20240118,
+    time: 1300,
+    location: "Virtual",
+  },
+  {
+    title: "Fan-Fan Fundraiser",
+    link: "https://www.instagram.com/p/C2EH02SrVXM/",
+    image: "20240118-2",
+    date: 20240118,
+    time: 1830,
+    location: "Fan-Fan",
+  },
+  {
+    title: "Figma Workshop",
+    link: "https://www.instagram.com/p/C2bnEK8L2Sl/",
+    image: "20240125",
+    date: 20240125,
+    time: 1830,
+    location: "DIB 208",
+    description: "Elevate your design skills at Design Co’s Figma Workshop! Ah, Figma, the holy grail platform for designers. We’re calling designers of all levels that are interested in sharpening their Figma skills to join us for a hands-on session! We will be hosting two simultaneous sessions for beginners and advanced users on Wednesday, 1/24 at 6:30 in DIB 208 and 306!"
+  },
+  
+
+
+
+
+
+ 
 
 ];
 

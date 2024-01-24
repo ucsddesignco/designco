@@ -102,7 +102,7 @@ class Upcoming extends React.Component {
                 <img
                     src={require(`../images/events/${this.props.image}.jpg`).default}
                     alt=""
-                    style={{border: "solid 1px #191919"}}
+                    style={{border: "solid 1px #191919", width: "90%", height: "auto"}}
                 ></img>
             </a>
         </Col>

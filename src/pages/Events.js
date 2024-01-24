@@ -8,6 +8,7 @@ import EventLarge from "../components/EventLarge";
 import Footer from "../components/Footer";
 import { Container, Row, Col } from "react-grid-system";
 import { Carousel } from "react-responsive-carousel";
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import { events } from "../events.js";
 import { eventsLarge } from "../events-large.js";
@@ -34,14 +35,14 @@ let largeEvents3 = [];
 
 for (let i = 0; i < events.length; i++) {
   if (events[i].date >= today) upcomingEvents.unshift(events[i]);
-  else if (events[i].date > 20220920) pastEvents1.unshift(events[i]);
-  else if (events[i].date > 20210920) pastEvents2.unshift(events[i]);
+  else if (events[i].date > 20230920) pastEvents1.unshift(events[i]);
+  else if (events[i].date > 20220920) pastEvents2.unshift(events[i]);
   else pastEvents3.unshift(events[i]);
 }
 
 for (let i = 0; i < eventsLarge.length; i++) {
-  if (eventsLarge[i].year >= 2023) largeEvents1.unshift(eventsLarge[i]);
-  else if (eventsLarge[i].year >= 2022) largeEvents2.unshift(eventsLarge[i]);
+  if (eventsLarge[i].year >= 2024) largeEvents1.unshift(eventsLarge[i]);
+  else if (eventsLarge[i].year >= 2023) largeEvents2.unshift(eventsLarge[i]);
   else largeEvents3.unshift(eventsLarge[i]);
 }
 
@@ -51,7 +52,7 @@ pastEvents2.reverse();
 pastEvents3.reverse();
 
 const largeEventList1 = largeEvents1.map(function (event) {
-  // Load large events occurring 2023
+  // Load large events occurring 2024
   return (
     <Col sm={4} style={{ marginBottom: spacer2 }}>
       <EventLarge
@@ -66,7 +67,7 @@ const largeEventList1 = largeEvents1.map(function (event) {
 });
 
 const largeEventList2 = largeEvents2.map(function (event) {
-  // Load large events occurring 2023
+  // Load large events occurring 2024
   return (
     <Col sm={4} style={{ marginBottom: spacer2 }}>
       <EventLarge
@@ -81,7 +82,7 @@ const largeEventList2 = largeEvents2.map(function (event) {
 });
 
 const largeEventList3 = largeEvents3.map(function (event) {
-  // Load large events occurring 2023
+  // Load large events occurring 2024
   return (
     <Col sm={4} style={{ marginBottom: spacer2 }}>
       <EventLarge
@@ -259,7 +260,9 @@ class AllEvents extends React.Component {
             <Carousel
               showThumbs={false}
               showStatus={false}
+              showArrows={false}
               showIndicators={(eventList.length > 1) ? true : false}
+              
             >
               {eventList}
             </Carousel>
@@ -287,7 +290,7 @@ class AllEvents extends React.Component {
             </div>
             <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
-                <h3 onClick={this.toggleAccordion} style={{ display: 'inline-block', cursor: 'pointer' }}>2022-2023</h3>
+                <h3 onClick={this.toggleAccordion} style={{ display: 'inline-block', cursor: 'pointer' }}>2023-2024</h3>
                 <img 
                   onClick={this.toggleAccordion}
                   src={require(`../images/events/close-arrow.svg`).default}
@@ -308,7 +311,7 @@ class AllEvents extends React.Component {
             </div>
             <div style={{ marginBottom: spacer4 }}>
               <div style={{ marginBottom: spacer2, display: "flex", justifyContent: "space-between" }}>
-                <h3 onClick={this.toggleAccordion2} style={{ display: 'inline-block', cursor: 'pointer' }}>2021-2022</h3>
+                <h3 onClick={this.toggleAccordion2} style={{ display: 'inline-block', cursor: 'pointer' }}>2022-2023</h3>
                 <img 
                   onClick={this.toggleAccordion2}
                   src={require(`../images/events/close-arrow.svg`).default}
