@@ -297,7 +297,7 @@ class Navbar extends React.Component {
                             </a>
                           </h4>
                         </li>
-                      */}
+                      */} 
                         {/* <li>
                           <h4>
                             <a
