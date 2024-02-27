@@ -72,7 +72,7 @@ export const eventsLarge = [
     {
         title: "Stride",
         link: "https://stride23.ucsddesign.co/",
-        image: "20221108",
+        image: "20231113",
         date: "November 2023",
         year: 2024
     },

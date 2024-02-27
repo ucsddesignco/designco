@@ -79,14 +79,14 @@ class UpcomingHome extends React.Component {
   render() {
     return (
       <>
-        <a href={this.props.link} target="_blank">
+        <a href={this.props.link} target="_blank" rel="noreferrer">
           <img
             style={{ marginBottom: spacer1 }}
-            src={require(`../images/events/${this.props.image}.jpg`).default}
+            src={require(`../images/events/${this.props.image}.png`).default}
             alt=""
           ></img>
         </a>
-        <a href={this.props.link} target="_blank" id="event-title">
+        <a href={this.props.link} target="_blank" id="event-title" rel="noreferrer">
           <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
         </a>
         <p className="text_small" style={{ marginBottom: base }}>

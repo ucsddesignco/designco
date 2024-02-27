@@ -82,7 +82,7 @@ class Upcoming extends React.Component {
       <>
       <Row>
         <Col md={6} style={{ marginBottom: spacer1 }}>
-            <a href={this.props.link} target="_blank" id="event-title">
+            <a href={this.props.link} target="_blank" id="event-title" rel="noreferrer">
                 <h3 style={{ marginBottom: spacer1 }}>{this.props.title}</h3>
             </a>
             <p className="text_small" style={{ marginBottom: spacer1 }}>
@@ -93,14 +93,14 @@ class Upcoming extends React.Component {
                 <br></br>
                 {this.props.description}
             </p>
-            <a href={this.props.link} target="_blank">
+            <a href={this.props.link} target="_blank" rel="noreferrer">
                 <p className="text_small">IG EVENT</p>
             </a>
         </Col>
         <Col md={6}>
-            <a href={this.props.link} target="_blank">
+            <a href={this.props.link} target="_blank" rel="noreferrer">
                 <img
-                    src={require(`../images/events/${this.props.image}.jpg`).default}
+                    src={require(`../images/events/${this.props.image}.png`).default}
                     alt=""
                     style={{border: "solid 1px #191919", width: "90%", height: "auto"}}
                 ></img>

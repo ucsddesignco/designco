@@ -929,6 +929,42 @@ export const events = [
     location: "DIB 208",
     description: "Elevate your design skills at Design Co’s Figma Workshop! Ah, Figma, the holy grail platform for designers. We’re calling designers of all levels that are interested in sharpening their Figma skills to join us for a hands-on session! We will be hosting two simultaneous sessions for beginners and advanced users on Wednesday, 1/24 at 6:30 in DIB 208 and 306!"
   },
+  {
+    title: "Humane AI Panel",
+    link: "https://www.instagram.com/p/C2q8ly6rxF5/",
+    image: "20240131",
+    date: 20240131,
+    time: 1830,
+    location: "DIB 208 + Zoom",
+  },
+  
+  {
+    title: "DCO's Love Hub: Valentine's Grams on Library Walk",
+    link: "https://www.instagram.com/p/C3HetcfOO2_",
+    image: "20240212",
+    date: 20240212,
+    time: 1000,
+    location: "Library Walk",
+  },
+  
+  {
+    title: "Pipe Cleaner Bouquet Making Social",
+    link: "https://www.instagram.com/p/C3PEk5QOS0S/",
+    image: "20240214",
+    date: 20240214,
+    time: 1830,
+    location: "DIB 208",
+  },
+  
+  {
+    title: "Designing for AR",
+    link: "https://www.instagram.com/p/C3twPotr1Yd/",
+    image: "20240228",
+    date: 20240228,
+    time: 1830,
+    location: "DIB 208",
+    description: `Curious about creative career paths in tech and business? Learn about the world of AR design and video creation from a Product Designer at Google — who transitioned from a business background to being at the forefront of design excellence! Show up on Wednesday, 2/28 at 6:30 in DIB 208 to gain more insight!`
+  },
   
 
 
