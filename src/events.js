@@ -984,7 +984,6 @@ export const events = [
     date: 20240403,
     time: 1900,
     location: "ERC Room",
-    description: `Lights, camera, action! 🎬 Kick off Spring Quarter with a movie night featuring all your friends from Design Co, microwave popcorn, and other yummy snacks. Cozy up with us on Wednesday, 4/3 at 7 PM in Roosevelt College Room in Price Center for a cinematic adventure!`
   },
 
   {
@@ -1021,6 +1020,7 @@ export const events = [
     date: 20240417,
     time: 1830,
     location: "DIB 208",
+    description: `Dive into the world of branding design at our upcoming bootcamp! Learn the ins and outs of branding design and how honing your design skills can elevate your UX/UI and product creation game! Level up your design skills with us on Wednesday, 4/17 from 6:30- 8 PM in DIB 208.`
   },
 
 
