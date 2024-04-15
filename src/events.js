@@ -1020,7 +1020,7 @@ export const events = [
     date: 20240417,
     time: 1830,
     location: "DIB 208",
-    description: `Dive into the world of branding design at our upcoming bootcamp! Learn the ins and outs of branding design and how honing your design skills can elevate your UX/UI and product creation game! Level up your design skills with us on Wednesday, 4/17 from 6:30 - 8PM in DIB 208.`
+    description: `Are you ready to transform potential into performance? Dive into the world of branding design at our upcoming bootcamp! Learn the ins and outs of branding design and how honing your design skills can elevate your UX/UI and product creation game! Level up your design skills with us on Wednesday, 4/17 from 6:30- 8 PM in DIB 208.`
   },
 
 
