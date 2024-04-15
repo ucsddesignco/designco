@@ -869,7 +869,7 @@ export const events = [
   {
     title: "Stride 2023",
     link: "https://www.instagram.com/p/CzK1aE3rlx5/",
-    image: "20231113",
+    image: "20231102",
     date: 20231113,
     time: 1200,
     location: "Student Center Stage Room and Patio",
@@ -965,7 +965,63 @@ export const events = [
     location: "DIB 208",
     description: `Curious about creative career paths in tech and business? Learn about the world of AR design and video creation from a Product Designer at Google — who transitioned from a business background to being at the forefront of design excellence! Show up on Wednesday, 2/28 at 6:30 in DIB 208 to gain more insight!`
   },
+
+  //Spring 2024
+  {
+    title: "Escape Room Social",
+    link: "https://www.instagram.com/p/C4MwNqWriS3/",
+    image: "20240313",
+    date: 20240313,
+    time: 1830,
+    location: "DIB 208",
+    description: `Take a break from solving the mysteries of your coursework and join us for Design Co’s Escape Room social! Grab your friends and unleash your inner detective to conquer puzzles and mini games to find the secret hex-code. Oh, and did we mention there’s pizza waiting for you at the finish line? Slice through the end of the quarter with us on Wednesday, 3/13 at 6:30 PM in DIB 208!`
+  },
+
+  {
+    title: "DCo Movie Night",
+    link: "https://www.instagram.com/p/C5PABDqy0GD",
+    image: "20240403",
+    date: 20240403,
+    time: 1900,
+    location: "ERC Room",
+    description: `Lights, camera, action! 🎬 Kick off Spring Quarter with a movie night featuring all your friends from Design Co, microwave popcorn, and other yummy snacks. Cozy up with us on Wednesday, 4/3 at 7 PM in Roosevelt College Room in Price Center for a cinematic adventure!`
+  },
+
+  {
+    title: "Design Frontiers 2024",
+    link: "https://www.instagram.com/p/C5SgjB-OzaD",
+    image: "20240413",
+    date: 20240413,
+    time: 900,
+    location: "DIB 208",
+  },
+
+  {
+    title: "Design Frontiers 2024 Crash Course",
+    link: "https://www.instagram.com/p/C5U13DyrdOA",
+    image: "20240410",
+    date: 20240410,
+    time: 1830,
+    location: "DIB 208",
+  },
   
+  {
+    title: "Portfolio Studio",
+    link: "https://www.instagram.com/p/C5g7Yy_yxDC",
+    image: "20240411",
+    date: 20240411,
+    time: 1900,
+    location: "DIB 208",
+  },
+
+  {
+    title: "Brand Design Bootcamp",
+    link: "https://www.instagram.com/p/C5uQ6scJhxt",
+    image: "20240417",
+    date: 20240417,
+    time: 1830,
+    location: "DIB 208",
+  },
 
 
 
