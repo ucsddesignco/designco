@@ -43,7 +43,7 @@ const InternalTeam = [
     role: "Operations Coordinator",
     link: "https://www.linkedin.com/in/jiyoon-june-jung/",
     gradYear: 2025,
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1703822355/designco/about/sp23-photos/June_jd5xeo.webp",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1728021795/designco/about/fa24-photos/june_luqsw2.webp",
   },
 ];
 
