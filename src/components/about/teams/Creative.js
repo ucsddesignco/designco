@@ -1,12 +1,10 @@
 import React, { useMemo } from 'react';
-import Members from '../Members';
-import { Grid } from '@material-ui/core';
 import cross from '../../../images/about/icon-plus.svg';
 
 const CreativeTeam = [
   {
     id: 'lucapfister',
-    name: 'Luca',
+    name: 'Luca Pfister',
     role: 'Director of Creative',
     link: 'https://www.linkedin.com/in/lucapfister021/',
     gradYear: 2026,
