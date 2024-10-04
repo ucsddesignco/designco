@@ -50,7 +50,7 @@ const MarketingTeam = [
     role: "Content Writer",
     link: "https://www.linkedin.com/in/lauren-pak-18b9a7229/",
     gradYear: 2025,
-    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1728017862/designco/about/fa24-photos/lauren_quz6z3.webp",
+    img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1728019111/designco/about/fa24-photos/lauren_gdzrr0.webp",
   },
   {
     id: "nicolezhi",
