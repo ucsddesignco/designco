@@ -24,7 +24,7 @@ const MarketingTeam = [
     id: "janzlercunanan",
     name: "Janzler Cunanan",
     role: "Media Coordinator",
-    link: "",
+    link: "https://www.linkedin.com/in/janzler/",
     gradYear: 2025,
     img: "https://res.cloudinary.com/design-co-ucsd/image/upload/v1728019111/designco/about/fa24-photos/janzler_s9uhdc.webp",
   },
