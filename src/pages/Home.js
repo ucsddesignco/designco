@@ -59,6 +59,7 @@ const eventList =
             date={event.date}
             time={event.time}
             location={event.location}
+            imageURL={event.imageURL}
           />
         </Col>
       );

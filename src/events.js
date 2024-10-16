@@ -1410,6 +1410,21 @@ export const events = [
     imageURL:
       'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034670/designco/events/i7htwjrxbh7bqmunkeqz.webp',
   },
+  {
+    title: 'Camp DCO',
+    link: 'https://www.instagram.com/p/DA7DUiXyPEz',
+    image: '20241016',
+    date: 20241016,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Ready to jumpstart your career in UX design? Welcome to Camp DCO: our week-long bootcamp for all things UX design – and you’re invited! 💌
+
+Dive into our hands-on workshops on Wednesday, 10/16 and Friday, 10/18 @ 6:30-8 PM in DIB 208!
+
+From UX Research to Design Systems to Web Dev, learn which design niche best fits you and your career goals.`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729056682/designco/events/xnt2ic0q5qzkefsxbydd.webp',
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass

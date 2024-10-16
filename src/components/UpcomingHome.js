@@ -74,6 +74,7 @@ class UpcomingHome extends React.Component {
     date: "",
     time: "",
     location: "",
+    imageURL: "",
   };
 
   render() {
@@ -82,7 +83,7 @@ class UpcomingHome extends React.Component {
         <a href={this.props.link} target="_blank" rel="noreferrer">
           <img
             style={{ marginBottom: spacer1 }}
-            src={require(`../images/events/${this.props.image}.png`).default}
+            src={this.props.imageURL}
             alt=""
           ></img>
         </a>
