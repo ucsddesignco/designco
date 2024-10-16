@@ -75,7 +75,8 @@ class Event extends React.Component {
     time: "",
     location: "",
     slidelink: "",
-    videolink: ""
+    videolink: "",
+    imageURL: ""
   };
 
   render() {
@@ -84,7 +85,7 @@ class Event extends React.Component {
         <a href={this.props.link} target="_blank">
           <img
             style={{ marginBottom: spacer1 }}
-            src={require(`../images/events/${this.props.image}.png`).default}
+            src={this.props.imageURL}
             alt=""
           ></img>
         </a>

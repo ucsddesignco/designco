@@ -74,7 +74,8 @@ class Upcoming extends React.Component {
     date: "",
     time: "",
     location: "",
-    description: ""
+    description: "",
+    imageURL: ""
   };
 
   render() {
@@ -100,7 +101,7 @@ class Upcoming extends React.Component {
         <Col md={6}>
             <a href={this.props.link} target="_blank" rel="noreferrer">
                 <img
-                    src={require(`../images/events/${this.props.image}.png`).default}
+                    src={this.props.imageURL}
                     alt=""
                     style={{border: "solid 1px #191919", width: "90%", height: "auto"}}
                 ></img>

@@ -66,6 +66,7 @@ const largeEventList1 = largeEvents1.map(function (event) {
         image={event.image}
         date={event.date}
         year={event.year}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -81,6 +82,7 @@ const largeEventList2 = largeEvents2.map(function (event) {
         image={event.image}
         date={event.date}
         year={event.year}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -95,6 +97,7 @@ const largeEventList3 = largeEvents3.map(function (event) {
         image={event.image}
         date={event.date}
         year={event.year}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -109,6 +112,7 @@ const largeEventList4 = largeEvents4.map(function (event) {
         image={event.image}
         date={event.date}
         year={event.year}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -126,6 +130,7 @@ const eventList = upcomingEvents.map(function (event) {
         time={event.time}
         location={event.location}
         description={event.description} 
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -144,6 +149,7 @@ const pastEventList1 = pastEvents1.map(function (event) {
         location={event.location}
         slidelink={event.slidelink}
         videolink={event.videolink}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -162,6 +168,7 @@ const pastEventList2 = pastEvents2.map(function (event) {
         location={event.location}
         slidelink={event.slidelink}
         videolink={event.videolink}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -180,6 +187,7 @@ const pastEventList3 = pastEvents3.map(function (event) {
         location={event.location}
         slidelink={event.slidelink}
         videolink={event.videolink}
+        imageURL={event.imageURL}
       />
     </Col>
   );
@@ -198,6 +206,7 @@ const pastEventList4 = pastEvents4.map(function (event) {
         location={event.location}
         slidelink={event.slidelink}
         videolink={event.videolink}
+        imageURL={event.imageURL}
       />
     </Col>
   );

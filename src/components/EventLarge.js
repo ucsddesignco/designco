@@ -8,7 +8,8 @@ class EventLarge extends React.Component {
     link: "",
     image: "",
     date: "",
-    year: ""
+    year: "",
+    imageURL: ""
   };
 
   render() {
@@ -17,7 +18,7 @@ class EventLarge extends React.Component {
         <a href={this.props.link} target="_blank">
           <img
             style={{ marginBottom: spacer1 }}
-            src={require(`../images/events/${this.props.image}.png`).default}
+            src={this.props.imageURL}
             alt=""
           ></img>
         </a>
