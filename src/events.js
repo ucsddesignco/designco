@@ -1425,6 +1425,19 @@ From UX Research to Design Systems to Web Dev, learn which design niche best fit
     imageURL:
       'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729056682/designco/events/xnt2ic0q5qzkefsxbydd.webp',
   },
+  {
+    title: 'Personal Brand Workshop',
+    link: 'https://www.instagram.com/p/DBNUJa4P--d/',
+    image: '20241023',
+    date: 20241023,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Ready to level up your personal brand?
+
+Join us on Wednesday, 10/23 at 6:30 PM in DIB Room 208 for an interactive workshop all about building your unique flair as a designer. We’ll dive into strategies for crafting standout portfolios, designing eye-catching resumes, and boosting your networking game. Don’t miss out on these valuable insights!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729232305/designco/events/ankjbdd6qtrprwczykq2.webp',
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
