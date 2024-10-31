@@ -1438,6 +1438,32 @@ Join us on Wednesday, 10/23 at 6:30 PM in DIB Room 208 for an interactive worksh
     imageURL:
       'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729232305/designco/events/ankjbdd6qtrprwczykq2.webp',
   },
+  {
+    title: 'Intern Panel',
+    link: 'https://www.instagram.com/p/DBfFgfMywrZ',
+    image: '20241030',
+    date: 20241030,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Visualize your future with Design Co. If you’re looking for your next summer internship, or wondering about what being a designer in tech looks like, join us for our Intern Panel on Wednesday, 10/30 at 6:30 PM in DIB 208!
+
+We’ll be having previous interns at Warner Bros Discovery, KeyBank, Blizzard Entertainment, and more share about their experiences and insights. Soak in their advice, ask questions, and take that next step towards landing your dream job! Keep an eye out for our panelists introductions coming soon.`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1730348561/designco/events/xnnakownxm1xtrdshzen.webp',
+  },
+  {
+    title: 'Prep For Stride',
+    link: 'https://www.instagram.com/p/DBxehzMJxZE',
+    image: '20241106',
+    date: 20241106,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Ready to crack the code on networking?
+
+Join us on Wednesday, 11/6 at 6:30PM in DIB 208 to uncover tips and tricks for making the most of Stride, our annual fall career fair! From perfecting your pitch to building confidence, we’ll give you all the tools you need to sleuth your next big opportunity. Dive in, detectives of design—let the investigation into your future begin!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1730348559/designco/events/bi9lsqmqytxw2smaqmxw.webp',
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
