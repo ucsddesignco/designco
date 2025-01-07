@@ -36,15 +36,7 @@ const InternalTeam = [
     link: 'https://www.linkedin.com/in/jiyoon-june-jung/',
     gradYear: 2025,
     img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1728021795/designco/about/fa24-photos/june_luqsw2.webp',
-  },
-  {
-    id: 'nataliekim',
-    name: 'Natalie Kim',
-    role: 'Operations Coordinator',
-    link: 'https://www.linkedin.com/in/kimnatalie/',
-    gradYear: 2026,
-    img: 'https://res.cloudinary.com/design-co-ucsd/image/upload/v1728018461/designco/about/fa24-photos/natalie_hg9u66.webp',
-  },
+  }
 ];
 
 function Internal({ member, index, toggleTEAM }) {
