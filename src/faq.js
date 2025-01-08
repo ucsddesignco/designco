@@ -26,7 +26,7 @@ export const faq = [
   {
     question: "What is the application & interview process like?",
     answer:
-      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Saturday 1/29 (Week 4) latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 2/05 - Friday 2/09 (Week 5) over Zoom, and some roles will require a design challenge. Offers will be sent out shortly after.",
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Saturday 2/11 (Week 5) latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 2/20 - Friday 2/24 (Week 7) over Zoom, and some roles will require a design challenge. Offers will be sent out shortly after.",
   },
   {
     question:
