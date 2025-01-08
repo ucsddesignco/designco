@@ -7,7 +7,7 @@ export const faq = [
   {
     question: "How long is the role period?",
     answer:
-      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2024 quarter and the 2024-25 school year (4 quarters total).",
+      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2025 quarter and the 2025-26 school year (4 quarters total).",
   },
   /* {
     question: "I won't be living near campus this year, can I still apply?",
@@ -16,7 +16,7 @@ export const faq = [
   }, */
   {
     question: "When is the application due?",
-    answer: "Applications are due Sunday, January 21th at 11:59PM.",
+    answer: "Applications are due Sunday, January 19th at 11:59PM.",
   },
   {
     question: "I’m interested in multiple roles, what should I do?",

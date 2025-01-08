@@ -160,7 +160,7 @@ class Role extends React.Component {
                 />
               </div>
 
-              <h2 style={{ marginBottom: spacer3 }}>
+              {/* <h2 style={{ marginBottom: spacer3 }}>
                 Meet your potential teammate, {this.props.name}!
               </h2>
               <Row>
@@ -176,14 +176,6 @@ class Role extends React.Component {
                     width="100%"
                     alt={this.props.name}
                   />
-                  {/* <img
-                    src={
-                      require("../images/join/" + this.props.name + ".png")
-                        .default
-                    }
-                    width="100%"
-                    alt={this.props.name}
-                  /> */}
                 </Col>
                 <Col md={6}>
                   <h3 style={{ marginBottom: spacer2 }}>{this.props.q1}</h3>
@@ -205,7 +197,7 @@ class Role extends React.Component {
                     }}
                   />
                 </Col>
-              </Row>
+              </Row> */}
             </div>
           </div>
         </div>

@@ -64,7 +64,7 @@ class Apply extends React.Component {
                   So many boards, here’s why you should choose ours.
                 </h1>
                 <p style={{ marginBottom: spacer3 }}>
-                  Applications open until Sunday, January 21st at 11:59PM
+                  Applications open until Sunday, January 19th at 11:59PM
                 </p>
                 <Button
                   link="#roles"
