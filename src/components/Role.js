@@ -111,7 +111,7 @@ class Role extends React.Component {
               <p style={{ marginBottom: spacer3 }}>{this.props.description}</p>
                 <a
                 className="apply-v2"
-                  href="https://forms.gle/CsYm2czA7poxref49"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScn2ySA1EJqUEZUIRCyMeuOkgT0gN1kMeYhHIW8DdyWl34Jsg/viewform"
                   target="_blank"
                   rel="noreferrer"
                   style={{ textDecoration: "none" }}
