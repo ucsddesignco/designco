@@ -296,7 +296,7 @@ export const roles = [
   },
   {
     team: 'Marketing',
-    position: 'Video Media Coordinator',
+    position: 'Media Coordinator',
     description:
       'You have an eye for candid moments. You like to use pictures and videos to speak a thousand words. You’re excited to bring video concepts into Design Co’s marketing strategy.',
     duty: '&lt;ol&gt; &lt;li&gt; Working in collaboration with the entire marketing team, curate, and execute marketing campaigns &lt;/li&gt; \
