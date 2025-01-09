@@ -20,7 +20,7 @@ class Main extends React.Component {
           <Route exact path="/home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/events" component={AllEvents} />
-          {/* <Route path="/apply" component={Apply} /> */}
+          <Route path="/apply" component={Apply} />
           <Route exact path="/gbm" component={GBM} />
           <Route exact path="/shop" component={Shop} />
           <Route path="/contact" component={Contact} />

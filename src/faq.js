@@ -7,7 +7,7 @@ export const faq = [
   {
     question: "How long is the role period?",
     answer:
-      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2024 quarter and the 2024-25 school year (4 quarters total).",
+      "If selected, you will be serving in your role, on the Design Co Board for the entirety of the Spring 2025 quarter and the 2025-26 school year (4 quarters total).",
   },
   /* {
     question: "I won't be living near campus this year, can I still apply?",
@@ -16,7 +16,7 @@ export const faq = [
   }, */
   {
     question: "When is the application due?",
-    answer: "Applications are due Sunday, January 21th at 11:59PM.",
+    answer: "Applications are due Sunday, January 19th at 11:59PM.",
   },
   {
     question: "I’m interested in multiple roles, what should I do?",
@@ -26,7 +26,7 @@ export const faq = [
   {
     question: "What is the application & interview process like?",
     answer:
-      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Saturday 1/29 (Week 4) latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 2/05 - Friday 2/09 (Week 5) over Zoom, and some roles will require a design challenge. Offers will be sent out shortly after.",
+      "Our board will review all applications thoroughly and holistically. All applicants will be updated on the status of their application by Monday 1/27 (Week 3) latest. If you’re a good fit for one or some of the roles, our team will reach out to you via email to set up an interview. Interviews will take place between Monday 2/3 - Friday 2/7 (Week 5) over Zoom, and some roles will require a design challenge. Offers will be sent out shortly after.",
   },
   {
     question:
