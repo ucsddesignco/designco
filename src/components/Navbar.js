@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Row, Col, Visible, Hidden } from "react-grid-system";
-import { spacer2, spacer4 } from "../constants";
+import React from 'react';
+import { Container, Row, Col, Visible, Hidden } from 'react-grid-system';
+import { spacer2, spacer4 } from '../constants';
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -12,17 +12,17 @@ class Navbar extends React.Component {
 
   toggleHamburger = () => {
     if (!this.state.active) {
-      document.getElementById("hamburger").classList.add("is-active");
-      document.getElementById("hamburger-inner").style.backgroundColor =
+      document.getElementById('hamburger').classList.add('is-active');
+      document.getElementById('hamburger-inner').style.backgroundColor =
         this.props.altColor;
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     } else {
-      document.getElementById("hamburger").classList.remove("is-active");
-      document.body.style.overflow = "scroll";
+      document.getElementById('hamburger').classList.remove('is-active');
+      document.body.style.overflow = 'scroll';
 
       // Delay resetting hamburger color for natural animation
       setTimeout(() => {
-        document.getElementById("hamburger-inner").style.backgroundColor =
+        document.getElementById('hamburger-inner').style.backgroundColor =
           this.props.color;
       }, 200);
     }
@@ -41,15 +41,15 @@ class Navbar extends React.Component {
     }
   }
   componentDidMount() {
-    document.addEventListener("keydown", this.escFunction, false);
-    if (this.state.from != "home") {
-      document.getElementById(this.state.from).style.opacity = "0.5";
+    document.addEventListener('keydown', this.escFunction, false);
+    if (this.state.from != 'home') {
+      document.getElementById(this.state.from).style.opacity = '0.5';
     }
   }
   componentWillUnmount() {
-    document.removeEventListener("keydown", this.escFunction, false);
-    if (this.state.from != "home") {
-      document.getElementById(this.state.from).style.opacity = "1";
+    document.removeEventListener('keydown', this.escFunction, false);
+    if (this.state.from != 'home') {
+      document.getElementById(this.state.from).style.opacity = '1';
     }
   }
 
@@ -73,7 +73,7 @@ class Navbar extends React.Component {
                 <Hidden xs sm>
                   <svg
                     className="logo"
-                    style={{ height: "1.8rem" }}
+                    style={{ height: '1.8rem' }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 384.05 41.98"
                   >
@@ -128,7 +128,7 @@ class Navbar extends React.Component {
                 <Visible xs sm>
                   <svg
                     className="logo"
-                    style={{ height: "3.5rem" }}
+                    style={{ height: '3.5rem' }}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 88 91"
                   >
@@ -156,8 +156,8 @@ class Navbar extends React.Component {
                 </Visible>
               </a>
             </Col>
-            <Col xs={10} sm={9} style={{ paddingLeft: "0" }}>
-              <Hidden xs sm md style={{ padding: "0" }}>
+            <Col xs={10} sm={9} style={{ paddingLeft: '0' }}>
+              <Hidden xs sm md style={{ padding: '0' }}>
                 <ul className="nav">
                   <li>
                     <h4>
@@ -175,7 +175,9 @@ class Navbar extends React.Component {
                   </li>
                   <li>
                     <h4>
-                      <a href="/community" id="community">Community</a>
+                      <a href="/community" id="community">
+                        Community
+                      </a>
                     </h4>
                   </li>
                   <li>
@@ -200,7 +202,6 @@ class Navbar extends React.Component {
                     </h4>
                   </li>
 
-               
                   {/* <li>
                     <h4>
                       <a href="/headphone-ux-review" id="headphone-ux-review">
@@ -235,8 +236,8 @@ class Navbar extends React.Component {
                 <div
                   className={
                     this.state.hideSidePanel
-                      ? "panel-darken panel-darken-close"
-                      : "panel-darken panel-darken-open"
+                      ? 'panel-darken panel-darken-close'
+                      : 'panel-darken panel-darken-open'
                   }
                   onClick={this.toggleHamburger}
                 ></div>
@@ -245,8 +246,8 @@ class Navbar extends React.Component {
                 <div
                   className={
                     this.state.hideSidePanel
-                      ? "panel-wrap panel-wrap-close"
-                      : "panel-wrap panel-wrap-open"
+                      ? 'panel-wrap panel-wrap-close'
+                      : 'panel-wrap panel-wrap-open'
                   }
                 >
                   <div
@@ -290,14 +291,13 @@ class Navbar extends React.Component {
                             </a>
                           </h4>
                         </li> */}
-                        {/* <li>
+                        <li>
                           <h4>
                             <a href="/apply" id="apply">
                               Apply
                             </a>
                           </h4>
                         </li>
-                      */} 
                         {/* <li>
                           <h4>
                             <a
