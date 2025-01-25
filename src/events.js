@@ -11,7 +11,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/17z1XLRi-Oxl72Yqf6V_-VZDLSAS4OwD6/view?usp=sharing/',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/xgbuqeb9gc1romnnyvll.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/xgbuqeb9gc1romnnyvll.webp',
   },
   {
     title: 'Game Night Social',
@@ -21,7 +21,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/l10fvtlgmfqrrbczhhff.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/l10fvtlgmfqrrbczhhff.webp',
   },
   {
     title: 'Intern Panel',
@@ -35,7 +35,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1s3VDtUe3VYuI7xZuQ-popRkcEhJudqzB/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039090/designco/events/kghfiz0csyfyokvh1qhw.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039090/designco/events/kghfiz0csyfyokvh1qhw.webp',
   },
   {
     title: 'Scary Movie Social',
@@ -45,7 +45,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/u1vhvsowr2mzbhbxyt6m.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/u1vhvsowr2mzbhbxyt6m.webp',
   },
   {
     title: 'Resume Workshop',
@@ -57,7 +57,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1icEjb40SxUrqYkFmcODwU-mpGm-SVo-1/edit?usp=sharing&ouid=113563460131626668374&rtpof=true&sd=true',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/ousdxijzhrwixhq01s5g.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/ousdxijzhrwixhq01s5g.webp',
   },
   {
     title: 'Speed Friending Social + Design Buds Reveal',
@@ -69,7 +69,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1rRW1nAfEcJoKXsJAQALIERBvmBQVdymT/edit?usp=sharing&ouid=113563460131626668374&rtpof=true&sd=true',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/ovw4gmf9dlzic0aid8cg.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/ovw4gmf9dlzic0aid8cg.webp',
   },
   {
     title: 'Camp DCo Pt. 1 – User Research',
@@ -83,7 +83,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1xNjVLgrCXMbdooKHJeJYMl26Uk1lS8iD/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/rsvrh9fjztuluz3gznj5.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/rsvrh9fjztuluz3gznj5.webp',
   },
   {
     title: 'Camp DCo Pt. 2 – Wireframing + Visual/Brand Design',
@@ -97,7 +97,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1eKUKydkrGcO8xRSYv12QyAeP0uTZgjJj/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/utc9hhlzyxbr5z4xki9x.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/utc9hhlzyxbr5z4xki9x.webp',
   },
   {
     title: 'Unwrapping the Online Interview Process',
@@ -111,7 +111,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1Em13qCzPBGKahRZcdkj2v9jK3sJvpNIg/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/gphqtxdkutqwbfwwjszj.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/gphqtxdkutqwbfwwjszj.webp',
   },
   {
     title: 'End of Quarter Celebration',
@@ -121,7 +121,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/cwdlwqixu7axmamqroti.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039088/designco/events/cwdlwqixu7axmamqroti.webp',
   },
   {
     title: 'Crafting Your Taste',
@@ -135,7 +135,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1ASyu3URq009Gvdq12RdXYeWhj_6mKn47/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/zjwja1uaazeha2tzzm3n.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/zjwja1uaazeha2tzzm3n.webp',
   },
   {
     title: 'Cross-Cultural Design',
@@ -149,7 +149,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1FKBAxpNbfDyTrJ0LMVNysDQ4tkDBuykZ/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039090/designco/events/fkvxlmibvpiu7ysfsa5k.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039090/designco/events/fkvxlmibvpiu7ysfsa5k.webp',
   },
   {
     title: 'Spark AR Workshop',
@@ -163,7 +163,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1atMC9ssl18q7gGAwJimI6bDcxCkU-vdU/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/hteeyqbip3ubecczfllt.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039089/designco/events/hteeyqbip3ubecczfllt.webp',
   },
   {
     title: 'Bob Ross Night',
@@ -173,7 +173,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/kj4s8la9cjzrjy0fdx1i.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/kj4s8la9cjzrjy0fdx1i.webp',
   },
   {
     title: 'Designing for Social Impact',
@@ -185,7 +185,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1ux1g_kU8XMR-8WP5y8HOAKdskGyyu9MJ/edit?usp=sharing&ouid=113563460131626668374&rtpof=true&sd=true',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/fk6bvlnrovk86qc2bnun.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/fk6bvlnrovk86qc2bnun.webp',
   },
   {
     title: 'Designer to Developer Handoff',
@@ -199,7 +199,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1tiVFFE4HlpJLUIDn_VJlr0r9a8fdJqJV/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/tmauhzhg20c7e0wg6mvy.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/tmauhzhg20c7e0wg6mvy.webp',
   },
   {
     title: 'How to Win Your First Designathon',
@@ -213,7 +213,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1RrWXweb19Gm8c2Wo6UkCZoSAAkGWxJWu/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/jobvvyocey3gklhquejy.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/jobvvyocey3gklhquejy.webp',
   },
   {
     title: 'End of Quarter Celebration',
@@ -223,7 +223,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/er49lpqtsdyeyvw9ndi8.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/er49lpqtsdyeyvw9ndi8.webp',
   },
   {
     title: 'Design Co: Live on Discord',
@@ -233,7 +233,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/jzwaav6cvr9d1zyvoxdv.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/jzwaav6cvr9d1zyvoxdv.webp',
   },
   {
     title: 'Fireside Chat with Fjord: Design and Innovation',
@@ -246,7 +246,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1Oec_2fxbAXfJ4O3WMmFe9LBd1pXpo65t/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/g1peyjrz0mxcvbjcmdpb.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/g1peyjrz0mxcvbjcmdpb.webp',
   },
   {
     title: 'Figma: Beyond the Basics',
@@ -260,7 +260,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1ulKnr15PfOz6t2zMtGz47KCC2vW0GPyF/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/qbrljukf4e31wwdkbrbq.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/qbrljukf4e31wwdkbrbq.webp',
   },
   {
     title: 'Portfolio Prep Talk',
@@ -272,7 +272,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/10cuK0qFyVKSDE2IA9TnHhLypZsjoucTYwBP2QGS4_xY/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/fq7eusptqyiikdbj1s1q.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/fq7eusptqyiikdbj1s1q.webp',
   },
   {
     title: "It's a Small (Design) World",
@@ -284,7 +284,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1UALCgD8dmCjEKjHwiLFUFFJoF_V66-4fsh4YsMSDSLI/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/tbtgfhca6c4gk8inyolc.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/tbtgfhca6c4gk8inyolc.webp',
   },
   {
     title: 'We’re Not Really Strangers, We’re Designers',
@@ -294,7 +294,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/zhjnzbayefv2opujie3h.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/zhjnzbayefv2opujie3h.webp',
   },
   {
     title: 'DEI in Industry with Service Now',
@@ -304,7 +304,7 @@ export const events = [
     time: 1700,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/u1hyivezkrfyskf7kbfk.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/u1hyivezkrfyskf7kbfk.webp',
   },
   {
     title: 'Fall Kickoff - Intro to Design',
@@ -318,7 +318,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1pngsMMZctWr6aEWYlWZGuGH6Ue-o9FPF/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/kxsynhijnqgh8mcsqguk.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/kxsynhijnqgh8mcsqguk.webp',
   },
   {
     title: 'Camp DCo: “Intro to _” Series',
@@ -332,7 +332,7 @@ export const events = [
     videolink:
       'https://drive.google.com/drive/folders/1mhsQshQYEaON96IroYsuA4sELPIP8ACp?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/tl7qc1woxo06rj9lllx0.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/tl7qc1woxo06rj9lllx0.webp',
   },
   {
     title: 'Intern Panel',
@@ -346,7 +346,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1wveBXBXcGBZY-NNnkxJmVqjz_tcJb43V/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/k1lbdk5e8bd5c0neruar.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/k1lbdk5e8bd5c0neruar.webp',
   },
   {
     title: 'Ice Skating Social',
@@ -356,7 +356,7 @@ export const events = [
     time: 1900,
     location: 'UTC ICE',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/pqzm4ltqmfenruluajik.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039001/designco/events/pqzm4ltqmfenruluajik.webp',
   },
   {
     title: 'Resume Workshop',
@@ -370,7 +370,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1xuduab6lTEODz78v1MMkYr6dxNaKqWJr/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/evz5kprpmbcmdjqmm4i2.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039002/designco/events/evz5kprpmbcmdjqmm4i2.webp',
   },
   {
     title: 'Portfolio Workshop',
@@ -382,7 +382,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1onu3iNK24KfLojJpDi3AgowYTsi7P77Sn4EWWkybJqk/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037287/designco/events/csfytqyt8ln6ofgc7zyq.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037287/designco/events/csfytqyt8ln6ofgc7zyq.webp',
   },
   {
     title: 'Interviewing Workshop',
@@ -396,7 +396,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1mxoyEWXCvECdN9pCpdBzPILTENUgetWA/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037290/designco/events/bl1oavr0xmzms0zdxmgd.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037290/designco/events/bl1oavr0xmzms0zdxmgd.webp',
   },
   {
     title: 'End of Quarter Celebration',
@@ -406,7 +406,7 @@ export const events = [
     time: 1830,
     location: 'Dolores Huerta Room',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/hjifqlhrj2hkndpynv3v.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/hjifqlhrj2hkndpynv3v.webp',
   },
   {
     title: 'A Student Survival Guide to HCI Research',
@@ -420,7 +420,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/19vpv24sJ_2R-Mg5Vjf7C9vknWB-KR3hM/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/xdan6qylauzf8upi5vvt.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/xdan6qylauzf8upi5vvt.webp',
   },
   {
     title: 'World Wide Web(flow) Portfolio Workshop',
@@ -434,7 +434,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1sS_QbQv3EMxaoSY2SEam2yDSdt_a04ik/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037290/designco/events/wzfbid46qikdryzriwim.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037290/designco/events/wzfbid46qikdryzriwim.webp',
   },
   {
     title: 'A Crash Course in After Effects Animation',
@@ -448,7 +448,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1h6Pt8VRaucbwGJBFcBwM_7vGKS1VmiEt/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037288/designco/events/kicwdkyhcsyvkqbqbtey.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037288/designco/events/kicwdkyhcsyvkqbqbtey.webp',
   },
   {
     title: 'UCSD x UCD Designer Speed Dating Social',
@@ -458,7 +458,7 @@ export const events = [
     time: 1800,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/o5tconxnh8y9gdubingn.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/o5tconxnh8y9gdubingn.webp',
   },
   {
     title: 'Figma: Beyond the Classroom',
@@ -472,7 +472,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1vDTXmKR7RAXX-TbjZWl0PT4yvQmXHbUQ/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/q3hnowkwya7gk5kbzhpu.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/q3hnowkwya7gk5kbzhpu.webp',
   },
   {
     title: "Reppin' Your Voice: A Personal Branding Workshop",
@@ -484,7 +484,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/14CsfSF0S7KdLzASjvHbfuR9ruHg7A-4zu5YRiz7muG4/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/kpvbflxjmxqxygyxwupc.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/kpvbflxjmxqxygyxwupc.webp',
   },
   {
     title: 'Minor Dilemma, Major Decisions',
@@ -498,7 +498,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1am25kASZOAbrypi2atSb9TLPxQsWT4DS/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037288/designco/events/c6n42uowpep5m61ls84z.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037288/designco/events/c6n42uowpep5m61ls84z.webp',
   },
   {
     title: 'Glowing Up Your Class Projects',
@@ -512,7 +512,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1_f1nzGPPhMp5YwsTCAjKNPwlJymbZeYL/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/ipmrnm9ntb0yxlywukig.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/ipmrnm9ntb0yxlywukig.webp',
   },
   {
     title: 'Study Jam with Design Co',
@@ -522,7 +522,7 @@ export const events = [
     time: 1830,
     location: 'Price Center Loop',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/r1tjmokjrmbpsampq9d8.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/r1tjmokjrmbpsampq9d8.webp',
   },
   {
     title: 'Board Q&A',
@@ -532,7 +532,7 @@ export const events = [
     time: 1830,
     location: 'Discord',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037288/designco/events/spjpu62hwwcz6cin7qjc.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037288/designco/events/spjpu62hwwcz6cin7qjc.webp',
   },
   {
     title: 'Extending Your Design Career',
@@ -546,7 +546,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1zks1XSK95lpyEMiq5T1NaagMsQccWAtq/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/l8qs4ieit1vppqfqkzpy.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/l8qs4ieit1vppqfqkzpy.webp',
   },
   {
     title: 'Wushiland Boba Run',
@@ -556,7 +556,7 @@ export const events = [
     time: 1730,
     location: 'Wushiland Boba Utc',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/ugnha6fjlzw1uheac0a0.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037289/designco/events/ugnha6fjlzw1uheac0a0.webp',
   },
   {
     title: "Pushin' P(ortfolio Interviews)",
@@ -568,7 +568,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1lnIhGQrMUPthIc1UgN4auuvNdJMZmfH6atPgg8YWWZg/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037287/designco/events/j99elysfgnukkxmnvu0r.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037287/designco/events/j99elysfgnukkxmnvu0r.webp',
   },
   {
     title: 'Accessibility and Inclusivity in Design',
@@ -580,7 +580,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1iual_twaXr6-bLbvYrVIU7AF6LKvZiAMXiFkM8iVz80/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037290/designco/events/a8uveqaqvonxnnwjku3e.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037290/designco/events/a8uveqaqvonxnnwjku3e.webp',
   },
   {
     title: 'Alumni Panel',
@@ -592,7 +592,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1nKGkuVOx-YbAoraWDoHere09BK--DmjnEgqE1nkt4GI/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037287/designco/events/phsmdw6ejejdpvbrxxet.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037287/designco/events/phsmdw6ejejdpvbrxxet.webp',
   },
   {
     title: 'Design Co x Design at UCI: Cross-Functional Design',
@@ -604,7 +604,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1OKhZjs0EIPzpPAAoWsUC_MqNNFKfLZ4WyxZHo-IFMHo/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/rnw2eki2aaggkqtvpdca.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/rnw2eki2aaggkqtvpdca.webp',
   },
   {
     title: 'Design Co x WIC: Designer <> Developer Handoff',
@@ -616,7 +616,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1jF7S5XlbRgQg8PwNS39G4E4v4IEy1zplbJbcFywacRs/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037988/designco/events/yzh60c2m7c4y8c3l17xa.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037988/designco/events/yzh60c2m7c4y8c3l17xa.webp',
   },
   {
     title: 'Yogurt World Social',
@@ -626,7 +626,7 @@ export const events = [
     time: 1830,
     location: 'Yogurt World',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/ioyrhoeborsd1zkz3gr9.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/ioyrhoeborsd1zkz3gr9.webp',
   },
   {
     title: 'Build Up: DEI Speaker Series',
@@ -636,7 +636,7 @@ export const events = [
     time: 1600,
     location: 'Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/iq7g2yaphk9urdpwwjar.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/iq7g2yaphk9urdpwwjar.webp',
   },
   {
     title: 'Design Co: Fall Kickoff',
@@ -648,7 +648,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1LGiWS70HZk82z1HRrOHVE4QfQ9MwX2Df4NULWm5Nwzg/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/t1m7hjhjpnl7f3fbfp0l.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/t1m7hjhjpnl7f3fbfp0l.webp',
   },
   {
     title: 'Branches of UX',
@@ -660,7 +660,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1_DbEYgN_LIToWagwtFJHG18dhHqv2jkfqWlKEPyB0ko/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/dmm9fsz3adwmectfpjp1.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/dmm9fsz3adwmectfpjp1.webp',
   },
   {
     title: 'Camp DCo',
@@ -674,7 +674,7 @@ export const events = [
     description:
       'Calling all aspiring designers, developers, and researchers! Take the first plunge into various topics in design at Camp DCo, our annual introduction series for beginners.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/lvfcferecoiwcz660cly.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/lvfcferecoiwcz660cly.webp',
   },
   {
     title: 'Design Lab x Design Co Mixer',
@@ -686,7 +686,7 @@ export const events = [
     description:
       'Meet DLab faculty, interns, alumni, and company representatives at the 3rd floor of the Design and Innovation Building. We’ll have speed networking activities, speakers from the Design Lab and Design Co, gift bag giveaways, company info booths, and more! Complimentary food and refreshments will be provided.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/qo1mbltcydeqbr9v95at.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/qo1mbltcydeqbr9v95at.webp',
   },
   {
     title: 'Intern Panel',
@@ -700,7 +700,7 @@ export const events = [
     description:
       'Interns today, industry professionals tomorrow. Get ready for our annual Intern Panel, where you’ll meet product design, UX research, and graphic design interns from companies like Meta, HP, Evil Geniuses, and more!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/pxhpuhlh4aiwrwyjzpbe.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/pxhpuhlh4aiwrwyjzpbe.webp',
   },
   {
     title: 'Revamp Your Resume with Deloitte',
@@ -714,7 +714,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1lUq0VUg2SjV8pHCVn6GBn2mluGfqfnPAbP8p9lw7UqI/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/t46sgnc5lqaqtnhzv8in.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/t46sgnc5lqaqtnhzv8in.webp',
   },
   {
     title: 'Portfolio Day',
@@ -728,7 +728,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1lXD3DUfr_PrdvOs7q8CP9o-Td_BnyiXMXl5wtxYpFKA/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037988/designco/events/pmftjgquegltluhg4cer.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037988/designco/events/pmftjgquegltluhg4cer.webp',
   },
   {
     title: 'Intro to Print Design',
@@ -742,7 +742,7 @@ export const events = [
     description:
       'Design is about bringing ideas to life – not only on screens, but in the physical world as well. At our upcoming Intro to Print Design GBM, we’ll be introducing print design and its basics.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037990/designco/events/yoqyjsmv3e9e0wca5mmz.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037990/designco/events/yoqyjsmv3e9e0wca5mmz.webp',
   },
   {
     title: 'CSSA x Design Co Boba Run',
@@ -752,7 +752,7 @@ export const events = [
     time: 1830,
     location: "BenGong's Tea San Diego",
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/jannkyyaafyc0cb48du8.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/jannkyyaafyc0cb48du8.webp',
   },
   {
     title: 'End-of-Quarter Study Jam',
@@ -762,7 +762,7 @@ export const events = [
     time: 1830,
     location: 'Design & Innovation Building 208',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/ujiy4vpa6dm1tvyslxqv.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/ujiy4vpa6dm1tvyslxqv.webp',
   },
   {
     title: 'Winter Kickoff',
@@ -776,7 +776,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1G1J8GZaivtLWYx6M7mJIbwj3EX06krSzmRA425n28hs/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/vthi3isrh2se5ljd7zqh.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/vthi3isrh2se5ljd7zqh.webp',
   },
   {
     title: 'Ice Skating Social',
@@ -788,7 +788,7 @@ export const events = [
     description:
       'Looking to make new friends and winter memories? Join Design Co at UTC Ice for some ice skating fun on Friday, 1/13. Meet us at the Central Campus Trolley Station at 7 PM to head over with friends, or join us later on the rink at 7:30 PM. Tickets will be $20 if purchased online 24 hours in advance or $25 on-site.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037988/designco/events/nakme0rzumacogfnw4on.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037988/designco/events/nakme0rzumacogfnw4on.webp',
   },
   {
     title: 'Figma Day',
@@ -804,7 +804,7 @@ export const events = [
     videolink:
       'https://drive.google.com/file/d/1YILMyA_nkPYyar9dLSJE0t7W4oCeZ5oC/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/tsvmdtubjjdt6wcyjy42.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/tsvmdtubjjdt6wcyjy42.webp',
   },
   {
     title: 'Coffee (Chats) & (Study) Jam',
@@ -816,7 +816,7 @@ export const events = [
     description:
       'Procaffeination and winter blues hit hard this quarter – boost your energy (and motivation) by studying with your design buddies! Come study, snack, or jam with friends at our joint Coffee Chat & Study Jam session this Friday, 1/20 from 12-2PM in DIB 306. Hope to see you all there!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/hz866pjfevgpk4myjd0m.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/hz866pjfevgpk4myjd0m.webp',
   },
   {
     title: 'Speed Networking',
@@ -830,7 +830,7 @@ export const events = [
     description:
       'Recruiting 101: Sometimes, it’s not about who you know, but who knows YOU. How can you put yourself out there and connect with people outside your current circle? At our next GBM, we’ll be going over networking essentials such as how to schedule coffee chats with industry professionals, email recruiters, and make yourself stand out amongst the sea of applicants. Join us on Wednesday, 11/25 at 6:30PM in DIB 208 to learn how to present yourself and network with others!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034668/designco/events/vevujtlhsr3wmxdsemvl.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034668/designco/events/vevujtlhsr3wmxdsemvl.webp',
   },
   {
     title: 'TapEx Fundraiser',
@@ -842,7 +842,7 @@ export const events = [
     description:
       'Sip for a cause! TapEx is supporting Design Co with a fundraiser next Wednesday, 1/25. Come through from 7:30-9:30 PM, show this flyer, and get 5% off your order. Satisfy your boba cravings and support your favorite design org all in one!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/bxueg7eaj1vdz6byrdgt.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/bxueg7eaj1vdz6byrdgt.webp',
   },
   {
     title: 'Meet Fresh Dessert Run',
@@ -852,7 +852,7 @@ export const events = [
     time: 2000,
     location: 'Meet Fresh at Mira Mesa',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/wq9qptwbt1vct32854xq.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/wq9qptwbt1vct32854xq.webp',
   },
   {
     title: 'Elevating Your Portfolio',
@@ -864,7 +864,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1tkkgvd7fYu-zp71O8Pxlx7Wc5BrjNC1SZiqeQhqF5YA/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/ytgjbxfm0drgpcdqfd3r.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/ytgjbxfm0drgpcdqfd3r.webp',
   },
   {
     title: 'Accenture Song Portfolio Workshop',
@@ -876,7 +876,7 @@ export const events = [
     slidelink:
       'https://drive.google.com/file/d/1Twds0im9cAxqkxHNGN0JD2ZdGA6YcR3j/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/gmu2adowixwcxmrezsuk.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/gmu2adowixwcxmrezsuk.webp',
   },
   {
     title: 'The Laws of Notion',
@@ -888,7 +888,7 @@ export const events = [
     slidelink:
       'https://drive.google.com/file/d/14PBhcM6oyd1Nc2oqWotxW2wMjrppMODo/view?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/pidqxmm7vet5ed4sugxc.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/pidqxmm7vet5ed4sugxc.webp',
   },
   {
     title: 'Sony Office Tour & Audio Workshop',
@@ -898,7 +898,7 @@ export const events = [
     time: 900,
     location: 'Sony Electronics, San Diego',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/wsni4cvfde0ntnam5ngd.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/wsni4cvfde0ntnam5ngd.webp',
   },
   {
     title: 'Interviewing Like a Pro',
@@ -910,7 +910,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1dDKN8K-6GjcM3ba1nAjfOlVFbtFGUVSGGbD8O8n82rQ/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/rpi9nfvnzhd0ehcxiviq.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/rpi9nfvnzhd0ehcxiviq.webp',
   },
   {
     title: 'End-of-Quarter Gelato Run',
@@ -922,7 +922,7 @@ export const events = [
     description:
       'Finish the last stretch of the quarter on a sweet note at Design Co’s Gelato Run in Little Italy! Come chill with friends and indulge in gelato at Bobboi in the Little Italy Food Hall. Meet at the Central Campus trolley station on Wednesday, 3/15 at 6:30 PM to head over together and celebrate the end of the quarter!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/cs9d1y2ixajzci0zjxlb.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/cs9d1y2ixajzci0zjxlb.webp',
   },
   {
     title: 'Twitch Office Tour',
@@ -933,7 +933,7 @@ export const events = [
     location: 'Twitch Office, Irvine',
     videolink: 'https://youtu.be/tgVnX7-PN3Y',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/qcwrktjsbnhhb3gbcb9o.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/qcwrktjsbnhhb3gbcb9o.webp',
   },
   {
     title: 'Mario Kart Tournament',
@@ -945,7 +945,7 @@ export const events = [
     description:
       'Kick off spring quarter with a bang at Design Co’s Mario Kart tournament! Join us on Wednesday, 4/5 at 6:30PM in DIB 208 to enjoy delicious ReThink ice cream as you put your Mario Kart skills to the test and assert dominance as the best player (within DCo). See you at the starting line!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/ovjdwvnnuzi2u1ix263r.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/ovjdwvnnuzi2u1ix263r.webp',
   },
   {
     title: 'Intro to Inclusive Design',
@@ -957,7 +957,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1_CTI6eTLt9VUW07vvLrLec3f0or4F1eXUM76j-QOnkU/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/ppdii4mp6mhogvrvyfra.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/ppdii4mp6mhogvrvyfra.webp',
   },
   {
     title: 'FigJam Ideation Workshop',
@@ -969,7 +969,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1-VfgsXoXqzEI9slKhpgSLtBL5rZ2Zw9vd2xrK6NXNrU/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/yuqdfxej7c7lpoktelen.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/yuqdfxej7c7lpoktelen.webp',
   },
   {
     title: 'Humane Physical Product Design Workshop',
@@ -983,7 +983,7 @@ export const events = [
     description:
       'Humane — an AI startup founded by former members of Apple’s design and engineering team — will be tuning in virtually to teach us about physical product design.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/tlhvkwqxpf0me3ktxmk1.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/tlhvkwqxpf0me3ktxmk1.webp',
   },
   {
     title: 'Diversity & Design with Airbnb',
@@ -995,7 +995,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1AcKEO2wLfvARB-BZtQZ31Zmea3i8vNAd5YEdsBSLd-s/edit#slide=id.g23e3acf936a_1_16',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/rbexiaf7jl1djrfllsph.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038209/designco/events/rbexiaf7jl1djrfllsph.webp',
   },
   {
     title: 'Alumni Panel',
@@ -1007,7 +1007,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1DtSEk6Z6ozAxvTrYDYWnmiHY6Bld4d-f77xuNOP0YBQ/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/p0awk5e0gmaqcrmqoxn1.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/p0awk5e0gmaqcrmqoxn1.webp',
   },
   {
     title: 'Cruising Through Design Frontiers',
@@ -1019,7 +1019,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1cNkkdJDcEzCd95dAZVkDhIDVRjwoXxfUQTS-Jqt3i60/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/rranvwrykuv5arq7dnjd.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/rranvwrykuv5arq7dnjd.webp',
   },
   {
     title: 'TSE X Design Co: Design to Developer Handoff',
@@ -1031,7 +1031,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1PB1SQgEZZUIWprQcRWt-abinBGAlek2QjYXxEYMIaL4/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038211/designco/events/tcm7ou55hcggd5a2avqn.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038211/designco/events/tcm7ou55hcggd5a2avqn.webp',
   },
   {
     title: 'Blink UX Office Tour',
@@ -1041,7 +1041,7 @@ export const events = [
     time: 900,
     location: 'Blink UX SD Office',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/wqigivu1jkush9qyargs.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/wqigivu1jkush9qyargs.webp',
   },
   {
     title: 'UXGO Spring Sendoff Panel',
@@ -1051,7 +1051,7 @@ export const events = [
     time: 1830,
     location: 'The Loft',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/j60skcpah7kduupjv2lv.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/j60skcpah7kduupjv2lv.webp',
   },
   {
     title: 'End-of-Year Bonfire Celebration',
@@ -1061,7 +1061,7 @@ export const events = [
     time: 1930,
     location: 'La Jolla Shores',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/n0zrieylehjd6q6wn91h.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/n0zrieylehjd6q6wn91h.webp',
   },
   {
     title: 'Fall Kickoff',
@@ -1073,7 +1073,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1DXIxE7O9FSuYcmK6mlYCULPdEAmLUgdHy2ZwmajLHaU/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/u7hacvdpmdqhwiykoo1k.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/u7hacvdpmdqhwiykoo1k.webp',
   },
   {
     title: 'Paint Night Social',
@@ -1083,7 +1083,7 @@ export const events = [
     time: 1830,
     location: 'DIB 208',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038401/designco/events/qafqvkbuxnjq9xvy2uza.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038401/designco/events/qafqvkbuxnjq9xvy2uza.webp',
   },
   {
     title: 'Speed Friending @Yogurtworld',
@@ -1093,7 +1093,7 @@ export const events = [
     time: 1730,
     location: 'Yogurt World',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/d6zqahuwxwdew1pj2lmy.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/d6zqahuwxwdew1pj2lmy.webp',
   },
   {
     title: 'Camp DCO',
@@ -1104,7 +1104,7 @@ export const events = [
     location: 'DIB 208',
     slidelink: 'https://linkmix.co/21034215',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/itklp6hb52nicocfupmj.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/itklp6hb52nicocfupmj.webp',
   },
   {
     title: 'Intern Panel',
@@ -1116,7 +1116,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1g8KKooOlruKZy1d93XCs62TDu-zwPWEj0t_ySf62jus/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/ypkcznpkwsutct7jrcek.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/ypkcznpkwsutct7jrcek.webp',
   },
   {
     title: 'Picnic & Crafts',
@@ -1126,7 +1126,7 @@ export const events = [
     time: 1300,
     location: 'Sungod Lawn',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/xs11bszgreocrngnmzpg.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/xs11bszgreocrngnmzpg.webp',
   },
   {
     title: 'Guide to UX Industries',
@@ -1138,7 +1138,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1HxKamIybheOEuBIQdQrd2V-0Mq7lieUq0_4hL5KLttc/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/keb3qwvhapw5ydp3xnw7.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/keb3qwvhapw5ydp3xnw7.webp',
   },
   {
     title: 'Stride Prep GBM',
@@ -1150,7 +1150,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/19cNGi-2l4NEuzchRfgujs7W_y-p4djHp4Wmlg1huINw/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/yoza6hknclzhyundxkla.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/yoza6hknclzhyundxkla.webp',
   },
   {
     title: 'Stride 2023',
@@ -1160,7 +1160,7 @@ export const events = [
     time: 1200,
     location: 'Student Center Stage Room and Patio',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/wzjiougnqdif0e0ifpus.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/wzjiougnqdif0e0ifpus.webp',
   },
   {
     title: 'Design Research Principles & Opportunities',
@@ -1172,7 +1172,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1Ct6MXgQzQf116EBGqUQD1rIJgxVJQIM6PmRWhOhqlis/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/hxwpmtigdnahh9bsorez.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/hxwpmtigdnahh9bsorez.webp',
   },
   {
     title: 'Holiday Study Jam',
@@ -1184,7 +1184,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1ryl3z21EbX4JWoVJLWEfVkb5HkJs_gRkOxTjEfvE9oM/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/ao43h9q1hz528qetodox.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/ao43h9q1hz528qetodox.webp',
   },
   {
     title: 'Winter Kickoff',
@@ -1196,7 +1196,7 @@ export const events = [
     slidelink:
       'https://docs.google.com/presentation/d/1wDdfxtmYUzsfDBvXu_h5w5fKdToOd4pHyo5cvxZJFBA/edit?usp=sharing',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/d1lcbpew4gbmiluyu0dv.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038400/designco/events/d1lcbpew4gbmiluyu0dv.webp',
   },
   {
     title: 'Designing for Healthcare w/One Medical',
@@ -1206,7 +1206,7 @@ export const events = [
     time: 1300,
     location: 'Virtual',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/vwwqoxawgqz8qxt7en5v.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/vwwqoxawgqz8qxt7en5v.webp',
   },
   {
     title: 'Fan-Fan Fundraiser',
@@ -1216,7 +1216,7 @@ export const events = [
     time: 1830,
     location: 'Fan-Fan',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/uuidnz6kxjkp0kpxmikq.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/uuidnz6kxjkp0kpxmikq.webp',
   },
   {
     title: 'Figma Workshop',
@@ -1228,7 +1228,7 @@ export const events = [
     description:
       'Elevate your design skills at Design Co’s Figma Workshop! Ah, Figma, the holy grail platform for designers. We’re calling designers of all levels that are interested in sharpening their Figma skills to join us for a hands-on session! We will be hosting two simultaneous sessions for beginners and advanced users on Wednesday, 1/24 at 6:30 in DIB 208 and 306!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/st5vbp7ppqartl2g0vco.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/st5vbp7ppqartl2g0vco.webp',
   },
   {
     title: 'Humane AI Panel',
@@ -1238,7 +1238,7 @@ export const events = [
     time: 1830,
     location: 'DIB 208 + Zoom',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/nodf8aamc6drfogffyja.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038399/designco/events/nodf8aamc6drfogffyja.webp',
   },
   {
     title: "DCO's Love Hub: Valentine's Grams on Library Walk",
@@ -1248,7 +1248,7 @@ export const events = [
     time: 1000,
     location: 'Library Walk',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034669/designco/events/zkmvt1mg0arwokcbyeui.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034669/designco/events/zkmvt1mg0arwokcbyeui.webp',
   },
   {
     title: 'Pipe Cleaner Bouquet Making Social',
@@ -1258,7 +1258,7 @@ export const events = [
     time: 1830,
     location: 'DIB 208',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034660/designco/events/tnaqv2dqxw375rgzzxwc.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034660/designco/events/tnaqv2dqxw375rgzzxwc.webp',
   },
   {
     title: 'Designing for AR',
@@ -1270,7 +1270,7 @@ export const events = [
     description:
       'Curious about creative career paths in tech and business? Learn about the world of AR design and video creation from a Product Designer at Google — who transitioned from a business background to being at the forefront of design excellence! Show up on Wednesday, 2/28 at 6:30 in DIB 208 to gain more insight!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034670/designco/events/nlojwk7abgngnycmlpma.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034670/designco/events/nlojwk7abgngnycmlpma.webp',
   },
   {
     title: 'DCo Movie Night',
@@ -1280,7 +1280,7 @@ export const events = [
     time: 1900,
     location: 'ERC Room',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034658/designco/events/kgqxmyftymewvl4kdvak.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034658/designco/events/kgqxmyftymewvl4kdvak.webp',
   },
   {
     title: 'Design Frontiers 2024 Crash Course',
@@ -1290,7 +1290,7 @@ export const events = [
     time: 1830,
     location: 'DIB 208',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034665/designco/events/pzccnispusidrm7d600x.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034665/designco/events/pzccnispusidrm7d600x.webp',
   },
   {
     title: 'Portfolio Studio',
@@ -1300,7 +1300,7 @@ export const events = [
     time: 1900,
     location: 'DIB 208',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034658/designco/events/ciqla9bemzlniiw6clrm.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034658/designco/events/ciqla9bemzlniiw6clrm.webp',
   },
   {
     title: 'Design Frontiers 2024',
@@ -1310,7 +1310,7 @@ export const events = [
     time: 900,
     location: 'DIB 208',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034667/designco/events/pojjczrjolhlvn79fg2n.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034667/designco/events/pojjczrjolhlvn79fg2n.webp',
   },
   {
     title: 'Brand Design Bootcamp',
@@ -1322,7 +1322,7 @@ export const events = [
     description:
       'Are you ready to transform potential into performance? Dive into the world of branding design at our upcoming bootcamp! Learn the ins and outs of branding design and how honing your design skills can elevate your UX/UI and product creation game! Level up your design skills with us on Wednesday, 4/17 from 6:30- 8 PM in DIB 208.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034659/designco/events/p0exp9488e5cnsoomhrb.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034659/designco/events/p0exp9488e5cnsoomhrb.webp',
   },
   {
     title: 'Designer-Developer Handoff',
@@ -1334,7 +1334,7 @@ export const events = [
     description:
       'Embark on a journey from design to deployment with Triton Software Engineering and Design Co 🚀!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034667/designco/events/n9qkwyrxepfthfdnsnsg.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034667/designco/events/n9qkwyrxepfthfdnsnsg.webp',
   },
   {
     title: 'Alumni Panel',
@@ -1346,7 +1346,7 @@ export const events = [
     description:
       'Starting to stress about what life post-grad might look like with a Cognitive Science - Design degree? Never fear, Design Co is here!',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/gaxz4qiyxozia2m4desw.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/gaxz4qiyxozia2m4desw.webp',
   },
   {
     title: 'Phone Charm Craft Social',
@@ -1358,7 +1358,7 @@ export const events = [
     description:
       "Get ready for a night of creativity and connection at Design Co's social with Women in Computing! Add some ✨charm✨ to your phone and your evening at our Phone Charm Craft social.",
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034667/designco/events/oeslzct63pc7rvj46inf.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034667/designco/events/oeslzct63pc7rvj46inf.webp',
   },
   {
     title: 'Time Capsule Social',
@@ -1370,7 +1370,7 @@ export const events = [
     description:
       "Dear Future self… 💌\nJoin us for Design Co's Time Capsule Social on Wednesday, 5/22 at 6:30 PM in DIB 208. Take a break from the quarter-system grind — reflect on the year, write letters to your future self, and enjoy a chill study jam with friends! See you there!",
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/l60jsu0cwgri85k5jtcu.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/l60jsu0cwgri85k5jtcu.webp',
   },
   {
     title: "Handel's Ice Cream Run",
@@ -1382,7 +1382,7 @@ export const events = [
     description:
       "Celebrate the end of a sweet year with Design Co at Handel's in La Jolla Village! 🍨",
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/ktj4v5duenbw1npcsgnp.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034672/designco/events/ktj4v5duenbw1npcsgnp.webp',
   },
   {
     title: 'Fall Kickoff',
@@ -1396,7 +1396,7 @@ export const events = [
     slidelink:
       'https://www.figma.com/deck/yArT7aME47Hv0vhd8Vfa0j/GBM-%231%3A-Fall-Kickoff-2024',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034660/designco/events/pvvo1nncvq8arptnjrzi.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034660/designco/events/pvvo1nncvq8arptnjrzi.webp',
   },
   {
     title: 'Slime-Making Soirée',
@@ -1408,7 +1408,7 @@ export const events = [
     description:
       'Stick with Design Co next Wednesday night at our Slime-Making Soiree! Whether you’re here to build community or to relive your 2016 slime days, we can’t wait to hangout on Wednesday, 10/9 at 6:30 PM in DIB 202/208.',
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034670/designco/events/i7htwjrxbh7bqmunkeqz.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034670/designco/events/i7htwjrxbh7bqmunkeqz.webp',
   },
   {
     title: 'Camp DCO',

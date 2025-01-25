@@ -6,7 +6,7 @@ export const eventsLarge = [
     date: 'May 2021',
     year: 2021,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/sfrmnjbzb8tgn02muulz.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/sfrmnjbzb8tgn02muulz.webp',
   },
   {
     title: 'Power Up',
@@ -15,7 +15,7 @@ export const eventsLarge = [
     date: 'July - Sept 2021',
     year: 2021,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/myuodb8chksnpkb1xmit.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729039000/designco/events/myuodb8chksnpkb1xmit.webp',
   },
   {
     title: 'Stride',
@@ -24,7 +24,7 @@ export const eventsLarge = [
     date: 'February 2022',
     year: 2022,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037286/designco/events/dcj235dsxribhtnsrhji.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037286/designco/events/dcj235dsxribhtnsrhji.webp',
   },
   {
     title: 'Design Frontiers',
@@ -33,7 +33,7 @@ export const eventsLarge = [
     date: 'May 2022',
     year: 2022,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/suvrkppg4mta8qqdjetg.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/suvrkppg4mta8qqdjetg.webp',
   },
   {
     title: 'Build Up',
@@ -42,7 +42,7 @@ export const eventsLarge = [
     date: 'July - Sept 2022',
     year: 2022,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/vwhspa5mccsbjopaoxpq.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037987/designco/events/vwhspa5mccsbjopaoxpq.webp',
   },
   {
     title: 'Stride',
@@ -51,7 +51,7 @@ export const eventsLarge = [
     date: 'November 2022',
     year: 2023,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/u92rabu05m4cni2zgljo.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729037986/designco/events/u92rabu05m4cni2zgljo.webp',
   },
   {
     title: 'Visual Design Apprenticeship',
@@ -60,7 +60,7 @@ export const eventsLarge = [
     date: 'Jan - Apr 2023',
     year: 2023,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038208/designco/events/ibufa6hlm59dzv0tcbqt.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038208/designco/events/ibufa6hlm59dzv0tcbqt.webp',
   },
   {
     title: 'Design Frontiers',
@@ -69,7 +69,7 @@ export const eventsLarge = [
     date: 'May 2023',
     year: 2023,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/n2za9ajwzkdlkr2id5e8.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038210/designco/events/n2za9ajwzkdlkr2id5e8.webp',
   },
   {
     title: 'UP-Grade',
@@ -78,7 +78,7 @@ export const eventsLarge = [
     date: 'July - Sept 2023',
     year: 2023,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/cyunblfrrgon9xyyp8ii.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038398/designco/events/cyunblfrrgon9xyyp8ii.webp',
   },
   {
     title: 'Stride',
@@ -87,7 +87,7 @@ export const eventsLarge = [
     date: 'November 2023',
     year: 2024,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729038397/designco/events/n04rfpdk2nkhwmtewozc.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729038397/designco/events/n04rfpdk2nkhwmtewozc.webp',
   },
   {
     title: 'Design Frontiers',
@@ -96,7 +96,7 @@ export const eventsLarge = [
     date: 'April 2024',
     year: 2024,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034655/designco/events/gymkihkswb9gnziozo3n.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034655/designco/events/gymkihkswb9gnziozo3n.webp',
   },
   {
     title: 'UP-Grade',
@@ -105,7 +105,7 @@ export const eventsLarge = [
     date: 'July - Sept 2024',
     year: 2024,
     imageURL:
-      'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034661/designco/events/iwvzf4mntandokx6wfik.webp',
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1729034661/designco/events/iwvzf4mntandokx6wfik.webp',
   },
   {
     title: 'Stride',
