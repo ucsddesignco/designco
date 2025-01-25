@@ -1464,6 +1464,167 @@ Join us on Wednesday, 11/6 at 6:30PM in DIB 208 to uncover tips and tricks for m
     imageURL:
       'https://res.cloudinary.com/design-co-ucsd/image/upload/v1730348559/designco/events/bi9lsqmqytxw2smaqmxw.webp',
   },
+  {
+    title: 'Stride 2024',
+    link: 'https://www.instagram.com/p/DCQb4knRCcy',
+    image: '20241113',
+    date: 20241113,
+    time: 1000,
+    location: 'DIB 208',
+    description: `Uncover the enigma of your future design career.
+
+Join us for Design Co’s annual career fair, STRIDE! 
+
+STRIDE is a uniquely design-forward career fair connecting student designers with company representatives. Gear up for 1:1 networking, resume reviews, and company info sessions – and make strides in your design career. 
+
+UPDATE: Below is a list of updated companies attending STRIDE!
+
+Companies recruiting:
++ Art of Problem Solving
++ The Design Lab
++ UCSD Library
++ ACM at UCSD
+
+Companies attending:
++ Google
++ Notion
++ San Diego Zoo
++ Illumina
+
+When: Wednesday, 11/13
+Time: 10 AM - 2 PM
+Where: DIB 208
+
+For registration details, visit stride24.ucsddesign.co`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737751966/designco/events/ywevc8bczqe3wsbv7zpx.webp',
+  },
+  {
+    title: 'Personality Potluck',
+    link: 'https://www.instagram.com/p/DCVNhdzSh7Q',
+    image: '20241120',
+    date: 20241120,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Join us for a sweet evening at Design Co’s Personality Potluck! 🍬
+
+Bring your own candy (BYOC) to add to our candy salad bowl and satisfy your sweet tooth while taking fun personality tests together! Pack up a candy bag full of everyone’s favorite picks to take home. See you on Wednesday, 11/20 at 6:30 PM in DIB 208!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737751966/designco/events/s67ueetf5n2avq55qkkh.webp',
+  },
+  {
+    title: 'Yogurt World Fundraiser',
+    link: 'https://www.instagram.com/p/DC-PnBgyDR2',
+    image: '20241204',
+    date: 20241204,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Yearning for a sweet treat before finals? 🍧
+
+Swing by Design Co’s Yogurt World Fundraiser on Wednesday, 12/4 at 6:30PM (or anytime from 11 AM-9 PM). Satisfy your sweet tooth cravings while socializing with old and new friends – and get a 10% discount by showing our flyer at the register!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/eazrtsk8bbiis17vr27f.webp',
+  },
+  {
+    title: 'Winter Kickoff',
+    link: 'https://www.instagram.com/p/DEYhCStSLpu',
+    image: '20250108',
+    date: 20250108,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Aaand we’re back! Join us for Design Co’s Winter Kickoff on Wednesday, 1/8 at 6:30 PM in DIB 208. See what events Design Co has in store for you this quarter, and get a sneak peek on our upcoming board recruitment! 🫣
+
+Whether you’re a long-time member or new to our community, this is the perfect way to get involved — hope to see you all there!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/kov6etuji2pofywttsol.webp',
+  },
+  {
+    title: 'Ice Skating Fundraiser',
+    link: 'https://www.instagram.com/p/DEdlbfryV4G',
+    image: '20250110',
+    date: 20250110,
+    time: 1900,
+    location: 'UCSD Trolley Stop',
+    description: `Glide into the new year with Design Co at our Ice Skating Fundraiser!
+
+Tickets are $30, with all proceeds supporting our upcoming events and initiatives. A friendly reminder that pre-event sign-up is required — secure your spot here: https://tinyurl.com/yaunnc8w (link in bio)
+
+See you on the rink — Friday, 1/10 at 7:30 PM at UTC Ice Sports Center!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/saw1ifvtjb4luydy4knd.webp',
+  },
+  {
+    title: 'Board Recruitment Open House',
+    link: 'https://www.instagram.com/p/DEjHensp7LP',
+    image: '20250115',
+    date: 20250115,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Looking to shape the next generation of designers at UCSD? Meet the faces behind Design Co at our Board Recruitment Open House on Wednesday, 1/15 at 6:30 PM in DIB 208.
+
+Don’t miss your chance to learn about our unique teams, ask board members your burning questions, and learn all the tips ’n tricks to stand out in your application in preparation for board recruitment.`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752035/designco/events/dywtnyieeenvqgdfogbt.webp',
+  },
+  {
+    title: 'TapEx Fundraiser',
+    link: 'https://www.instagram.com/ucsddesignco/p/DEq4RjipVP_',
+    image: '20250115',
+    date: 20250115,
+    time: 2000,
+    location: 'UCSD Price Center',
+    description: `Need a little pick-me-up after GBM? Treat yourself to Tapex with Design Co on Wednesday, 1/15 at 8-10 PM.
+
+Socialize with us after Board Recruitment Open House while satisfying your boba cravings, and get 5% off your order by showing this flyer at the register!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/iampu4wb7rsfmpc041or.webp',
+  },
+  {
+    title: 'Importance of Design in Start Ups',
+    link: 'https://www.instagram.com/p/DEtUmd-PROg',
+    image: '20250114',
+    date: 20250114,
+    time: 1700,
+    location: 'Rady SkyDeck & Zoom',
+    description: `Join us and @ucsdtritonventures 🤝 for a Fireside Chat with Karine Hsu, Co-Founder and Partner at Slope — a design agency specializing in creative work for high-growth startups since 2019. Karine will share her insights on the importance of leveraging design skills in startups.
+
+Don’t miss this opportunity to learn from her expertise this Tuesday, 1/14 at 5-5:45 PM in Rady Skydeck or Zoom! RSVP at https://lu.ma/22xnehua`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/vkg7oiqrn4tgg9fu0bce.webp',
+  },
+  {
+    title: 'Creative Coding Workshop',
+    link: 'https://www.instagram.com/p/DE3hkdMS8r7',
+    image: '20250122',
+    date: 20250122,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Explore creativity through code! Ever wondered how design and development come together? Join us for our Creative Coding Workshop — a hands-on session for beginners interested in the intersection of programming and artistic expression.
+
+See you on Wednesday, 1/22 at 6:30 PM in DIB 208. No experience needed — just bring your creativity!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/hfudxu6qi5klqo1cdflt.webp',
+  },
+  {
+    title: 'Figma x Framer Workshop',
+    link: 'https://www.instagram.com/p/DFJYhXlSfuj',
+    image: '20250129',
+    date: 20250129,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Level up your prototyping skills at Figma x Framer workshop!
+
+Whether you’re a prototyping pro or just exploring these platforms, this hands-on workshop is your chance to sharpen your skills and grow your design toolkit.
+
+What’s in store:
+- Learning experience with mid-level Figma tools
+- Smooth handoff from Figma to Framer
+- Framer fundamentals for interactive prototyping
+
+See you on Wednesday, 1/29 at 6:30 PM in DIB 208!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/epqsm4l7lrssycstzt4x.webp',
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass

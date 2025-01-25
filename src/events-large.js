@@ -107,4 +107,13 @@ export const eventsLarge = [
     imageURL:
       'http://res.cloudinary.com/design-co-ucsd/image/upload/v1729034661/designco/events/iwvzf4mntandokx6wfik.webp',
   },
+  {
+    title: 'Stride',
+    link: 'https://stride24.ucsddesign.co/',
+    image: '20240701',
+    date: 'November 2024',
+    year: 2025,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737764155/designco/events/hatqyf3s96gqd8hvr7xq.webp',
+  },
 ];

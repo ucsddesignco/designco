@@ -21,7 +21,10 @@ let currDate = String(d.getDate()).padStart(2, "0");
 const today = parseInt(currYear + currMonth + currDate);
 
 // Sort events for upcoming
-events.sort((a, b) => (a.date < b.date ? 1 : -1));
+events.sort((a, b) => {
+  if (a.date === b.date) return a.time < b.time ? 1 : -1;
+  return a.date < b.date ? 1 : -1
+});
 
 // Get upcoming events and past events
 let upcomingEvents = [];
