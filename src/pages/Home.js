@@ -16,7 +16,7 @@ import disney from "../images/work-companies/disney.png";
 import slack from "../images/work-companies/slack.png";
 import servicenow from "../images/work-companies/servicenow.png";
 import amazon from "../images/work-companies/amazon.png";
-import robinhood from "../images/work-companies/robinhood.png";
+import sony from "../images/work-companies/sony.png";
 import twitch from "../images/work-companies/twitch.png";
 import webflow from "../images/work-companies/webflow.png";
 
@@ -184,7 +184,7 @@ class Home extends React.Component {
                 <img className="work-company" src={amazon} alt="Amazon"></img>
               </Col>
               <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
-                <img className="work-company" src={robinhood} alt="Robinhood"></img>
+                <img className="work-company" src={sony} alt="Sony"></img>
               </Col>
               <Col xs={6} md={3} style={{ marginBottom: spacer1 }}>
                 <img className="work-company" src={twitch} alt="Twitch"></img>
