@@ -1625,6 +1625,88 @@ See you on Wednesday, 1/29 at 6:30 PM in DIB 208!`,
     imageURL:
       'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737752036/designco/events/epqsm4l7lrssycstzt4x.webp',
   },
+  {
+    title: `Valentine's Day Bake Sale`,
+    link: 'https://www.instagram.com/p/DF9Ov5Jx30F',
+    image: '20250214',
+    date: 20250214,
+    time: 1100,
+    location: 'Library Walk 1998',
+    description: `Roses are red, violets are blue, our cookies are sweet—just like you.
+
+Baking is our love language, so treat yourself (or a loved one) to some well-designed baked goods at Design Co’s bake sale! 🍪
+
++ Date: Friday, 2/14
++ Time: 11 AM-2 PM
++ Where: Library Walk 1998
+
+Cheers to love, community, and a little bit of chocolate this Valentine’s season. 💌`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1741476748/designco/events/qdhhf2a7pseqpjz6xcts.webp',
+  },
+  {
+    title: `Linkedin Headshot Fundraiser`,
+    link: 'https://www.instagram.com/p/DGPBSfwSmfz',
+    image: '20250228',
+    date: 20250228,
+    time: 1000,
+    location: 'DIB 306',
+    description: `First impressions matter. Elevate your LinkedIn game, impress recruiters, and build your portfolio with a professional headshot captured by Design Co’s media team! 📸
+
+In 15-minute slots across 2 locations, you’ll receive 8 high-quality, professionally shot and edited photos — delivered to your inbox within 2 weeks of your shoot.
+
++ When: Friday, 2/28 (10 AM-1 PM) and Saturday, 3/1 (10 AM-4 PM)
++ Where: DIB Room 306
++ Price: $10 for 8 photos ($2 add-on for touchups)
++ Registration: ucsddesign.co/headshotfund (link in bio)
+
+Book your slot with us before appointments fill up! We promise to make you look AND feel good.`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1741476748/designco/events/pilti6nhvjvm6iuu3qmt.webp',
+  },
+  {
+    title: `Game Design Workshop`,
+    link: 'https://www.instagram.com/p/DGUjOH3Rea5',
+    image: '20250226',
+    date: 20250226,
+    time: 1830,
+    location: 'DIB 208',
+    description: `From pixels to play, explore the art of game design! 🎮
+
+Join Design Co and @vgdc.ucsd for our hands-on Game Design Workshop, where we’ll be diving into how UX design shapes the games you love.
+
+Ready to hit play on your game design career? Join us on Wednesday, 2/26 at 6:30 PM in DIB 208–no experience necessary!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1741476748/designco/events/nywackml9tdld3wyjgnu.webp',
+  },
+  {
+    title: `Elevating Your Student Work`,
+    link: 'https://www.instagram.com/p/DGjtn7tpH8A',
+    image: '20250305',
+    date: 20250305,
+    time: 1830,
+    location: 'DIB 208',
+    description: `Ready to take your student work to the next level?
+
+Meet Naheel Jawaid, a former product designer at Google turned startup founder. Learn how to make your design work stand out and gain insight into the creative process of an industry professional.
+
+Join us for the panel and Q&A session this Wednesday, 3/5 at 6:30 PM in DIB 208!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1741476748/designco/events/sj7xiu6609fwllccxhur.webp',
+  },
+  {
+    title: `Marugame Udon Fundraiser`,
+    link: 'https://www.instagram.com/p/DG1un7Kyrqy',
+    image: '20250312',
+    date: 20250312,
+    time: 1600,
+    location: 'Westfield UTC',
+    description: `Need a study break before finals? 🍜
+
+Stop by Design Co’s Marugame Udon Fundraiser on Wednesday 3/12 at 6:30 PM (or anytime between 4 PM-9 PM). Satisfy your noodle cravings while socializing with your fellow designers — and help fundraise for DCo! Can’t wait to see you there!`,
+    imageURL:
+      'https://res.cloudinary.com/design-co-ucsd/image/upload/v1741476748/designco/events/cc9kg5gadsyiwafsslav.webp',
+  },
 ];
 
 // if npm start fails you npm rebuild node-sass
