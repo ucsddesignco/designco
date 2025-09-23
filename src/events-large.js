@@ -1,7 +1,7 @@
 export const eventsLarge = [
   {
     title: 'Design Frontiers',
-    link: 'https://frontiers2021.designatucsd.com/',
+    link: 'https://df21.designatucsd.com/',
     image: '20210520',
     date: 'May 2021',
     year: 2021,
