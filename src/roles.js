@@ -78,7 +78,7 @@ export const roles = [
     position: 'Web Developer',
     description:
       'You are fascinated with pushing pixels to code. You are always up for a challenge. You aspire to push the boundaries of your own skills to build amazing digital experiences for our design community.',
-    duty: '&lt;ol&gt; &lt;li&gt; Building and maintaining all Design Co websites (e.g. ucsddesign.co, Design Frontiers, Build Up, Stride, VDA, etc) &lt;/li&gt; \
+    duty: '&lt;ol&gt; &lt;li&gt; Building and maintaining all Design Co websites (e.g. designatucsd.com, Design Frontiers, Build Up, Stride, VDA, etc) &lt;/li&gt; \
       &lt;li&gt; Work closely with our visual designers to bring their visions to life (aka implementing Figma mockups and cool interactions) &lt;/li&gt; &lt;/ol&gt;',
     general:
       '&lt;ol&gt; &lt;li&gt; Take the initiative to prepare and lead one or more GBMs per quarter, either on your own, or in collaboration with another board member or others in the design community &lt;/li&gt; \

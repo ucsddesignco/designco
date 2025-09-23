@@ -22,7 +22,7 @@ function Hero() {
                 <div>
                     <h3>Community Page</h3>
                     <p>Connect with a wide network of student designers and alumni from Design Co! It’s like LinkedIn, but exclusively for our UCSD community.</p>
-                    <a href="https://community.ucsddesign.co" target="_blank" rel="noreferrer">Meet the Community</a>
+                    <a href="https://community.designatucsd.com" target="_blank" rel="noreferrer">Meet the Community</a>
                 </div>
                 <div>
                     <h3>DCO: Pixels & Cursors</h3>

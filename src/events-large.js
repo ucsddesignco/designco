@@ -1,7 +1,7 @@
 export const eventsLarge = [
   {
     title: 'Design Frontiers',
-    link: 'https://frontiers2021.ucsddesign.co/',
+    link: 'https://frontiers2021.designatucsd.com/',
     image: '20210520',
     date: 'May 2021',
     year: 2021,
@@ -10,7 +10,7 @@ export const eventsLarge = [
   },
   {
     title: 'Power Up',
-    link: 'https://powerup.ucsddesign.co/',
+    link: 'https://powerup.designatucsd.com/',
     image: '20210628',
     date: 'July - Sept 2021',
     year: 2021,
@@ -19,7 +19,7 @@ export const eventsLarge = [
   },
   {
     title: 'Stride',
-    link: 'https://stride.ucsddesign.co/',
+    link: 'https://stride.designatucsd.com/',
     image: '20220205',
     date: 'February 2022',
     year: 2022,
@@ -28,7 +28,7 @@ export const eventsLarge = [
   },
   {
     title: 'Design Frontiers',
-    link: 'https://www.df22.ucsddesign.co/',
+    link: 'https://www.df22.designatucsd.com/',
     image: '20220514',
     date: 'May 2022',
     year: 2022,
@@ -37,7 +37,7 @@ export const eventsLarge = [
   },
   {
     title: 'Build Up',
-    link: 'https://buildup.ucsddesign.co/',
+    link: 'https://buildup.designatucsd.com/',
     image: '20220627',
     date: 'July - Sept 2022',
     year: 2022,
@@ -46,7 +46,7 @@ export const eventsLarge = [
   },
   {
     title: 'Stride',
-    link: 'https://stride22.ucsddesign.co/',
+    link: 'https://stride22.designatucsd.com/',
     image: '20221108',
     date: 'November 2022',
     year: 2023,
@@ -55,7 +55,7 @@ export const eventsLarge = [
   },
   {
     title: 'Visual Design Apprenticeship',
-    link: 'https://vda2023.ucsddesign.co/',
+    link: 'https://vda2023.designatucsd.com/',
     image: '20230123',
     date: 'Jan - Apr 2023',
     year: 2023,
@@ -64,7 +64,7 @@ export const eventsLarge = [
   },
   {
     title: 'Design Frontiers',
-    link: 'https://www.df23.ucsddesign.co/',
+    link: 'https://www.df23.designatucsd.com/',
     image: '20230520',
     date: 'May 2023',
     year: 2023,
@@ -73,7 +73,7 @@ export const eventsLarge = [
   },
   {
     title: 'UP-Grade',
-    link: 'https://upgrade23.ucsddesign.co/',
+    link: 'https://upgrade23.designatucsd.com/',
     image: '20230701',
     date: 'July - Sept 2023',
     year: 2023,
@@ -82,7 +82,7 @@ export const eventsLarge = [
   },
   {
     title: 'Stride',
-    link: 'https://stride23.ucsddesign.co/',
+    link: 'https://stride23.designatucsd.com/',
     image: '20231113',
     date: 'November 2023',
     year: 2024,
@@ -91,7 +91,7 @@ export const eventsLarge = [
   },
   {
     title: 'Design Frontiers',
-    link: 'https://df24.ucsddesign.co/',
+    link: 'https://df24.designatucsd.com/',
     image: '20240414',
     date: 'April 2024',
     year: 2024,
@@ -100,7 +100,7 @@ export const eventsLarge = [
   },
   {
     title: 'UP-Grade',
-    link: 'https://upgrade24.ucsddesign.co/',
+    link: 'https://upgrade24.designatucsd.com/',
     image: '20240701',
     date: 'July - Sept 2024',
     year: 2024,
@@ -109,7 +109,7 @@ export const eventsLarge = [
   },
   {
     title: 'Stride',
-    link: 'https://stride24.ucsddesign.co/',
+    link: 'https://stride24.designatucsd.com/',
     image: '20240701',
     date: 'November 2024',
     year: 2025,

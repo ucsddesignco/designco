@@ -1495,7 +1495,7 @@ When: Wednesday, 11/13
 Time: 10 AM - 2 PM
 Where: DIB 208
 
-For registration details, visit stride24.ucsddesign.co`,
+For registration details, visit stride24.designatucsd.com`,
     imageURL:
       'https://res.cloudinary.com/design-co-ucsd/image/upload/v1737751966/designco/events/ywevc8bczqe3wsbv7zpx.webp',
   },
@@ -1658,7 +1658,7 @@ In 15-minute slots across 2 locations, you’ll receive 8 high-quality, professi
 + When: Friday, 2/28 (10 AM-1 PM) and Saturday, 3/1 (10 AM-4 PM)
 + Where: DIB Room 306
 + Price: $10 for 8 photos ($2 add-on for touchups)
-+ Registration: ucsddesign.co/headshotfund (link in bio)
++ Registration: designatucsd.com/headshotfund (link in bio)
 
 Book your slot with us before appointments fill up! We promise to make you look AND feel good.`,
     imageURL:
