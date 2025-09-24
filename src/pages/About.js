@@ -107,7 +107,7 @@ class About extends React.Component {
                   Building Room 208. Sometimes things change, so we suggest
                   following our{" "}
                   <a
-                    href="https://www.instagram.com/ucsddesignco/"
+                    href="https://www.instagram.com/designcoatucsd/"
                     target="_blank"
                     rel="noreferrer"
                   >

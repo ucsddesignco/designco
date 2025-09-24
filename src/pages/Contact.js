@@ -45,7 +45,7 @@ class Contact extends React.Component {
               </Col>
               <Col md={6} style={{ marginBottom: spacer3 }}>
                 <a
-                  href="https://www.instagram.com/ucsddesignco/"
+                  href="https://www.instagram.com/designcoatucsd/"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
@@ -66,7 +66,7 @@ class Contact extends React.Component {
                     </svg>
                   </div>
                 </a>
-                <p>@ucsddesignco</p>
+                <p>@designcoatucsd</p>
               </Col>
               <Col md={6} style={{ marginBottom: spacer3 }}>
                 <a

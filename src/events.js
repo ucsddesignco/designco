@@ -1568,7 +1568,7 @@ Don’t miss your chance to learn about our unique teams, ask board members your
   },
   {
     title: 'TapEx Fundraiser',
-    link: 'https://www.instagram.com/ucsddesignco/p/DEq4RjipVP_',
+    link: 'https://www.instagram.com/designcoatucsd/p/DEq4RjipVP_',
     image: '20250115',
     date: 20250115,
     time: 2000,

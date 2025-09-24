@@ -33,7 +33,7 @@ class WhiteFooter extends React.Component {
                 <li>
                   <h4>
                     <a
-                      href="https://www.instagram.com/ucsddesignco/"
+                      href="https://www.instagram.com/designcoatucsd/"
                       target="_blank"
                     >
                       Instagram
